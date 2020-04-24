@@ -34,10 +34,10 @@ Currently it is written in python and intendet to interface with a tiny SQLite D
 	* GUI interface for all that (tkinter?)
 
 #### maybe?
->	 stuff that I see as advantages, but currently know to little to implement or even know if it is possible:
->	 	* travis integration
->	 	* IDE integration as Plugin
->		* changes to work with any ArmA 3 project
+		> stuff that I see as advantages, but currently know to little to implement or even know if it is possible:
+		> * travis integration
+		> * IDE integration as Plugin
+		> * changes to work with any ArmA 3 project
 
 ***
 ---
