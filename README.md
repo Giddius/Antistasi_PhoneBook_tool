@@ -1,6 +1,7 @@
 
 ---
-# Antistasi PhoneBook tool by Broca Dilettante Studio Models [BDSM]
+# Antistasi PhoneBook tool 
+> by Broca Dilettante Studio Models [BDSM]
 
 *I am an fan of the Antistasi mod and not an Admin or dev or in any other way connected, this is fan made.* **THIS IS NOT AN OFFICIAL ANTISTASI PROJECT!**
 
