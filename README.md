@@ -41,8 +41,7 @@ Currently it is written in python and intendet to interface with a tiny SQLite D
 ***
 ---
 
-***
----
+
 
 ***
 ---
@@ -59,7 +58,7 @@ finishing first python scripts
 - SQLite
 
 ***
----
+
 ## Contributing to the mod
 
 **Note:** General Github help is always needed as this is also a new world for me.
@@ -67,21 +66,21 @@ finishing first python scripts
 Feel free to contribute as I honestly will need all the help I can get!
 
 ***
----
+
 
 > ## A word on the quality and style
-
+>
 > I never learned to program or modeling, my education is purely in medicine and everyone knows how tech literate Doctors, Nurses and other medical personnel are :wink:.
 > I literally am starting out in programming and especially python.
-
+>
 > What I want to say with all that is, I know that my code is most likely not as efficient as it could be, but I am happy and open for input regarding that.
 > Every form of constructive criticism and advice is more than appreciated!
-
+>
 > Thanks
 > Giddi
 
 ***
----
+
 
 ## External Resources
 
