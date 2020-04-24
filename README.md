@@ -28,10 +28,10 @@ Secondary it should make a Graphviz graph to visually show the Antistasi functio
 Currently it is written in python and intendet to interface with a tiny SQLite DB to speed up the standard process of asking for the calls. 
 
 ### planned stages of development to 1.0
-1. [] python code to get all functions and files
-2. [] python code to interface with SQLite
-3. [] SQLite DB to store the caller list and query items
-4. [] GUI interface for all that (tkinter?)
+- [] python code to get all functions and files
+- [] python code to interface with SQLite
+- [] SQLite DB to store the caller list and query items
+- [] GUI interface for all that (tkinter?)
 
 #### maybe?
 stuff that I see as advantages, but currently know to little to implement or even know if it is possible:
@@ -40,7 +40,7 @@ stuff that I see as advantages, but currently know to little to implement or eve
 > * changes to work with any ArmA 3 project
 
 ***
----
+
 
 
 
