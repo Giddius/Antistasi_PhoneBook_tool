@@ -5,9 +5,9 @@
 #
 # Date(created): 2020-04-24
 #
-# Date(last updated): 2020-04-24
+# Date(last updated): 2020-04-25
 #
-# Version: 1.0.0
+# Version: 1.0.1
 #
 # Author: Giddi
 #
@@ -30,13 +30,17 @@ import pathlib
 
 
 
+
 def slashCorrector(invar1):
-    outvar1 = invar1.replace(str('\\'+'\\'),'\\')
+    file = invar1
+    doublestring = str('\\'+'\\')
+    outvar1 = file.replace(doublestring,'\\')
     return outvar1
 
 def OverwriteAndSetCollumnName(invar1):
-    with open(invar1,'w') as clean_and_collumnheader_output:
-        clean_and_collumnheader_output.write('Antistasi_Files_id' +','+ 'Antistasi_Files_Path' + ',' + 'Antistasi_Files_CompletePath' + ',' + 'Antistasi_Files_Name' +'\n')
+    file = invar1
+    with open(file,'w') as clean_and_collumnheader_output:
+        clean_and_collumnheader_output.write('%s,%s,%s,%s\n' % ('Antistasi_Files_id', 'Antistasi_Files_Path', 'Antistasi_Files_CompletePath', 'Antistasi_Files_Name'))
 
 
 
@@ -44,15 +48,15 @@ def OverwriteAndSetCollumnName(invar1):
 
 
 def main(invar1, invar2, outvar1, IDvar1):
+    outfile = outvar1
     ID = IDvar1
-    os.chdir(invar1)
     OverwriteAndSetCollumnName(outvar1)
-    with open(outvar1,'a') as outputCSV:
+    os.chdir(invar1)
+
+    with open(outfile,'a') as outputCSV:
         for roots, directories, files in os.walk(invar2):
             for file  in files:
-                if '.txt' in file:
-                    continue
-                else:
+                if '.sqf' in file:
                     cleanRoot = slashCorrector(roots)
                     cleanFile = slashCorrector(file)
                     outputCSV.write(str(ID) + ',' + cleanRoot + ',' + cleanRoot + '\\' + cleanFile + ',' + cleanFile + '\n')
@@ -61,11 +65,15 @@ def main(invar1, invar2, outvar1, IDvar1):
     return ID
 
 
+
 curID = 0
-
-pathToAntistasi = pathlib.PureWindowsPath('D:\Dropbox\hobby\Modding\Programs\Github\Foreign_Repos\A3-Antistasi')
+currDir = os.getcwd()
+pathToAntistasiAbsolute = pathlib.PureWindowsPath('D:\Dropbox\hobby\Modding\Programs\Github\Foreign_Repos\A3-Antistasi')
 antistasiBaseFolder = "A3-Antistasi"
-outputFile = pathlib.PureWindowsPath('D:\Dropbox\hobby\Modding\Projects\coding\python\Antistasi_tools\Outputs\File_List.csv')
+outputFile = "\CSV_Output\File_List.csv"
+outputPath = currDir + outputFile
+outputPath = pathlib.Path(outputPath)
 
-curID = main(pathToAntistasi,antistasiBaseFolder,outputFile,curID)
+
+curID = main(pathToAntistasiAbsolute,antistasiBaseFolder,outputPath,curID)
 print('done')

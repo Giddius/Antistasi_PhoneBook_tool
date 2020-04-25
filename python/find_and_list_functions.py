@@ -30,6 +30,8 @@
 import re
 import collections
 import pprint
+import os
+import pathlib
 
 
 
@@ -88,7 +90,7 @@ def cleanvariousletters(invar1):
 # Overwrites the outout CSV files, with the id for each collumn, so we start from a fresh csv file.
 def OverwriteAndSetCollumnName(invar1):
     with open(invar1,'w') as clean_and_collumnheader_output:
-        clean_and_collumnheader_output.write('fnc_AS_id' +','+ 'fnc_As_path' + ',' + 'fnc_AS_name' + ',' +'\n')
+        clean_and_collumnheader_output.write('%s,%s,%s,%s\n' % ('fnc_As_ID', 'fnc_As_path', 'fnc_As_filename', 'fnc_As_name'))
 
 
 # Loops through the function list and stores everything between two folder in dict. Key is the first folder name and value is everything found between the two names.
@@ -122,7 +124,7 @@ def WriteFncToCsv(invar1,invar2,invar3,invar4,invar5):
             value0 = lines.split()
             for value1 in value0:
                 with open(invar2,'a') as result_file:
-                    result_file.write(str(ID) +','+ invar4 + str(key) +'\\'+ str(value1) + '.sqf' + ',' + invar5 + '_' + 'fnc' + '_' + str(value1) + '\n')
+                    result_file.write(str(ID) +','+ invar4 + '\\' + str(key) +'\\'+ str(value1) + '.sqf' + ',' + str(value1) + '.sqf' + ',' + invar5 + '_' + 'fnc' + '_' + str(value1) + '\n')
                     pprint.pprint(str(ID) +','+ invar4 + str(key) +'\\'+ str(value1) + '.sqf' + ',' + invar5 + '_' + 'fnc' + '_' + str(value1) + '\n')
                 ID = ID + 1
         pprint.pprint('A3-Antistasi\\functions\\' + str(key) + ' !!!DONE!!!')
@@ -131,11 +133,10 @@ def WriteFncToCsv(invar1,invar2,invar3,invar4,invar5):
 
 
 
-# Main function that call all the others, OverwriteAndSetCollumnName is still in here as I split the output for debug reasons but will most likely not be called for each input file.
+# Main function that call all the others,
 # just gives the ID forth from the WriteFncToCsv function.
 def main(varIN,varOut,varID,varDir):
 
-    OverwriteAndSetCollumnName(varOut)
 
     hppcontent = ReadInFile(varIN)
 
@@ -156,18 +157,23 @@ def main(varIN,varOut,varID,varDir):
     return curID
 
 
+
+
 #defines first input and output file
+currDir = os.getcwd()
 inputFile = "D:\\Dropbox\\hobby\\Modding\\Programs\\Github\\Foreign_Repos\\A3-Antistasi\\A3-Antistasi\\functions.hpp"
-outputFile= "D:\\Dropbox\\hobby\\Modding\\Projects\\coding\\python\\Antistasi_tools\\Outputs\\Output.csv"
+outputFile = currDir + "\CSV_Output\Output.csv"
+outputFile = pathlib.Path(outputFile)
+
 curID = 0                               #Starting ID
 headDir = 'A3-Antistasi\\functions'     #How the Directory above the functions is called, as this is sadly different for each function.hpp.
-
+OverwriteAndSetCollumnName(outputFile)
 
 #calls main functions and starts the cascade
 curID = main(inputFile, outputFile, curID, headDir)
 
 inputFile = "D:\\Dropbox\\hobby\\Modding\\Programs\\Github\\Foreign_Repos\\A3-Antistasi\\A3-Antistasi\\JeroenArsenal\\functions.hpp"
-outputFile= "D:\\Dropbox\\hobby\\Modding\\Projects\\coding\\python\\Antistasi_tools\\Outputs\\jeroenOutput.csv"
+
 headDir = 'JeroenArsenal'
 
 
@@ -184,7 +190,8 @@ jeroenToFormatList = jeroentextsearch.findall(jeroenFormatted)
 for lines in jeroenToFormatList:
     jeroenFormatted = jeroenFormatted.replace(lines,'')
 
-jeroenNewInputFile = "D:\\Dropbox\\hobby\\Modding\\Projects\\coding\\python\\Antistasi_tools\\Outputs\\jeroentemp.hpp"
+jeroenNewInputFile = currDir + "\CSV_Output\jeroentemp.hpp"
+jeroenNewInputFile = pathlib.Path(jeroenNewInputFile)
 
 with open(jeroenNewInputFile,'w') as jeroenTempInput:
     jeroenTempInput.write(jeroenFormatted)
