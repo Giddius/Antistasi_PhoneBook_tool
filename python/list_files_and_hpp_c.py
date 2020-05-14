@@ -1,13 +1,17 @@
-#region imports
+
+# #region imports #c01b1b
+
 import os
 import pprint
-import pandas as pd
-import armaclass
-from collections import OrderedDict
-import sqlite3
-import subprocess
 import re
-#endregion
+import sqlite3
+
+import armaclass
+import gidlib as gl
+
+# #endregion imports
+
+
 
 
 #region baseclass
@@ -42,16 +46,6 @@ class base_mission_filesearch:
         for stuff in b:
             content = content.replace(stuff,'')
         return content
-
-    def printfilefullpathdict(self):
-        pprint.pprint(self.filefullpathdict)
-
-
-    def printfilenamedict(self):
-        pprint.pprint(self.filenamedict)
-
-    def printfilefolderdict(self):
-        pprint.pprint(self.filefolderdict)
 
     def addtocurID(self):
         self.curID = self.curID + 1
@@ -88,7 +82,7 @@ class base_mission_filesearch:
                 sqf_path text,
                 sqf_file text
                 )""")
-
+# TODO: make row for folder
         c.execute("""CREATE TABLE fnc_tbl (
                 fnc_ID integer,
                 fnc_path text,
@@ -125,7 +119,7 @@ class base_mission_filesearch:
             print("searched for all '%s' and saved it to '%s' in '%s'!" % (self.type, self.outfile, self.outputfolder))
         else:
             print("FAILURE: '%s' not found in the name of any files in '%s' or its subfolders!" % (self.type, baseFolder))
-
+# TODO: Replace message when done searching, implement way more messages to see where the function is at right now, maybe do a function to print stuff.
 
 
 
@@ -215,6 +209,7 @@ functemppath2 = os.path.join(subfol, outputFolderName, 'forGraphviz.gv')
 #endregion
 
 def fncintosqf(fncfunction):
+
     fassqf = fncfunction.replace('A3A_fnc', 'fn')
     fassqf = fassqf.replace('JN_fnc', 'fn')
     fassqf = fassqf + '.sqf'
@@ -224,12 +219,21 @@ def makeGraphvizcontent(listS, listF,listC):
     with open(functemppath2,'a') as f:
         f.write('node[shape="cds",style="filled",colorscheme="X11",fillcolor="gold2"];\n')
         for i in listS:
-            f.write(i + '\n')
+            if 'fn_customHint.sqf' not in i:
+                if 'fn_log.sqf' not in i:
+                    if 'fn_sizeMarker.sqf' not in i:
+                        f.write(i + '\n')
         f.write('node[shape="component",style="filled",colorscheme="X11",fillcolor="aquamarine2"];\n')
         for h in listF:
-            f.write(h + '\n')
+            if 'fn_customHint.sqf' not in h:
+                if 'fn_log.sqf' not in h:
+                    if 'fn_sizeMarker.sqf' not in h:
+                        f.write(h + '\n')
         for g in listC:
-            f.write(g)
+            if 'fn_customHint.sqf' not in g:
+                if 'fn_log.sqf' not in g:
+                    if 'fn_sizeMarker.sqf' not in g:
+                        f.write(g)
 
 
 
@@ -252,7 +256,7 @@ def initialize_db():
     with open(functemppath,'w') as f:
         f.write('{},{},{},{},{}\n'.format('caller_ID', 'caller_path', 'caller_name', 'target_ID', 'target_callname'))
     with open(functemppath2,'w') as f:
-        f.write('strict digraph Antistasi_calls { graph[mode="major",model="KK",sep="100",K="100",esep="90",packmode="array",overlap="prism500000",smoothing="triangle",overlap_scaling="15",outpuorder="nodesfirst",diredgeconstraints="true",center="true", compound="true",start="regular",scale="10",splines="true"];\n')
+        f.write('strict digraph Antistasi_calls { graph[mode="ipsep", mclimit="2.0",start="random",nodesep="25",sep="150000",K="2500",esep="800",overlap=false,outputorder="nodesfirst",center="50", compound="false",scale="5",splines="polyline"];\n')
         f.write('edge[color="gray37"];\n')
     conn = sqlite3.connect('AS_phonebook.db')
     c = conn.cursor()
@@ -261,14 +265,14 @@ def initialize_db():
         for nu in range(len(fnc.functionsdict)):
             func1 = fnc.functionsdict[nu]
             func = re.compile(rf'(?<=\W){func1}(?=\W)')
-            func2 = func.findall(content)
+            func2 = func.search(content)
             with open(functemppath,'a') as f:
-                for this in func2:
+                if func2:
                     c.execute("INSERT INTO call_list_tbl VALUES (?, ?)", (i, nu))
-                    f.write('{},{},{},{},{}\n'.format(i, sqf.filefolderdict[i], sqf.filenamedict[i], nu, this))
+                    f.write('{},{},{},{}\n'.format(i, sqf.filefolderdict[i], sqf.filenamedict[i], fnc.functionsdict[nu]))
                     SQF_fileslisted.append('"{}" ;\n'.format(sqf.filenamedict[i]))
-                    FNC_fileslisted.append('"{}" ;\n'.format(fncintosqf(this)))
-                    GV_list.append('"%s" -> "%s" ;\n' % (sqf.filenamedict[i], fncintosqf(this)))
+                    FNC_fileslisted.append('"{}" ;\n'.format(fncintosqf(fnc.functionsdict[nu])))
+                    GV_list.append('"%s" -> "%s" ;\n' % (sqf.filenamedict[i], fncintosqf(fnc.functionsdict[nu])))
     makeGraphvizcontent(SQF_fileslisted, FNC_fileslisted, GV_list)
     conn.commit()
     conn.close()
@@ -282,4 +286,4 @@ initialize_db()
 print('done!')
 
 #TODO: change written paths to relative
-
+#TODO: implement BIS functions

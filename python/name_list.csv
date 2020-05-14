@@ -1,0 +1,82 @@
+varName,varType,varDefline,varLocalIn,varUsage,replacewith,setRule
+cwd,path,204,Global,set Path,PATH_CURRENT_DIR,global path variable = PATH_VARNAME
+subfol,path,205,Global,set Path,PATH_SUB_FOLDER,global path variable = PATH_VARNAME
+baseFolder,path,206,Global,set Path,PATH_BASE_FOLDER,global path variable = PATH_VARNAME
+outputFolderName,path,207,Global,set Path,PATH_OUTPUT_FOLDER,global path variable = PATH_VARNAME
+sqfOutputFileName,path,208,Global,set Path,PATH_OUTPUT_FOLDER_SQF,global path variable = PATH_VARNAME
+fncOutputFileName,path,209,Global,set Path,PATH_OUTPUT_FOLDER_FNC,global path variable = PATH_VARNAME
+functemppath,path,210,Global,set Path,PATH_TEMP_FNC,global path variable = PATH_VARNAME
+functemppath2,path,211,Global,set Path,PATH_TEMP_FNC_2,global path variable = PATH_VARNAME
+fncintosqf,function,,gfunc,,converter_fnc_to_sqf,normal function = function_name
+fncfunction,function input,,fncintosqf,,INP_function,function input = INP_VARNAME
+fassqf,inner function var,,fncintosqf,,function_as_sqf,
+makeGraphvizcontent,function,,gfunc,,write_data_to_gv,normal function = function_name
+listS,function input,,makeGraphvizcontent,,INP_sqf_files_list,function input = INP_VARNAME
+listF,function input,,makeGraphvizcontent,,INP_functions_list,function input = INP_VARNAME
+listC,function input,,makeGraphvizcontent,,INP_call_list,function input = INP_VARNAME
+f,inner function var,,makeGraphvizcontent,,,
+i,inner function var,,makeGraphvizcontent,,,
+h,inner function var,,makeGraphvizcontent,,,
+g,inner function var,,makeGraphvizcontent,,,
+initialize_db,function,,gfunc,,create_DB_with_Data,normal function = function_name
+SQF_fileslisted,inner function var,,makeGraphvizcontent,,sqf_files_list,
+FNC_fileslisted,inner function var,,makeGraphvizcontent,,fnc_files_list,
+GV_list,inner function var,,makeGraphvizcontent,,gv_call_list,
+i,inner function var,,makeGraphvizcontent,,,
+nu,inner function var,,makeGraphvizcontent,,,
+func,inner function var,,makeGraphvizcontent,,,
+func1,inner function var,,makeGraphvizcontent,,,
+func2,inner function var,,makeGraphvizcontent,,,
+this,inner function var,,makeGraphvizcontent,,,
+base_mission_filesearch,class,,class,,AntistasiMissionFiles,class = ClassName
+outfile,self.base_mission_filesearch,,class,,path_output_file,
+type,self.base_mission_filesearch,,class,,type_,
+filenamedict,self.base_mission_filesearch,,class,,file_name_dict,
+filefolderdict,self.base_mission_filesearch,,class,,file_folder_dict,
+filefullpathdict,self.base_mission_filesearch,,class,,file_path_dict,
+curID,self.base_mission_filesearch,,class,,current_ID,
+pybasefolder,self.base_mission_filesearch,,class,,path_python_base_folder,
+commentcleaner,method,,class,,comment_remover,
+content,function input,,commentcleaner,,INP_file_content,function input = INP_VARNAME
+a,inner function var,,commentcleaner,,,
+b,inner function var,,commentcleaner,,,
+stuff,inner function var,,commentcleaner,,,
+addtocurID,method,,class,,increase_current_ID,
+appendoutput,method,,class,,append_to_output,
+f,inner function var,,appendoutput,,,
+OUTPUT,function input,,appendoutput,,INP_output_data,function input = INP_VARNAME
+initOutputfile,method,,class,,prepare_outputfile,
+f,inner function var,,initOutputfile,,,
+normpath,method,,class,,make_path_win_again,
+doubleslash,inner function var,,normpath,,,
+walkthefile,method,,class,,collect_file_lists,
+conn,inner function var,,walkthefile,,,
+c,inner function var,,walkthefile,,,
+roots,inner function var,,walkthefile,,,
+directories,inner function var,,walkthefile,,,
+files,inner function var,,walkthefile,,,
+getcontent,method,,class,,collect_sqf_file_content,
+KEY,function input,,getcontent,,INP_key,function input = INP_VARNAME
+f,inner function var,,getcontent,,,
+wic,inner function var,,getcontent,,,
+woc,inner function var,,getcontent,,,
+functions_hpp,subclass,,class,,AntistasiFunctions,
+tableN,self.functions_hpp,,class,,table_name,
+getfunctions,method,,class,,collect_functions,
+ASfncFolder,inner function var,,getfunctions,,path_antistasi_function_folder,
+i,inner function var,,getfunctions,,,
+test,inner function var,,getfunctions,,,
+prefix,inner function var,,getfunctions,,,
+value,inner function var,,getfunctions,,,
+folder,inner function var,,getfunctions,,,
+belue,inner function var,,getfunctions,,,
+function,inner function var,,getfunctions,,,
+path,inner function var,,getfunctions,,,
+funct,inner function var,,getfunctions,,,
+functfile,inner function var,,getfunctions,,,
+pathfull,inner function var,,getfunctions,,,
+sqf_files,subclass,,class,,AntistasiSQF,
+insert_upperdata,method,,class,,insert_sqf_data_in_db,
+ID,function input,,insert_upperdata,,INP_current_ID,function input = INP_VARNAME
+PATH,function input,,insert_upperdata,,INP_path,function input = INP_VARNAME
+FILE,function input,,insert_upperdata,,INP_file,function input = INP_VARNAME

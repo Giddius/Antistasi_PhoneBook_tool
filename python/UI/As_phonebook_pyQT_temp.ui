@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>985</width>
+    <height>678</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>20</y>
+      <width>501</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLineEdit" name="Input_name"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>20</y>
+      <width>191</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_2">
+     <item>
+      <widget class="QLineEdit" name="fixedtext1">
+       <property name="text">
+        <string>Name of the Sqf file:</string>
+       </property>
+       <property name="frame">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>120</y>
+      <width>891</width>
+      <height>431</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="3" column="0">
+      <widget class="QGraphicsView" name="graphviz_query_result"/>
+     </item>
+     <item row="3" column="1">
+      <widget class="QTextBrowser" name="query_result"/>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget_3">
+    <property name="geometry">
+     <rect>
+      <x>29</x>
+      <y>20</y>
+      <width>141</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="verticalLayout_3">
+     <item>
+      <widget class="QRadioButton" name="radio_sqf">
+       <property name="text">
+        <string>Sqf file Input</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QRadioButton" name="radio_fnc">
+       <property name="text">
+        <string>Fnc name input</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>985</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>file</string>
+    </property>
+    <widget class="QMenu" name="menuSaveAsFile">
+     <property name="title">
+      <string>save as file</string>
+     </property>
+     <addaction name="actionSaveAsTxtFile"/>
+     <addaction name="actionSaveTheDiagram"/>
+    </widget>
+    <addaction name="actionClose"/>
+    <addaction name="menuSaveAsFile"/>
+    <addaction name="actionSaveAsHeader"/>
+   </widget>
+   <widget class="QMenu" name="menuSettings">
+    <property name="title">
+     <string>settings</string>
+    </property>
+    <addaction name="actionSetPath"/>
+    <addaction name="actionSettings"/>
+   </widget>
+   <widget class="QMenu" name="menuInitialize">
+    <property name="title">
+     <string>initialize</string>
+    </property>
+    <addaction name="actionInitializeDatabase"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuSettings"/>
+   <addaction name="menuInitialize"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionInitializeDatabase">
+   <property name="text">
+    <string>initialize Database</string>
+   </property>
+  </action>
+  <action name="actionSetPath">
+   <property name="text">
+    <string>set path</string>
+   </property>
+  </action>
+  <action name="actionClose">
+   <property name="text">
+    <string>close</string>
+   </property>
+  </action>
+  <action name="actionSaveAsHeader">
+   <property name="text">
+    <string>save as header</string>
+   </property>
+  </action>
+  <action name="actionSaveAsTxtFile">
+   <property name="text">
+    <string>save as txt file</string>
+   </property>
+  </action>
+  <action name="actionSaveTheDiagram">
+   <property name="text">
+    <string>save the diagram</string>
+   </property>
+  </action>
+  <action name="actionOpenIniFile">
+   <property name="text">
+    <string>open .ini file</string>
+   </property>
+  </action>
+  <action name="actionSettings">
+   <property name="text">
+    <string>settings</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
