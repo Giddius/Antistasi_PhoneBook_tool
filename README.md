@@ -1,13 +1,29 @@
 
 ---
 
-# Antistasi PhoneBook tool
+- [Antistasi PhoneBook tool](#antistasi-phonebook-tool)
+  - [Description](#description)
+
+  - [How](#how)
+    - [planned stages of development to 1.0](#planned-stages-of-development-to-10)
+      - [maybe](#maybe)
+
+    - [Status](#status)
+    - [Dependencies](#dependencies)
+  - [Contributing to the mod](#contributing-to-the-mod)
+  - [External Resources](#external-resources)
+    - [General Links](#general-links)
+
+  - [Authors](#authors)
+  - [License](#license)
+
+# 1. Antistasi PhoneBook tool
 
 > by Broca Dilettante Studio Models [BDSM]
 
 *I am an fan of the Antistasi mod and not an Admin or dev or in any other way connected, this is fan made.* **THIS IS NOT AN OFFICIAL ANTISTASI PROJECT!**
 
-## Description
+## 1.1. Description
 
 The goal of this Project is to make a tool that can tell the Dev team of the Antistasi mod, which files call on which functions and also if you provide a file, show which other files rely on it.
 Secondary it should make a Graphviz graph to visually show the Antistasi function network.
@@ -25,18 +41,25 @@ Secondary it should make a Graphviz graph to visually show the Antistasi functio
 ***
 ---
 
-## How
+## 1.2. How to use currently
 
-Currently it is written in python and intendet to interface with a tiny SQLite DB to speed up the standard process of asking for the calls.
+Currently only the base functionality is implemented, and as there is a module that isn't on pip in here, it would be hard to describe that whole process. Especially if the GUI and freeze are almost done.
+If you still want to try:
 
-### planned stages of development to 1.0
+- you need this external module: armaclass see <https://github.com/overfl0/Armaclass> (the module, gid_land is my own and is already in the files you download)
+- open the "user_config.ini" and either change the paths under DEFAULT to your own, or put them as entries under "from_user" with exactly the same name as in "DEFAULT"
+- to build the DB run "DB_initiated.py", this can take up to two minutes sadly (because of 2 regex serches I had to implement)
+- afterward you can use "query_from_fnc.py" when you provide a function name and the tool will tell you all files that are calling it
+- Or you can use "query_from_file.py" when you want to provide a filename and the tool will tell you all files that call the function that is representing the file.
 
-1. [ ] python code to get all functions and files
-2. [ ] python code to interface with SQLite
-3. [ ] SQLite DB to store the caller list and query items
+### 1.2.1. planned stages of development to 1.0
+
+1. [X] python code to get all functions and files
+2. [X] python code to interface with SQLite
+3. [X] SQLite DB to store the caller list and query items
 4. [ ] GUI interface for all that (tkinter?)
 
-#### maybe
+#### 1.2.1.1. maybe
 
 stuff that I see as advantages, but currently know to little to implement or even know if it is possible:
 >
@@ -49,11 +72,11 @@ stuff that I see as advantages, but currently know to little to implement or eve
 ***
 ---
 
-### Status
+### 1.2.2. Status
 
 finishing first python scripts
 
-### Dependencies
+### 1.2.3. Dependencies
 
 - currently python re module
 - SQLite
@@ -61,7 +84,7 @@ finishing first python scripts
 
 ***
 
-## Contributing to the mod
+## 1.3. Contributing to the mod
 
 **Note:** General Github help is always needed as this is also a new world for me.
 
@@ -82,19 +105,19 @@ Feel free to contribute as I honestly will need all the help I can get!
 
 ***
 
-## External Resources
+## 1.4. External Resources
 
-### General Links
+### 1.4.1. General Links
 
 - [Antistasi Github](https://github.com/official-antistasi-community/A3-Antistasi)
 
 ***
 ---
 
-## Authors
+## 1.5. Authors
 
 Giddi
 
-## License
+## 1.6. License
 
 TODO

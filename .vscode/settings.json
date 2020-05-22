@@ -2,12 +2,14 @@
     "python.linting.enabled": true,
     "python.pythonPath": "C:\\Program Files\\Python_x64\\Python38\\python.exe",
     "python.linting.flake8Enabled": false,
-    "python.linting.pylamaEnabled": true,
+    "python.linting.pylamaEnabled": false,
     "python.testing.pytestArgs": [
         "."
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.nosetestsEnabled": false,
     "python.testing.pytestEnabled": true,
-    "C_Cpp.dimInactiveRegions": true
+    "C_Cpp.dimInactiveRegions": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.prospectorEnabled": false
 }
