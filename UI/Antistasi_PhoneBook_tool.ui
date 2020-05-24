@@ -15,57 +15,194 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLineEdit" name="input_search_term">
+   <widget class="QWidget" name="horizontalLayoutWidget">
     <property name="geometry">
      <rect>
-      <x>210</x>
-      <y>20</y>
-      <width>341</width>
-      <height>23</height>
+      <x>20</x>
+      <y>180</y>
+      <width>731</width>
+      <height>371</height>
      </rect>
     </property>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QTextEdit" name="Output_window">
+       <property name="readOnly">
+        <bool>true</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QGraphicsView" name="graphicsView"/>
+     </item>
+    </layout>
    </widget>
-   <widget class="QTextEdit" name="Output_window">
+   <widget class="QTabWidget" name="tabWidget">
     <property name="geometry">
      <rect>
-      <x>40</x>
-      <y>220</y>
-      <width>691</width>
-      <height>321</height>
+      <x>20</x>
+      <y>10</y>
+      <width>731</width>
+      <height>161</height>
      </rect>
     </property>
-    <property name="readOnly">
-     <bool>true</bool>
+    <property name="currentIndex">
+     <number>0</number>
     </property>
-   </widget>
-   <widget class="QPushButton" name="start_query">
-    <property name="geometry">
-     <rect>
-      <x>320</x>
-      <y>110</y>
-      <width>121</width>
-      <height>27</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>find callers</string>
-    </property>
-   </widget>
-   <widget class="QCheckBox" name="Output_to_file_check">
-    <property name="geometry">
-     <rect>
-      <x>580</x>
-      <y>20</y>
-      <width>191</width>
-      <height>22</height>
-     </rect>
-    </property>
-    <property name="toolTip">
-     <string>output file location and name must be specified in the config</string>
-    </property>
-    <property name="text">
-     <string>Output to .txt file?</string>
-    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>Tab 1</string>
+     </attribute>
+     <widget class="QLineEdit" name="input_search_term">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>20</y>
+        <width>341</width>
+        <height>23</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="start_query">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>60</y>
+        <width>121</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>find callers</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="output_diagram_check">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>60</y>
+        <width>191</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string>output file location and name must be specified in the config</string>
+      </property>
+      <property name="text">
+       <string>create diagram?</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>20</y>
+        <width>111</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Search term:</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="output_full_path_check">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>20</y>
+        <width>231</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string>output file location and name must be specified in the config</string>
+      </property>
+      <property name="text">
+       <string>Results as full file path?</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="create_header_check">
+      <property name="geometry">
+       <rect>
+        <x>420</x>
+        <y>90</y>
+        <width>231</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string>output file location and name must be specified in the config</string>
+      </property>
+      <property name="text">
+       <string>create header for file?</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>Tab 2</string>
+     </attribute>
+     <widget class="QPushButton" name="star_query_all">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>20</y>
+        <width>161</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>show every function</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="create_md_check">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>20</y>
+        <width>131</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>create .md</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="create_csv_check">
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>60</y>
+        <width>111</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>create .csv</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="create_html_check">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>410</x>
+        <y>100</y>
+        <width>121</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>create .html</string>
+      </property>
+     </widget>
+    </widget>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">

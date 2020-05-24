@@ -47,6 +47,7 @@ Download the release, change the paths in ...\user_config.ini (absolute paths!) 
 currently functional:
 entering a fnc name ('eg A3A_fnc_flagaction') or the function as a file name ('fn_flagaction.sqf)
 and rebuilding the Database to keep up to date with your local antistasi version. rest is following!
+
 ### 1.2.1. planned stages of development to 1.0
 
 1. [X] python code to get all functions and files
@@ -107,6 +108,7 @@ Feel free to contribute as I honestly will need all the help I can get!
 - [Antistasi Github](https://github.com/official-antistasi-community/A3-Antistasi)
 
 - Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+
 ***
 ---
 

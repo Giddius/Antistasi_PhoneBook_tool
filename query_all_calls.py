@@ -2,7 +2,7 @@ import gid_land as gil
 
 
 
-def get_all_calls(to_md=False, graph_all=False, html_all=False, to_csv=False, outputfolder=None):
+def get_all_calls(to_md=False, html_all=False, to_csv=False, outputfolder=None):
 
 
     u_config = gil.GiConfigRex(cfg_folder=gil.pathmaker('cwd', 'config'), cfg_file='user_config.ini', cfg_sections='all')
@@ -22,9 +22,9 @@ def get_all_calls(to_md=False, graph_all=False, html_all=False, to_csv=False, ou
     if to_md is True:
         with open(_output_full_path + '.md', 'w') as md_file:
             md_file.write('# Antistasi function call list\n\n## Results\n\n')
-            md_file.write('\t\t**"[-->]" stands for "calls"**\n\n')
+            md_file.write('**"[-->]" stands for "calls"**\n\n')
             for rows in _results:
-                md_file.write('"{}" --> "{}"\n'.format(rows[0], rows[1]))
+                md_file.write('"{}" --> "{}"\n\n'.format(rows[0], rows[1]))
             print('md file created!')
 
     if to_csv is True:
