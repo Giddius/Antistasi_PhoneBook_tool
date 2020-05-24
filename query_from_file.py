@@ -15,9 +15,7 @@ def query_from_file(search_term, make_graph=False):
         conn.execute(database.sql_query['sel_fnc_name_from_sqf'], (str(search_term), ))
         results = conn.fetchall()
 
-    _output = results
-
-    return _output
+    return results
 
 
 
