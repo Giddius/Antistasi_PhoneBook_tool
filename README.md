@@ -57,7 +57,7 @@ If you still want to try:
 1. [X] python code to get all functions and files
 2. [X] python code to interface with SQLite
 3. [X] SQLite DB to store the caller list and query items
-4. [ ] GUI interface for all that (tkinter?)
+4. [~] GUI interface for all that (tkinter?)
 
 #### 1.2.1.1. maybe
 
