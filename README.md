@@ -43,15 +43,10 @@ Secondary it should make a Graphviz graph to visually show the Antistasi functio
 
 ## 1.2. How to use currently
 
-Currently only the base functionality is implemented, and as there is a module that isn't on pip in here, it would be hard to describe that whole process. Especially if the GUI and freeze are almost done.
-If you still want to try:
-
-- you need this external module: armaclass see <https://github.com/overfl0/Armaclass> (the module, gid_land is my own and is already in the files you download)
-- open the "user_config.ini" and either change the paths under DEFAULT to your own, or put them as entries under "from_user" with exactly the same name as in "DEFAULT"
-- to build the DB run "DB_initiated.py", this can take up to two minutes sadly (because of 2 regex serches I had to implement)
-- afterward you can use "query_from_fnc.py" when you provide a function name and the tool will tell you all files that are calling it
-- Or you can use "query_from_file.py" when you want to provide a filename and the tool will tell you all files that call the function that is representing the file.
-
+Download the release, change the paths in ...\user_config.ini (absolute paths!) and run it.
+currently functional:
+entering a fnc name ('eg A3A_fnc_flagaction') or the function as a file name ('fn_flagaction.sqf)
+and rebuilding the Database to keep up to date with your local antistasi version. rest is following!
 ### 1.2.1. planned stages of development to 1.0
 
 1. [X] python code to get all functions and files
