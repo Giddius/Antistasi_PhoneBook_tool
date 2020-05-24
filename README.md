@@ -1,4 +1,4 @@
-![Antistasi Phone Book Logo](/ressources/misc/Antistasi_PhoneBook512.png)
+![Antistasi Phone Book Logo](/ressources/misc/Antistasi_PhoneBook256.png)
 ---
 
 - [Antistasi PhoneBook tool](#antistasi-phonebook-tool)
