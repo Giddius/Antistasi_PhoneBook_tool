@@ -127,52 +127,55 @@ def fncintosqf(fncfunction):
 
 
 def PhoneBook_create_search_db():
-    gil.dirhomemaker()
-    U_CONFIG = gil.GiConfigRex(cfg_folder=gil.pathmaker('cwd', 'config'), cfg_file='user_config.ini', cfg_sections='all')
-    S_CONFIG = gil.GiConfigRex(cfg_file='solid_config.ini', cfg_sections='all')
-    DATABASE = gil.GiDatabasebNoble()
-    DATABASE.startup_db(overwrite=True)
+
+
+
+    u_config = gil.GiConfigRex(cfg_folder=gil.pathmaker('cwd', 'config'), cfg_file='user_config.ini', cfg_sections='all')
+    s_config = gil.GiConfigRex(cfg_file='solid_config.ini', cfg_sections='all')
+    database = gil.GiDatabasebNoble()
+    if os.path.exists(gil.pathmaker('cwd', s_config.db_parameter['db_loc'])) is False:
+        os.makedirs(gil.pathmaker('cwd', s_config.db_parameter['db_loc']))
+    database.startup_db(overwrite=True)
 
     fnchpp_knight = gil.GiDbInputKnight(table_name='fnchpp_tbl', tbl_group='Antistasi_PhoneBook_tool_tbls')
-    fnchpp_knight.create_fixed(S_CONFIG.sql_input['cre_fnchpp_tbl'])
+    fnchpp_knight.create_fixed(s_config.sql_input['cre_fnchpp_tbl'])
     fnchpp_knight.insert_to_toc(fnchpp_knight.table_name, fnchpp_knight.table_group)
 
     sqf_knight = gil.GiDbInputKnight(table_name='sqf_tbl', tbl_group='Antistasi_PhoneBook_tool_tbls')
-    sqf_knight.create_fixed(S_CONFIG.sql_input['cre_sqf_tbl'])
+    sqf_knight.create_fixed(s_config.sql_input['cre_sqf_tbl'])
     sqf_knight.insert_to_toc(sqf_knight.table_name, sqf_knight.table_group)
 
     fnc_knight = gil.GiDbInputKnight(table_name='fnc_tbl', tbl_group='Antistasi_PhoneBook_tool_tbls')
-    fnc_knight.create_fixed(S_CONFIG.sql_input['cre_fnc_tbl'])
+    fnc_knight.create_fixed(s_config.sql_input['cre_fnc_tbl'])
     fnc_knight.insert_to_toc(fnc_knight.table_name, fnc_knight.table_group)
 
     call_list_knight = gil.GiDbInputKnight(table_name='call_list_tbl', tbl_group='Antistasi_PhoneBook_tool_tbls')
-    call_list_knight.create_fixed(S_CONFIG.sql_input['cre_call_list_tbl'])
+    call_list_knight.create_fixed(s_config.sql_input['cre_call_list_tbl'])
     call_list_knight.insert_to_toc(call_list_knight.table_name, call_list_knight.table_group)
 
-    WORKER = PhoneBookInitializer(U_CONFIG.from_user['output_file'], U_CONFIG.from_user['output_folder'], U_CONFIG.from_user['path_to_antistasi'], U_CONFIG.from_user['antistasi_functions_folder'])
+    WORKER = PhoneBookInitializer(u_config.from_user['output_file'], u_config.from_user['output_folder'], u_config.from_user['path_to_antistasi'], u_config.from_user['antistasi_functions_folder'])
 
     for _data_key, _data_value in WORKER.fnchpp_dict.items():
         _tuple_params = tuple(_data_value)
-        DATABASE.execute_phrase(DATABASE.sql_input['ins_fnchpp_tbl'], _tuple_params)
+        database.execute_phrase(database.sql_input['ins_fnchpp_tbl'], _tuple_params)
 
     for _data_key, _data_value in WORKER.sqf_dict.items():
         _tuple_params = tuple(_data_value)
 
-        DATABASE.execute_phrase(DATABASE.sql_input['ins_sqf_tbl'], _tuple_params)
+        database.execute_phrase(database.sql_input['ins_sqf_tbl'], _tuple_params)
 
     for _data_key, _data_value in WORKER.fnc_dict.items():
         _tuple_params = tuple(_data_value)
 
-        DATABASE.execute_phrase(DATABASE.sql_input['ins_fnc_tbl'], _tuple_params)
+        database.execute_phrase(database.sql_input['ins_fnc_tbl'], _tuple_params)
 
     for _data_value in WORKER.call_list:
         _tuple_params = tuple(_data_value)
 
-        DATABASE.execute_phrase(DATABASE.sql_input['ins_call_list_tbl'], _tuple_params)
+        database.execute_phrase(database.sql_input['ins_call_list_tbl'], _tuple_params)
 
     print('Antistasi_Phone_book Database initialization done')
 
 
 
 
-PhoneBook_create_search_db()

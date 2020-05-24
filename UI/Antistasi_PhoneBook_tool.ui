@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <author>Giddi</author>
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLineEdit" name="input_search_term">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>20</y>
+      <width>341</width>
+      <height>23</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="Output_window">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>220</y>
+      <width>691</width>
+      <height>321</height>
+     </rect>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="start_query">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>110</y>
+      <width>121</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>find callers</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="Output_to_file_check">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>20</y>
+      <width>191</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>output file location and name must be specified in the config</string>
+    </property>
+    <property name="text">
+     <string>Output to .txt file?</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menusettings">
+    <property name="title">
+     <string>settings</string>
+    </property>
+    <addaction name="actionopen_user_config"/>
+    <addaction name="actionset_paths"/>
+   </widget>
+   <widget class="QMenu" name="menurebuild">
+    <property name="title">
+     <string>rebuild</string>
+    </property>
+    <addaction name="actionrebuild_Database"/>
+   </widget>
+   <addaction name="menusettings"/>
+   <addaction name="menurebuild"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionopen_user_config">
+   <property name="text">
+    <string>open user config</string>
+   </property>
+  </action>
+  <action name="actionset_paths">
+   <property name="text">
+    <string>set paths</string>
+   </property>
+  </action>
+  <action name="actionrebuild_Database">
+   <property name="text">
+    <string>rebuild Database</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+ <designerdata>
+  <property name="gridDeltaX">
+   <number>10</number>
+  </property>
+  <property name="gridDeltaY">
+   <number>10</number>
+  </property>
+  <property name="gridSnapX">
+   <bool>true</bool>
+  </property>
+  <property name="gridSnapY">
+   <bool>true</bool>
+  </property>
+  <property name="gridVisible">
+   <bool>true</bool>
+  </property>
+ </designerdata>
+</ui>
