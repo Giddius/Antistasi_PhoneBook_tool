@@ -2,7 +2,7 @@ import gid_land as gil
 
 
 
-def get_all_calls(to_md=False, html_all=False, to_csv=False, outputfolder=None):
+def get_all_calls(to_md=False, html_all=False, to_csv=False, outputfolder=None, combined=False):
 
 
     u_config = gil.GiConfigRex(cfg_folder=gil.pathmaker('cwd', 'config'), cfg_file='user_config.ini', cfg_sections='all')
@@ -33,6 +33,26 @@ def get_all_calls(to_md=False, html_all=False, to_csv=False, outputfolder=None):
             for rows in _results:
                 csv_file.write('"{}","{}"\n'.format(rows[0], rows[1]))
 
+    if combined is True:
+        _output = {}
+        for rows in _results:
+            _output[rows[0]] = ''
+        for rows in _results:
+            _output[rows[0]] = str(_output[rows[0]]) + ' --> ' + rows[1] + '\n'
+    else:
+        _output = _results
+
+
+    return _output
+
+
+def get_all_functions():
+    u_config = gil.GiConfigRex(cfg_folder=gil.pathmaker('cwd', 'config'), cfg_file='user_config.ini', cfg_sections='all')
+    s_config = gil.GiConfigRex(cfg_file='solid_config.ini', cfg_sections='all')
+    database = gil.GiDatabasebNoble()
+
+    with database.open_db() as conn:
+        conn.execute(s_config.sql_query['sel_all_fnc'])
+        _results = conn.fetchall()
+
     return _results
-
-

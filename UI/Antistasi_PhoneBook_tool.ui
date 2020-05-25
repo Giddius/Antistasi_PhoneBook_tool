@@ -27,13 +27,19 @@
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
       <widget class="QTextEdit" name="Output_window">
+       <property name="font">
+        <font>
+         <family>Verdana Pro Semibold</family>
+         <kerning>false</kerning>
+        </font>
+       </property>
        <property name="readOnly">
         <bool>true</bool>
        </property>
       </widget>
      </item>
      <item>
-      <widget class="QGraphicsView" name="graphicsView"/>
+      <widget class="QTextEdit" name="Snippett_window"/>
      </item>
     </layout>
    </widget>
@@ -47,7 +53,7 @@
      </rect>
     </property>
     <property name="currentIndex">
-     <number>0</number>
+     <number>1</number>
     </property>
     <widget class="QWidget" name="tab">
      <attribute name="title">
@@ -76,22 +82,6 @@
        <string>find callers</string>
       </property>
      </widget>
-     <widget class="QCheckBox" name="output_diagram_check">
-      <property name="geometry">
-       <rect>
-        <x>420</x>
-        <y>60</y>
-        <width>191</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="toolTip">
-       <string>output file location and name must be specified in the config</string>
-      </property>
-      <property name="text">
-       <string>create diagram?</string>
-      </property>
-     </widget>
      <widget class="QLabel" name="label">
       <property name="geometry">
        <rect>
@@ -105,106 +95,208 @@
        <string>Search term:</string>
       </property>
      </widget>
-     <widget class="QCheckBox" name="output_full_path_check">
+     <widget class="QWidget" name="verticalLayoutWidget_2">
       <property name="geometry">
        <rect>
         <x>480</x>
-        <y>20</y>
-        <width>231</width>
-        <height>22</height>
+        <y>10</y>
+        <width>235</width>
+        <height>121</height>
        </rect>
       </property>
-      <property name="font">
-       <font>
-        <pointsize>10</pointsize>
-       </font>
-      </property>
-      <property name="toolTip">
-       <string>output file location and name must be specified in the config</string>
-      </property>
-      <property name="text">
-       <string>Results as full file path?</string>
-      </property>
-     </widget>
-     <widget class="QCheckBox" name="create_header_check">
-      <property name="geometry">
-       <rect>
-        <x>420</x>
-        <y>90</y>
-        <width>231</width>
-        <height>22</height>
-       </rect>
-      </property>
-      <property name="toolTip">
-       <string>output file location and name must be specified in the config</string>
-      </property>
-      <property name="text">
-       <string>create header for file?</string>
-      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QCheckBox" name="output_full_path_check">
+         <property name="font">
+          <font>
+           <pointsize>10</pointsize>
+          </font>
+         </property>
+         <property name="toolTip">
+          <string>output file location and name must be specified in the config</string>
+         </property>
+         <property name="text">
+          <string>Results as full file path?</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="create_header_check">
+         <property name="toolTip">
+          <string>output file location and name must be specified in the config</string>
+         </property>
+         <property name="text">
+          <string>create header for file?</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
      </widget>
     </widget>
     <widget class="QWidget" name="tab_2">
      <attribute name="title">
       <string>Tab 2</string>
      </attribute>
-     <widget class="QPushButton" name="star_query_all">
+     <widget class="QCheckBox" name="create_vscsnippet_check">
       <property name="geometry">
        <rect>
-        <x>210</x>
-        <y>20</y>
-        <width>161</width>
-        <height>27</height>
+        <x>470</x>
+        <y>10</y>
+        <width>181</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>create VSC snippets</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="verticalLayoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>0</y>
+        <width>162</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QCheckBox" name="create_md_check">
+         <property name="text">
+          <string>create .md</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="create_csv_check">
+         <property name="text">
+          <string>create .csv</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QCheckBox" name="create_html_check">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+         <property name="text">
+          <string>create .html</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="horizontalLayoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>40</y>
+        <width>251</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_2">
+       <property name="leftMargin">
+        <number>20</number>
+       </property>
+       <property name="rightMargin">
+        <number>20</number>
+       </property>
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>snippet prefix:</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLineEdit" name="input_snippet_prefix"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QPushButton" name="clipboard_button">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>110</y>
+        <width>144</width>
+        <height>25</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>copy to clipboard</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="start_query_all">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>10</y>
+        <width>160</width>
+        <height>25</height>
        </rect>
       </property>
       <property name="text">
        <string>show every function</string>
       </property>
      </widget>
-     <widget class="QCheckBox" name="create_md_check">
+     <widget class="QWidget" name="horizontalLayoutWidget_3">
       <property name="geometry">
        <rect>
-        <x>410</x>
-        <y>20</y>
-        <width>131</width>
-        <height>23</height>
+        <x>10</x>
+        <y>79</y>
+        <width>241</width>
+        <height>41</height>
        </rect>
       </property>
-      <property name="text">
-       <string>create .md</string>
-      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout_3">
+       <item>
+        <widget class="QLineEdit" name="input_output_folder">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Expanding" vsizetype="Fixed">
+           <horstretch>0</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="readOnly">
+          <bool>true</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="get_outputpath_button">
+         <property name="font">
+          <font>
+           <pointsize>8</pointsize>
+          </font>
+         </property>
+         <property name="text">
+          <string>folder</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
      </widget>
-     <widget class="QCheckBox" name="create_csv_check">
+     <widget class="QCheckBox" name="output_combined_check">
       <property name="geometry">
        <rect>
-        <x>410</x>
-        <y>60</y>
-        <width>111</width>
+        <x>260</x>
+        <y>40</y>
+        <width>181</width>
         <height>23</height>
        </rect>
       </property>
-      <property name="text">
-       <string>create .csv</string>
-      </property>
-     </widget>
-     <widget class="QCheckBox" name="create_html_check">
-      <property name="enabled">
-       <bool>false</bool>
-      </property>
-      <property name="geometry">
-       <rect>
-        <x>410</x>
-        <y>100</y>
-        <width>121</width>
-        <height>23</height>
-       </rect>
+      <property name="toolTip">
+       <string>output file location and name must be specified in the config</string>
       </property>
       <property name="text">
-       <string>create .html</string>
+       <string>combine caller?</string>
       </property>
      </widget>
     </widget>
    </widget>
   </widget>
+  <widget class="QStatusBar" name="statusbar"/>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
@@ -214,33 +306,14 @@
      <height>20</height>
     </rect>
    </property>
-   <widget class="QMenu" name="menusettings">
-    <property name="title">
-     <string>settings</string>
-    </property>
-    <addaction name="actionopen_user_config"/>
-    <addaction name="actionset_paths"/>
-   </widget>
    <widget class="QMenu" name="menurebuild">
     <property name="title">
      <string>rebuild</string>
     </property>
     <addaction name="actionrebuild_Database"/>
    </widget>
-   <addaction name="menusettings"/>
    <addaction name="menurebuild"/>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
-  <action name="actionopen_user_config">
-   <property name="text">
-    <string>open user config</string>
-   </property>
-  </action>
-  <action name="actionset_paths">
-   <property name="text">
-    <string>set paths</string>
-   </property>
-  </action>
   <action name="actionrebuild_Database">
    <property name="text">
     <string>rebuild Database</string>
