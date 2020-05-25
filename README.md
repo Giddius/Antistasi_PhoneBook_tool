@@ -43,10 +43,7 @@ Secondary it should make a Graphviz graph to visually show the Antistasi functio
 
 ## 1.2. How to use currently
 
-Download the release, change the paths in ...\user_config.ini (absolute paths!) and run it.
-currently functional:
-entering a fnc name ('eg A3A_fnc_flagaction') or the function as a file name ('fn_flagaction.sqf)
-and rebuilding the Database to keep up to date with your local antistasi version. rest is following!
+after downloading the release, extract the folder and run "configurator.exe". afterwards run "Antistasi_PhoneBook_tool.exe" and select rebuild Database form the toolbar.
 
 ### 1.2.1. planned stages of development to 1.0
 
