@@ -50,7 +50,7 @@ after downloading the release, extract the folder and run "configurator.exe". af
 1. [X] python code to get all functions and files
 2. [X] python code to interface with SQLite
 3. [X] SQLite DB to store the caller list and query items
-4. [~] GUI interface for all that (tkinter?)
+4. [X] GUI interface for all that (tkinter?)
 
 #### 1.2.1.1. maybe
 
@@ -67,13 +67,11 @@ stuff that I see as advantages, but currently know to little to implement or eve
 
 ### 1.2.2. Status
 
-finishing first python scripts
+almost feature complete
 
 ### 1.2.3. Dependencies
 
-- currently python re module
-- SQLite
-- Graphviz
+none
 
 ***
 
