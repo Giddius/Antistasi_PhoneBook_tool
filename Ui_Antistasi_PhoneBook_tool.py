@@ -1,20 +1,26 @@
-# -*- coding: utf-8 -*-
+"""
+this program finds all Antistasi functions and .sqf files and lists calls from those files to the functions;
+it can search the result by file name and function name, also provided is a dump all, dump all to file and snippet creator from all functions;
+it is wrapped in an UI and uses an sqlite DB as storage.
+"""
+# Author: Giddi    https://github.com/Giddius
+# Ui_Antistasi_PhoneBook_tool.py 2020
+# Desc: description
+# Created:  2020-05-26T08:39:04.567Z
+# Modified: 2020-05-26T10:55:02.398Z
 
-# Form implementation generated from reading ui file 'd:\Dropbox\hobby\Modding\Programs\Github\My Repos\Antistasi_PhoneBook_tool\ui\Antistasi_PhoneBook_tool.ui'
-#
-# Created by: PyQt5 UI code generator 5.14.2
-#
-# WARNING! All changes made in this file will be lost!
 
+import pprint
 import sys
-from PyQt5.QtWidgets import QMessageBox
-from PyQt5 import QtCore, QtGui, QtWidgets
-import query_all_calls
-import query_from_fnc
-import query_from_file
-import DB_initiate
-import gid_land as gil
 
+from PyQt5 import QtCore, QtGui, QtWidgets
+from PyQt5.QtWidgets import QMessageBox
+
+import DB_initiate
+import self_created.gid_land as gil
+import query_all_calls
+import query_from_file
+import query_from_fnc
 
 
 class Ui_MainWindow(object):
@@ -265,9 +271,9 @@ class Ui_MainWindow(object):
 
 
 if __name__ == "__main__":
-    app = QtWidgets.QApplication(sys.argv)
-    MainWindow = QtWidgets.QMainWindow()
-    ui = Ui_MainWindow()
-    ui.setupUi(MainWindow)
-    MainWindow.show()
-    sys.exit(app.exec_())
+        app = QtWidgets.QApplication(sys.argv)
+        MainWindow = QtWidgets.QMainWindow()
+        ui = Ui_MainWindow()
+        ui.setupUi(MainWindow)
+        MainWindow.show()
+        sys.exit(app.exec_())

@@ -4,7 +4,8 @@
 import armaclass
 import os
 import re
-import gid_land as gil
+import self_created.gid_land as gil
+import pprint
 
 # endregion [Imports]
 
@@ -85,11 +86,10 @@ class PhoneBookInitializer:
         for _sqf_key, _sqf_value in self.sqf_dict.items():
             _file_path = _sqf_value[0]
             _content = self.getcontent(_sqf_value[0])
-            for _fnc_key, _fnc_value in self.fnc_dict.items():
-                _fncregex = re.compile(rf'(?<=\W){_fnc_value[2]}(?=\W)', flags=re.IGNORECASE)
-                if _fncregex.search(_content):
-                    self.call_list.append([_sqf_key, _fnc_key])
-
+            for lines in _content.split('\n'):
+                for _fnc_key, _fnc_value in self.fnc_dict.items():
+                    if str(_fnc_value[2]) in  lines:
+                        self.call_list.append([_sqf_value[1], _fnc_value[2]])
 
 
     def getcontent(self, file):
@@ -137,20 +137,17 @@ def PhoneBook_create_search_db():
         os.makedirs(gil.pathmaker('cwd', s_config.db_parameter['db_loc']))
     database.startup_db(overwrite=True)
 
-    fnchpp_knight = gil.GiDbInputKnight(table_name='fnchpp_tbl', tbl_group='Antistasi_PhoneBook_tool_tbls')
-    fnchpp_knight.create_fixed(s_config.sql_input['cre_fnchpp_tbl'])
+    fnchpp_knight = gil.GiDbInputKnight(table_name='fnchpp_tbl', table_group='Antistasi_PhoneBook_tool_tbls', fixed=s_config.sql_input['cre_fnchpp_tbl'])
     fnchpp_knight.insert_to_toc(fnchpp_knight.table_name, fnchpp_knight.table_group)
 
-    sqf_knight = gil.GiDbInputKnight(table_name='sqf_tbl', tbl_group='Antistasi_PhoneBook_tool_tbls')
-    sqf_knight.create_fixed(s_config.sql_input['cre_sqf_tbl'])
+    sqf_knight = gil.GiDbInputKnight(table_name='sqf_tbl', table_group='Antistasi_PhoneBook_tool_tbls', fixed=s_config.sql_input['cre_sqf_tbl'])
     sqf_knight.insert_to_toc(sqf_knight.table_name, sqf_knight.table_group)
 
-    fnc_knight = gil.GiDbInputKnight(table_name='fnc_tbl', tbl_group='Antistasi_PhoneBook_tool_tbls')
+    fnc_knight = gil.GiDbInputKnight(table_name='fnc_tbl', table_group='Antistasi_PhoneBook_tool_tbls', fixed=s_config.sql_input['cre_fnc_tbl'])
     fnc_knight.create_fixed(s_config.sql_input['cre_fnc_tbl'])
     fnc_knight.insert_to_toc(fnc_knight.table_name, fnc_knight.table_group)
 
-    call_list_knight = gil.GiDbInputKnight(table_name='call_list_tbl', tbl_group='Antistasi_PhoneBook_tool_tbls')
-    call_list_knight.create_fixed(s_config.sql_input['cre_call_list_tbl'])
+    call_list_knight = gil.GiDbInputKnight(table_name='call_list_tbl', table_group='Antistasi_PhoneBook_tool_tbls', fixed=s_config.sql_input['cre_call_list_tbl'])
     call_list_knight.insert_to_toc(call_list_knight.table_name, call_list_knight.table_group)
 
     WORKER = PhoneBookInitializer(u_config.from_user['output_file'], u_config.from_user['output_folder'], u_config.from_user['path_to_antistasi'], u_config.from_user['antistasi_functions_folder'])
