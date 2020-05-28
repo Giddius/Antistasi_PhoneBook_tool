@@ -4,21 +4,21 @@
 # Desc: description
 # Created:  2020-05-25T11:42:40.224Z
 # Modified: !date!
-import gid_land as gil
+import self_created.gid_land as gil
 
 
 def read_and_new_config():
     print('please enter the full path to your Antistasi folder: ', end='')
-    new_AS_folder = input()
+    new_AS_folder = gil.pathmaker(input())
     print('please enter the full path to the folder you want to save the output to: ', end='')
-    new_output_folder = input()
+    new_output_folder = gil.pathmaker(input())
     print('please enter the base name you want to use for output files [no extensions]: ', end='')
-    new_output_name = input()
+    new_output_name = gil.pathmaker(input())
     with open(gil.pathmaker('cwd', 'config', 'user_config.ini'), 'w') as new_conf_f:
         new_conf_f.write("""[DEFAULT]
 output_folder: %(path_to_antistasi)s
 output_file: Antistasi_PhoneBook""")
-        new_conf_f.write("""\n\n[from_user]
+        new_conf_f.write("""\n\n[from_user]\n
 path_to_antistasi: {0}
 antistasi_functions_folder: %(path_to_antistasi)s\\functions
 output_folder: {1}
