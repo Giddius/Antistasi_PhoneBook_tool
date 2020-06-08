@@ -1,0 +1,62 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/f6c7064a/
+Antistasi_PhoneBook_tool.py	../Antistasi_PhoneBook_tool.py	1;"	kind:file	line:1
+DB_initiate.py	../DB_initiate.py	1;"	kind:file	line:1
+MainWindow	../Ui_Antistasi_PhoneBook_tool.py	/^        MainWindow = QtWidgets.QMainWindow()$/;"	kind:variable	line:315
+PhoneBookInitializer	../DB_initiate.py	/^class PhoneBookInitializer:$/;"	kind:class	line:16
+PhoneBook_create_search_db	../DB_initiate.py	/^def PhoneBook_create_search_db():$/;"	kind:function	line:129
+Ui_Antistasi_PhoneBook_tool.py	../Ui_Antistasi_PhoneBook_tool.py	1;"	kind:file	line:1
+Ui_MainWindow	../Antistasi_PhoneBook_tool.py	/^class Ui_MainWindow(object):$/;"	kind:class	line:13
+Ui_MainWindow	../UI/ui_Antistasi_PhoneBook_tool.py	/^class Ui_MainWindow(object):$/;"	kind:class	line:13
+Ui_MainWindow	../Ui_Antistasi_PhoneBook_tool.py	/^class Ui_MainWindow(object):$/;"	kind:class	line:27
+__init__	../DB_initiate.py	/^    def __init__(self, outfile, outputFolderName, path_to_source, function_folder):$/;"	kind:member	line:19
+app	../Ui_Antistasi_PhoneBook_tool.py	/^        app = QtWidgets.QApplication(sys.argv)$/;"	kind:variable	line:314
+appendoutput	../DB_initiate.py	/^    def appendoutput(self, OUTPUT):$/;"	kind:member	line:50
+collect_data	../DB_initiate.py	/^    def collect_data(self):$/;"	kind:member	line:35
+commentcleaner	../DB_initiate.py	/^    def commentcleaner(content):$/;"	kind:member	line:43
+configurator.py	../configurator.py	1;"	kind:file	line:1
+copy_snippets	../Ui_Antistasi_PhoneBook_tool.py	/^    def copy_snippets(self):$/;"	kind:member	line:212
+create_atom_snippets	../Ui_Antistasi_PhoneBook_tool.py	/^    def create_atom_snippets(self):$/;"	kind:member	line:257
+create_vsc_snippets	../Ui_Antistasi_PhoneBook_tool.py	/^    def create_vsc_snippets(self):$/;"	kind:member	line:270
+find_calls	../DB_initiate.py	/^    def find_calls(self):$/;"	kind:member	line:85
+fncintosqf	../DB_initiate.py	/^def fncintosqf(fncfunction):$/;"	kind:function	line:118
+get_all_calls	../query_all_calls.py	/^def get_all_calls(to_md=False, html_all=False, to_csv=False, outputfolder=None, combined=False):$/;"	kind:function	line:5
+get_all_functions	../query_all_calls.py	/^def get_all_functions():$/;"	kind:function	line:49
+getcontent	../DB_initiate.py	/^    def getcontent(self, file):$/;"	kind:member	line:95
+getfunctions	../DB_initiate.py	/^    def getfunctions(self):$/;"	kind:member	line:70
+gil	../DB_initiate.py	/^import self_created.gid_land as gil$/;"	kind:namespace	line:7
+gil	../Ui_Antistasi_PhoneBook_tool.py	/^import self_created.gid_land as gil$/;"	kind:namespace	line:20
+gil	../configurator.py	/^import self_created.gid_land as gil$/;"	kind:namespace	line:7
+gil	../query_all_calls.py	/^import self_created.gid_land as gil$/;"	kind:namespace	line:1
+gil	../query_from_file.py	/^import self_created.gid_land as gil$/;"	kind:namespace	line:1
+gil	../query_from_fnc.py	/^import self_created.gid_land as gil$/;"	kind:namespace	line:1
+giq	../Ui_Antistasi_PhoneBook_tool.py	/^import self_created.gid_qt as giq$/;"	kind:namespace	line:21
+initOutputfile	../DB_initiate.py	/^    def initOutputfile(self):$/;"	kind:member	line:54
+pressed_search	../Ui_Antistasi_PhoneBook_tool.py	/^    def pressed_search(self):$/;"	kind:member	line:287
+pressed_search_all	../Ui_Antistasi_PhoneBook_tool.py	/^    def pressed_search_all(self):$/;"	kind:member	line:242
+process_ask_popup	../Ui_Antistasi_PhoneBook_tool.py	/^    def process_ask_popup(self, i):$/;"	kind:member	line:230
+query_all_calls.py	../query_all_calls.py	1;"	kind:file	line:1
+query_from_file	../query_from_file.py	/^def query_from_file(search_term, full_path=False):$/;"	kind:function	line:8
+query_from_file.py	../query_from_file.py	1;"	kind:file	line:1
+query_from_fnc	../query_from_fnc.py	/^def query_from_fnc(search_term, full_path=False):$/;"	kind:function	line:6
+query_from_fnc.py	../query_from_fnc.py	1;"	kind:file	line:1
+read_and_new_config	../configurator.py	/^def read_and_new_config():$/;"	kind:function	line:10
+retranslateUi	../Antistasi_PhoneBook_tool.py	/^    def retranslateUi(self, MainWindow):$/;"	kind:member	line:163
+retranslateUi	../UI/ui_Antistasi_PhoneBook_tool.py	/^    def retranslateUi(self, MainWindow):$/;"	kind:member	line:163
+retranslateUi	../Ui_Antistasi_PhoneBook_tool.py	/^    def retranslateUi(self, MainWindow):$/;"	kind:member	line:183
+setupUi	../Antistasi_PhoneBook_tool.py	/^    def setupUi(self, MainWindow):$/;"	kind:member	line:14
+setupUi	../UI/ui_Antistasi_PhoneBook_tool.py	/^    def setupUi(self, MainWindow):$/;"	kind:member	line:14
+setupUi	../Ui_Antistasi_PhoneBook_tool.py	/^    def setupUi(self, MainWindow):$/;"	kind:member	line:28
+show_ask_popup	../Ui_Antistasi_PhoneBook_tool.py	/^    def show_ask_popup(self):$/;"	kind:member	line:216
+show_config_popup	../Ui_Antistasi_PhoneBook_tool.py	/^    def show_config_popup(self):$/;"	kind:member	line:208
+show_error_popup	../Ui_Antistasi_PhoneBook_tool.py	/^    def show_error_popup(self, IN_content):$/;"	kind:member	line:235
+ui	../Ui_Antistasi_PhoneBook_tool.py	/^        ui = Ui_MainWindow()$/;"	kind:variable	line:316
+ui_Antistasi_PhoneBook_tool.py	../UI/ui_Antistasi_PhoneBook_tool.py	1;"	kind:file	line:1
+walkthefile	../DB_initiate.py	/^    def walkthefile(self, file_type):$/;"	kind:member	line:58
