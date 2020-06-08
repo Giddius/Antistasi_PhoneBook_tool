@@ -228,7 +228,7 @@ class PhoneBookMainGui(mgui.Ui_MainWindow):
                     _text = f'## {_name} is called by\n\n'
                     for rows in _raw_output:
                         _text += f'- {rows}\n'
-
+            self.dialog_creator.information_dialog('File created in' + self.uc_tv.from_user['output_folder'], in_detail_message='', in_title='file, created')
 
 
             with open(self.print_fileinput_lineedit.text() + '_' + _name + '_' + output_type, 'w') as file:
