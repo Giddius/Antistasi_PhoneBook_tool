@@ -26,7 +26,7 @@
 ## 1.1. Description
 
 The goal of this Project is to make a tool that can tell the Dev team of the Antistasi mod, which files call on which functions and also if you provide a file, show which other files rely on it.
-Secondary it should make a Graphviz graph to visually show the Antistasi function network.
+
 
 ***
 ---
