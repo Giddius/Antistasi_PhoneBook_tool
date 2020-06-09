@@ -1,0 +1,1103 @@
+<RCC>
+  <qresource prefix="images">
+    <file>ressources/images/branch-closed.png</file>
+    <file>ressources/images/branch-end.png</file>
+    <file>ressources/images/branch-more.png</file>
+    <file>ressources/images/branch-open.png</file>
+    <file>ressources/images/vline.png</file>
+    <file>ressources/images/Antistasi_Flag.png</file>
+    <file>ressources/images/Antistasi_Flag_experiments.png</file>
+    <file>ressources/images/AS Insignia tan.png</file>
+    <file>ressources/images/AS Insignia.png</file>
+  </qresource>
+  <qresource prefix="icons">
+    <file>ressources/icons/Add.png</file>
+    <file>ressources/icons/Address Book.ico</file>
+    <file>ressources/icons/Address Book.png</file>
+    <file>ressources/icons/Adjustable-Wrench.ico</file>
+    <file>ressources/icons/Adjustable-Wrench-icon.png</file>
+    <file>ressources/icons/Aero Window » Explorer.ico</file>
+    <file>ressources/icons/Aero Window » Explorer.png</file>
+    <file>ressources/icons/Aero Window » List.ico</file>
+    <file>ressources/icons/Aero Window » List.png</file>
+    <file>ressources/icons/AIM.ico</file>
+    <file>ressources/icons/Airplane.ico</file>
+    <file>ressources/icons/alarm.ico</file>
+    <file>ressources/icons/Alert.ico</file>
+    <file>ressources/icons/Alert.png</file>
+    <file>ressources/icons/Allow.png</file>
+    <file>ressources/icons/Antrepo-Cargo-Boxes-Ammo-1.ico</file>
+    <file>ressources/icons/Antrepo-Cargo-Boxes-Army-1.ico</file>
+    <file>ressources/icons/Applications.ico</file>
+    <file>ressources/icons/Applications.png</file>
+    <file>ressources/icons/Appstore.ico</file>
+    <file>ressources/icons/Audacity.ico</file>
+    <file>ressources/icons/Avast.ico</file>
+    <file>ressources/icons/AveDesk.ico</file>
+    <file>ressources/icons/Avira.ico</file>
+    <file>ressources/icons/Axe.ico</file>
+    <file>ressources/icons/Axe-icon.png</file>
+    <file>ressources/icons/Battery Display » Charging.ico</file>
+    <file>ressources/icons/Battery Display » Charging.png</file>
+    <file>ressources/icons/Battery Display » Full.ico</file>
+    <file>ressources/icons/Battery Display » Full.png</file>
+    <file>ressources/icons/Battery Display » Low.ico</file>
+    <file>ressources/icons/Battery Display » Low.png</file>
+    <file>ressources/icons/Battery Display.ico</file>
+    <file>ressources/icons/Battery Display.png</file>
+    <file>ressources/icons/Battery.ico</file>
+    <file>ressources/icons/Battery.png</file>
+    <file>ressources/icons/BeeCustomized(NoShadow)64.png</file>
+    <file>ressources/icons/BeeCustomized(NoShadow)96.png</file>
+    <file>ressources/icons/BeeCustomized(NoShadow)256.png</file>
+    <file>ressources/icons/BeeCustomized64.png</file>
+    <file>ressources/icons/BeeCustomized96.png</file>
+    <file>ressources/icons/BeeCustomized256.png</file>
+    <file>ressources/icons/Bell.ico</file>
+    <file>ressources/icons/Bell.png</file>
+    <file>ressources/icons/BitTorrent.ico</file>
+    <file>ressources/icons/Blender Dark.ico</file>
+    <file>ressources/icons/Blender Light.ico</file>
+    <file>ressources/icons/Bluetooth.ico</file>
+    <file>ressources/icons/Bokehlicia-Pacifica-Steam.ico</file>
+    <file>ressources/icons/Bond1.ico</file>
+    <file>ressources/icons/Bond2.ico</file>
+    <file>ressources/icons/Book » Bookmark.ico</file>
+    <file>ressources/icons/Book » Bookmark.png</file>
+    <file>ressources/icons/Book.ico</file>
+    <file>ressources/icons/Book.png</file>
+    <file>ressources/icons/Bookmarks.ico</file>
+    <file>ressources/icons/books.ico</file>
+    <file>ressources/icons/Bookshelf » Empty.ico</file>
+    <file>ressources/icons/Bookshelf » Empty.png</file>
+    <file>ressources/icons/Bookshelf.ico</file>
+    <file>ressources/icons/Bookshelf.png</file>
+    <file>ressources/icons/Box » This Side Up.ico</file>
+    <file>ressources/icons/Box » This Side Up.png</file>
+    <file>ressources/icons/Box.ico</file>
+    <file>ressources/icons/Box.png</file>
+    <file>ressources/icons/box_closed.ico</file>
+    <file>ressources/icons/box_open_green.ico</file>
+    <file>ressources/icons/box_open_yellow.ico</file>
+    <file>ressources/icons/Brush.ico</file>
+    <file>ressources/icons/Burn.ico</file>
+    <file>ressources/icons/Burn.png</file>
+    <file>ressources/icons/Calculator.ico</file>
+    <file>ressources/icons/Calculatrice.ico</file>
+    <file>ressources/icons/Calendar » Blue.ico</file>
+    <file>ressources/icons/Calendar » Blue.png</file>
+    <file>ressources/icons/Calendar » Day View.ico</file>
+    <file>ressources/icons/Calendar » Day View.png</file>
+    <file>ressources/icons/Calendar » Month View.ico</file>
+    <file>ressources/icons/Calendar » Month View.png</file>
+    <file>ressources/icons/Calendar.ico</file>
+    <file>ressources/icons/Calendar.png</file>
+    <file>ressources/icons/Callipers.ico</file>
+    <file>ressources/icons/Camera.ico</file>
+    <file>ressources/icons/Camera.png</file>
+    <file>ressources/icons/CCleaner.ico</file>
+    <file>ressources/icons/CD » Burn.ico</file>
+    <file>ressources/icons/CD » Burn.png</file>
+    <file>ressources/icons/cd.ico</file>
+    <file>ressources/icons/CD.png</file>
+    <file>ressources/icons/Chair_by_Artdesigner.lv.ico</file>
+    <file>ressources/icons/Chair_by_Artdesigner.lv.png</file>
+    <file>ressources/icons/Chalkboard » Empty.ico</file>
+    <file>ressources/icons/Chalkboard » Empty.png</file>
+    <file>ressources/icons/Chalkboard.ico</file>
+    <file>ressources/icons/Chalkboard.png</file>
+    <file>ressources/icons/Chest of Drawers » Open » Files.ico</file>
+    <file>ressources/icons/Chest of Drawers » Open » Files.png</file>
+    <file>ressources/icons/Chest of Drawers » Open.ico</file>
+    <file>ressources/icons/Chest of Drawers » Open.png</file>
+    <file>ressources/icons/Chest of Drawers.ico</file>
+    <file>ressources/icons/Chest of Drawers.png</file>
+    <file>ressources/icons/chip.ico</file>
+    <file>ressources/icons/Chip.png</file>
+    <file>ressources/icons/Chisel.ico</file>
+    <file>ressources/icons/Chisel-icon.png</file>
+    <file>ressources/icons/Christmas Tree » Lit.ico</file>
+    <file>ressources/icons/Christmas Tree » Lit.png</file>
+    <file>ressources/icons/Christmas Tree » Undecorated.ico</file>
+    <file>ressources/icons/Christmas Tree » Undecorated.png</file>
+    <file>ressources/icons/Christmas Tree.ico</file>
+    <file>ressources/icons/Christmas Tree.png</file>
+    <file>ressources/icons/Chrome.ico</file>
+    <file>ressources/icons/Circular-Saw.ico</file>
+    <file>ressources/icons/Circular-Saw-icon.png</file>
+    <file>ressources/icons/Clapperboard » Blank.ico</file>
+    <file>ressources/icons/Clapperboard » Blank.png</file>
+    <file>ressources/icons/Clapperboard » Closed.ico</file>
+    <file>ressources/icons/Clapperboard » Closed.png</file>
+    <file>ressources/icons/Clapperboard » Picture.ico</file>
+    <file>ressources/icons/Clapperboard » Picture.png</file>
+    <file>ressources/icons/Clapperboard.ico</file>
+    <file>ressources/icons/Clapperboard.png</file>
+    <file>ressources/icons/Clipboard » Empty.ico</file>
+    <file>ressources/icons/Clipboard » Empty.png</file>
+    <file>ressources/icons/Clipboard » Fold.ico</file>
+    <file>ressources/icons/Clipboard » Fold.png</file>
+    <file>ressources/icons/Clipboard » Text.ico</file>
+    <file>ressources/icons/Clipboard » Torn.ico</file>
+    <file>ressources/icons/Clipboard » Torn.png</file>
+    <file>ressources/icons/Clipboard.ico</file>
+    <file>ressources/icons/Clipboard.png</file>
+    <file>ressources/icons/Clipboard_Text.png</file>
+    <file>ressources/icons/Clock.ico</file>
+    <file>ressources/icons/Color Wheel.ico</file>
+    <file>ressources/icons/Color Wheel.png</file>
+    <file>ressources/icons/Computer.ico</file>
+    <file>ressources/icons/Connections.ico</file>
+    <file>ressources/icons/Contact Card.ico</file>
+    <file>ressources/icons/Contact Card.png</file>
+    <file>ressources/icons/Contact.ico</file>
+    <file>ressources/icons/contacts.ico</file>
+    <file>ressources/icons/Cordless-Drill.ico</file>
+    <file>ressources/icons/Cordless-Drill-icon.png</file>
+    <file>ressources/icons/CP01.ico</file>
+    <file>ressources/icons/CP02.ico</file>
+    <file>ressources/icons/CP03.ico</file>
+    <file>ressources/icons/CP04.ico</file>
+    <file>ressources/icons/CP05.ico</file>
+    <file>ressources/icons/CP06.ico</file>
+    <file>ressources/icons/CP07.ico</file>
+    <file>ressources/icons/CP08.ico</file>
+    <file>ressources/icons/CP09.ico</file>
+    <file>ressources/icons/CP10.ico</file>
+    <file>ressources/icons/CP11.ico</file>
+    <file>ressources/icons/Curtains.ico</file>
+    <file>ressources/icons/Curtains.png</file>
+    <file>ressources/icons/Cutter.ico</file>
+    <file>ressources/icons/Cutter-2.ico</file>
+    <file>ressources/icons/Cutter-2-icon.png</file>
+    <file>ressources/icons/Cutter-3.ico</file>
+    <file>ressources/icons/Cutter-3-icon.png</file>
+    <file>ressources/icons/Cutter-icon.png</file>
+    <file>ressources/icons/Dashboard.ico</file>
+    <file>ressources/icons/Dashboard.png</file>
+    <file>ressources/icons/Decoration » Branch.ico</file>
+    <file>ressources/icons/Decoration » Branch.png</file>
+    <file>ressources/icons/Decoration.ico</file>
+    <file>ressources/icons/Decoration.png</file>
+    <file>ressources/icons/Deezer.ico</file>
+    <file>ressources/icons/Delete.ico</file>
+    <file>ressources/icons/Delete.png</file>
+    <file>ressources/icons/Deny.png</file>
+    <file>ressources/icons/Design » Blueprint.ico</file>
+    <file>ressources/icons/Design » Blueprint.png</file>
+    <file>ressources/icons/Design.ico</file>
+    <file>ressources/icons/Design.png</file>
+    <file>ressources/icons/Desktop.ico</file>
+    <file>ressources/icons/Desktop.png</file>
+    <file>ressources/icons/Dictionary.ico</file>
+    <file>ressources/icons/Dictionary.png</file>
+    <file>ressources/icons/Digsby.ico</file>
+    <file>ressources/icons/Digsby.png</file>
+    <file>ressources/icons/Discord-Logo-White.png</file>
+    <file>ressources/icons/Disk » Hard Disk.ico</file>
+    <file>ressources/icons/Disk » Hard Disk.png</file>
+    <file>ressources/icons/Disk » iDisk.ico</file>
+    <file>ressources/icons/Disk » iDisk.png</file>
+    <file>ressources/icons/Disk » Removable.ico</file>
+    <file>ressources/icons/Disk » Removable.png</file>
+    <file>ressources/icons/Disk » Time Machine.ico</file>
+    <file>ressources/icons/Disk » Time Machine.png</file>
+    <file>ressources/icons/Documents.ico</file>
+    <file>ressources/icons/Door » Chat Room.ico</file>
+    <file>ressources/icons/Door » Chat Room.png</file>
+    <file>ressources/icons/Door.ico</file>
+    <file>ressources/icons/Door.png</file>
+    <file>ressources/icons/Download » High Speed.ico</file>
+    <file>ressources/icons/Download » High Speed.png</file>
+    <file>ressources/icons/Download » Turbo Speed.ico</file>
+    <file>ressources/icons/Download » Turbo Speed.png</file>
+    <file>ressources/icons/Download.ico</file>
+    <file>ressources/icons/Download.png</file>
+    <file>ressources/icons/Downloads.ico</file>
+    <file>ressources/icons/dropbox.ico</file>
+    <file>ressources/icons/Dthought-Creative-Sense-2-Adobe-Dreamweaver.ico</file>
+    <file>ressources/icons/Earth.ico</file>
+    <file>ressources/icons/E-Mail.ico</file>
+    <file>ressources/icons/E-Mail.png</file>
+    <file>ressources/icons/Emoticon » Sleep.ico</file>
+    <file>ressources/icons/Emoticon » Sleep.png</file>
+    <file>ressources/icons/Emoticon.ico</file>
+    <file>ressources/icons/Emoticon.png</file>
+    <file>ressources/icons/Envelope » Airmail.ico</file>
+    <file>ressources/icons/Envelope » Airmail.png</file>
+    <file>ressources/icons/Envelope.ico</file>
+    <file>ressources/icons/Envelope.png</file>
+    <file>ressources/icons/Error.ico</file>
+    <file>ressources/icons/Error.png</file>
+    <file>ressources/icons/Explorer.ico</file>
+    <file>ressources/icons/Face Book.ico</file>
+    <file>ressources/icons/Face Book.png</file>
+    <file>ressources/icons/Facebook.ico</file>
+    <file>ressources/icons/favorites.ico</file>
+    <file>ressources/icons/File.ico</file>
+    <file>ressources/icons/File.png</file>
+    <file>ressources/icons/Filetype » Blueprint » Under Construction.ico</file>
+    <file>ressources/icons/Filetype » Blueprint » Under Construction.png</file>
+    <file>ressources/icons/Filetype » Blueprint.ico</file>
+    <file>ressources/icons/Filetype » Blueprint.png</file>
+    <file>ressources/icons/Filetype » RSS » Orange.ico</file>
+    <file>ressources/icons/Filetype » RSS » Orange.png</file>
+    <file>ressources/icons/Filetype » RSS.ico</file>
+    <file>ressources/icons/Filetype » RSS.png</file>
+    <file>ressources/icons/Filetype » Script.ico</file>
+    <file>ressources/icons/Filetype » Script.png</file>
+    <file>ressources/icons/Filetype » Under Construction.ico</file>
+    <file>ressources/icons/Filetype » Under Construction.png</file>
+    <file>ressources/icons/Filetype » Video.ico</file>
+    <file>ressources/icons/Filetype » Video.png</file>
+    <file>ressources/icons/Filetype.ico</file>
+    <file>ressources/icons/Filetype.png</file>
+    <file>ressources/icons/Film Roll.ico</file>
+    <file>ressources/icons/Film Roll.png</file>
+    <file>ressources/icons/Filmstrip.ico</file>
+    <file>ressources/icons/Filmstrip.png</file>
+    <file>ressources/icons/Finder.ico</file>
+    <file>ressources/icons/Firefox.ico</file>
+    <file>ressources/icons/Folder » Blue.ico</file>
+    <file>ressources/icons/Folder » Blue.png</file>
+    <file>ressources/icons/Folder » Classic » Blue.ico</file>
+    <file>ressources/icons/Folder » Classic » Blue.png</file>
+    <file>ressources/icons/Folder » Classic » Recycled.ico</file>
+    <file>ressources/icons/Folder » Classic » Recycled.png</file>
+    <file>ressources/icons/Folder » Classic » Yellow.ico</file>
+    <file>ressources/icons/Folder » Classic » Yellow.png</file>
+    <file>ressources/icons/Folder » Recycled.ico</file>
+    <file>ressources/icons/Folder » Recycled.png</file>
+    <file>ressources/icons/Folder » Yellow.ico</file>
+    <file>ressources/icons/Folder » Yellow.png</file>
+    <file>ressources/icons/Folder.ico</file>
+    <file>ressources/icons/folder_burned.ico</file>
+    <file>ressources/icons/folder_burned_love.ico</file>
+    <file>ressources/icons/folder_burned_rokey.net.ico</file>
+    <file>ressources/icons/folder_burned_system.ico</file>
+    <file>ressources/icons/folder_configure.ico</file>
+    <file>ressources/icons/folder_contact.ico</file>
+    <file>ressources/icons/folder_download.ico</file>
+    <file>ressources/icons/folder_works.ico</file>
+    <file>ressources/icons/Games.ico</file>
+    <file>ressources/icons/Gear.ico</file>
+    <file>ressources/icons/Gear.png</file>
+    <file>ressources/icons/Get-Info.ico</file>
+    <file>ressources/icons/Get-Info.png</file>
+    <file>ressources/icons/Gift Box » Blue.ico</file>
+    <file>ressources/icons/Gift Box » Blue.png</file>
+    <file>ressources/icons/Gift Box.ico</file>
+    <file>ressources/icons/Gift Box.png</file>
+    <file>ressources/icons/Gimp.ico</file>
+    <file>ressources/icons/Glass » Cola » Ice.ico</file>
+    <file>ressources/icons/Glass » Cola » Ice.png</file>
+    <file>ressources/icons/Glass » Cola.ico</file>
+    <file>ressources/icons/Glass » Cola.png</file>
+    <file>ressources/icons/Glass » Empty.ico</file>
+    <file>ressources/icons/Glass » Empty.png</file>
+    <file>ressources/icons/Glass » Water » Ice.ico</file>
+    <file>ressources/icons/Glass » Water » Ice.png</file>
+    <file>ressources/icons/Glass » Water.ico</file>
+    <file>ressources/icons/Glass » Water.png</file>
+    <file>ressources/icons/Glue-Gun.ico</file>
+    <file>ressources/icons/Glue-Gun-icon.png</file>
+    <file>ressources/icons/Graphing-Spreadsheets.ico</file>
+    <file>ressources/icons/Hammer.ico</file>
+    <file>ressources/icons/Hammer-Big.ico</file>
+    <file>ressources/icons/Hammer-Big-icon.png</file>
+    <file>ressources/icons/Hammer-icon.png</file>
+    <file>ressources/icons/Hand-Brace-Tool.ico</file>
+    <file>ressources/icons/Hand-Brace-Tool-icon.png</file>
+    <file>ressources/icons/Hand-Drill-Machine.ico</file>
+    <file>ressources/icons/Hand-Drill-Machine-icon.png</file>
+    <file>ressources/icons/Hand-Saw.ico</file>
+    <file>ressources/icons/Hand-Saw-icon.png</file>
+    <file>ressources/icons/Hard Disk » Installation.ico</file>
+    <file>ressources/icons/Hard Disk » Installation.png</file>
+    <file>ressources/icons/Hard-Drive.ico</file>
+    <file>ressources/icons/Harwen-Pleasant-Control-Panel.ico</file>
+    <file>ressources/icons/Harwen-Pleasant-Desktop.ico</file>
+    <file>ressources/icons/Helmet1.ico</file>
+    <file>ressources/icons/Helmet2.ico</file>
+    <file>ressources/icons/Home.ico</file>
+    <file>ressources/icons/House.ico</file>
+    <file>ressources/icons/House.png</file>
+    <file>ressources/icons/HTC-Touch.ico</file>
+    <file>ressources/icons/iCal.ico</file>
+    <file>ressources/icons/iCal.png</file>
+    <file>ressources/icons/icons8-collapse-arrow-64.png</file>
+    <file>ressources/icons/icons8-copy-to-clipboard-16.png</file>
+    <file>ressources/icons/icons8-copy-to-clipboard-80.png</file>
+    <file>ressources/icons/icons8-google-logo-100.png</file>
+    <file>ressources/icons/icons8-paste-64.png</file>
+    <file>ressources/icons/icons8-vertikale-linie-100.png</file>
+    <file>ressources/icons/Icons-Land-Medical-Documents-X-Ray-Hand.ico</file>
+    <file>ressources/icons/ICQ.ico</file>
+    <file>ressources/icons/IE.ico</file>
+    <file>ressources/icons/IM.ico</file>
+    <file>ressources/icons/iMac_by_Artdesigner.lv.ico</file>
+    <file>ressources/icons/iMac_by_Artdesigner.lv.png</file>
+    <file>ressources/icons/Inkwell.ico</file>
+    <file>ressources/icons/Inkwell.png</file>
+    <file>ressources/icons/Instant Messaging.ico</file>
+    <file>ressources/icons/Instant Messaging.png</file>
+    <file>ressources/icons/iPhone » Application.ico</file>
+    <file>ressources/icons/iPhone » Application.png</file>
+    <file>ressources/icons/iPhone » Locked.ico</file>
+    <file>ressources/icons/iPhone » Locked.png</file>
+    <file>ressources/icons/iPhone.ico</file>
+    <file>ressources/icons/iPhone.png</file>
+    <file>ressources/icons/iPod.ico</file>
+    <file>ressources/icons/iPod-Nano.ico</file>
+    <file>ressources/icons/iSight.ico</file>
+    <file>ressources/icons/iSight.png</file>
+    <file>ressources/icons/Itunes.ico</file>
+    <file>ressources/icons/Jewel Case » CD.ico</file>
+    <file>ressources/icons/Jewel Case » CD.png</file>
+    <file>ressources/icons/Jewel Case » Cover.ico</file>
+    <file>ressources/icons/Jewel Case » Cover.png</file>
+    <file>ressources/icons/Jewel Case » Empty.ico</file>
+    <file>ressources/icons/Jewel Case » Empty.png</file>
+    <file>ressources/icons/Jewel Case.ico</file>
+    <file>ressources/icons/Jewel Case.png</file>
+    <file>ressources/icons/Jig-Saw-Jigsaw.ico</file>
+    <file>ressources/icons/Jig-Saw-Jigsaw-icon.png</file>
+    <file>ressources/icons/Kerkythea Dark.ico</file>
+    <file>ressources/icons/Kerkythea Light.ico</file>
+    <file>ressources/icons/Key » Command.ico</file>
+    <file>ressources/icons/Key » Command.png</file>
+    <file>ressources/icons/Key » Windows.ico</file>
+    <file>ressources/icons/Key » Windows.png</file>
+    <file>ressources/icons/Layout Dark.ico</file>
+    <file>ressources/icons/Layout Light.ico</file>
+    <file>ressources/icons/Library.ico</file>
+    <file>ressources/icons/Library.png</file>
+    <file>ressources/icons/Libreoffice 1.ico</file>
+    <file>ressources/icons/Libreoffice 2.ico</file>
+    <file>ressources/icons/Lightbulb.ico</file>
+    <file>ressources/icons/Lightning.ico</file>
+    <file>ressources/icons/Limewire.ico</file>
+    <file>ressources/icons/links.ico</file>
+    <file>ressources/icons/Lock » Unlocked.ico</file>
+    <file>ressources/icons/Lock » Unlocked.png</file>
+    <file>ressources/icons/Lock.ico</file>
+    <file>ressources/icons/Lock.png</file>
+    <file>ressources/icons/Long-Nose.ico</file>
+    <file>ressources/icons/Long-Nose-icon.png</file>
+    <file>ressources/icons/lumia.ico</file>
+    <file>ressources/icons/Magnifying Glass.ico</file>
+    <file>ressources/icons/Magnifying Glass.png</file>
+    <file>ressources/icons/Mail.ico</file>
+    <file>ressources/icons/Manual-Drill.ico</file>
+    <file>ressources/icons/Manual-Drill-icon.png</file>
+    <file>ressources/icons/Memory.ico</file>
+    <file>ressources/icons/Messaging.ico</file>
+    <file>ressources/icons/Messaging.png</file>
+    <file>ressources/icons/Metal-Saw.ico</file>
+    <file>ressources/icons/Metal-Saw-icon.png</file>
+    <file>ressources/icons/Microphone » Classic.ico</file>
+    <file>ressources/icons/Microphone » Classic.png</file>
+    <file>ressources/icons/Microphone.ico</file>
+    <file>ressources/icons/Microphone.png</file>
+    <file>ressources/icons/Money » Glowing.ico</file>
+    <file>ressources/icons/Money » Glowing.png</file>
+    <file>ressources/icons/Money.ico</file>
+    <file>ressources/icons/Money.png</file>
+    <file>ressources/icons/Monitor » Film.ico</file>
+    <file>ressources/icons/Monitor » Film.png</file>
+    <file>ressources/icons/Monitor » Music Video.ico</file>
+    <file>ressources/icons/Monitor » Music Video.png</file>
+    <file>ressources/icons/Monitor » Wallpaper.ico</file>
+    <file>ressources/icons/Monitor » Wallpaper.png</file>
+    <file>ressources/icons/Monitor.ico</file>
+    <file>ressources/icons/Monitor.png</file>
+    <file>ressources/icons/Monkey-Wrench.ico</file>
+    <file>ressources/icons/Monkey-Wrench-icon.png</file>
+    <file>ressources/icons/Mouse.ico</file>
+    <file>ressources/icons/MoviesTime_by_Artdesigner.lv.ico</file>
+    <file>ressources/icons/MoviesTime_by_Artdesigner.lv.png</file>
+    <file>ressources/icons/MSN.ico</file>
+    <file>ressources/icons/Mug » Empty.ico</file>
+    <file>ressources/icons/Mug » Empty.png</file>
+    <file>ressources/icons/Mug.ico</file>
+    <file>ressources/icons/Mug.png</file>
+    <file>ressources/icons/Multi-Tool.ico</file>
+    <file>ressources/icons/Multi-Tool-icon.png</file>
+    <file>ressources/icons/Music.ico</file>
+    <file>ressources/icons/music_player.ico</file>
+    <file>ressources/icons/Musical Note.ico</file>
+    <file>ressources/icons/Musical Note.png</file>
+    <file>ressources/icons/Mute.ico</file>
+    <file>ressources/icons/Network.ico</file>
+    <file>ressources/icons/Networked-Drive.ico</file>
+    <file>ressources/icons/Newspaper » RSS.ico</file>
+    <file>ressources/icons/Newspaper » RSS.png</file>
+    <file>ressources/icons/Newspaper.ico</file>
+    <file>ressources/icons/Newspaper.png</file>
+    <file>ressources/icons/Newsreader.ico</file>
+    <file>ressources/icons/Newsreader.png</file>
+    <file>ressources/icons/Nod32.ico</file>
+    <file>ressources/icons/Note » White.ico</file>
+    <file>ressources/icons/Note » White.png</file>
+    <file>ressources/icons/Note » Yellow.ico</file>
+    <file>ressources/icons/Note » Yellow.png</file>
+    <file>ressources/icons/Note.ico</file>
+    <file>ressources/icons/Note.png</file>
+    <file>ressources/icons/Notebook_by_Artdesigner.lv.ico</file>
+    <file>ressources/icons/Notebook_by_Artdesigner.lv.png</file>
+    <file>ressources/icons/Notepad.ico</file>
+    <file>ressources/icons/Notification.ico</file>
+    <file>ressources/icons/Notification.png</file>
+    <file>ressources/icons/Nut.ico</file>
+    <file>ressources/icons/Oh.ico</file>
+    <file>ressources/icons/Oil Can.ico</file>
+    <file>ressources/icons/onedrive.ico</file>
+    <file>ressources/icons/OpenOffice.ico</file>
+    <file>ressources/icons/Opera.ico</file>
+    <file>ressources/icons/Origin.ico</file>
+    <file>ressources/icons/OS » Mac OS X.ico</file>
+    <file>ressources/icons/OS » Mac OS X.png</file>
+    <file>ressources/icons/OS » Windows 7.ico</file>
+    <file>ressources/icons/OS » Windows 7.png</file>
+    <file>ressources/icons/OS » Windows Vista.ico</file>
+    <file>ressources/icons/OS » Windows Vista.png</file>
+    <file>ressources/icons/Paint.ico</file>
+    <file>ressources/icons/Painting Oil.ico</file>
+    <file>ressources/icons/Panel » Colors.ico</file>
+    <file>ressources/icons/Panel » Colors.png</file>
+    <file>ressources/icons/Panel » Find.ico</file>
+    <file>ressources/icons/Panel » Find.png</file>
+    <file>ressources/icons/Panel » Inspector.ico</file>
+    <file>ressources/icons/Panel » Inspector.png</file>
+    <file>ressources/icons/Panel.ico</file>
+    <file>ressources/icons/Panel.png</file>
+    <file>ressources/icons/Pen.ico</file>
+    <file>ressources/icons/Pen.png</file>
+    <file>ressources/icons/Pen1.ico</file>
+    <file>ressources/icons/Pen2.ico</file>
+    <file>ressources/icons/Pencil A.ico</file>
+    <file>ressources/icons/Pencil and Ruler.ico</file>
+    <file>ressources/icons/Pencil and Ruler.png</file>
+    <file>ressources/icons/Pencil B.ico</file>
+    <file>ressources/icons/Pencil.ico</file>
+    <file>ressources/icons/Pencil.png</file>
+    <file>ressources/icons/Personal.ico</file>
+    <file>ressources/icons/PersonalBox_by_Artdesigner.lv.ico</file>
+    <file>ressources/icons/PersonalBox_by_Artdesigner.lv.png</file>
+    <file>ressources/icons/Photo » Polaroid.ico</file>
+    <file>ressources/icons/Photo » Polaroid.png</file>
+    <file>ressources/icons/Photo.ico</file>
+    <file>ressources/icons/Photo.png</file>
+    <file>ressources/icons/Photoshop.ico</file>
+    <file>ressources/icons/Pictures.ico</file>
+    <file>ressources/icons/Pictures-Alt.ico</file>
+    <file>ressources/icons/Pie Chart.ico</file>
+    <file>ressources/icons/Pie Chart.png</file>
+    <file>ressources/icons/Pin.ico</file>
+    <file>ressources/icons/Pin.png</file>
+    <file>ressources/icons/Pinchers.ico</file>
+    <file>ressources/icons/Plant.ico</file>
+    <file>ressources/icons/Plant.png</file>
+    <file>ressources/icons/Pliers-01.ico</file>
+    <file>ressources/icons/Pliers-01-icon.png</file>
+    <file>ressources/icons/Pliers-2.ico</file>
+    <file>ressources/icons/Pliers-2-icon.png</file>
+    <file>ressources/icons/Pliers-3.ico</file>
+    <file>ressources/icons/Pliers-3-icon.png</file>
+    <file>ressources/icons/Pliers-4.ico</file>
+    <file>ressources/icons/Pliers-4-icon.png</file>
+    <file>ressources/icons/podcasts.ico</file>
+    <file>ressources/icons/Power.ico</file>
+    <file>ressources/icons/Preferences Panel.ico</file>
+    <file>ressources/icons/Preferences Panel.png</file>
+    <file>ressources/icons/Presentation.ico</file>
+    <file>ressources/icons/Presentation.png</file>
+    <file>ressources/icons/Project » Blueprints.ico</file>
+    <file>ressources/icons/Project » Blueprints.png</file>
+    <file>ressources/icons/Project.ico</file>
+    <file>ressources/icons/Project.png</file>
+    <file>ressources/icons/Projector.ico</file>
+    <file>ressources/icons/PsToolBox_by_Artdesigner.lv.ico</file>
+    <file>ressources/icons/PsToolBox_by_Artdesigner.lv.png</file>
+    <file>ressources/icons/python-clear.ico</file>
+    <file>ressources/icons/python-crystal.ico</file>
+    <file>ressources/icons/python-mat.ico</file>
+    <file>ressources/icons/RAM.ico</file>
+    <file>ressources/icons/RAM.png</file>
+    <file>ressources/icons/Reception Bell » Gold.ico</file>
+    <file>ressources/icons/Reception Bell » Gold.png</file>
+    <file>ressources/icons/Reception Bell.ico</file>
+    <file>ressources/icons/Reception Bell.png</file>
+    <file>ressources/icons/Recycle.ico</file>
+    <file>ressources/icons/recyclebin.ico</file>
+    <file>ressources/icons/recyclebinfull.ico</file>
+    <file>ressources/icons/Recycle-Empty.ico</file>
+    <file>ressources/icons/RemoteDesktop.ico</file>
+    <file>ressources/icons/Remove.png</file>
+    <file>ressources/icons/Roller.ico</file>
+    <file>ressources/icons/RSS.ico</file>
+    <file>ressources/icons/RSS.png</file>
+    <file>ressources/icons/Ruler.ico</file>
+    <file>ressources/icons/Ruler.png</file>
+    <file>ressources/icons/Safari.ico</file>
+    <file>ressources/icons/Safari.png</file>
+    <file>ressources/icons/Safe » Dark.ico</file>
+    <file>ressources/icons/Safe » Dark.png</file>
+    <file>ressources/icons/Safe » Open » Money.ico</file>
+    <file>ressources/icons/Safe » Open » Money.png</file>
+    <file>ressources/icons/Safe » Open.ico</file>
+    <file>ressources/icons/Safe » Open.png</file>
+    <file>ressources/icons/Safe.ico</file>
+    <file>ressources/icons/Safe.png</file>
+    <file>ressources/icons/saved games.ico</file>
+    <file>ressources/icons/Saw.ico</file>
+    <file>ressources/icons/Scanner.ico</file>
+    <file>ressources/icons/Scetchbook_by_Artdesigner.lv.ico</file>
+    <file>ressources/icons/Scetchbook_by_Artdesigner.lv.png</file>
+    <file>ressources/icons/School Bell.ico</file>
+    <file>ressources/icons/School Bell.png</file>
+    <file>ressources/icons/Scissors.ico</file>
+    <file>ressources/icons/Scoop.ico</file>
+    <file>ressources/icons/Scraper.ico</file>
+    <file>ressources/icons/Scraper-icon.png</file>
+    <file>ressources/icons/Screenshot.ico</file>
+    <file>ressources/icons/Screw Driver.ico</file>
+    <file>ressources/icons/Screw Normal1.ico</file>
+    <file>ressources/icons/Screw Normal2.ico</file>
+    <file>ressources/icons/Screw01.ico</file>
+    <file>ressources/icons/Screw02.ico</file>
+    <file>ressources/icons/Screw03.ico</file>
+    <file>ressources/icons/Screw04.ico</file>
+    <file>ressources/icons/Screw05.ico</file>
+    <file>ressources/icons/Screw06.ico</file>
+    <file>ressources/icons/Screw07.ico</file>
+    <file>ressources/icons/Screw-Screwdriver.ico</file>
+    <file>ressources/icons/Screw-Screwdriver-icon.png</file>
+    <file>ressources/icons/search.ico</file>
+    <file>ressources/icons/Settings.ico</file>
+    <file>ressources/icons/Shazam.ico</file>
+    <file>ressources/icons/Shield » Swords.ico</file>
+    <file>ressources/icons/Shield » Swords.png</file>
+    <file>ressources/icons/Shield.ico</file>
+    <file>ressources/icons/Shield.png</file>
+    <file>ressources/icons/Shlyapnikova-Application-Pencil.ico</file>
+    <file>ressources/icons/Shopping Bag » Black.ico</file>
+    <file>ressources/icons/Shopping Bag » Black.png</file>
+    <file>ressources/icons/Shopping Bag » Paperboard.ico</file>
+    <file>ressources/icons/Shopping Bag » Paperboard.png</file>
+    <file>ressources/icons/Shopping Bag » Price Tag.ico</file>
+    <file>ressources/icons/Shopping Bag » Price Tag.png</file>
+    <file>ressources/icons/Shopping Bag.ico</file>
+    <file>ressources/icons/Shopping Bag.png</file>
+    <file>ressources/icons/Sign Post » Alternate.ico</file>
+    <file>ressources/icons/Sign Post » Alternate.png</file>
+    <file>ressources/icons/Sign Post.ico</file>
+    <file>ressources/icons/Sign Post.png</file>
+    <file>ressources/icons/Simple(NoShadow)64.png</file>
+    <file>ressources/icons/Simple(NoShadow)96.png</file>
+    <file>ressources/icons/Simple(NoShadow)256.png</file>
+    <file>ressources/icons/Simple64.png</file>
+    <file>ressources/icons/Simple96.png</file>
+    <file>ressources/icons/Simple256.png</file>
+    <file>ressources/icons/simplify_dark_001.ico</file>
+    <file>ressources/icons/simplify_dark_002.ico</file>
+    <file>ressources/icons/simplify_dark_003.ico</file>
+    <file>ressources/icons/simplify_dark_004.ico</file>
+    <file>ressources/icons/simplify_dark_005.ico</file>
+    <file>ressources/icons/simplify_dark_006.ico</file>
+    <file>ressources/icons/simplify_dark_007.ico</file>
+    <file>ressources/icons/simplify_dark_008.ico</file>
+    <file>ressources/icons/simplify_dark_009.ico</file>
+    <file>ressources/icons/simplify_dark_010.ico</file>
+    <file>ressources/icons/simplify_dark_011.ico</file>
+    <file>ressources/icons/simplify_dark_012.ico</file>
+    <file>ressources/icons/simplify_dark_013.ico</file>
+    <file>ressources/icons/simplify_dark_014.ico</file>
+    <file>ressources/icons/simplify_dark_015.ico</file>
+    <file>ressources/icons/simplify_dark_016.ico</file>
+    <file>ressources/icons/simplify_dark_017.ico</file>
+    <file>ressources/icons/simplify_dark_018.ico</file>
+    <file>ressources/icons/simplify_dark_019.ico</file>
+    <file>ressources/icons/simplify_dark_020.ico</file>
+    <file>ressources/icons/simplify_dark_021.ico</file>
+    <file>ressources/icons/simplify_dark_022.ico</file>
+    <file>ressources/icons/simplify_dark_023.ico</file>
+    <file>ressources/icons/simplify_dark_024.ico</file>
+    <file>ressources/icons/simplify_dark_025.ico</file>
+    <file>ressources/icons/simplify_dark_026.ico</file>
+    <file>ressources/icons/simplify_dark_027.ico</file>
+    <file>ressources/icons/simplify_dark_028.ico</file>
+    <file>ressources/icons/simplify_dark_029.ico</file>
+    <file>ressources/icons/simplify_dark_030.ico</file>
+    <file>ressources/icons/simplify_dark_031.ico</file>
+    <file>ressources/icons/simplify_dark_032.ico</file>
+    <file>ressources/icons/simplify_dark_033.ico</file>
+    <file>ressources/icons/simplify_dark_034.ico</file>
+    <file>ressources/icons/simplify_dark_035.ico</file>
+    <file>ressources/icons/simplify_dark_036.ico</file>
+    <file>ressources/icons/simplify_dark_037.ico</file>
+    <file>ressources/icons/simplify_dark_038.ico</file>
+    <file>ressources/icons/simplify_dark_039.ico</file>
+    <file>ressources/icons/simplify_dark_040.ico</file>
+    <file>ressources/icons/simplify_dark_041.ico</file>
+    <file>ressources/icons/simplify_dark_042.ico</file>
+    <file>ressources/icons/simplify_dark_043.ico</file>
+    <file>ressources/icons/simplify_dark_044.ico</file>
+    <file>ressources/icons/simplify_dark_045.ico</file>
+    <file>ressources/icons/simplify_dark_046.ico</file>
+    <file>ressources/icons/simplify_dark_047.ico</file>
+    <file>ressources/icons/simplify_dark_048.ico</file>
+    <file>ressources/icons/simplify_dark_049.ico</file>
+    <file>ressources/icons/simplify_dark_050.ico</file>
+    <file>ressources/icons/simplify_dark_051.ico</file>
+    <file>ressources/icons/simplify_dark_052.ico</file>
+    <file>ressources/icons/simplify_dark_053.ico</file>
+    <file>ressources/icons/simplify_dark_054.ico</file>
+    <file>ressources/icons/simplify_dark_055.ico</file>
+    <file>ressources/icons/simplify_dark_056.ico</file>
+    <file>ressources/icons/simplify_dark_057.ico</file>
+    <file>ressources/icons/simplify_dark_058.ico</file>
+    <file>ressources/icons/simplify_dark_059.ico</file>
+    <file>ressources/icons/simplify_dark_060.ico</file>
+    <file>ressources/icons/simplify_dark_061.ico</file>
+    <file>ressources/icons/simplify_dark_062.ico</file>
+    <file>ressources/icons/simplify_dark_063.ico</file>
+    <file>ressources/icons/simplify_dark_064.ico</file>
+    <file>ressources/icons/simplify_dark_065.ico</file>
+    <file>ressources/icons/simplify_dark_066.ico</file>
+    <file>ressources/icons/simplify_dark_067.ico</file>
+    <file>ressources/icons/simplify_dark_068.ico</file>
+    <file>ressources/icons/simplify_dark_069.ico</file>
+    <file>ressources/icons/simplify_dark_070.ico</file>
+    <file>ressources/icons/simplify_dark_071.ico</file>
+    <file>ressources/icons/simplify_dark_072.ico</file>
+    <file>ressources/icons/simplify_dark_073.ico</file>
+    <file>ressources/icons/simplify_dark_074.ico</file>
+    <file>ressources/icons/simplify_dark_075.ico</file>
+    <file>ressources/icons/simplify_dark_076.ico</file>
+    <file>ressources/icons/simplify_dark_077.ico</file>
+    <file>ressources/icons/simplify_dark_078.ico</file>
+    <file>ressources/icons/simplify_dark_079.ico</file>
+    <file>ressources/icons/simplify_dark_080.ico</file>
+    <file>ressources/icons/simplify_dark_081.ico</file>
+    <file>ressources/icons/simplify_dark_082.ico</file>
+    <file>ressources/icons/simplify_dark_083.ico</file>
+    <file>ressources/icons/simplify_dark_084.ico</file>
+    <file>ressources/icons/simplify_dark_085.ico</file>
+    <file>ressources/icons/simplify_dark_086.ico</file>
+    <file>ressources/icons/simplify_dark_087.ico</file>
+    <file>ressources/icons/simplify_dark_088.ico</file>
+    <file>ressources/icons/simplify_dark_089.ico</file>
+    <file>ressources/icons/simplify_dark_090.ico</file>
+    <file>ressources/icons/simplify_dark_091.ico</file>
+    <file>ressources/icons/simplify_dark_092.ico</file>
+    <file>ressources/icons/simplify_dark_093.ico</file>
+    <file>ressources/icons/simplify_dark_094.ico</file>
+    <file>ressources/icons/simplify_dark_095.ico</file>
+    <file>ressources/icons/simplify_dark_096.ico</file>
+    <file>ressources/icons/simplify_dark_097.ico</file>
+    <file>ressources/icons/simplify_dark_098.ico</file>
+    <file>ressources/icons/simplify_dark_099.ico</file>
+    <file>ressources/icons/simplify_dark_100.ico</file>
+    <file>ressources/icons/simplify_dark_101.ico</file>
+    <file>ressources/icons/simplify_dark_102.ico</file>
+    <file>ressources/icons/simplify_dark_103.ico</file>
+    <file>ressources/icons/simplify_dark_104.ico</file>
+    <file>ressources/icons/simplify_dark_105.ico</file>
+    <file>ressources/icons/simplify_dark_106.ico</file>
+    <file>ressources/icons/simplify_dark_107.ico</file>
+    <file>ressources/icons/simplify_dark_108.ico</file>
+    <file>ressources/icons/simplify_dark_109.ico</file>
+    <file>ressources/icons/simplify_dark_110.ico</file>
+    <file>ressources/icons/simplify_dark_111.ico</file>
+    <file>ressources/icons/simplify_dark_113.ico</file>
+    <file>ressources/icons/simplify_dark_114.ico</file>
+    <file>ressources/icons/simplify_dark_115.ico</file>
+    <file>ressources/icons/simplify_dark_116.ico</file>
+    <file>ressources/icons/simplify_dark_117.ico</file>
+    <file>ressources/icons/simplify_dark_118.ico</file>
+    <file>ressources/icons/simplify_dark_119.ico</file>
+    <file>ressources/icons/simplify_dark_120.ico</file>
+    <file>ressources/icons/simplify_dark_121.ico</file>
+    <file>ressources/icons/simplify_dark_122.ico</file>
+    <file>ressources/icons/simplify_dark_123.ico</file>
+    <file>ressources/icons/simplify_dark_124.ico</file>
+    <file>ressources/icons/simplify_dark_125.ico</file>
+    <file>ressources/icons/simplify_dark_126.ico</file>
+    <file>ressources/icons/simplify_dark_127.ico</file>
+    <file>ressources/icons/simplify_dark_128.ico</file>
+    <file>ressources/icons/simplify_dark_129.ico</file>
+    <file>ressources/icons/simplify_dark_130.ico</file>
+    <file>ressources/icons/simplify_dark_131.ico</file>
+    <file>ressources/icons/simplify_dark_132.ico</file>
+    <file>ressources/icons/simplify_dark_133.ico</file>
+    <file>ressources/icons/simplify_dark_134.ico</file>
+    <file>ressources/icons/simplify_dark_135.ico</file>
+    <file>ressources/icons/simplify_dark_136.ico</file>
+    <file>ressources/icons/simplify_dark_137.ico</file>
+    <file>ressources/icons/simplify_dark_138.ico</file>
+    <file>ressources/icons/simplify_dark_139.ico</file>
+    <file>ressources/icons/simplify_dark_140.ico</file>
+    <file>ressources/icons/simplify_dark_141.ico</file>
+    <file>ressources/icons/simplify_dark_142.ico</file>
+    <file>ressources/icons/simplify_dark_143.ico</file>
+    <file>ressources/icons/simplify_dark_144.ico</file>
+    <file>ressources/icons/simplify_dark_145.ico</file>
+    <file>ressources/icons/simplify_dark_146.ico</file>
+    <file>ressources/icons/simplify_dark_147.ico</file>
+    <file>ressources/icons/simplify_dark_148.ico</file>
+    <file>ressources/icons/simplify_dark_149.ico</file>
+    <file>ressources/icons/simplify_dark_150.ico</file>
+    <file>ressources/icons/simplify_dark_151.ico</file>
+    <file>ressources/icons/simplify_dark_152.ico</file>
+    <file>ressources/icons/simplify_dark_153.ico</file>
+    <file>ressources/icons/simplify_dark_154.ico</file>
+    <file>ressources/icons/simplify_dark_155.ico</file>
+    <file>ressources/icons/simplify_dark_156.ico</file>
+    <file>ressources/icons/simplify_dark_157.ico</file>
+    <file>ressources/icons/simplify_dark_158.ico</file>
+    <file>ressources/icons/simplify_dark_159.ico</file>
+    <file>ressources/icons/simplify_dark_160.ico</file>
+    <file>ressources/icons/simplify_dark_161.ico</file>
+    <file>ressources/icons/simplify_dark_162.ico</file>
+    <file>ressources/icons/simplify_dark_163.ico</file>
+    <file>ressources/icons/simplify_dark_164.ico</file>
+    <file>ressources/icons/simplify_dark_165.ico</file>
+    <file>ressources/icons/simplify_dark_166.ico</file>
+    <file>ressources/icons/simplify_dark_167.ico</file>
+    <file>ressources/icons/simplify_dark_168.ico</file>
+    <file>ressources/icons/simplify_dark_169.ico</file>
+    <file>ressources/icons/simplify_dark_170.ico</file>
+    <file>ressources/icons/simplify_dark_171.ico</file>
+    <file>ressources/icons/simplify_dark_172.ico</file>
+    <file>ressources/icons/simplify_dark_173.ico</file>
+    <file>ressources/icons/simplify_dark_174.ico</file>
+    <file>ressources/icons/simplify_dark_175.ico</file>
+    <file>ressources/icons/simplify_dark_176.ico</file>
+    <file>ressources/icons/simplify_light_001.ico</file>
+    <file>ressources/icons/simplify_light_002.ico</file>
+    <file>ressources/icons/simplify_light_003.ico</file>
+    <file>ressources/icons/simplify_light_004.ico</file>
+    <file>ressources/icons/simplify_light_005.ico</file>
+    <file>ressources/icons/simplify_light_006.ico</file>
+    <file>ressources/icons/simplify_light_007.ico</file>
+    <file>ressources/icons/simplify_light_008.ico</file>
+    <file>ressources/icons/simplify_light_009.ico</file>
+    <file>ressources/icons/simplify_light_010.ico</file>
+    <file>ressources/icons/simplify_light_011.ico</file>
+    <file>ressources/icons/simplify_light_012.ico</file>
+    <file>ressources/icons/simplify_light_013.ico</file>
+    <file>ressources/icons/simplify_light_014.ico</file>
+    <file>ressources/icons/simplify_light_015.ico</file>
+    <file>ressources/icons/simplify_light_016.ico</file>
+    <file>ressources/icons/simplify_light_017.ico</file>
+    <file>ressources/icons/simplify_light_018.ico</file>
+    <file>ressources/icons/simplify_light_019.ico</file>
+    <file>ressources/icons/simplify_light_020.ico</file>
+    <file>ressources/icons/simplify_light_021.ico</file>
+    <file>ressources/icons/simplify_light_022.ico</file>
+    <file>ressources/icons/simplify_light_023.ico</file>
+    <file>ressources/icons/simplify_light_024.ico</file>
+    <file>ressources/icons/simplify_light_025.ico</file>
+    <file>ressources/icons/simplify_light_026.ico</file>
+    <file>ressources/icons/simplify_light_027.ico</file>
+    <file>ressources/icons/simplify_light_028.ico</file>
+    <file>ressources/icons/simplify_light_029.ico</file>
+    <file>ressources/icons/simplify_light_030.ico</file>
+    <file>ressources/icons/simplify_light_031.ico</file>
+    <file>ressources/icons/simplify_light_032.ico</file>
+    <file>ressources/icons/simplify_light_033.ico</file>
+    <file>ressources/icons/simplify_light_034.ico</file>
+    <file>ressources/icons/simplify_light_035.ico</file>
+    <file>ressources/icons/simplify_light_036.ico</file>
+    <file>ressources/icons/simplify_light_037.ico</file>
+    <file>ressources/icons/simplify_light_038.ico</file>
+    <file>ressources/icons/simplify_light_039.ico</file>
+    <file>ressources/icons/simplify_light_040.ico</file>
+    <file>ressources/icons/simplify_light_041.ico</file>
+    <file>ressources/icons/simplify_light_042.ico</file>
+    <file>ressources/icons/simplify_light_043.ico</file>
+    <file>ressources/icons/simplify_light_044.ico</file>
+    <file>ressources/icons/simplify_light_045.ico</file>
+    <file>ressources/icons/simplify_light_046.ico</file>
+    <file>ressources/icons/simplify_light_047.ico</file>
+    <file>ressources/icons/simplify_light_048.ico</file>
+    <file>ressources/icons/simplify_light_049.ico</file>
+    <file>ressources/icons/simplify_light_050.ico</file>
+    <file>ressources/icons/simplify_light_051.ico</file>
+    <file>ressources/icons/simplify_light_052.ico</file>
+    <file>ressources/icons/simplify_light_053.ico</file>
+    <file>ressources/icons/simplify_light_054.ico</file>
+    <file>ressources/icons/simplify_light_055.ico</file>
+    <file>ressources/icons/simplify_light_056.ico</file>
+    <file>ressources/icons/simplify_light_057.ico</file>
+    <file>ressources/icons/simplify_light_058.ico</file>
+    <file>ressources/icons/simplify_light_059.ico</file>
+    <file>ressources/icons/simplify_light_060.ico</file>
+    <file>ressources/icons/simplify_light_061.ico</file>
+    <file>ressources/icons/simplify_light_062.ico</file>
+    <file>ressources/icons/simplify_light_063.ico</file>
+    <file>ressources/icons/simplify_light_064.ico</file>
+    <file>ressources/icons/simplify_light_065.ico</file>
+    <file>ressources/icons/simplify_light_066.ico</file>
+    <file>ressources/icons/simplify_light_067.ico</file>
+    <file>ressources/icons/simplify_light_068.ico</file>
+    <file>ressources/icons/simplify_light_069.ico</file>
+    <file>ressources/icons/simplify_light_070.ico</file>
+    <file>ressources/icons/simplify_light_071.ico</file>
+    <file>ressources/icons/simplify_light_072.ico</file>
+    <file>ressources/icons/simplify_light_073.ico</file>
+    <file>ressources/icons/simplify_light_074.ico</file>
+    <file>ressources/icons/simplify_light_075.ico</file>
+    <file>ressources/icons/simplify_light_076.ico</file>
+    <file>ressources/icons/simplify_light_077.ico</file>
+    <file>ressources/icons/simplify_light_078.ico</file>
+    <file>ressources/icons/simplify_light_079.ico</file>
+    <file>ressources/icons/simplify_light_080.ico</file>
+    <file>ressources/icons/simplify_light_081.ico</file>
+    <file>ressources/icons/simplify_light_082.ico</file>
+    <file>ressources/icons/simplify_light_083.ico</file>
+    <file>ressources/icons/simplify_light_084.ico</file>
+    <file>ressources/icons/simplify_light_085.ico</file>
+    <file>ressources/icons/simplify_light_086.ico</file>
+    <file>ressources/icons/simplify_light_087.ico</file>
+    <file>ressources/icons/simplify_light_088.ico</file>
+    <file>ressources/icons/simplify_light_089.ico</file>
+    <file>ressources/icons/simplify_light_090.ico</file>
+    <file>ressources/icons/simplify_light_091.ico</file>
+    <file>ressources/icons/simplify_light_092.ico</file>
+    <file>ressources/icons/simplify_light_093.ico</file>
+    <file>ressources/icons/simplify_light_094.ico</file>
+    <file>ressources/icons/simplify_light_095.ico</file>
+    <file>ressources/icons/simplify_light_096.ico</file>
+    <file>ressources/icons/simplify_light_097.ico</file>
+    <file>ressources/icons/simplify_light_098.ico</file>
+    <file>ressources/icons/simplify_light_099.ico</file>
+    <file>ressources/icons/simplify_light_100.ico</file>
+    <file>ressources/icons/simplify_light_101.ico</file>
+    <file>ressources/icons/simplify_light_102.ico</file>
+    <file>ressources/icons/simplify_light_103.ico</file>
+    <file>ressources/icons/simplify_light_104.ico</file>
+    <file>ressources/icons/simplify_light_105.ico</file>
+    <file>ressources/icons/simplify_light_106.ico</file>
+    <file>ressources/icons/simplify_light_107.ico</file>
+    <file>ressources/icons/simplify_light_108.ico</file>
+    <file>ressources/icons/simplify_light_109.ico</file>
+    <file>ressources/icons/simplify_light_110.ico</file>
+    <file>ressources/icons/simplify_light_111.ico</file>
+    <file>ressources/icons/simplify_light_113.ico</file>
+    <file>ressources/icons/simplify_light_114.ico</file>
+    <file>ressources/icons/simplify_light_115.ico</file>
+    <file>ressources/icons/simplify_light_116.ico</file>
+    <file>ressources/icons/simplify_light_117.ico</file>
+    <file>ressources/icons/simplify_light_118.ico</file>
+    <file>ressources/icons/simplify_light_119.ico</file>
+    <file>ressources/icons/simplify_light_120.ico</file>
+    <file>ressources/icons/simplify_light_121.ico</file>
+    <file>ressources/icons/simplify_light_122.ico</file>
+    <file>ressources/icons/simplify_light_123.ico</file>
+    <file>ressources/icons/simplify_light_124.ico</file>
+    <file>ressources/icons/simplify_light_125.ico</file>
+    <file>ressources/icons/simplify_light_126.ico</file>
+    <file>ressources/icons/simplify_light_127.ico</file>
+    <file>ressources/icons/simplify_light_128.ico</file>
+    <file>ressources/icons/simplify_light_129.ico</file>
+    <file>ressources/icons/simplify_light_130.ico</file>
+    <file>ressources/icons/simplify_light_131.ico</file>
+    <file>ressources/icons/simplify_light_132.ico</file>
+    <file>ressources/icons/simplify_light_133.ico</file>
+    <file>ressources/icons/simplify_light_134.ico</file>
+    <file>ressources/icons/simplify_light_135.ico</file>
+    <file>ressources/icons/simplify_light_136.ico</file>
+    <file>ressources/icons/simplify_light_137.ico</file>
+    <file>ressources/icons/simplify_light_138.ico</file>
+    <file>ressources/icons/simplify_light_139.ico</file>
+    <file>ressources/icons/simplify_light_140.ico</file>
+    <file>ressources/icons/simplify_light_141.ico</file>
+    <file>ressources/icons/simplify_light_142.ico</file>
+    <file>ressources/icons/simplify_light_143.ico</file>
+    <file>ressources/icons/simplify_light_144.ico</file>
+    <file>ressources/icons/simplify_light_145.ico</file>
+    <file>ressources/icons/simplify_light_146.ico</file>
+    <file>ressources/icons/simplify_light_147.ico</file>
+    <file>ressources/icons/simplify_light_148.ico</file>
+    <file>ressources/icons/simplify_light_149.ico</file>
+    <file>ressources/icons/simplify_light_150.ico</file>
+    <file>ressources/icons/simplify_light_151.ico</file>
+    <file>ressources/icons/simplify_light_152.ico</file>
+    <file>ressources/icons/simplify_light_153.ico</file>
+    <file>ressources/icons/simplify_light_154.ico</file>
+    <file>ressources/icons/simplify_light_155.ico</file>
+    <file>ressources/icons/simplify_light_156.ico</file>
+    <file>ressources/icons/simplify_light_157.ico</file>
+    <file>ressources/icons/simplify_light_158.ico</file>
+    <file>ressources/icons/simplify_light_159.ico</file>
+    <file>ressources/icons/simplify_light_160.ico</file>
+    <file>ressources/icons/simplify_light_161.ico</file>
+    <file>ressources/icons/simplify_light_162.ico</file>
+    <file>ressources/icons/simplify_light_163.ico</file>
+    <file>ressources/icons/simplify_light_164.ico</file>
+    <file>ressources/icons/simplify_light_165.ico</file>
+    <file>ressources/icons/simplify_light_166.ico</file>
+    <file>ressources/icons/simplify_light_167.ico</file>
+    <file>ressources/icons/simplify_light_168.ico</file>
+    <file>ressources/icons/simplify_light_169.ico</file>
+    <file>ressources/icons/simplify_light_170.ico</file>
+    <file>ressources/icons/simplify_light_171.ico</file>
+    <file>ressources/icons/simplify_light_172.ico</file>
+    <file>ressources/icons/simplify_light_173.ico</file>
+    <file>ressources/icons/simplify_light_174.ico</file>
+    <file>ressources/icons/simplify_light_175.ico</file>
+    <file>ressources/icons/simplify_light_176.ico</file>
+    <file>ressources/icons/Sketchup Dark.ico</file>
+    <file>ressources/icons/Sketchup Light.ico</file>
+    <file>ressources/icons/Sketchup.ico</file>
+    <file>ressources/icons/Skype.ico</file>
+    <file>ressources/icons/Slide Show.ico</file>
+    <file>ressources/icons/Slide Show.png</file>
+    <file>ressources/icons/Slideshow.ico</file>
+    <file>ressources/icons/Sound.ico</file>
+    <file>ressources/icons/Speaker.ico</file>
+    <file>ressources/icons/Spinning Beach Ball.ico</file>
+    <file>ressources/icons/Spinning Beach Ball.png</file>
+    <file>ressources/icons/Spotify.ico</file>
+    <file>ressources/icons/Status.ico</file>
+    <file>ressources/icons/Status.png</file>
+    <file>ressources/icons/Steam.ico</file>
+    <file>ressources/icons/stop.ico</file>
+    <file>ressources/icons/Stoplight.ico</file>
+    <file>ressources/icons/Stoplight.png</file>
+    <file>ressources/icons/Stopwatch » Off.ico</file>
+    <file>ressources/icons/Stopwatch » Off.png</file>
+    <file>ressources/icons/Stopwatch » On.ico</file>
+    <file>ressources/icons/Stopwatch » On.png</file>
+    <file>ressources/icons/StyleBuilder Dark.ico</file>
+    <file>ressources/icons/StyleBuilder Light.ico</file>
+    <file>ressources/icons/Suit.ico</file>
+    <file>ressources/icons/Suit.png</file>
+    <file>ressources/icons/Tape-Measure.ico</file>
+    <file>ressources/icons/Tape-Measure-icon.png</file>
+    <file>ressources/icons/Task Manager.ico</file>
+    <file>ressources/icons/Thunderbird.ico</file>
+    <file>ressources/icons/Time » Machine.ico</file>
+    <file>ressources/icons/Time » Machine.png</file>
+    <file>ressources/icons/Top Hat » Magic Wand.ico</file>
+    <file>ressources/icons/Top Hat » Magic Wand.png</file>
+    <file>ressources/icons/Top Hat » Magic.ico</file>
+    <file>ressources/icons/Top Hat » Magic.png</file>
+    <file>ressources/icons/Top Hat » Wand.ico</file>
+    <file>ressources/icons/Top Hat » Wand.png</file>
+    <file>ressources/icons/Top Hat.ico</file>
+    <file>ressources/icons/Top Hat.png</file>
+    <file>ressources/icons/Traffic » Link.ico</file>
+    <file>ressources/icons/Traffic » Link.png</file>
+    <file>ressources/icons/Traffic » No Entry.ico</file>
+    <file>ressources/icons/Traffic » No Entry.png</file>
+    <file>ressources/icons/Traffic » Stop.ico</file>
+    <file>ressources/icons/Traffic » Stop.png</file>
+    <file>ressources/icons/Traffic » Warning.ico</file>
+    <file>ressources/icons/Traffic » Warning.png</file>
+    <file>ressources/icons/Traffic » Yield.ico</file>
+    <file>ressources/icons/Traffic » Yield.png</file>
+    <file>ressources/icons/transfer.ico</file>
+    <file>ressources/icons/Trash » Empty.ico</file>
+    <file>ressources/icons/Trash » Empty.png</file>
+    <file>ressources/icons/Trash » Full.ico</file>
+    <file>ressources/icons/Trash » Full.png</file>
+    <file>ressources/icons/Trash.ico</file>
+    <file>ressources/icons/Trash.png</file>
+    <file>ressources/icons/Trees.ico</file>
+    <file>ressources/icons/Trees.png</file>
+    <file>ressources/icons/Trillian.ico</file>
+    <file>ressources/icons/Tuneup-Utilities.ico</file>
+    <file>ressources/icons/Twitter » Mention.ico</file>
+    <file>ressources/icons/Twitter » Mention.png</file>
+    <file>ressources/icons/Twitter » Retweet.ico</file>
+    <file>ressources/icons/Twitter » Retweet.png</file>
+    <file>ressources/icons/Twitter.ico</file>
+    <file>ressources/icons/Twitter.png</file>
+    <file>ressources/icons/UI » Appearance.ico</file>
+    <file>ressources/icons/UI » Appearance.png</file>
+    <file>ressources/icons/UI » Debug.ico</file>
+    <file>ressources/icons/UI » Debug.png</file>
+    <file>ressources/icons/UI » Drawer.ico</file>
+    <file>ressources/icons/UI » Drawer.png</file>
+    <file>ressources/icons/UI » Finder.ico</file>
+    <file>ressources/icons/UI » Finder.png</file>
+    <file>ressources/icons/UI » Inspector.ico</file>
+    <file>ressources/icons/UI » Inspector.png</file>
+    <file>ressources/icons/UI » List Window.ico</file>
+    <file>ressources/icons/UI » List Window.png</file>
+    <file>ressources/icons/UI » Movie Window.ico</file>
+    <file>ressources/icons/UI » Movie Window.png</file>
+    <file>ressources/icons/UI » Movie.ico</file>
+    <file>ressources/icons/UI » Movie.png</file>
+    <file>ressources/icons/UI » Rulers.ico</file>
+    <file>ressources/icons/UI » Rulers.png</file>
+    <file>ressources/icons/UI » Sidebar.ico</file>
+    <file>ressources/icons/UI » Sidebar.png</file>
+    <file>ressources/icons/UI » Text.ico</file>
+    <file>ressources/icons/UI » Text.png</file>
+    <file>ressources/icons/UI » Window.ico</file>
+    <file>ressources/icons/UI » Window.png</file>
+    <file>ressources/icons/Uiconstock-Round-Papercut-Social-Github.ico</file>
+    <file>ressources/icons/Update.ico</file>
+    <file>ressources/icons/user.ico</file>
+    <file>ressources/icons/User.png</file>
+    <file>ressources/icons/Users.ico</file>
+    <file>ressources/icons/Users.png</file>
+    <file>ressources/icons/uTorrent.ico</file>
+    <file>ressources/icons/Videos.ico</file>
+    <file>ressources/icons/Vise-Vice-Clamp.ico</file>
+    <file>ressources/icons/Vise-Vice-Clamp-icon.png</file>
+    <file>ressources/icons/Visualpharm-Russian-Serp-molot.ico</file>
+    <file>ressources/icons/VisualStudio.ico</file>
+    <file>ressources/icons/VLC.ico</file>
+    <file>ressources/icons/VMWare.ico</file>
+    <file>ressources/icons/VoIP.ico</file>
+    <file>ressources/icons/VoIP-Alt.ico</file>
+    <file>ressources/icons/Wacom_by_Artdesigner.lv.ico</file>
+    <file>ressources/icons/Wacom_by_Artdesigner.lv.png</file>
+    <file>ressources/icons/Wall Clock » Past.ico</file>
+    <file>ressources/icons/Wall Clock » Past.png</file>
+    <file>ressources/icons/Wall Clock » Time Machine.ico</file>
+    <file>ressources/icons/Wall Clock » Time Machine.png</file>
+    <file>ressources/icons/Wall Clock.ico</file>
+    <file>ressources/icons/Wall Clock.png</file>
+    <file>ressources/icons/Wallet » Money.ico</file>
+    <file>ressources/icons/Wallet » Money.png</file>
+    <file>ressources/icons/Wallet.ico</file>
+    <file>ressources/icons/Wallet.png</file>
+    <file>ressources/icons/Wand » Magic.ico</file>
+    <file>ressources/icons/Wand » Magic.png</file>
+    <file>ressources/icons/Wand.ico</file>
+    <file>ressources/icons/Wand.png</file>
+    <file>ressources/icons/Webcam.ico</file>
+    <file>ressources/icons/Website » Alias.ico</file>
+    <file>ressources/icons/Website » Alias.png</file>
+    <file>ressources/icons/Website » Download.ico</file>
+    <file>ressources/icons/Website » Download.png</file>
+    <file>ressources/icons/Website » Link.ico</file>
+    <file>ressources/icons/Website » Link.png</file>
+    <file>ressources/icons/Website.ico</file>
+    <file>ressources/icons/Website.png</file>
+    <file>ressources/icons/Windows Store.ico</file>
+    <file>ressources/icons/Windows.ico</file>
+    <file>ressources/icons/WinRAR.ico</file>
+    <file>ressources/icons/WoodMannequin_by_Artdesigner.lv.ico</file>
+    <file>ressources/icons/WoodMannequin_by_Artdesigner.lv.png</file>
+    <file>ressources/icons/Word-Processor.ico</file>
+    <file>ressources/icons/Working-Bench.ico</file>
+    <file>ressources/icons/Working-Bench-icon.png</file>
+    <file>ressources/icons/Workstation_by_Artdesigner.lv.ico</file>
+    <file>ressources/icons/Workstation_by_Artdesigner.lv.png</file>
+    <file>ressources/icons/Wrench.ico</file>
+    <file>ressources/icons/Wrench1.ico</file>
+    <file>ressources/icons/Wrench2.ico</file>
+    <file>ressources/icons/Wrench-icon.png</file>
+    <file>ressources/icons/Writing.ico</file>
+    <file>ressources/icons/Youtube.ico</file>
+    <file>ressources/icons/Zip.ico</file>
+    <file>ressources/icons/Zune.ico</file>
+  </qresource>
+</RCC>
