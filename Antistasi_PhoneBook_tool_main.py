@@ -108,11 +108,41 @@ class PhoneBookMainGui(mgui.Ui_MainWindow):
 
         self.snippets_createsnippets_button.pressed.connect(self.open_snippet_window)
 
-        self.task_createtask_button.pressed.connect(lambda: print('TODO:'))
+        self.task_createtask_button.pressed.connect(self.create_task_json)
 
         self.actionopen_Settings.triggered.connect(self.open_config_window)
 
 # endregion [Actions]
+
+
+
+    def create_task_json(self):
+        _json = r"""        {
+            "label": "Antistasi_PhoneBook",
+            "type": "shell",
+            "command": "%REPLACE_EXELOC%",
+            "args": ["${fileDirname}\\${fileBasename}"],
+            "group": {
+                "kind": "none",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": true
+            },
+            "problemMatcher": []
+        },"""
+
+        _output = _json.replace('%REPLACE_EXELOC%', gil.pathmaker('cwd', 'PhoneBook_vsc_helper.exe'))
+        with open(gil.pathmaker('cwd', 'task_json.txt'), 'w') as jfile:
+            jfile.write(_output)
+        self.dialog_creator.information_dialog('the Json text was created as a .txt file\nplease open VS code -> F1 -> configure task, and paste the text', in_detail_message='', in_title='Json Blueprint created')
+
+
     def first_start(self):
         self.dialog_creator.information_dialog('As this is the first launch, you will have to configurate the paths.\n\n The configuration window will now open up\n afterward the Database will be created', in_detail_message='', in_title='need to set paths')
         dialog = QtWidgets.QDialog()
