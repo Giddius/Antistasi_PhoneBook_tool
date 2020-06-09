@@ -1,21 +1,22 @@
 ![Antistasi Phone Book Logo](/ressources/misc/Antistasi_PhoneBook256.png)
 ---
 
-- [Antistasi PhoneBook tool](#antistasi-phonebook-tool)
-  - [Description](#description)
+- [1. Antistasi PhoneBook tool](#1-antistasi-phonebook-tool)
+  - [1.1. Description](#11-description)
 
-  - [How](#how)
-    - [planned stages of development to 1.0](#planned-stages-of-development-to-10)
-      - [maybe](#maybe)
+  - [1.2. How to use currently](#12-how-to-use-currently)
+      - [Main View](#main-view)
+      - [Query View](#query-view)
+      - [Snippet Window](#snippet-window)
+      - [Configurator](#configurator)
+    - [1.2.2. Status](#122-status)
+    - [1.2.3. Dependencies](#123-dependencies)
+  - [1.3. Contributing to the mod](#13-contributing-to-the-mod)
+  - [1.4. External Resources](#14-external-resources)
+    - [1.4.1. General Links](#141-general-links)
 
-    - [Status](#status)
-    - [Dependencies](#dependencies)
-  - [Contributing to the mod](#contributing-to-the-mod)
-  - [External Resources](#external-resources)
-    - [General Links](#general-links)
-
-  - [Authors](#authors)
-  - [License](#license)
+  - [1.5. Authors](#15-authors)
+  - [1.6. License](#16-license)
 
 # 1. Antistasi PhoneBook tool
 
