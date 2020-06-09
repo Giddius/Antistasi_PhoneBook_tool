@@ -1,21 +1,22 @@
 ![Antistasi Phone Book Logo](/ressources/misc/Antistasi_PhoneBook256.png)
 ---
 
-- [Antistasi PhoneBook tool](#antistasi-phonebook-tool)
-  - [Description](#description)
+- [1. Antistasi PhoneBook tool](#1-antistasi-phonebook-tool)
+  - [1.1. Description](#11-description)
 
-  - [How](#how)
-    - [planned stages of development to 1.0](#planned-stages-of-development-to-10)
-      - [maybe](#maybe)
+  - [1.2. How to use currently](#12-how-to-use-currently)
+      - [Main View](#main-view)
+      - [Query View](#query-view)
+      - [Snippet Window](#snippet-window)
+      - [Configurator](#configurator)
+    - [1.2.2. Status](#122-status)
+    - [1.2.3. Dependencies](#123-dependencies)
+  - [1.3. Contributing to the mod](#13-contributing-to-the-mod)
+  - [1.4. External Resources](#14-external-resources)
+    - [1.4.1. General Links](#141-general-links)
 
-    - [Status](#status)
-    - [Dependencies](#dependencies)
-  - [Contributing to the mod](#contributing-to-the-mod)
-  - [External Resources](#external-resources)
-    - [General Links](#general-links)
-
-  - [Authors](#authors)
-  - [License](#license)
+  - [1.5. Authors](#15-authors)
+  - [1.6. License](#16-license)
 
 # 1. Antistasi PhoneBook tool
 
@@ -26,7 +27,7 @@
 ## 1.1. Description
 
 The goal of this Project is to make a tool that can tell the Dev team of the Antistasi mod, which files call on which functions and also if you provide a file, show which other files rely on it.
-Secondary it should make a Graphviz graph to visually show the Antistasi function network.
+
 
 ***
 ---
@@ -43,35 +44,34 @@ Secondary it should make a Graphviz graph to visually show the Antistasi functio
 
 ## 1.2. How to use currently
 
-after downloading the release, extract the folder and run "configurator.exe". afterwards run "Antistasi_PhoneBook_tool.exe" and select rebuild Database form the toolbar.
+just extract the files and start "Antistasi_PhoneBook.exe" it will automatically start the configurator and build the db.
 
-### 1.2.1. planned stages of development to 1.0
+#### Main View
 
-1. [X] python code to get all functions and files
-2. [X] python code to interface with SQLite
-3. [X] SQLite DB to store the caller list and query items
-4. [X] GUI interface for all that (tkinter?)
+![Main View](/ressources/images/main_view2.png)
 
-#### 1.2.1.1. maybe
+![Main View Tab 2](/ressources/images/main_view1.png)
 
-stuff that I see as advantages, but currently know to little to implement or even know if it is possible:
->
-> * travis integration
-> * IDE integration as Plugin
-> * changes to work with any ArmA 3 project
+#### Query View
 
-***
+![Query view all](/ressources/images/query_all.png)
 
-***
----
+#### Snippet Window
+
+![snippets](/ressources/images/snippets.png)
+
+#### Configurator
+
+![configurator](/ressources/images/configuration.png)
+
 
 ### 1.2.2. Status
 
-almost feature complete
+released version 1.0
 
 ### 1.2.3. Dependencies
 
-none
+- cloned Antistasi repository
 
 ***
 
@@ -102,7 +102,7 @@ Feel free to contribute as I honestly will need all the help I can get!
 
 - [Antistasi Github](https://github.com/official-antistasi-community/A3-Antistasi)
 
-- Icons made by <http://www.doublejdesign.co.uk/>
+
 
 ***
 ---
@@ -113,4 +113,4 @@ Giddi
 
 ## 1.6. License
 
-TODO
+Do what you see fit with it, you don't even have to credit me, but please no selling it directly.
