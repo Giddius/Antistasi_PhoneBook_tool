@@ -1,5 +1,5 @@
 import self_created.gid_land as gil
-import pprint
+
 
 
 def get_all_calls(as_filepath=False):
@@ -19,9 +19,6 @@ def get_all_calls(as_filepath=False):
 
     for k, v in _results:
         _output.setdefault(v, []).append(k)
-
-
-
 
     return _output
 

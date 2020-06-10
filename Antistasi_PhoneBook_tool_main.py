@@ -1,25 +1,23 @@
 # region [Imports]
 
-import os
+
+import self_created.gid_land as gil
+import self_created.gid_qt as giq
 import sys
 
-import pyperclip
-from PyQt5 import QtCore, QtGui, QtWidgets
-from PyQt5.QtCore import QSize
-from PyQt5.QtGui import QIcon, QPixmap, QFont
-from PyQt5.QtWidgets import QDialog, QFileDialog, QMessageBox, QTreeWidgetItem
+from PyQt5 import QtWidgets
+from PyQt5.QtGui import QFont
+from PyQt5.QtWidgets import QTreeWidgetItem
 
 import DB_initiate
+import PhoneBook_tool_ressources_rc
 import query_all_calls
 import query_from_file
 import query_from_fnc
 import ui_Antistasi_PhoneBook_tool as mgui
 from Antistasi_PhoneBook_tool_configuration import Configurator as cfgurator
 from Antistasi_PhoneBook_tool_snippet import SnippetWindow as snippet
-import PhoneBook_tool_ressources_rc
-import self_created.gid_qt as giq
-import self_created.gid_land as gil
-import pprint
+
 
 # endregion [Imports]
 def conspire_the_triumvirate():
@@ -43,7 +41,7 @@ class PhoneBookMainGui(mgui.Ui_MainWindow):
         self.current_view = ''
         self.search_singlefile_radiobutton.toggle()
         self.snippets_forvsc_radiobutton.toggle()
-        if self.db_tv.inspect_db_status() is 'EXISTING':
+        if self.db_tv.inspect_db_status() == 'EXISTING':
             self.fncnumber_lcdnumber.display(self.get_fnc_number())
         self.db_status_lineedit.setText(self.check_db())
         self.fontsize_spinbox.setValue(12)
@@ -66,7 +64,7 @@ class PhoneBookMainGui(mgui.Ui_MainWindow):
         if self.db_tv.inspect_db_status() == 'NOT_EXISTING':
             self.show_ask_popup()
 
-        if self.db_tv.inspect_db_status() is 'EXISTING':
+        if self.db_tv.inspect_db_status() == 'EXISTING':
             self.fncnumber_lcdnumber.display(self.get_fnc_number())
         self.db_status_lineedit.setText(self.check_db())
     def set_disabled(self):
@@ -117,11 +115,31 @@ class PhoneBookMainGui(mgui.Ui_MainWindow):
 
 
     def create_task_json(self):
-        _json = r"""        {
-            "label": "Antistasi_PhoneBook",
+        _json = r"""
+        {
+            "label": "Antistasi_PhoneBook_current_file",
             "type": "shell",
             "command": "%REPLACE_EXELOC%",
-            "args": ["${fileDirname}\\${fileBasename}"],
+            "args": ["${fileBasename}"],
+            "group": {
+                "kind": "none",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Antistasi_PhoneBook_selected_function",
+            "type": "shell",
+            "command": "%REPLACE_EXELOC%",
+            "args": ["${selectedText}"],
             "group": {
                 "kind": "none",
                 "isDefault": true
@@ -173,8 +191,8 @@ class PhoneBookMainGui(mgui.Ui_MainWindow):
         _output = '\n'
         _output += "\n'.source.sqf':\n"
         for rows in _raw_output:
-            _shorter_name = rows[0].replace('JN_fnc_', '')
-            _shorter_name = _shorter_name.replace('A3A_fnc_', '')
+            _temp_shorter_name = rows[0].split('_', 2)
+            _shorter_name = _temp_shorter_name[2]
             _withprefix = self.snippets_prefix_lineedit.text() + _shorter_name
             _output += "\n\t'{}':\n\t\t".format(rows[0])
             _output += "'prefix': '{}'\n\t\t".format(_withprefix)
@@ -185,8 +203,8 @@ class PhoneBookMainGui(mgui.Ui_MainWindow):
         _raw_output = query_all_calls.get_all_functions()
         _output = '\n'
         for rows in _raw_output:
-            _shorter_name = rows[0].replace('JN_fnc_', '')
-            _shorter_name = _shorter_name.replace('A3A_fnc_', '')
+            _temp_shorter_name = rows[0].split('_', 2)
+            _shorter_name = _temp_shorter_name[2]
             _withprefix = self.snippets_prefix_lineedit.text() + _shorter_name
             _output += '\n{\n\t'
             _output += '"{0}": '.format('AS_function' + _shorter_name)
@@ -280,7 +298,10 @@ class PhoneBookMainGui(mgui.Ui_MainWindow):
 
     def show_ask_popup(self):
         _message = 'Do you really want to rebuild the Database?\n this can take up to 2 minutes!\n programm will not react in that time!'
-        self.dialog_creator.information_dialog(_message, in_detail_message='', in_title='rebuild the Database?', in_fnc=DB_initiate.PhoneBook_create_search_db)
+        self.dialog_creator.information_dialog(_message, in_detail_message='', in_title='rebuild the Database?', in_fnc=self.initiate_db_again)
+
+    def initiate_db_again(self):
+        DB_initiate.PhoneBook_create_search_db()
 
     def start_search(self):
 
@@ -334,7 +355,7 @@ class PhoneBookMainGui(mgui.Ui_MainWindow):
                         _sec_item.setExpanded(True)
                     self.current_view = ('file', _cleaned_name, self.options_asfilepath_checkbox.isChecked())
 
-                elif 'A3A' in str(self.search_fileinput_lineedit.text()):
+                elif '_fnc_' in str(self.search_fileinput_lineedit.text()):
                     _raw_output = query_from_fnc.query_from_fnc(_cleaned_name, full_path=self.options_asfilepath_checkbox.isChecked())
                     _mainitem = _cleaned_name
                     _mainitem = QTreeWidgetItem(self.output_treewidget)

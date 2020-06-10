@@ -5,7 +5,7 @@ import armaclass
 import os
 import re
 import self_created.gid_land as gil
-import pprint
+
 
 # endregion [Imports]
 
@@ -65,6 +65,7 @@ class PhoneBookInitializer:
             for file in files:
                 if file_type in file:
                     _named_dict[_id] = [gil.pathmaker(roots, file), file]
+
                     _id += 1
 
     def getfunctions(self):
@@ -79,6 +80,7 @@ class PhoneBookInitializer:
                         functfile = 'fn_' + function + '.sqf'
                         pathfull = gil.pathmaker(source_functions_folder, folder, functfile)
                         self.fnc_dict[fnc_id] = [pathfull, functfile, funct]
+
                         fnc_id += 1
 
 
@@ -172,6 +174,7 @@ def PhoneBook_create_search_db():
         database.execute_phrase(database.sql_input['ins_call_list_tbl'], _tuple_params)
 
     print('Antistasi_Phone_book Database initialization done')
+
 
 
 

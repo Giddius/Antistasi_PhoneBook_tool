@@ -1,0 +1,19 @@
+        {
+            "label": "Antistasi_PhoneBook",
+            "type": "shell",
+            "command": "d:/Dropbox/hobby/Modding/Programs/Github/My Repos/Antistasi_PhoneBook_tool/PhoneBook_vsc_helper.exe",
+            "args": ["${fileBasename}"],
+            "group": {
+                "kind": "none",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": true
+            },
+            "problemMatcher": []
+        },

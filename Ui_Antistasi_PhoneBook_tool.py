@@ -125,7 +125,7 @@ class Ui_MainWindow(object):
         self.gridLayout_3.addLayout(self.verticalLayout_7, 1, 0, 1, 1)
         self.toolBox.addItem(self.toolBoxPage1, "")
         self.page = QtWidgets.QWidget()
-        self.page.setGeometry(QtCore.QRect(0, 0, 228, 304))
+        self.page.setGeometry(QtCore.QRect(0, 0, 98, 151))
         self.page.setObjectName("page")
         self.gridLayout_2 = QtWidgets.QGridLayout(self.page)
         self.gridLayout_2.setObjectName("gridLayout_2")
@@ -280,6 +280,10 @@ class Ui_MainWindow(object):
         self.actionrebuild_DB = QtWidgets.QAction(MainWindow)
         self.actionrebuild_DB.setObjectName("actionrebuild_DB")
         self.actionopen_Settings = QtWidgets.QAction(MainWindow)
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap(":/icons/ressources/misc/cog_icon.ico"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.actionopen_Settings.setIcon(icon)
+        self.actionopen_Settings.setIconVisibleInMenu(True)
         self.actionopen_Settings.setObjectName("actionopen_Settings")
         self.menuSettings.addAction(self.actionopen_Settings)
         self.menuDatabase.addAction(self.actionrebuild_DB)
@@ -287,7 +291,7 @@ class Ui_MainWindow(object):
         self.menubar.addAction(self.menuDatabase.menuAction())
 
         self.retranslateUi(MainWindow)
-        self.tabWidget.setCurrentIndex(1)
+        self.tabWidget.setCurrentIndex(0)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
     def retranslateUi(self, MainWindow):
@@ -315,10 +319,10 @@ class Ui_MainWindow(object):
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:\'Trebuchet MS\'; font-size:10pt; font-weight:400; font-style:normal;\">\n"
-"<p align=\"justify\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">This will create <span style=\" color:#532828;\">.cmd</span> file and a <span style=\" color:#5e5f13;\">.json</span> file.</p>\n"
+"<p align=\"justify\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">This will create a <span style=\" color:#5e5f13;\">.json</span> file.</p>\n"
 "<p align=\"justify\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n"
 "<p align=\"justify\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">The <span style=\" color:#5a5d1b;\">.json</span> file contains the code needed for implementing</p>\n"
-"<p align=\"justify\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">the <span style=\" color:#5e2c2c;\">.cmd</span> file into VS code as a &quot;Task&quot; that calls the cmd.</p>\n"
+"<p align=\"justify\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">the <span style=\" color:#5e2c2c;\">second .exe</span> file into VS code as a &quot;Task&quot; that calls the .exe.</p>\n"
 "<p align=\"justify\" style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n"
 "<p align=\"justify\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">This means that you can call the task from within Vs code</p>\n"
 "<p align=\"justify\" style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">and in the console it will return you all callers of the .sqf file</p>\n"
