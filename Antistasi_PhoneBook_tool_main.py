@@ -1,10 +1,10 @@
 # region [Imports]
 
-
+import logging
 import self_created.gid_land as gil
 import self_created.gid_qt as giq
 import sys
-
+import self_created.gid_ssentials as gis
 from PyQt5 import QtWidgets
 from PyQt5.QtGui import QFont
 from PyQt5.QtWidgets import QTreeWidgetItem
@@ -20,6 +20,7 @@ from Antistasi_PhoneBook_tool_snippet import SnippetWindow as snippet
 
 
 # endregion [Imports]
+
 def conspire_the_triumvirate():
     dbi = gil.GiDatabasebNoble()
     scfg = gil.GiConfigRex(cfg_file='solid_config.ini', cfg_sections='all')
@@ -31,7 +32,9 @@ def conspire_the_triumvirate():
 
 
 class PhoneBookMainGui(mgui.Ui_MainWindow):
+
     def __init__(self, MainWindow):
+
         super().setupUi(MainWindow)
         self.triumvirate = conspire_the_triumvirate()
         self.db_tv = self.triumvirate[0]
@@ -67,7 +70,11 @@ class PhoneBookMainGui(mgui.Ui_MainWindow):
         if self.db_tv.inspect_db_status() == 'EXISTING':
             self.fncnumber_lcdnumber.display(self.get_fnc_number())
         self.db_status_lineedit.setText(self.check_db())
+
+
+
     def set_disabled(self):
+
 # region [Line_disable]
 
         self.line_empty_check()
@@ -115,6 +122,7 @@ class PhoneBookMainGui(mgui.Ui_MainWindow):
 
 
     def create_task_json(self):
+        logging.info('starting create_task_json')
         _json = r"""
         {
             "label": "Antistasi_PhoneBook_current_file",
@@ -159,20 +167,27 @@ class PhoneBookMainGui(mgui.Ui_MainWindow):
         with open(gil.pathmaker('cwd', 'task_json.txt'), 'w') as jfile:
             jfile.write(_output)
         self.dialog_creator.information_dialog('the Json text was created as a .txt file\nplease open VS code -> F1 -> configure task, and paste the text', in_detail_message='', in_title='Json Blueprint created')
+        logging.info('finished create_task_json')
 
 
     def first_start(self):
+        logging.info('starting first_start')
         self.dialog_creator.information_dialog('As this is the first launch, you will have to configurate the paths.\n\n The configuration window will now open up\n afterward the Database will be created', in_detail_message='', in_title='need to set paths')
         dialog = QtWidgets.QDialog()
         dialog.ui = cfgurator(dialog, self.triumvirate)
         dialog.exec_()
         self.dialog_creator.information_dialog('Database construction will now beginn\nThis will take about 90 seconds and the programm will not react in that time', in_detail_message='', in_title='initializing Database')
         DB_initiate.PhoneBook_create_search_db()
+        logging.info('finished first_start')
+
 
     def open_config_window(self):
+        logging.info('starting open_config_window')
         dialog = QtWidgets.QDialog()
         dialog.ui = cfgurator(dialog, self.triumvirate)
         dialog.exec_()
+        logging.info('finished open_config_window')
+
 
     def open_snippet_window(self):
         self.atom_snippet_text = self.atom_snippet()
@@ -199,6 +214,8 @@ class PhoneBookMainGui(mgui.Ui_MainWindow):
             _output += "'body': '{}'\n".format(rows[0])
         return _output
 
+
+
     def vsc_snippet(self):
         _raw_output = query_all_calls.get_all_functions()
         _output = '\n'
@@ -215,6 +232,7 @@ class PhoneBookMainGui(mgui.Ui_MainWindow):
             _output += '}'
         return _output
 
+
     def tree_to_file_pretest(self):
         if self.print_csv_checkbox.isChecked() is True:
             _output_type = '.csv'
@@ -224,6 +242,8 @@ class PhoneBookMainGui(mgui.Ui_MainWindow):
             self.tree_to_file(_output_type)
         else:
             self.dialog_creator.information_dialog('please select an output filetype', in_detail_message='', in_title='select output file type')
+
+
 
     def tree_to_file(self, output_type):
 
@@ -246,7 +266,7 @@ class PhoneBookMainGui(mgui.Ui_MainWindow):
                 elif output_type == '.md':
                     _text = '# All calls\n\n'
                     for key, value in _output.items():
-                        _text += f'\n## {key} is called by\n\n'
+                        _text += f'\n## {key} is called by\n\n---\n\n'
                         for a_value in value:
                             _text += f'- {a_value}\n'
 
@@ -282,13 +302,17 @@ class PhoneBookMainGui(mgui.Ui_MainWindow):
             with open(self.print_fileinput_lineedit.text() + '_' + _name + '_' + output_type, 'w') as file:
                 file.write(_text)
 
+
+
     def change_font_size(self):
         self.font_2.setPointSize(self.fontsize_spinbox.value())
         self.font_3.setPointSize(self.fontsize_spinbox.value()-3)
 
+
     def check_db(self):
         _status = self.db_tv.inspect_db_status()
         return f'DB is {_status}'
+
 
     def get_fnc_number(self):
         with self.db_tv.open_db() as conn:
@@ -296,12 +320,15 @@ class PhoneBookMainGui(mgui.Ui_MainWindow):
             _number = conn.fetchall()
         return len(_number)
 
+
     def show_ask_popup(self):
         _message = 'Do you really want to rebuild the Database?\n this can take up to 2 minutes!\n programm will not react in that time!'
         self.dialog_creator.information_dialog(_message, in_detail_message='', in_title='rebuild the Database?', in_fnc=self.initiate_db_again)
 
+
     def initiate_db_again(self):
         DB_initiate.PhoneBook_create_search_db()
+
 
     def start_search(self):
 

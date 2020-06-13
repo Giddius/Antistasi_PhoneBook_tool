@@ -1,8 +1,28 @@
+
         {
-            "label": "Antistasi_PhoneBook",
+            "label": "Antistasi_PhoneBook_current_file",
             "type": "shell",
-            "command": "d:/Dropbox/hobby/Modding/Programs/Github/My Repos/Antistasi_PhoneBook_tool/PhoneBook_vsc_helper.exe",
+            "command": "d:/Dropbox/hobby/Modding/Programs/Github/My_Repos/Antistasi_PhoneBook_tool/PhoneBook_vsc_helper.exe",
             "args": ["${fileBasename}"],
+            "group": {
+                "kind": "none",
+                "isDefault": true
+            },
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": true,
+                "panel": "shared",
+                "showReuseMessage": true,
+                "clear": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Antistasi_PhoneBook_selected_function",
+            "type": "shell",
+            "command": "d:/Dropbox/hobby/Modding/Programs/Github/My_Repos/Antistasi_PhoneBook_tool/PhoneBook_vsc_helper.exe",
+            "args": ["${selectedText}"],
             "group": {
                 "kind": "none",
                 "isDefault": true
