@@ -42,7 +42,7 @@
        </size>
       </property>
       <property name="currentIndex">
-       <number>1</number>
+       <number>0</number>
       </property>
       <widget class="QWidget" name="tab">
        <attribute name="title">
@@ -258,8 +258,8 @@
             <rect>
              <x>0</x>
              <y>0</y>
-             <width>228</width>
-             <height>304</height>
+             <width>98</width>
+             <height>151</height>
             </rect>
            </property>
            <attribute name="label">
@@ -301,10 +301,10 @@
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Trebuchet MS'; font-size:10pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;This will create &lt;span style=&quot; color:#532828;&quot;&gt;.cmd&lt;/span&gt; file and a &lt;span style=&quot; color:#5e5f13;&quot;&gt;.json&lt;/span&gt; file.&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;This will create a &lt;span style=&quot; color:#5e5f13;&quot;&gt;.json&lt;/span&gt; file.&lt;/p&gt;
 &lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;The &lt;span style=&quot; color:#5a5d1b;&quot;&gt;.json&lt;/span&gt; file contains the code needed for implementing&lt;/p&gt;
-&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;the &lt;span style=&quot; color:#5e2c2c;&quot;&gt;.cmd&lt;/span&gt; file into VS code as a &amp;quot;Task&amp;quot; that calls the cmd.&lt;/p&gt;
+&lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;the &lt;span style=&quot; color:#5e2c2c;&quot;&gt;second .exe&lt;/span&gt; file into VS code as a &amp;quot;Task&amp;quot; that calls the .exe.&lt;/p&gt;
 &lt;p align=&quot;justify&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
 &lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;This means that you can call the task from within Vs code&lt;/p&gt;
 &lt;p align=&quot;justify&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;and in the console it will return you all callers of the .sqf file&lt;/p&gt;
@@ -573,8 +573,15 @@ QTreeView::branch:!has-children:!has-siblings:adjoins-item {
    </property>
   </action>
   <action name="actionopen_Settings">
+   <property name="icon">
+    <iconset resource="../PhoneBook_tool_ressources.qrc">
+     <normaloff>:/icons/ressources/misc/cog_icon.ico</normaloff>:/icons/ressources/misc/cog_icon.ico</iconset>
+   </property>
    <property name="text">
     <string>open Settings</string>
+   </property>
+   <property name="iconVisibleInMenu">
+    <bool>true</bool>
    </property>
   </action>
  </widget>
