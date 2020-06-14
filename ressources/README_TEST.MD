@@ -1,6 +1,6 @@
 ## [briefing.sqf](A3-Antistasi/briefing.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -23,7 +23,7 @@
 
 ## [init.sqf](A3-Antistasi/init.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -38,7 +38,7 @@
 
 ## [initPlayerLocal.sqf](A3-Antistasi/initPlayerLocal.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -53,7 +53,7 @@
 
 ## [initServer.sqf](A3-Antistasi/initServer.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -80,7 +80,7 @@
 
 ## [onPlayerRespawn.sqf](A3-Antistasi/onPlayerRespawn.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -115,7 +115,7 @@
 
 ## [fn_airbomb.sqf](AI/fn_airbomb.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -130,7 +130,7 @@
 
 ## [fn_airdrop.sqf](AI/fn_airdrop.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -149,7 +149,7 @@
 
 ## [fn_AIreactOnKill.sqf](AI/fn_AIreactOnKill.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -176,7 +176,7 @@
 
 ## [fn_airstrike.sqf](AI/fn_airstrike.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -193,7 +193,7 @@
 
 ## [fn_artillery.sqf](AI/fn_artillery.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -218,7 +218,7 @@
 
 ## [fn_artySupport.sqf](AI/fn_artySupport.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -237,7 +237,7 @@
 
 ## [fn_askHelp.sqf](AI/fn_askHelp.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -258,7 +258,7 @@
 
 ## [fn_assaultBuilding.sqf](AI/fn_assaultBuilding.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -275,7 +275,7 @@
 
 ## [fn_attackDrillAI.sqf](AI/fn_attackDrillAI.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -324,7 +324,7 @@
 
 ## [fn_autoHealFnc.sqf](AI/fn_autoHealFnc.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -339,7 +339,7 @@
 
 ## [fn_autoLoot.sqf](AI/fn_autoLoot.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -356,7 +356,7 @@
 
 ## [fn_autoRearm.sqf](AI/fn_autoRearm.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -377,7 +377,7 @@
 
 ## [fn_canConquer.sqf](AI/fn_canConquer.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -402,7 +402,7 @@
 
 ## [fn_captureX.sqf](AI/fn_captureX.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -421,7 +421,7 @@
 
 ## [fn_chargeWithSmoke.sqf](AI/fn_chargeWithSmoke.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -448,7 +448,7 @@
 
 ## [fn_destroyBuilding.sqf](AI/fn_destroyBuilding.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -465,7 +465,7 @@
 
 ## [fn_doFlank.sqf](AI/fn_doFlank.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -482,7 +482,7 @@
 
 ## [fn_enemyList.sqf](AI/fn_enemyList.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -505,7 +505,7 @@
 
 ## [fn_fastrope.sqf](AI/fn_fastrope.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -534,7 +534,7 @@
 
 ## [fn_guardDog.sqf](AI/fn_guardDog.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -551,7 +551,7 @@
 
 ## [fn_hasRadio.sqf](AI/fn_hasRadio.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -566,7 +566,7 @@
 
 ## [fn_help.sqf](AI/fn_help.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -599,7 +599,7 @@
 
 ## [fn_inmuneConvoy.sqf](AI/fn_inmuneConvoy.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -614,7 +614,7 @@
 
 ## [fn_interrogate.sqf](AI/fn_interrogate.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -645,7 +645,7 @@
 
 ## [fn_liberatePOW.sqf](AI/fn_liberatePOW.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -660,7 +660,7 @@
 
 ## [fn_liberaterefugee.sqf](AI/fn_liberaterefugee.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -675,7 +675,7 @@
 
 ## [fn_mineSweep.sqf](AI/fn_mineSweep.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -700,7 +700,7 @@
 
 ## [fn_mortarDrill.sqf](AI/fn_mortarDrill.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -727,7 +727,7 @@
 
 ## [fn_mortyAI.sqf](AI/fn_mortyAI.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -742,7 +742,7 @@
 
 ## [fn_napalm.sqf](AI/fn_napalm.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -759,7 +759,7 @@
 
 ## [fn_napalmDamage.sqf](AI/fn_napalmDamage.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -782,7 +782,7 @@
 
 ## [fn_occupantInvaderUnitKilledEH.sqf](AI/fn_occupantInvaderUnitKilledEH.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -811,7 +811,7 @@
 
 ## [fn_rearmCall.sqf](AI/fn_rearmCall.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -844,7 +844,7 @@
 
 ## [fn_staticAutoT.sqf](AI/fn_staticAutoT.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -859,7 +859,7 @@
 
 ## [fn_staticMGDrill.sqf](AI/fn_staticMGDrill.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -886,7 +886,7 @@
 
 ## [fn_surrenderAction.sqf](AI/fn_surrenderAction.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -909,7 +909,7 @@
 
 ## [fn_typeOfSoldier.sqf](AI/fn_typeOfSoldier.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -932,7 +932,7 @@
 
 ## [fn_unitGetToCover.sqf](AI/fn_unitGetToCover.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -959,7 +959,7 @@
 
 ## [fn_VANTinfo.sqf](AI/fn_VANTinfo.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -984,7 +984,7 @@
 
 ## [fn_ACEpvpReDress.sqf](Ammunition/fn_ACEpvpReDress.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -999,7 +999,7 @@
 
 ## [fn_ammunitionTransfer.sqf](Ammunition/fn_ammunitionTransfer.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1020,7 +1020,7 @@
 
 ## [fn_arsenalManage.sqf](Ammunition/fn_arsenalManage.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1039,7 +1039,7 @@
 
 ## [fn_categoryOverrides.sqf](Ammunition/fn_categoryOverrides.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1062,7 +1062,7 @@
 
 ## [fn_configSort.sqf](Ammunition/fn_configSort.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1089,7 +1089,7 @@
 
 ## [fn_CSATCrate.sqf](Ammunition/fn_CSATCrate.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1112,7 +1112,7 @@
 
 ## [fn_empty.sqf](Ammunition/fn_empty.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1129,7 +1129,7 @@
 
 ## [fn_equipmentClassToCategories.sqf](Ammunition/fn_equipmentClassToCategories.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1146,7 +1146,7 @@
 
 ## [fn_equipmentIsValidForCurrentModset.sqf](Ammunition/fn_equipmentIsValidForCurrentModset.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1195,7 +1195,7 @@
 
 ## [fn_launcherInfo.sqf](Ammunition/fn_launcherInfo.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1218,7 +1218,7 @@
 
 ## [fn_NATOCrate.sqf](Ammunition/fn_NATOCrate.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1243,7 +1243,7 @@
 
 ## [fn_transfer.sqf](Ammunition/fn_transfer.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1262,7 +1262,7 @@
 
 ## [fn_unlockEquipment.sqf](Ammunition/fn_unlockEquipment.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1285,7 +1285,7 @@
 
 ## [fn_addActionBreachVehicle.sqf](Base/fn_addActionBreachVehicle.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1316,7 +1316,7 @@
 
 ## [fn_AILoadInfo.sqf](Base/fn_AILoadInfo.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1339,7 +1339,7 @@
 
 ## [fn_buildHQ.sqf](Base/fn_buildHQ.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1372,7 +1372,7 @@
 
 ## [fn_commsMP.sqf](Base/fn_commsMP.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1405,7 +1405,7 @@
 
 ## [fn_createOutpostsFIA.sqf](Base/fn_createOutpostsFIA.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1432,7 +1432,7 @@
 
 ## [fn_createPetros.sqf](Base/fn_createPetros.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1457,7 +1457,7 @@
 
 ## [fn_destroyCity.sqf](Base/fn_destroyCity.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1474,7 +1474,7 @@
 
 ## [fn_distance.sqf](Base/fn_distance.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1521,7 +1521,7 @@
 
 ## [fn_ejectPvPPlayerIfInvalidVehicle.sqf](Base/fn_ejectPvPPlayerIfInvalidVehicle.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1536,7 +1536,7 @@
 
 ## [fn_FIAradio.sqf](Base/fn_FIAradio.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1551,7 +1551,7 @@
 
 ## [fn_findBasesForConvoy.sqf](Base/fn_findBasesForConvoy.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1574,7 +1574,7 @@
 
 ## [fn_flagaction.sqf](Base/fn_flagaction.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1645,7 +1645,7 @@
 
 ## [fn_garbageCleaner.sqf](Base/fn_garbageCleaner.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1660,7 +1660,7 @@
 
 ## [fn_garrisonInfo.sqf](Base/fn_garrisonInfo.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1675,7 +1675,7 @@
 
 ## [fn_healAndRepair.sqf](Base/fn_healAndRepair.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1690,7 +1690,7 @@
 
 ## [fn_initPetros.sqf](Base/fn_initPetros.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1745,7 +1745,7 @@
 
 ## [fn_keys.sqf](Base/fn_keys.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1762,7 +1762,7 @@
 
 ## [fn_localizar.sqf](Base/fn_localizar.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1793,7 +1793,7 @@
 
 ## [fn_markerChange.sqf](Base/fn_markerChange.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1846,7 +1846,7 @@
 
 ## [fn_moveHQ.sqf](Base/fn_moveHQ.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1883,7 +1883,7 @@
 
 ## [fn_mrkWIN.sqf](Base/fn_mrkWIN.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1912,7 +1912,7 @@
 
 ## [fn_NATOFT.sqf](Base/fn_NATOFT.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1935,7 +1935,7 @@
 
 ## [fn_onHeadlessClientDisconnect.sqf](Base/fn_onHeadlessClientDisconnect.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1950,7 +1950,7 @@
 
 ## [fn_onPlayerDisconnect.sqf](Base/fn_onPlayerDisconnect.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -1975,7 +1975,7 @@
 
 ## [fn_outpostDialog.sqf](Base/fn_outpostDialog.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2006,7 +2006,7 @@
 
 ## [fn_placementselection.sqf](Base/fn_placementselection.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2045,7 +2045,7 @@
 
 ## [fn_powerReorg.sqf](Base/fn_powerReorg.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2062,7 +2062,7 @@
 
 ## [fn_prestige.sqf](Base/fn_prestige.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2085,7 +2085,7 @@
 
 ## [fn_rebelAttack.sqf](Base/fn_rebelAttack.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2118,7 +2118,7 @@
 
 ## [fn_rebuildAssets.sqf](Base/fn_rebuildAssets.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2143,7 +2143,7 @@
 
 ## [fn_rebuildRadioTower.sqf](Base/fn_rebuildRadioTower.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2162,7 +2162,7 @@
 
 ## [fn_relocateHQObjects.sqf](Base/fn_relocateHQObjects.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2177,7 +2177,7 @@
 
 ## [fn_repairRuinedBuilding.sqf](Base/fn_repairRuinedBuilding.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2200,7 +2200,7 @@
 
 ## [fn_resourcesFIA.sqf](Base/fn_resourcesFIA.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2223,7 +2223,7 @@
 
 ## [fn_revealToPlayer.sqf](Base/fn_revealToPlayer.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2238,7 +2238,7 @@
 
 ## [fn_scheduler.sqf](Base/fn_scheduler.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2253,7 +2253,7 @@
 
 ## [fn_sellVehicle.sqf](Base/fn_sellVehicle.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2290,7 +2290,7 @@
 
 ## [fn_splitVehicleCrewIntoOwnGroups.sqf](Base/fn_splitVehicleCrewIntoOwnGroups.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2305,7 +2305,7 @@
 
 ## [fn_startBreachVehicle.sqf](Base/fn_startBreachVehicle.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2330,7 +2330,7 @@
 
 ## [fn_statistics.sqf](Base/fn_statistics.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2377,7 +2377,7 @@
 
 ## [fn_unlockVehicle.sqf](Base/fn_unlockVehicle.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2392,7 +2392,7 @@
 
 ## [fn_zoneCheck.sqf](Base/fn_zoneCheck.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2417,7 +2417,7 @@
 
 ## [fn_convoyDebug.sqf](Convoy/fn_convoyDebug.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2436,7 +2436,7 @@
 
 ## [fn_convoyMovement.sqf](Convoy/fn_convoyMovement.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2461,7 +2461,7 @@
 
 ## [fn_createAIAction.sqf](Convoy/fn_createAIAction.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2514,7 +2514,7 @@
 
 ## [fn_createConvoy.sqf](Convoy/fn_createConvoy.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2533,7 +2533,7 @@
 
 ## [fn_despawnConvoy.sqf](Convoy/fn_despawnConvoy.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2566,7 +2566,7 @@
 
 ## [fn_onConvoyArrival.sqf](Convoy/fn_onConvoyArrival.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2583,7 +2583,7 @@
 
 ## [fn_onSpawnedArrival.sqf](Convoy/fn_onSpawnedArrival.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2604,7 +2604,7 @@
 
 ## [fn_roadblockFight.sqf](Convoy/fn_roadblockFight.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2619,7 +2619,7 @@
 
 ## [fn_selectAndCreateVehicle.sqf](Convoy/fn_selectAndCreateVehicle.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2638,7 +2638,7 @@
 
 ## [fn_spawnConvoy.sqf](Convoy/fn_spawnConvoy.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2667,7 +2667,7 @@
 
 ## [fn_spawnConvoyLine.sqf](Convoy/fn_spawnConvoyLine.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2700,7 +2700,7 @@
 
 ## [fn_AAFroadPatrol.sqf](CREATE/fn_AAFroadPatrol.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2733,7 +2733,7 @@
 
 ## [fn_airportCanAttack.sqf](CREATE/fn_airportCanAttack.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2750,7 +2750,7 @@
 
 ## [fn_AIVEHinit.sqf](CREATE/fn_AIVEHinit.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2791,7 +2791,7 @@
 
 ## [fn_ambientCivs.sqf](CREATE/fn_ambientCivs.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2822,7 +2822,7 @@
 
 ## [fn_CIVinit.sqf](CREATE/fn_CIVinit.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2841,7 +2841,7 @@
 
 ## [fn_civVEHinit.sqf](CREATE/fn_civVEHinit.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2868,7 +2868,7 @@
 
 ## [fn_createAIAirplane.sqf](CREATE/fn_createAIAirplane.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2917,7 +2917,7 @@
 
 ## [fn_createAICities.sqf](CREATE/fn_createAICities.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2950,7 +2950,7 @@
 
 ## [fn_createAIcontrols.sqf](CREATE/fn_createAIcontrols.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -2987,7 +2987,7 @@
 
 ## [fn_createAIOutposts.sqf](CREATE/fn_createAIOutposts.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3034,7 +3034,7 @@
 
 ## [fn_createAIResources.sqf](CREATE/fn_createAIResources.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3079,7 +3079,7 @@
 
 ## [fn_createAISite.sqf](CREATE/fn_createAISite.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3098,7 +3098,7 @@
 
 ## [fn_createCIV.sqf](CREATE/fn_createCIV.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3127,7 +3127,7 @@
 
 ## [fn_createFIAOutposts2.sqf](CREATE/fn_createFIAOutposts2.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3150,7 +3150,7 @@
 
 ## [fn_createSDKgarrisons.sqf](CREATE/fn_createSDKgarrisons.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3181,7 +3181,7 @@
 
 ## [fn_createSDKgarrisonsTemp.sqf](CREATE/fn_createSDKgarrisonsTemp.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3200,7 +3200,7 @@
 
 ## [fn_cycleSpawn.sqf](CREATE/fn_cycleSpawn.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3227,7 +3227,7 @@
 
 ## [fn_FIAinitBASES.sqf](CREATE/fn_FIAinitBASES.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3262,7 +3262,7 @@
 
 ## [fn_freeSpawnPositions.sqf](CREATE/fn_freeSpawnPositions.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3287,7 +3287,7 @@
 
 ## [fn_garrisonSize.sqf](CREATE/fn_garrisonSize.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3304,7 +3304,7 @@
 
 ## [fn_garrisonUpdate.sqf](CREATE/fn_garrisonUpdate.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3319,7 +3319,7 @@
 
 ## [fn_groupDespawner.sqf](CREATE/fn_groupDespawner.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3336,7 +3336,7 @@
 
 ## [fn_invaderPunish.sqf](CREATE/fn_invaderPunish.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3393,7 +3393,7 @@
 
 ## [fn_milBuildings.sqf](CREATE/fn_milBuildings.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3410,7 +3410,7 @@
 
 ## [fn_minefieldAAF.sqf](CREATE/fn_minefieldAAF.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3425,7 +3425,7 @@
 
 ## [fn_mortarPos.sqf](CREATE/fn_mortarPos.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3440,7 +3440,7 @@
 
 ## [fn_NATOinit.sqf](CREATE/fn_NATOinit.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3465,7 +3465,7 @@
 
 ## [fn_patrolCA.sqf](CREATE/fn_patrolCA.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3530,7 +3530,7 @@
 
 ## [fn_patrolReinf.sqf](CREATE/fn_patrolReinf.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3565,7 +3565,7 @@
 
 ## [fn_reinforcementsAI.sqf](CREATE/fn_reinforcementsAI.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3592,7 +3592,7 @@
 
 ## [fn_remoteBattle.sqf](CREATE/fn_remoteBattle.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3615,7 +3615,7 @@
 
 ## [fn_safeVehicleSpawn.sqf](CREATE/fn_safeVehicleSpawn.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3646,7 +3646,7 @@
 
 ## [fn_VEHdespawner.sqf](CREATE/fn_VEHdespawner.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3665,7 +3665,7 @@
 
 ## [fn_wavedCA.sqf](CREATE/fn_wavedCA.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3750,7 +3750,7 @@
 
 ## [fn_WPCreate.sqf](CREATE/fn_WPCreate.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3781,7 +3781,7 @@
 
 ## [fn_spawnDebuggingLoop.sqf](Debugging/fn_spawnDebuggingLoop.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3798,7 +3798,7 @@
 
 ## [fn_buyVehicle.sqf](Dialogs/fn_buyVehicle.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3813,7 +3813,7 @@
 
 ## [fn_buyVehicleCiv.sqf](Dialogs/fn_buyVehicleCiv.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3828,7 +3828,7 @@
 
 ## [fn_clearForest.sqf](Dialogs/fn_clearForest.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3843,7 +3843,7 @@
 
 ## [fn_createDialog_setParams.sqf](Dialogs/fn_createDialog_setParams.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3862,7 +3862,7 @@
 
 ## [fn_createDialog_shouldLoadPersonalSave.sqf](Dialogs/fn_createDialog_shouldLoadPersonalSave.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3887,7 +3887,7 @@
 
 ## [fn_fastTravelRadio.sqf](Dialogs/fn_fastTravelRadio.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3906,7 +3906,7 @@
 
 ## [fn_mineDialog.sqf](Dialogs/fn_mineDialog.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3933,7 +3933,7 @@
 
 ## [fn_moveHQObject.sqf](Dialogs/fn_moveHQObject.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3956,7 +3956,7 @@
 
 ## [fn_skiptime.sqf](Dialogs/fn_skiptime.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3977,7 +3977,7 @@
 
 ## [fn_squadOptions.sqf](Dialogs/fn_squadOptions.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -3996,7 +3996,7 @@
 
 ## [fn_squadRecruit.sqf](Dialogs/fn_squadRecruit.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4031,7 +4031,7 @@
 
 ## [fn_addToPersonalGarageLocal.sqf](Garage/fn_addToPersonalGarageLocal.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4046,7 +4046,7 @@
 
 ## [fn_attemptPlaceVehicle.sqf](Garage/fn_attemptPlaceVehicle.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4073,7 +4073,7 @@
 
 ## [fn_garage.sqf](Garage/fn_garage.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4100,7 +4100,7 @@
 
 ## [fn_garageVehicle.sqf](Garage/fn_garageVehicle.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4131,7 +4131,7 @@
 
 ## [fn_getPersonalGarageLocal.sqf](Garage/fn_getPersonalGarageLocal.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4146,7 +4146,7 @@
 
 ## [fn_handleVehPlacementCancelled.sqf](Garage/fn_handleVehPlacementCancelled.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4179,7 +4179,7 @@
 
 ## [fn_setPersonalGarageLocal.sqf](Garage/fn_setPersonalGarageLocal.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4194,7 +4194,7 @@
 
 ## [fn_vehPlacementBegin.sqf](Garage/fn_vehPlacementBegin.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4217,7 +4217,7 @@
 
 ## [fn_vehPlacementCallbacks.sqf](Garage/fn_vehPlacementCallbacks.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4272,7 +4272,7 @@
 
 ## [fn_vehPlacementCleanup.sqf](Garage/fn_vehPlacementCleanup.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4287,7 +4287,7 @@
 
 ## [fn_addGarrison.sqf](Garrison/fn_addGarrison.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4306,7 +4306,7 @@
 
 ## [fn_addRequested.sqf](Garrison/fn_addRequested.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4349,7 +4349,7 @@
 
 ## [fn_createGarrison.sqf](Garrison/fn_createGarrison.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4372,7 +4372,7 @@
 
 ## [fn_createGarrisonLine.sqf](Garrison/fn_createGarrisonLine.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4399,7 +4399,7 @@
 
 ## [fn_getGarrisonRatio.sqf](Garrison/fn_getGarrisonRatio.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4418,7 +4418,7 @@
 
 ## [fn_getGarrisonStatus.sqf](Garrison/fn_getGarrisonStatus.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4467,7 +4467,7 @@
 
 ## [fn_replenishGarrison.sqf](Garrison/fn_replenishGarrison.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4492,7 +4492,7 @@
 
 ## [fn_selectReinfUnits.sqf](Garrison/fn_selectReinfUnits.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4515,7 +4515,7 @@
 
 ## [fn_selectVehicleType.sqf](Garrison/fn_selectVehicleType.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4530,7 +4530,7 @@
 
 ## [fn_shouldReinforce.sqf](Garrison/fn_shouldReinforce.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4551,7 +4551,7 @@
 
 ## [fn_updateGarrison.sqf](Garrison/fn_updateGarrison.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4578,7 +4578,7 @@
 
 ## [fn_updatePreference.sqf](Garrison/fn_updatePreference.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4597,7 +4597,7 @@
 
 ## [fn_updateReinfState.sqf](Garrison/fn_updateReinfState.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4622,7 +4622,7 @@
 
 ## [fn_cityinfo.sqf](init/fn_cityinfo.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4653,7 +4653,7 @@
 
 ## [fn_initACEUnconsciousHandler.sqf](init/fn_initACEUnconsciousHandler.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4672,7 +4672,7 @@
 
 ## [fn_initClient.sqf](init/fn_initClient.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4767,7 +4767,7 @@
 
 ## [fn_initFuncs.sqf](init/fn_initFuncs.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4782,7 +4782,7 @@
 
 ## [fn_initGarrisons.sqf](init/fn_initGarrisons.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4803,7 +4803,7 @@
 
 ## [fn_initGetMissionPath.sqf](init/fn_initGetMissionPath.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4818,7 +4818,7 @@
 
 ## [fn_initServer.sqf](init/fn_initServer.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4891,7 +4891,7 @@
 
 ## [fn_initVar.sqf](init/fn_initVar.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4916,7 +4916,7 @@
 
 ## [fn_initVarClient.sqf](init/fn_initVarClient.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4931,7 +4931,7 @@
 
 ## [fn_initVarCommon.sqf](init/fn_initVarCommon.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4950,7 +4950,7 @@
 
 ## [fn_initVarServer.sqf](init/fn_initVarServer.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -4993,7 +4993,7 @@
 
 ## [fn_initZones.sqf](init/fn_initZones.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -5028,7 +5028,7 @@
 
 ## [fn_playerMarkers.sqf](init/fn_playerMarkers.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -5045,7 +5045,7 @@
 
 ## [fn_prepareMarkerArrays.sqf](init/fn_prepareMarkerArrays.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -5060,7 +5060,7 @@
 
 ## [fn_reinitY.sqf](init/fn_reinitY.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -5077,7 +5077,7 @@
 
 ## [fn_resourcecheck.sqf](init/fn_resourcecheck.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -5148,7 +5148,7 @@
 
 ## [fn_getVehicleIntel.sqf](Intel/fn_getVehicleIntel.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -5163,7 +5163,7 @@
 
 ## [fn_placeIntel.sqf](Intel/fn_placeIntel.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -5180,7 +5180,7 @@
 
 ## [fn_searchIntelOnDocument.sqf](Intel/fn_searchIntelOnDocument.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -5205,7 +5205,7 @@
 
 ## [fn_searchIntelOnLaptop.sqf](Intel/fn_searchIntelOnLaptop.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -5238,7 +5238,7 @@
 
 ## [fn_searchIntelOnLeader.sqf](Intel/fn_searchIntelOnLeader.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -5267,7 +5267,7 @@
 
 ## [fn_selectIntel.sqf](Intel/fn_selectIntel.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -5298,7 +5298,7 @@
 
 ## [fn_AS_Official.sqf](Missions/fn_AS_Official.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -5333,7 +5333,7 @@
 
 ## [fn_AS_specOP.sqf](Missions/fn_AS_specOP.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -5368,7 +5368,7 @@
 
 ## [fn_AS_Traitor.sqf](Missions/fn_AS_Traitor.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -5419,7 +5419,7 @@
 
 ## [fn_attackHQ.sqf](Missions/fn_attackHQ.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -5460,7 +5460,7 @@
 
 ## [fn_convoy.sqf](Missions/fn_convoy.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -5527,7 +5527,7 @@
 
 ## [fn_CON_Outpost.sqf](Missions/fn_CON_Outpost.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -5568,7 +5568,7 @@
 
 ## [fn_DES_Antenna.sqf](Missions/fn_DES_Antenna.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -5595,7 +5595,7 @@
 
 ## [fn_DES_Heli.sqf](Missions/fn_DES_Heli.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -5632,7 +5632,7 @@
 
 ## [fn_DES_Vehicle.sqf](Missions/fn_DES_Vehicle.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -5673,7 +5673,7 @@
 
 ## [fn_LOG_Ammo.sqf](Missions/fn_LOG_Ammo.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -5716,7 +5716,7 @@
 
 ## [fn_LOG_Bank.sqf](Missions/fn_LOG_Bank.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -5769,7 +5769,7 @@
 
 ## [fn_LOG_Supplies.sqf](Missions/fn_LOG_Supplies.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -5814,7 +5814,7 @@
 
 ## [fn_missionRequest.sqf](Missions/fn_missionRequest.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -5855,7 +5855,7 @@
 
 ## [fn_missionRequestAUTO.sqf](Missions/fn_missionRequestAUTO.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -5870,7 +5870,7 @@
 
 ## [fn_REP_Antenna.sqf](Missions/fn_REP_Antenna.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -5911,7 +5911,7 @@
 
 ## [fn_RES_Prisoners.sqf](Missions/fn_RES_Prisoners.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -5942,7 +5942,7 @@
 
 ## [fn_RES_Refugees.sqf](Missions/fn_RES_Refugees.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6001,7 +6001,7 @@
 
 ## [fn_underAttack.sqf](Missions/fn_underAttack.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6026,7 +6026,7 @@
 
 ## [fn_initDisabledMods.sqf](ModsAndDLC/fn_initDisabledMods.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6049,7 +6049,7 @@
 
 ## [fn_assignBossIfNone.sqf](OrgPlayers/fn_assignBossIfNone.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6074,7 +6074,7 @@
 
 ## [fn_donateMoney.sqf](OrgPlayers/fn_donateMoney.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6105,7 +6105,7 @@
 
 ## [fn_makePlayerBossIfEligible.sqf](OrgPlayers/fn_makePlayerBossIfEligible.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6126,7 +6126,7 @@
 
 ## [fn_memberAdd.sqf](OrgPlayers/fn_memberAdd.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6143,7 +6143,7 @@
 
 ## [fn_membersList.sqf](OrgPlayers/fn_membersList.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6162,7 +6162,7 @@
 
 ## [fn_playerScoreAdd.sqf](OrgPlayers/fn_playerScoreAdd.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6179,7 +6179,7 @@
 
 ## [fn_promotePlayer.sqf](OrgPlayers/fn_promotePlayer.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6204,7 +6204,7 @@
 
 ## [fn_ranksMP.sqf](OrgPlayers/fn_ranksMP.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6219,7 +6219,7 @@
 
 ## [fn_resourcesPlayer.sqf](OrgPlayers/fn_resourcesPlayer.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6236,7 +6236,7 @@
 
 ## [fn_theBossInit.sqf](OrgPlayers/fn_theBossInit.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6253,7 +6253,7 @@
 
 ## [fn_theBossSteal.sqf](OrgPlayers/fn_theBossSteal.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6276,7 +6276,7 @@
 
 ## [fn_theBossToggleEligibility.sqf](OrgPlayers/fn_theBossToggleEligibility.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6295,7 +6295,7 @@
 
 ## [fn_tierCheck.sqf](OrgPlayers/fn_tierCheck.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6320,7 +6320,7 @@
 
 ## [fn_findNearestNavPoint.sqf](Pathfinding/fn_findNearestNavPoint.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6335,7 +6335,7 @@
 
 ## [fn_findPath.sqf](Pathfinding/fn_findPath.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6388,7 +6388,7 @@
 
 ## [fn_loadNavGrid.sqf](Pathfinding/fn_loadNavGrid.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6415,7 +6415,7 @@
 
 ## [fn_punishment.sqf](Punishment/fn_punishment.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6438,7 +6438,7 @@
 
 ## [fn_punishment_addActionForgive.sqf](Punishment/fn_punishment_addActionForgive.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6453,7 +6453,7 @@
 
 ## [fn_punishment_notifyAdmin.sqf](Punishment/fn_punishment_notifyAdmin.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6468,7 +6468,7 @@
 
 ## [fn_punishment_notifyAllAdmins.sqf](Punishment/fn_punishment_notifyAllAdmins.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6501,7 +6501,7 @@
 
 ## [fn_punishment_warden.sqf](Punishment/fn_punishment_warden.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6534,7 +6534,7 @@
 
 ## [fn_pvpCheck.sqf](pvp/fn_pvpCheck.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6555,7 +6555,7 @@
 
 ## [fn_addBombRun.sqf](REINF/fn_addBombRun.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6572,7 +6572,7 @@
 
 ## [fn_addFIAsquadHC.sqf](REINF/fn_addFIAsquadHC.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6607,7 +6607,7 @@
 
 ## [fn_addFIAveh.sqf](REINF/fn_addFIAveh.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6628,7 +6628,7 @@
 
 ## [fn_addSquadVeh.sqf](REINF/fn_addSquadVeh.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6643,7 +6643,7 @@
 
 ## [fn_autoGarrison.sqf](REINF/fn_autoGarrison.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6662,7 +6662,7 @@
 
 ## [fn_build.sqf](REINF/fn_build.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6683,7 +6683,7 @@
 
 ## [fn_buildCreateVehicleCallback.sqf](REINF/fn_buildCreateVehicleCallback.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6710,7 +6710,7 @@
 
 ## [fn_buildMinefield.sqf](REINF/fn_buildMinefield.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6739,7 +6739,7 @@
 
 ## [fn_enemyNearCheck.sqf](REINF/fn_enemyNearCheck.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6754,7 +6754,7 @@
 
 ## [fn_equipRebel.sqf](REINF/fn_equipRebel.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6771,7 +6771,7 @@
 
 ## [fn_FIAinit.sqf](REINF/fn_FIAinit.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6804,7 +6804,7 @@
 
 ## [fn_FIAskillAdd.sqf](REINF/fn_FIAskillAdd.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6821,7 +6821,7 @@
 
 ## [fn_garrisonAdd.sqf](REINF/fn_garrisonAdd.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6848,7 +6848,7 @@
 
 ## [fn_garrisonDialog.sqf](REINF/fn_garrisonDialog.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6873,7 +6873,7 @@
 
 ## [fn_NATObomb.sqf](REINF/fn_NATObomb.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6894,7 +6894,7 @@
 
 ## [fn_NATOQuadbike.sqf](REINF/fn_NATOQuadbike.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6927,7 +6927,7 @@
 
 ## [fn_reinfPlayer.sqf](REINF/fn_reinfPlayer.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6954,7 +6954,7 @@
 
 ## [fn_stealStatic.sqf](REINF/fn_stealStatic.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -6979,7 +6979,7 @@
 
 ## [fn_vehStats.sqf](REINF/fn_vehStats.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -7008,7 +7008,7 @@
 
 ## [fn_actionRevive.sqf](Revive/fn_actionRevive.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -7029,7 +7029,7 @@
 
 ## [fn_carry.sqf](Revive/fn_carry.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -7056,7 +7056,7 @@
 
 ## [fn_handleDamage.sqf](Revive/fn_handleDamage.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -7079,7 +7079,7 @@
 
 ## [fn_handleDamageAAF.sqf](Revive/fn_handleDamageAAF.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -7098,7 +7098,7 @@
 
 ## [fn_initRevive.sqf](Revive/fn_initRevive.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -7121,7 +7121,7 @@
 
 ## [fn_respawn.sqf](Revive/fn_respawn.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -7140,7 +7140,7 @@
 
 ## [fn_unconscious.sqf](Revive/fn_unconscious.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -7161,7 +7161,7 @@
 
 ## [fn_unconsciousAAF.sqf](Revive/fn_unconsciousAAF.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -7190,7 +7190,7 @@
 
 ## [fn_getRunwayTakeoffForAirportMarker.sqf](Runways/fn_getRunwayTakeoffForAirportMarker.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -7213,7 +7213,7 @@
 
 ## [fn_getStatVariable.sqf](Save/fn_getStatVariable.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -7230,7 +7230,7 @@
 
 ## [fn_loadPlayer.sqf](Save/fn_loadPlayer.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -7257,7 +7257,7 @@
 
 ## [fn_loadPreviousSession.sqf](Save/fn_loadPreviousSession.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -7272,7 +7272,7 @@
 
 ## [fn_loadServer.sqf](Save/fn_loadServer.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -7305,7 +7305,7 @@
 
 ## [fn_loadStat.sqf](Save/fn_loadStat.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -7336,7 +7336,7 @@
 
 ## [fn_playerHasSave.sqf](Save/fn_playerHasSave.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -7353,7 +7353,7 @@
 
 ## [fn_retrievePlayerStat.sqf](Save/fn_retrievePlayerStat.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -7368,7 +7368,7 @@
 
 ## [fn_returnSavedStat.sqf](Save/fn_returnSavedStat.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -7387,7 +7387,7 @@
 
 ## [fn_saveLoop.sqf](Save/fn_saveLoop.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -7412,7 +7412,7 @@
 
 ## [fn_savePlayer.sqf](Save/fn_savePlayer.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -7435,7 +7435,7 @@
 
 ## [fn_savePlayerStat.sqf](Save/fn_savePlayerStat.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -7450,7 +7450,7 @@
 
 ## [fn_setStatVariable.sqf](Save/fn_setStatVariable.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -7513,7 +7513,7 @@
 
 ## [fn_goUndercover.sqf](Undercover/fn_goUndercover.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -7606,7 +7606,7 @@
 
 ## [Shit Jeroen.sqf](JeroenArsenal/Shit Jeroen.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -7629,7 +7629,7 @@
 
 ## [fn_arsenal.sqf](JNA/fn_arsenal.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -7666,7 +7666,7 @@
 
 ## [fn_arsenal_cargoToArray.sqf](JNA/fn_arsenal_cargoToArray.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -7697,7 +7697,7 @@
 
 ## [fn_arsenal_init.sqf](JNA/fn_arsenal_init.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -7740,7 +7740,7 @@
 
 ## [fn_arsenal_loadInventory.sqf](JNA/fn_arsenal_loadInventory.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -7787,7 +7787,7 @@
 
 ## [fn_vehicleArsenal.sqf](JNA/fn_vehicleArsenal.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -7818,7 +7818,7 @@
 
 ## [fn_garage_garageVehicle.sqf](JNG/fn_garage_garageVehicle.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -7929,7 +7929,7 @@
 
 ## [fn_logistics_load.sqf](JNL/fn_logistics_load.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -7976,7 +7976,7 @@
 
 ## [fn_logistics_addActionLoad.sqf](Actions/fn_logistics_addActionLoad.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -8235,7 +8235,7 @@
 
 ## [createNavGrid.sqf](NavGridTools/createNavGrid.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -8274,7 +8274,7 @@
 
 ## [extractRoadTypeData.sqf](NavGridTools/extractRoadTypeData.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -8289,7 +8289,7 @@
 
 ## [findOffset.sqf](NavGridTools/findOffset.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -8376,7 +8376,7 @@
 
 ## [nonMemberDistance.sqf](orgPlayers/nonMemberDistance.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -8405,7 +8405,7 @@
 
 ## [unitTraits.sqf](orgPlayers/unitTraits.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -8420,7 +8420,7 @@
 
 ## [addToGarrison.sqf](REINF/addToGarrison.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -8445,7 +8445,7 @@
 
 ## [controlHCsquad.sqf](REINF/controlHCsquad.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -8462,7 +8462,7 @@
 
 ## [controlunit.sqf](REINF/controlunit.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -8477,7 +8477,7 @@
 
 ## [dismissPlayerGroup.sqf](REINF/dismissPlayerGroup.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -8498,7 +8498,7 @@
 
 ## [dismissSquad.sqf](REINF/dismissSquad.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -8517,7 +8517,7 @@
 
 ## [fn_advancedTowingInit.sqf](Scripts/fn_advancedTowingInit.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -8854,7 +8854,7 @@
 
 ## [UPSMON_Getnearestplayer.sqf](fnc/UPSMON_Getnearestplayer.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -9205,7 +9205,7 @@
 
 ## [UPSMON_IsRetreating.sqf](fnc/UPSMON_IsRetreating.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -10590,7 +10590,7 @@
 
 ## [BAF_Occ_BAF_Arid.sqf](Templates/BAF_Occ_BAF_Arid.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -10605,7 +10605,7 @@
 
 ## [BAF_Occ_BAF_Trop.sqf](Templates/BAF_Occ_BAF_Trop.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -10716,7 +10716,7 @@
 
 ## [RHS_Inv_AFRF_Arid.sqf](Templates/RHS_Inv_AFRF_Arid.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -10731,7 +10731,7 @@
 
 ## [RHS_Inv_AFRF_Temp.sqf](Templates/RHS_Inv_AFRF_Temp.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -10746,7 +10746,7 @@
 
 ## [RHS_Inv_AFRF_Trop.sqf](Templates/RHS_Inv_AFRF_Trop.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -10777,7 +10777,7 @@
 
 ## [RHS_Occ_USAF_Arid.sqf](Templates/RHS_Occ_USAF_Arid.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -10792,7 +10792,7 @@
 
 ## [RHS_Occ_USAF_Wdl.sqf](Templates/RHS_Occ_USAF_Wdl.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -10839,7 +10839,7 @@
 
 ## [Vanilla_Inv_CSAT_Altis.sqf](Templates/Vanilla_Inv_CSAT_Altis.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -10854,7 +10854,7 @@
 
 ## [Vanilla_Inv_CSAT_Enoch.sqf](Templates/Vanilla_Inv_CSAT_Enoch.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -10869,7 +10869,7 @@
 
 ## [Vanilla_Inv_CSAT_Tanoa.sqf](Templates/Vanilla_Inv_CSAT_Tanoa.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -10892,7 +10892,7 @@
 
 ## [Vanilla_Occ_NATO_Altis.sqf](Templates/Vanilla_Occ_NATO_Altis.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -10907,7 +10907,7 @@
 
 ## [Vanilla_Occ_NATO_Tanoa.sqf](Templates/Vanilla_Occ_NATO_Tanoa.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
@@ -10922,7 +10922,7 @@
 
 ## [Vanilla_Occ_NATO_WDL.sqf](Templates/Vanilla_Occ_NATO_WDL.sqf)
 
-### Is called by:
+### calls:
 
 <details>
   <summary>Click to expand!</summary>
