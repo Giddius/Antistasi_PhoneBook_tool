@@ -182,11 +182,11 @@ class PhoneBookMainGui(mgui.Ui_MainWindow):
 
 
     def open_config_window(self):
-        logging.info('starting open_config_window')
+
         dialog = QtWidgets.QDialog()
         dialog.ui = cfgurator(dialog, self.triumvirate)
         dialog.exec_()
-        logging.info('finished open_config_window')
+
 
 
     def open_snippet_window(self):
@@ -266,9 +266,14 @@ class PhoneBookMainGui(mgui.Ui_MainWindow):
                 elif output_type == '.md':
                     _text = '# All calls\n\n'
                     for key, value in _output.items():
-                        _text += f'\n## {key} is called by\n\n---\n\n'
+                        _name = key[1]
+                        _link = key[0].replace('D:/Dropbox/hobby/Modding/Programs/Github/Foreign_Repos/A3-Antistasi/', '')
+
+                        _text += f'\n## [{_name}]({_link}) is called by\n\n---\n\n'
                         for a_value in value:
-                            _text += f'- {a_value}\n'
+                            _namemore = a_value[1]
+                            _linkmore = a_value[0].replace('D:/Dropbox/hobby/Modding/Programs/Github/Foreign_Repos/A3-Antistasi/', '')
+                            _text += f'- [{_namemore}]({_linkmore})\n'
 
                 with open(self.print_fileinput_lineedit.text() + output_type, 'w') as file:
                     file.write(_text)

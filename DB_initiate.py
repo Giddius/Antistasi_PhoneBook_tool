@@ -78,7 +78,7 @@ class PhoneBookInitializer:
                     for function in classlist:
                         funct = prefix + '_fnc_' + function
                         functfile = 'fn_' + function + '.sqf'
-                        pathfull = gil.pathmaker(source_functions_folder, folder, functfile)
+                        pathfull = gil.pathmaker(folder, functfile)
                         self.fnc_dict[fnc_id] = [pathfull, functfile, funct]
 
                         fnc_id += 1
