@@ -1,10 +1,10 @@
 # region [Imports]
 
 import logging
-import self_created.gid_land as gil
-import self_created.gid_qt as giq
+import self_module.gid_land as gil
+import self_module.gid_qt as giq
 import sys
-import self_created.gid_ssentials as gis
+import self_module.gid_ssentials as gis
 from PyQt5 import QtWidgets
 from PyQt5.QtGui import QFont
 from PyQt5.QtWidgets import QTreeWidgetItem

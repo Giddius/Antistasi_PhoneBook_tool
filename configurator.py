@@ -4,7 +4,7 @@
 # Desc: description
 # Created:  2020-05-25T11:42:40.224Z
 # Modified: !date!
-import self_created.gid_land as gil
+import self_module.gid_land as gil
 
 
 def read_and_new_config():

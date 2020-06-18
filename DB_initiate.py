@@ -4,7 +4,7 @@
 import armaclass
 import os
 import re
-import self_created.gid_land as gil
+import self_module.gid_land as gil
 
 
 # endregion [Imports]

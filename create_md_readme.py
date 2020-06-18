@@ -1,5 +1,5 @@
 import pprint
-import self_created.gid_land as gil
+import self_module.gid_land as gil
 import sqlite3
 
 # Todo reverse it so calls to the header get shown and not what the header calls
