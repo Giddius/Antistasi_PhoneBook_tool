@@ -1,5 +1,5 @@
 import pprint
-import self_module.gid_land as gil
+import Gid_Generic_helpers.gid_ssentials as gis
 import sqlite3
 
 # Todo reverse it so calls to the header get shown and not what the header calls
@@ -20,11 +20,11 @@ def get_callers(in_sqf_id):
     return fnc_dict
 
 
-with open(gil.pathmaker('cwd', 'readme_test.md'), 'w') as readf:
+with open(gis.pathmaker('cwd', 'readme_test.md'), 'w') as readf:
     readf.write('')
 
-database = gil.GiDatabasebNoble()
-u_config = gil.GiConfigRex(cfg_folder=gil.pathmaker('cwd', 'config'), cfg_file='user_config.ini', cfg_sections='all')
+database = gis.GiDatabasebNoble()
+u_config = gis.GiConfigRex(cfg_folder=gis.pathmaker('cwd', 'config'), cfg_file='user_config.ini', cfg_sections='all')
 _sql_1 = "SELECT * FROM sqf_tbl"
 
 
@@ -41,7 +41,7 @@ for row in file_list:
     _path = _temp_path[-2] + '/' + _temp_path[-1]
     sqf_dict[_name] = {'sqf_id': _id, 'sqf_path': _path}
 
-with open(gil.pathmaker('cwd', 'readme_test.md'), 'a') as readf:
+with open(gis.pathmaker('cwd', 'readme_test.md'), 'a') as readf:
     for key in sqf_dict:
         readf.write(f"## [{key}]({sqf_dict[key]['sqf_path']})\n\n")
         callerdict = get_callers(sqf_dict[key]['sqf_id'])

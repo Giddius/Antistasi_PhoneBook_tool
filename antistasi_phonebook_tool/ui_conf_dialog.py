@@ -9,7 +9,7 @@
 
 
 from PyQt5 import QtCore, QtGui, QtWidgets
-from self_created.gid_qt import DragDropLineEdit
+from Gid_Qt_helpers.Gidgets import DragDropLineEdit
 
 class Ui_Dialog(object):
     def setupUi(self, Dialog):

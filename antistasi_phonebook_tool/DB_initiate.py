@@ -1,10 +1,13 @@
+# modified to new Gid module on 01.07.2020
+
 
 # region [Imports]
 
 import armaclass
 import os
 import re
-import self_module.gid_land as gil
+import Gid_Generic_helpers.gid_ssentials as gis
+from gidtools.gidfiles import pathmaker
 
 
 # endregion [Imports]
@@ -17,12 +20,12 @@ class PhoneBookInitializer:
     """File handling for searching mission folders for sqf and hpp files"""
 
     def __init__(self, outfile, outputFolderName, path_to_source, function_folder):
-        self.source_folder = gil.pathmaker(path_to_source)
-        self.function_folder = gil.pathmaker(function_folder)
+        self.source_folder = pathmaker(path_to_source)
+        self.function_folder = pathmaker(function_folder)
         self.outputfolder = outputFolderName
         self.outfile = outfile
         self.pybasefolder = os.path.abspath(os.path.dirname(__file__))
-        self.pyoutfile = gil.pathmaker(self.outputfolder, self.outfile)
+        self.pyoutfile = pathmaker(self.outputfolder, self.outfile)
         self.fnchpp_dict = {}
         self.fnc_dict = {}
         self.sqf_dict = {}
@@ -64,7 +67,7 @@ class PhoneBookInitializer:
         for roots, _directories, files in os.walk(self.source_folder):
             for file in files:
                 if file_type in file:
-                    _named_dict[_id] = [gil.pathmaker(roots, file), file]
+                    _named_dict[_id] = [pathmaker(roots, file), file]
 
                     _id += 1
 
@@ -78,7 +81,7 @@ class PhoneBookInitializer:
                     for function in classlist:
                         funct = prefix + '_fnc_' + function
                         functfile = 'fn_' + function + '.sqf'
-                        pathfull = gil.pathmaker(folder, functfile)
+                        pathfull = pathmaker(folder, functfile)
                         self.fnc_dict[fnc_id] = [pathfull, functfile, funct]
 
                         fnc_id += 1
@@ -95,7 +98,7 @@ class PhoneBookInitializer:
 
 
     def getcontent(self, file):
-        with open(file, 'r') as _file:
+        with open(file, 'r', encoding='utf-8') as _file:
             _content = _file.read()
             return self.commentcleaner(_content)
 
@@ -132,46 +135,45 @@ def PhoneBook_create_search_db():
 
 
 
-    u_config = gil.GiConfigRex(cfg_folder=gil.pathmaker('cwd', 'config'), cfg_file='user_config.ini', cfg_sections='all')
-    s_config = gil.GiConfigRex(cfg_file='solid_config.ini', cfg_sections='all')
-    database = gil.GiDatabasebNoble()
-    if os.path.exists(gil.pathmaker('cwd', s_config.db_parameter['db_loc'])) is False:
-        os.makedirs(gil.pathmaker('cwd', s_config.db_parameter['db_loc']))
-    database.startup_db(overwrite=True)
+    u_config = gis.GiUserConfig()
 
-    fnchpp_knight = gil.GiDbInputKnight(table_name='fnchpp_tbl', table_group='Antistasi_PhoneBook_tool_tbls', fixed=s_config.sql_input['cre_fnchpp_tbl'])
-    fnchpp_knight.insert_to_toc(fnchpp_knight.table_name, fnchpp_knight.table_group)
+    database = gis.GiDataBase()
+    if os.path.exists(pathmaker('cwd', database.db_parameter['db_loc'])) is False:
+        os.makedirs(pathmaker('cwd', database.db_parameter['db_loc']))
+    database.start_db(overwrite=True)
 
-    sqf_knight = gil.GiDbInputKnight(table_name='sqf_tbl', table_group='Antistasi_PhoneBook_tool_tbls', fixed=s_config.sql_input['cre_sqf_tbl'])
-    sqf_knight.insert_to_toc(sqf_knight.table_name, sqf_knight.table_group)
+    database.phrase_executer(database.sql_input['cre_fnchpp_tbl'])
+    database.insert_to_toc('fnchpp_tbl', 'Antistasi_PhoneBook_tool_tbls')
 
-    fnc_knight = gil.GiDbInputKnight(table_name='fnc_tbl', table_group='Antistasi_PhoneBook_tool_tbls', fixed=s_config.sql_input['cre_fnc_tbl'])
-    fnc_knight.create_fixed(s_config.sql_input['cre_fnc_tbl'])
-    fnc_knight.insert_to_toc(fnc_knight.table_name, fnc_knight.table_group)
+    database.phrase_executer(database.sql_input['cre_sqf_tbl'])
+    database.insert_to_toc('sqf_tbl', 'Antistasi_PhoneBook_tool_tbls')
 
-    call_list_knight = gil.GiDbInputKnight(table_name='call_list_tbl', table_group='Antistasi_PhoneBook_tool_tbls', fixed=s_config.sql_input['cre_call_list_tbl'])
-    call_list_knight.insert_to_toc(call_list_knight.table_name, call_list_knight.table_group)
+    database.phrase_executer(database.sql_input['cre_fnc_tbl'])
+    database.insert_to_toc('fnc_tbl', 'Antistasi_PhoneBook_tool_tbls')
+
+    database.phrase_executer(database.sql_input['cre_call_list_tbl'])
+    database.insert_to_toc('call_list_tbl', 'Antistasi_PhoneBook_tool_tbls')
 
     WORKER = PhoneBookInitializer(u_config.from_user['output_file'], u_config.from_user['output_folder'], u_config.from_user['path_to_antistasi'], u_config.from_user['antistasi_functions_folder'])
 
     for _data_key, _data_value in WORKER.fnchpp_dict.items():
         _tuple_params = tuple(_data_value)
-        database.execute_phrase(database.sql_input['ins_fnchpp_tbl'], _tuple_params)
+        database.phrase_executer(database.sql_input['ins_fnchpp_tbl'], _tuple_params)
 
     for _data_key, _data_value in WORKER.sqf_dict.items():
         _tuple_params = tuple(_data_value)
 
-        database.execute_phrase(database.sql_input['ins_sqf_tbl'], _tuple_params)
+        database.phrase_executer(database.sql_input['ins_sqf_tbl'], _tuple_params)
 
     for _data_key, _data_value in WORKER.fnc_dict.items():
         _tuple_params = tuple(_data_value)
 
-        database.execute_phrase(database.sql_input['ins_fnc_tbl'], _tuple_params)
+        database.phrase_executer(database.sql_input['ins_fnc_tbl'], _tuple_params)
 
     for _data_value in WORKER.call_list:
         _tuple_params = tuple(_data_value)
 
-        database.execute_phrase(database.sql_input['ins_call_list_tbl'], _tuple_params)
+        database.phrase_executer(database.sql_input['ins_call_list_tbl'], _tuple_params)
 
     print('Antistasi_Phone_book Database initialization done')
 

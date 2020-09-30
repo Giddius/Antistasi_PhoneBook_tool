@@ -7,56 +7,264 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	0.0.0	/f6c7064a/
-Antistasi_PhoneBook_tool.py	../Antistasi_PhoneBook_tool.py	1;"	kind:file	line:1
+Antistasi_PhoneBook_tool_configuration.py	../Antistasi_PhoneBook_tool_configuration.py	1;"	kind:file	line:1
+Antistasi_PhoneBook_tool_main.py	../Antistasi_PhoneBook_tool_main.py	1;"	kind:file	line:1
+Antistasi_PhoneBook_tool_snippet.py	../Antistasi_PhoneBook_tool_snippet.py	1;"	kind:file	line:1
+Configurator	../Antistasi_PhoneBook_tool_configuration.py	/^class Configurator(cgui.Ui_Dialog):$/;"	kind:class	line:4
 DB_initiate.py	../DB_initiate.py	1;"	kind:file	line:1
-MainWindow	../Ui_Antistasi_PhoneBook_tool.py	/^        MainWindow = QtWidgets.QMainWindow()$/;"	kind:variable	line:315
-PhoneBookInitializer	../DB_initiate.py	/^class PhoneBookInitializer:$/;"	kind:class	line:16
-PhoneBook_create_search_db	../DB_initiate.py	/^def PhoneBook_create_search_db():$/;"	kind:function	line:129
-Ui_Antistasi_PhoneBook_tool.py	../Ui_Antistasi_PhoneBook_tool.py	1;"	kind:file	line:1
-Ui_MainWindow	../Antistasi_PhoneBook_tool.py	/^class Ui_MainWindow(object):$/;"	kind:class	line:13
-Ui_MainWindow	../UI/ui_Antistasi_PhoneBook_tool.py	/^class Ui_MainWindow(object):$/;"	kind:class	line:13
-Ui_MainWindow	../Ui_Antistasi_PhoneBook_tool.py	/^class Ui_MainWindow(object):$/;"	kind:class	line:27
-__init__	../DB_initiate.py	/^    def __init__(self, outfile, outputFolderName, path_to_source, function_folder):$/;"	kind:member	line:19
-app	../Ui_Antistasi_PhoneBook_tool.py	/^        app = QtWidgets.QApplication(sys.argv)$/;"	kind:variable	line:314
-appendoutput	../DB_initiate.py	/^    def appendoutput(self, OUTPUT):$/;"	kind:member	line:50
-collect_data	../DB_initiate.py	/^    def collect_data(self):$/;"	kind:member	line:35
-commentcleaner	../DB_initiate.py	/^    def commentcleaner(content):$/;"	kind:member	line:43
+DEBUG	../self_module/gid_land.py	/^DEBUG = 1$/;"	kind:variable	line:26
+DragDropLineEdit	../self_module/gid_qt.py	/^class DragDropLineEdit(QLineEdit):$/;"	kind:class	line:152
+DragDropListWidget	../self_module/gid_qt.py	/^class DragDropListWidget(QListWidget):$/;"	kind:class	line:170
+GiConfigRex	../self_module/gid_land.py	/^class GiConfigRex:$/;"	kind:class	line:157
+GiDataBase	../self_module/gid_ssentials.py	/^class GiDataBase(GidConfigMaster, GiDataBaseMaster):$/;"	kind:class	line:491
+GiDataBaseMaster	../self_module/gid_ssentials.py	/^class GiDataBaseMaster:$/;"	kind:class	line:247
+GiDatabasebNoble	../self_module/gid_land.py	/^class GiDatabasebNoble(GiConfigRex):$/;"	kind:class	line:241
+GiDbInputKnight	../self_module/gid_land.py	/^class GiDbInputKnight(GiDatabasebNoble):$/;"	kind:class	line:381
+GiRandDataPope	../self_module/gid_random.py	/^class GiRandDataPope:$/;"	kind:class	line:31
+GiSolidConfig	../self_module/gid_ssentials.py	/^class GiSolidConfig(GidConfigMaster):$/;"	kind:class	line:512
+GiUserConfig	../self_module/gid_ssentials.py	/^class GiUserConfig(GidConfigMaster):$/;"	kind:class	line:503
+GidConfigMaster	../self_module/gid_ssentials.py	/^class GidConfigMaster:$/;"	kind:class	line:180
+GidFile	../self_module/gid_ssentials.py	/^class GidFile():$/;"	kind:class	line:429
+LittlePopuper	../self_module/gid_qt.py	/^class LittlePopuper:$/;"	kind:class	line:82
+MainWindow	../Antistasi_PhoneBook_tool_main.py	/^    MainWindow = QtWidgets.QMainWindow()$/;"	kind:variable	line:439
+NewTable	../self_module/gid_ssentials.py	/^class NewTable:$/;"	kind:class	line:531
+PhoneBookInitializer	../DB_initiate.py	/^class PhoneBookInitializer:$/;"	kind:class	line:19
+PhoneBookMainGui	../Antistasi_PhoneBook_tool_main.py	/^class PhoneBookMainGui(mgui.Ui_MainWindow):$/;"	kind:class	line:52
+PhoneBook_create_search_db	../DB_initiate.py	/^def PhoneBook_create_search_db():$/;"	kind:function	line:134
+PhoneBook_tool_ressources_rc.py	../PhoneBook_tool_ressources_rc.py	1;"	kind:file	line:1
+PhoneBook_vsc_helper.py	../PhoneBook_vsc_helper.py	1;"	kind:file	line:1
+SnippetWindow	../Antistasi_PhoneBook_tool_snippet.py	/^class SnippetWindow(sgui.Ui_Dialog):$/;"	kind:class	line:4
+TocGetter	../self_module/gid_land.py	/^class TocGetter(GiDatabasebNoble):$/;"	kind:class	line:460
+Ui_Dialog	../ui_conf_dialog.py	/^class Ui_Dialog(object):$/;"	kind:class	line:14
+Ui_Dialog	../ui_snippet_window.py	/^class Ui_Dialog(object):$/;"	kind:class	line:14
+Ui_MainWindow	../ui_Antistasi_PhoneBook_tool.py	/^class Ui_MainWindow(object):$/;"	kind:class	line:13
+__bool__	../self_module/gid_ssentials.py	/^    def __bool__(self):$/;"	kind:member	line:413
+__getitem__	../self_module/gid_land.py	/^    def __getitem__(self, key):$/;"	kind:member	line:490
+__init__	../Antistasi_PhoneBook_tool_configuration.py	/^    def __init__(self, Dialog, in_triumvirate):$/;"	kind:member	line:5
+__init__	../Antistasi_PhoneBook_tool_main.py	/^    def __init__(self, MainWindow):$/;"	kind:member	line:54
+__init__	../Antistasi_PhoneBook_tool_snippet.py	/^    def __init__(self, Dialog, in_text):$/;"	kind:member	line:5
+__init__	../DB_initiate.py	/^    def __init__(self, outfile, outputFolderName, path_to_source, function_folder):$/;"	kind:member	line:22
+__init__	../self_module/gid_land.py	/^    def __init__(self):$/;"	kind:member	line:462
+__init__	../self_module/gid_land.py	/^    def __init__(self, cfg_folder='default', cfg_file='solid_config.ini', cfg_sections='default'/;"	kind:member	line:261
+__init__	../self_module/gid_land.py	/^    def __init__(self, cfg_folder='default', cfg_file=None, cfg_sections=None):$/;"	kind:member	line:171
+__init__	../self_module/gid_land.py	/^    def __init__(self, cfg_sections='default', table_name=None, table_collumns=None, table_group/;"	kind:member	line:400
+__init__	../self_module/gid_qt.py	/^    def __init__(self):$/;"	kind:member	line:84
+__init__	../self_module/gid_qt.py	/^    def __init__(self, parent, title='Drag and Drop'):$/;"	kind:member	line:153
+__init__	../self_module/gid_qt.py	/^    def __init__(self, parent=None):$/;"	kind:member	line:171
+__init__	../self_module/gid_random.py	/^    def __init__(self):$/;"	kind:member	line:50
+__init__	../self_module/gid_ssentials.py	/^    def __init__(self, config_name, config_loc):$/;"	kind:member	line:182
+__init__	../self_module/gid_ssentials.py	/^    def __init__(self, in_config_loc='default'):$/;"	kind:member	line:505
+__init__	../self_module/gid_ssentials.py	/^    def __init__(self, in_config_loc='default'):$/;"	kind:member	line:514
+__init__	../self_module/gid_ssentials.py	/^    def __init__(self, in_config_loc='default', in_pragma=None):$/;"	kind:member	line:493
+__init__	../self_module/gid_ssentials.py	/^    def __init__(self, in_db_name, in_db_loc, in_sql_script_loc, in_pragma=None):$/;"	kind:member	line:250
+__init__	../self_module/gid_ssentials.py	/^    def __init__(self, in_file, bindata=False, append=False, compress=False):$/;"	kind:member	line:432
+__init__	../self_module/gid_ssentials.py	/^    def __init__(self, in_table_name, in_table_group='misc'):$/;"	kind:member	line:533
+__radd__	../self_module/gid_ssentials.py	/^    def __radd__(self, other):$/;"	kind:member	line:555
+__repr__	../self_module/gid_land.py	/^    def __repr__(self):$/;"	kind:member	line:220
+__repr__	../self_module/gid_land.py	/^    def __repr__(self):$/;"	kind:member	line:366
+__repr__	../self_module/gid_land.py	/^    def __repr__(self):$/;"	kind:member	line:451
+__repr__	../self_module/gid_land.py	/^    def __repr__(self):$/;"	kind:member	line:484
+__repr__	../self_module/gid_qt.py	/^    def __repr__(self):$/;"	kind:member	line:142
+__repr__	../self_module/gid_random.py	/^    def __repr__(self):$/;"	kind:member	line:112
+__repr__	../self_module/gid_ssentials.py	/^    def __repr__(self):$/;"	kind:member	line:238
+__repr__	../self_module/gid_ssentials.py	/^    def __repr__(self):$/;"	kind:member	line:416
+__repr__	../self_module/gid_ssentials.py	/^    def __repr__(self):$/;"	kind:member	line:552
+__str__	../self_module/gid_land.py	/^    def __str__(self):$/;"	kind:member	line:223
+__str__	../self_module/gid_land.py	/^    def __str__(self):$/;"	kind:member	line:369
+__str__	../self_module/gid_land.py	/^    def __str__(self):$/;"	kind:member	line:454
+__str__	../self_module/gid_land.py	/^    def __str__(self):$/;"	kind:member	line:487
+__str__	../self_module/gid_qt.py	/^    def __str__(self):$/;"	kind:member	line:147
+__str__	../self_module/gid_random.py	/^    def __str__(self):$/;"	kind:member	line:115
+__str__	../self_module/gid_ssentials.py	/^    def __str__(self):$/;"	kind:member	line:241
+__str__	../self_module/gid_ssentials.py	/^    def __str__(self):$/;"	kind:member	line:419
+__str__	../self_module/gid_ssentials.py	/^    def __str__(self):$/;"	kind:member	line:559
+_id	../create_md_readme.py	/^    _id = row['sqf_id']$/;"	kind:variable	line:39
+_logfile	../Antistasi_PhoneBook_tool_main.py	/^_logfile = pathmaker('cwd', 'logs', 'phone.log')$/;"	kind:variable	line:27
+_name	../create_md_readme.py	/^    _name = row['sqf_file']$/;"	kind:variable	line:38
+_path	../create_md_readme.py	/^    _path = _temp_path[-2] + '\/' + _temp_path[-1]$/;"	kind:variable	line:41
+_sql_1	../create_md_readme.py	/^_sql_1 = "SELECT * FROM sqf_tbl"$/;"	kind:variable	line:28
+_temp_path	../create_md_readme.py	/^    _temp_path = row['sqf_path'].split('\/')$/;"	kind:variable	line:40
+actions	../Antistasi_PhoneBook_tool_main.py	/^    def actions(self):$/;"	kind:member	line:122
+add_or_update_option	../self_module/gid_ssentials.py	/^    def add_or_update_option(self, in_section, option_key, in_option_value):$/;"	kind:member	line:216
+add_pragma	../self_module/gid_ssentials.py	/^    def add_pragma(self):$/;"	kind:member	line:408
+addcol	../self_module/gid_ssentials.py	/^    def addcol(self, in_value, in_type, pk=False, unique=False):$/;"	kind:member	line:542
+app	../Antistasi_PhoneBook_tool_main.py	/^    app = QtWidgets.QApplication(sys.argv)$/;"	kind:variable	line:438
+appendoutput	../DB_initiate.py	/^    def appendoutput(self, OUTPUT):$/;"	kind:member	line:53
+as_filedialog	../self_module/gid_qt.py	/^def as_filedialog(in_type='open', in_title=None, in_dir=None, in_filter_name=None, in_ext=None, /;"	kind:function	line:46
+atom_snippet	../Antistasi_PhoneBook_tool_main.py	/^    def atom_snippet(self):$/;"	kind:member	line:226
+callerdict	../create_md_readme.py	/^        callerdict = get_callers(sqf_dict[key]['sqf_id'])$/;"	kind:variable	line:47
+cfgurator	../Antistasi_PhoneBook_tool_main.py	/^from Antistasi_PhoneBook_tool_configuration import Configurator as cfgurator$/;"	kind:unknown	line:20
+cgui	../Antistasi_PhoneBook_tool_configuration.py	/^import ui_conf_dialog as cgui$/;"	kind:namespace	line:1
+change_font_size	../Antistasi_PhoneBook_tool_main.py	/^    def change_font_size(self):$/;"	kind:member	line:334
+check_db	../Antistasi_PhoneBook_tool_main.py	/^    def check_db(self):$/;"	kind:member	line:339
+collect_data	../DB_initiate.py	/^    def collect_data(self):$/;"	kind:member	line:38
+commentcleaner	../DB_initiate.py	/^    def commentcleaner(content):$/;"	kind:member	line:46
+con_create_db	../self_module/gid_land.py	/^    def con_create_db(self, toc=True, table_groups=True, misc_init_tbl=None):$/;"	kind:member	line:318
+config_object_clear	../self_module/gid_ssentials.py	/^    def config_object_clear(self):$/;"	kind:member	line:223
 configurator.py	../configurator.py	1;"	kind:file	line:1
-copy_snippets	../Ui_Antistasi_PhoneBook_tool.py	/^    def copy_snippets(self):$/;"	kind:member	line:212
-create_atom_snippets	../Ui_Antistasi_PhoneBook_tool.py	/^    def create_atom_snippets(self):$/;"	kind:member	line:257
-create_vsc_snippets	../Ui_Antistasi_PhoneBook_tool.py	/^    def create_vsc_snippets(self):$/;"	kind:member	line:270
-find_calls	../DB_initiate.py	/^    def find_calls(self):$/;"	kind:member	line:85
-fncintosqf	../DB_initiate.py	/^def fncintosqf(fncfunction):$/;"	kind:function	line:118
-get_all_calls	../query_all_calls.py	/^def get_all_calls(to_md=False, html_all=False, to_csv=False, outputfolder=None, combined=False):$/;"	kind:function	line:5
-get_all_functions	../query_all_calls.py	/^def get_all_functions():$/;"	kind:function	line:49
-getcontent	../DB_initiate.py	/^    def getcontent(self, file):$/;"	kind:member	line:95
-getfunctions	../DB_initiate.py	/^    def getfunctions(self):$/;"	kind:member	line:70
-gil	../DB_initiate.py	/^import self_created.gid_land as gil$/;"	kind:namespace	line:7
-gil	../Ui_Antistasi_PhoneBook_tool.py	/^import self_created.gid_land as gil$/;"	kind:namespace	line:20
-gil	../configurator.py	/^import self_created.gid_land as gil$/;"	kind:namespace	line:7
-gil	../query_all_calls.py	/^import self_created.gid_land as gil$/;"	kind:namespace	line:1
-gil	../query_from_file.py	/^import self_created.gid_land as gil$/;"	kind:namespace	line:1
-gil	../query_from_fnc.py	/^import self_created.gid_land as gil$/;"	kind:namespace	line:1
-giq	../Ui_Antistasi_PhoneBook_tool.py	/^import self_created.gid_qt as giq$/;"	kind:namespace	line:21
-initOutputfile	../DB_initiate.py	/^    def initOutputfile(self):$/;"	kind:member	line:54
-pressed_search	../Ui_Antistasi_PhoneBook_tool.py	/^    def pressed_search(self):$/;"	kind:member	line:287
-pressed_search_all	../Ui_Antistasi_PhoneBook_tool.py	/^    def pressed_search_all(self):$/;"	kind:member	line:242
-process_ask_popup	../Ui_Antistasi_PhoneBook_tool.py	/^    def process_ask_popup(self, i):$/;"	kind:member	line:230
+conspire_the_triumvirate	../Antistasi_PhoneBook_tool_main.py	/^def conspire_the_triumvirate():$/;"	kind:function	line:42
+copy_snippets	../Antistasi_PhoneBook_tool_snippet.py	/^    def copy_snippets(self):$/;"	kind:member	line:13
+create_config_section	../self_module/gid_ssentials.py	/^    def create_config_section(self, in_section, in_option_dict: dict):$/;"	kind:member	line:228
+create_extra_init_tables	../self_module/gid_ssentials.py	/^    def create_extra_init_tables(self):$/;"	kind:member	line:365
+create_fixed	../self_module/gid_land.py	/^    def create_fixed(self, in_put):$/;"	kind:member	line:426
+create_md_readme.py	../create_md_readme.py	1;"	kind:file	line:1
+create_new_dialog	../self_module/gid_qt.py	/^def create_new_dialog(in_dialog_class, *args, **kwargs):$/;"	kind:function	line:23
+create_new_font	../self_module/gid_qt.py	/^def create_new_font(in_font_name='Fira Mono Medium', in_size=14, in_bold=False, in_weight=50):$/;"	kind:function	line:15
+create_object_triumvirate	../self_module/gid_land.py	/^def create_object_triumvirate():$/;"	kind:function	line:136
+create_std_init_tables	../self_module/gid_ssentials.py	/^    def create_std_init_tables(self):$/;"	kind:member	line:356
+create_tablegroup	../self_module/gid_ssentials.py	/^    def create_tablegroup(self, in_tablegroup):$/;"	kind:member	line:381
+create_task_json	../Antistasi_PhoneBook_tool_main.py	/^    def create_task_json(self):$/;"	kind:member	line:146
+createtable_group	../self_module/gid_land.py	/^    def createtable_group(self, tbl_group_name):$/;"	kind:member	line:340
+database	../create_md_readme.py	/^database = gis.GiDatabasebNoble()$/;"	kind:variable	line:26
+database_create_connect	../self_module/gid_land.py	/^def database_create_connect(overwrite=False, real_overwrite=False):$/;"	kind:function	line:41
+db_exist	../self_module/gid_ssentials.py	/^    def db_exist(self):$/;"	kind:member	line:397
+delete_db_if_exist	../self_module/gid_ssentials.py	/^    def delete_db_if_exist(self, backup=False):$/;"	kind:member	line:336
+delete_from_toc	../self_module/gid_ssentials.py	/^    def delete_from_toc(self, in_table_name):$/;"	kind:member	line:391
+dir_change	../self_module/gid_ssentials.py	/^def dir_change(*args, in_adress_home=False, ):$/;"	kind:function	line:134
+dirhomemaker	../self_module/gid_land.py	/^def dirhomemaker(in_home_adress=None):$/;"	kind:function	line:49
+dragEnterEvent	../self_module/gid_qt.py	/^    def dragEnterEvent(self, event):$/;"	kind:member	line:158
+dragEnterEvent	../self_module/gid_qt.py	/^    def dragEnterEvent(self, event):$/;"	kind:member	line:176
+dragMoveEvent	../self_module/gid_qt.py	/^    def dragMoveEvent(self, event):$/;"	kind:member	line:182
+dropEvent	../self_module/gid_qt.py	/^    def dropEvent(self, event):$/;"	kind:member	line:164
+dropEvent	../self_module/gid_qt.py	/^    def dropEvent(self, event):$/;"	kind:member	line:188
+drop_table	../self_module/gid_ssentials.py	/^    def drop_table(self, in_table_name):$/;"	kind:member	line:386
+enable_button	../self_module/gid_qt.py	/^def enable_button(in_button, *args):$/;"	kind:function	line:38
+error_dialog	../self_module/gid_qt.py	/^    def error_dialog(self, in_message, in_detail_message=None, in_fnc=None, in_title='Error'):$/;"	kind:member	line:100
+execute_phrase	../self_module/gid_land.py	/^    def execute_phrase(self, phrase, replacement=None):$/;"	kind:member	line:289
+exist_handle	../self_module/gid_ssentials.py	/^def exist_handle(in_path, in_round, original_path):$/;"	kind:function	line:70
+ext_splitter	../self_module/gid_ssentials.py	/^def ext_splitter(in_file, _out='file'):$/;"	kind:function	line:155
+fetch_toc	../self_module/gid_ssentials.py	/^    def fetch_toc(self):$/;"	kind:member	line:331
+file	../PhoneBook_vsc_helper.py	/^file = sys.argv[1]$/;"	kind:variable	line:7
+file_list	../create_md_readme.py	/^    file_list = conn.fetchall()$/;"	kind:variable	line:34
+file_name_time	../self_module/gid_ssentials.py	/^def file_name_time(var_sep='_', date_time_sep='-', box=('[', ']')):$/;"	kind:function	line:50
+fill_combo_from_db	../self_module/gid_qt.py	/^def fill_combo_from_db(in_triumvirate, in_tbl_name, in_collumn_name, in_combo):$/;"	kind:function	line:30
+fill_toc_dict	../self_module/gid_land.py	/^    def fill_toc_dict(self):$/;"	kind:member	line:467
+find_calls	../DB_initiate.py	/^    def find_calls(self):$/;"	kind:member	line:90
+first_start	../Antistasi_PhoneBook_tool_main.py	/^    def first_start(self):$/;"	kind:member	line:195
+fncintosqf	../DB_initiate.py	/^def fncintosqf(fncfunction):$/;"	kind:function	line:123
+formatter	../Antistasi_PhoneBook_tool_main.py	/^formatter = logging.Formatter('%(asctime)s : %(levelname)s : %(name)s : %(lineno)s : %(message)s/;"	kind:variable	line:31
+from_fileandloc	../self_module/gid_ssentials.py	/^    def from_fileandloc(cls, in_file_loc, in_file_name):$/;"	kind:member	line:447
+from_fullpath	../self_module/gid_land.py	/^    def from_fullpath(cls, full_path):$/;"	kind:member	line:195
+from_fullpath	../self_module/gid_ssentials.py	/^    def from_fullpath(cls, full_path):$/;"	kind:member	line:210
+from_std_tbl	../self_module/gid_land.py	/^    def from_std_tbl(cls, tablename, tablegroup, blob=False):$/;"	kind:member	line:419
+get_all_calls	../query_all_calls.py	/^def get_all_calls(as_filepath=False):$/;"	kind:function	line:7
+get_all_functions	../query_all_calls.py	/^def get_all_functions():$/;"	kind:function	line:27
+get_callers	../create_md_readme.py	/^def get_callers(in_sqf_id):$/;"	kind:function	line:8
+get_fnc_number	../Antistasi_PhoneBook_tool_main.py	/^    def get_fnc_number(self):$/;"	kind:member	line:344
+get_key_value_as_param	../self_module/gid_land.py	/^    def get_key_value_as_param(self):$/;"	kind:member	line:210
+getcontent	../DB_initiate.py	/^    def getcontent(self, file):$/;"	kind:member	line:100
+getfunctions	../DB_initiate.py	/^    def getfunctions(self):$/;"	kind:member	line:74
+gid_land.py	../self_module/gid_land.py	1;"	kind:file	line:1
+gid_qt.py	../self_module/gid_qt.py	1;"	kind:file	line:1
+gid_random.py	../self_module/gid_random.py	1;"	kind:file	line:1
+gid_ssentials.py	../self_module/gid_ssentials.py	1;"	kind:file	line:1
+gil	../self_module/gid_qt.py	/^import self_created.gid_land as gil$/;"	kind:namespace	line:2
+giq	../Antistasi_PhoneBook_tool_configuration.py	/^import Gid_Qt_helpers.gid_qt as giq$/;"	kind:namespace	line:2
+giq	../Antistasi_PhoneBook_tool_main.py	/^import Gid_Qt_helpers.gid_qt as giq$/;"	kind:namespace	line:7
+gis	../Antistasi_PhoneBook_tool_main.py	/^import Gid_Generic_helpers.gid_ssentials as gis$/;"	kind:namespace	line:6
+gis	../DB_initiate.py	/^import Gid_Generic_helpers.gid_ssentials as gis$/;"	kind:namespace	line:9
+gis	../configurator.py	/^import Gid_Generic_helpers.gid_ssentials as gis$/;"	kind:namespace	line:7
+gis	../create_md_readme.py	/^import Gid_Generic_helpers.gid_ssentials as gis$/;"	kind:namespace	line:2
+gis	../query_all_calls.py	/^import Gid_Generic_helpers.gid_ssentials as gis$/;"	kind:namespace	line:3
+gis	../query_from_file.py	/^import Gid_Generic_helpers.gid_ssentials as gis$/;"	kind:namespace	line:3
+gis	../query_from_fnc.py	/^import Gid_Generic_helpers.gid_ssentials as gis$/;"	kind:namespace	line:3
+handler	../Antistasi_PhoneBook_tool_main.py	/^handler = handlers.RotatingFileHandler(_logfile, mode='w', backupCount=1)$/;"	kind:variable	line:33
+information_dialog	../self_module/gid_qt.py	/^    def information_dialog(self, in_message, in_detail_message=None, in_fnc=None, in_title='Info/;"	kind:member	line:113
+initOutputfile	../DB_initiate.py	/^    def initOutputfile(self):$/;"	kind:member	line:57
+initiate_db_again	../Antistasi_PhoneBook_tool_main.py	/^    def initiate_db_again(self):$/;"	kind:member	line:358
+insert_to_toc	../self_module/gid_land.py	/^    def insert_to_toc(self, tbl_name, tbl_group):$/;"	kind:member	line:351
+insert_to_toc	../self_module/gid_ssentials.py	/^    def insert_to_toc(self, tbl_name, in_tablegroup):$/;"	kind:member	line:374
+inspect_db_status	../self_module/gid_land.py	/^    def inspect_db_status(self):$/;"	kind:member	line:274
+is_file_there	../self_module/gid_land.py	/^def is_file_there(in_file, debug=1):$/;"	kind:function	line:99
+line_empty_check	../Antistasi_PhoneBook_tool_main.py	/^    def line_empty_check(self):$/;"	kind:member	line:104
+list_tbl_groups	../self_module/gid_land.py	/^    def list_tbl_groups(self):$/;"	kind:member	line:480
+make_icons	../self_module/gid_qt.py	/^def make_icons(in_path, in_size_1, in_size_2):$/;"	kind:function	line:10
+mgui	../Antistasi_PhoneBook_tool_main.py	/^import ui_Antistasi_PhoneBook_tool as mgui$/;"	kind:namespace	line:19
+newlinemaker	../self_module/gid_land.py	/^def newlinemaker(in_amount: int):$/;"	kind:function	line:94
+num_gen	../self_module/gid_random.py	/^    def num_gen(self, amount):$/;"	kind:member	line:74
+number_rename	../self_module/gid_ssentials.py	/^def number_rename(in_path, in_round):$/;"	kind:function	line:62
+open_config_window	../Antistasi_PhoneBook_tool_main.py	/^    def open_config_window(self):$/;"	kind:member	line:206
+open_db	../self_module/gid_land.py	/^    def open_db(self, row_factory=None):$/;"	kind:member	line:281
+open_filedialog_folder	../Antistasi_PhoneBook_tool_configuration.py	/^    def open_filedialog_folder(self, out_put):$/;"	kind:member	line:22
+open_snippet_window	../Antistasi_PhoneBook_tool_main.py	/^    def open_snippet_window(self):$/;"	kind:member	line:214
+opendb	../self_module/gid_ssentials.py	/^    def opendb(self, row_factory=None):$/;"	kind:member	line:263
+output	../PhoneBook_vsc_helper.py	/^    output = query_from_file.query_from_file(file)$/;"	kind:variable	line:9
+output	../PhoneBook_vsc_helper.py	/^    output = query_from_fnc.query_from_fnc(file)$/;"	kind:variable	line:11
+pathmaker	../self_module/gid_land.py	/^def pathmaker(in_fr_cwd: str, *in_paths: str, st_revsplit=None):$/;"	kind:function	line:62
+pathmaker	../self_module/gid_ssentials.py	/^def pathmaker(in_fr_cwd, *in_paths, rev=None):$/;"	kind:function	line:108
+pathmaker_decorator	../self_module/gid_ssentials.py	/^def pathmaker_decorator(func):$/;"	kind:function	line:78
+pathmaker_inner	../self_module/gid_ssentials.py	/^    def pathmaker_inner(in_file, *args, **kwargs):$/;"	kind:function	line:79
+phonelogger	../Antistasi_PhoneBook_tool_main.py	/^phonelogger = logging.getLogger(__name__)$/;"	kind:variable	line:29
+phrase_executer	../self_module/gid_ssentials.py	/^    def phrase_executer(self, in_phrase, in_variables=None):$/;"	kind:member	line:273
+qCleanupResources	../PhoneBook_tool_ressources_rc.py	/^def qCleanupResources():$/;"	kind:function	line:292808
+qInitResources	../PhoneBook_tool_ressources_rc.py	/^def qInitResources():$/;"	kind:function	line:292805
+qt_resource_data	../PhoneBook_tool_ressources_rc.py	/^qt_resource_data = b"\\$/;"	kind:variable	line:11
+qt_resource_name	../PhoneBook_tool_ressources_rc.py	/^qt_resource_name = b"\\$/;"	kind:variable	line:292677
+qt_resource_struct	../PhoneBook_tool_ressources_rc.py	/^    qt_resource_struct = qt_resource_struct_v1$/;"	kind:variable	line:292800
+qt_resource_struct	../PhoneBook_tool_ressources_rc.py	/^    qt_resource_struct = qt_resource_struct_v2$/;"	kind:variable	line:292803
+qt_resource_struct_v1	../PhoneBook_tool_ressources_rc.py	/^qt_resource_struct_v1 = b"\\$/;"	kind:variable	line:292740
+qt_resource_struct_v2	../PhoneBook_tool_ressources_rc.py	/^qt_resource_struct_v2 = b"\\$/;"	kind:variable	line:292760
+qt_version	../PhoneBook_tool_ressources_rc.py	/^qt_version = [int(v) for v in QtCore.qVersion().split('.')]$/;"	kind:variable	line:292797
 query_all_calls.py	../query_all_calls.py	1;"	kind:file	line:1
-query_from_file	../query_from_file.py	/^def query_from_file(search_term, full_path=False):$/;"	kind:function	line:8
+query_executer	../self_module/gid_ssentials.py	/^    def query_executer(self, in_phrase, in_variables=None, row_factory=None, mode='all'):$/;"	kind:member	line:287
+query_from_file	../query_from_file.py	/^def query_from_file(search_term, full_path=False):$/;"	kind:function	line:10
 query_from_file.py	../query_from_file.py	1;"	kind:file	line:1
-query_from_fnc	../query_from_fnc.py	/^def query_from_fnc(search_term, full_path=False):$/;"	kind:function	line:6
+query_from_fnc	../query_from_fnc.py	/^def query_from_fnc(search_term, full_path=False):$/;"	kind:function	line:8
 query_from_fnc.py	../query_from_fnc.py	1;"	kind:file	line:1
+question_dialog	../self_module/gid_qt.py	/^    def question_dialog(self, in_message, in_detail_message=None, in_fnc=None, in_title='Info'):$/;"	kind:member	line:128
+qumaker	../self_module/gid_land.py	/^def qumaker(in_string: str, qu_type=1):$/;"	kind:function	line:116
+randdict	../self_module/gid_random.py	/^    def randdict(self, pool_key, pool_value, key_amount, value_amount):$/;"	kind:member	line:77
+randdict_of_dicts	../self_module/gid_random.py	/^    def randdict_of_dicts(self, pool_key_major, pool_key_minor, pool_list, key_amount_major, key/;"	kind:member	line:95
+rcc_version	../PhoneBook_tool_ressources_rc.py	/^    rcc_version = 1$/;"	kind:variable	line:292799
 read_and_new_config	../configurator.py	/^def read_and_new_config():$/;"	kind:function	line:10
-retranslateUi	../Antistasi_PhoneBook_tool.py	/^    def retranslateUi(self, MainWindow):$/;"	kind:member	line:163
-retranslateUi	../UI/ui_Antistasi_PhoneBook_tool.py	/^    def retranslateUi(self, MainWindow):$/;"	kind:member	line:163
-retranslateUi	../Ui_Antistasi_PhoneBook_tool.py	/^    def retranslateUi(self, MainWindow):$/;"	kind:member	line:183
-setupUi	../Antistasi_PhoneBook_tool.py	/^    def setupUi(self, MainWindow):$/;"	kind:member	line:14
-setupUi	../UI/ui_Antistasi_PhoneBook_tool.py	/^    def setupUi(self, MainWindow):$/;"	kind:member	line:14
-setupUi	../Ui_Antistasi_PhoneBook_tool.py	/^    def setupUi(self, MainWindow):$/;"	kind:member	line:28
-show_ask_popup	../Ui_Antistasi_PhoneBook_tool.py	/^    def show_ask_popup(self):$/;"	kind:member	line:216
-show_config_popup	../Ui_Antistasi_PhoneBook_tool.py	/^    def show_config_popup(self):$/;"	kind:member	line:208
-show_error_popup	../Ui_Antistasi_PhoneBook_tool.py	/^    def show_error_popup(self, IN_content):$/;"	kind:member	line:235
-ui	../Ui_Antistasi_PhoneBook_tool.py	/^        ui = Ui_MainWindow()$/;"	kind:variable	line:316
-ui_Antistasi_PhoneBook_tool.py	../UI/ui_Antistasi_PhoneBook_tool.py	1;"	kind:file	line:1
-walkthefile	../DB_initiate.py	/^    def walkthefile(self, file_type):$/;"	kind:member	line:58
+read_config	../self_module/gid_land.py	/^    def read_config(self, in_section=None, in_key=None):$/;"	kind:member	line:200
+read_config	../self_module/gid_ssentials.py	/^    def read_config(self, in_section=None, in_key=None):$/;"	kind:member	line:190
+read_to_binary	../self_module/gid_land.py	/^    def read_to_binary(file_full_loc):$/;"	kind:member	line:444
+readit	../self_module/gid_ssentials.py	/^def readit(in_file, bindata=False, per_lines=False):$/;"	kind:function	line:86
+retranslateUi	../ui_Antistasi_PhoneBook_tool.py	/^    def retranslateUi(self, MainWindow):$/;"	kind:member	line:296
+retranslateUi	../ui_conf_dialog.py	/^    def retranslateUi(self, Dialog):$/;"	kind:member	line:89
+retranslateUi	../ui_snippet_window.py	/^    def retranslateUi(self, Dialog):$/;"	kind:member	line:38
+search_radiobutton_check_for_button	../Antistasi_PhoneBook_tool_main.py	/^    def search_radiobutton_check_for_button(self):$/;"	kind:member	line:111
+search_radiobutton_check_for_line	../Antistasi_PhoneBook_tool_main.py	/^    def search_radiobutton_check_for_line(self):$/;"	kind:member	line:115
+sections_as_attributes	../self_module/gid_ssentials.py	/^    def sections_as_attributes(self):$/;"	kind:member	line:201
+sepI	../self_module/gid_ssentials.py	/^def sepI():$/;"	kind:function	line:45
+sepVar	../self_module/gid_ssentials.py	/^def sepVar(in_str):$/;"	kind:function	line:36
+set_disabled	../Antistasi_PhoneBook_tool_main.py	/^    def set_disabled(self):$/;"	kind:member	line:98
+setupUi	../ui_Antistasi_PhoneBook_tool.py	/^    def setupUi(self, MainWindow):$/;"	kind:member	line:14
+setupUi	../ui_conf_dialog.py	/^    def setupUi(self, Dialog):$/;"	kind:member	line:15
+setupUi	../ui_snippet_window.py	/^    def setupUi(self, Dialog):$/;"	kind:member	line:15
+sgui	../Antistasi_PhoneBook_tool_snippet.py	/^import ui_snippet_window as sgui$/;"	kind:namespace	line:1
+should_roll_over	../Antistasi_PhoneBook_tool_main.py	/^should_roll_over = os.path.isfile(_logfile)$/;"	kind:variable	line:32
+show_ask_popup	../Antistasi_PhoneBook_tool_main.py	/^    def show_ask_popup(self):$/;"	kind:member	line:353
+snippet	../Antistasi_PhoneBook_tool_main.py	/^from Antistasi_PhoneBook_tool_snippet import SnippetWindow as snippet$/;"	kind:unknown	line:21
+splitter	../self_module/gid_ssentials.py	/^def splitter(in_file, out_part='file'):$/;"	kind:function	line:126
+sqf_dict	../create_md_readme.py	/^sqf_dict = {}$/;"	kind:variable	line:35
+sreadit	../self_module/gid_ssentials.py	/^    def sreadit(self, per_lines=False):$/;"	kind:member	line:453
+ssplitter	../self_module/gid_ssentials.py	/^    def ssplitter(self):$/;"	kind:member	line:473
+start_db	../self_module/gid_ssentials.py	/^    def start_db(self, overwrite=False, backup=True):$/;"	kind:member	line:311
+start_search	../Antistasi_PhoneBook_tool_main.py	/^    def start_search(self):$/;"	kind:member	line:362
+startup_db	../self_module/gid_land.py	/^    def startup_db(self, toc=True, table_groups=True, overwrite=False, backup=False, misc_init_t/;"	kind:member	line:303
+stimenamemaker	../self_module/gid_ssentials.py	/^    def stimenamemaker(self):$/;"	kind:member	line:479
+swriteit	../self_module/gid_ssentials.py	/^    def swriteit(self):$/;"	kind:member	line:465
+tbl_creator	../self_module/gid_land.py	/^    def tbl_creator(self):$/;"	kind:member	line:430
+timenamemaker	../self_module/gid_land.py	/^def timenamemaker(in_full_path):$/;"	kind:function	line:124
+timenamemaker	../self_module/gid_ssentials.py	/^def timenamemaker(in_full_path):$/;"	kind:function	line:147
+tree_to_file	../Antistasi_PhoneBook_tool_main.py	/^    def tree_to_file(self, output_type):$/;"	kind:member	line:270
+tree_to_file_pretest	../Antistasi_PhoneBook_tool_main.py	/^    def tree_to_file_pretest(self):$/;"	kind:member	line:258
+treewidgeter_simple	../self_module/gid_qt.py	/^def treewidgeter_simple(in_parent, in_icon=None, in_font=None, in_expand=None, **kwargs):$/;"	kind:function	line:68
+u_config	../create_md_readme.py	/^u_config = gis.GiConfigRex(cfg_folder=gis.pathmaker('cwd', 'config'), cfg_file='user_config.ini'/;"	kind:variable	line:27
+ui	../Antistasi_PhoneBook_tool_main.py	/^    ui = PhoneBookMainGui(MainWindow)$/;"	kind:variable	line:440
+ui_Antistasi_PhoneBook_tool.py	../ui_Antistasi_PhoneBook_tool.py	1;"	kind:file	line:1
+ui_conf_dialog.py	../ui_conf_dialog.py	1;"	kind:file	line:1
+ui_snippet_window.py	../ui_snippet_window.py	1;"	kind:file	line:1
+underscore_maker	../self_module/gid_land.py	/^def underscore_maker(*in_args):$/;"	kind:function	line:31
+underscore_maker	../self_module/gid_ssentials.py	/^def underscore_maker(*in_args):$/;"	kind:function	line:29
+update	../self_module/gid_land.py	/^    def update(self):$/;"	kind:member	line:477
+utf8len	../self_module/gid_ssentials.py	/^def utf8len(s):$/;"	kind:function	line:122
+vacuum	../self_module/gid_ssentials.py	/^    def vacuum(self):$/;"	kind:member	line:403
+vsc_snippet	../Antistasi_PhoneBook_tool_main.py	/^    def vsc_snippet(self):$/;"	kind:member	line:241
+walkthefile	../DB_initiate.py	/^    def walkthefile(self, file_type):$/;"	kind:member	line:61
+warning_dialog	../self_module/gid_qt.py	/^    def warning_dialog(self, in_message, in_detail_message=None, in_fnc=None, in_title='Warning'/;"	kind:member	line:87
+write_into_user_config	../Antistasi_PhoneBook_tool_configuration.py	/^    def write_into_user_config(self, accept_thing):$/;"	kind:member	line:26
+write_to_file	../self_module/gid_ssentials.py	/^    def write_to_file(self, in_config):$/;"	kind:member	line:232
+writeit	../self_module/gid_ssentials.py	/^def writeit(in_file, in_data, bindata=False, append=False):$/;"	kind:function	line:98

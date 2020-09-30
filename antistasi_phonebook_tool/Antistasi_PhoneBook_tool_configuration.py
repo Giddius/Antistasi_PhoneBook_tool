@@ -1,5 +1,5 @@
 import ui_conf_dialog as cgui
-import self_module.gid_qt as giq
+import Gid_Qt_helpers.gid_qt as giq
 
 class Configurator(cgui.Ui_Dialog):
     def __init__(self, Dialog, in_triumvirate):

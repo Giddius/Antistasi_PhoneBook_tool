@@ -1,10 +1,12 @@
 # region [Imports]
 
 import logging
-import self_module.gid_land as gil
-import self_module.gid_qt as giq
+from logging import handlers
+from Gid_Generic_helpers.gid_ssentials import pathmaker
+import Gid_Generic_helpers.gid_ssentials as gis
+import Gid_Qt_helpers.gid_qt as giq
 import sys
-import self_module.gid_ssentials as gis
+import os
 from PyQt5 import QtWidgets
 from PyQt5.QtGui import QFont
 from PyQt5.QtWidgets import QTreeWidgetItem
@@ -21,10 +23,26 @@ from Antistasi_PhoneBook_tool_snippet import SnippetWindow as snippet
 
 # endregion [Imports]
 
+
+_logfile = pathmaker('cwd', 'logs', 'phone.log')
+# *---------------------------------------------------------------- logging ---------------------------------------------------------------* #
+phonelogger = logging.getLogger(__name__)
+phonelogger.setLevel(logging.DEBUG)
+formatter = logging.Formatter('%(asctime)s : %(levelname)s : %(name)s : %(lineno)s : %(message)s')
+should_roll_over = os.path.isfile(_logfile)
+handler = handlers.RotatingFileHandler(_logfile, mode='w', backupCount=1)
+if should_roll_over:  # log already exists, roll over!
+    handler.doRollover()
+handler.setFormatter(formatter)
+phonelogger.addHandler(handler)
+phonelogger.info("# ---------------------------------------------------------------- new_run --------------------------------------------------------------- #")
+
+
+
 def conspire_the_triumvirate():
-    dbi = gil.GiDatabasebNoble()
-    scfg = gil.GiConfigRex(cfg_file='solid_config.ini', cfg_sections='all')
-    ucfg = gil.GiConfigRex(cfg_file='user_config.ini', cfg_sections='all')
+    dbi = gis.GiDataBase()
+    scfg = gis.GiSolidConfig()
+    ucfg = gis.GiUserConfig()
     print('The triumvirate has been created!')
     return (dbi, scfg, ucfg)
 
@@ -44,9 +62,13 @@ class PhoneBookMainGui(mgui.Ui_MainWindow):
         self.current_view = ''
         self.search_singlefile_radiobutton.toggle()
         self.snippets_forvsc_radiobutton.toggle()
-        if self.db_tv.inspect_db_status() == 'EXISTING':
+        # self.antistasi_Icon = giq.make_icons()
+        # self.jeroen_Icon = giq.make_icons()
+        # self.bi_Icon = giq.make_icons()
+        # self.upsmon_Icon = giq.make_icons()
+        if self.db_tv.db_exist() == 'EXISTING':
             self.fncnumber_lcdnumber.display(self.get_fnc_number())
-        self.db_status_lineedit.setText(self.check_db())
+        self.db_status_lineedit.setText(self.db_tv.db_exist())
         self.fontsize_spinbox.setValue(12)
         self.font_2 = QFont()
         self.font_2.setFamily("Fira Mono Medium")
@@ -63,13 +85,13 @@ class PhoneBookMainGui(mgui.Ui_MainWindow):
         if self.uc_tv.from_user['changed_by_user'] == 'no':
             self.first_start()
         self.print_fileinput_lineedit.setText(self.uc_tv.from_user['output_folder'] + '/' + self.uc_tv.from_user['output_file'])
-        self.db_status_lineedit.setText(self.check_db())
-        if self.db_tv.inspect_db_status() == 'NOT_EXISTING':
+        self.db_status_lineedit.setText(self.db_tv.db_exist())
+        if self.db_tv.db_exist() == 'NOT_EXISTING':
             self.show_ask_popup()
 
-        if self.db_tv.inspect_db_status() == 'EXISTING':
+        if self.db_tv.db_exist() == 'EXISTING':
             self.fncnumber_lcdnumber.display(self.get_fnc_number())
-        self.db_status_lineedit.setText(self.check_db())
+        self.db_status_lineedit.setText(self.db_tv.db_exist())
 
 
 
@@ -163,8 +185,8 @@ class PhoneBookMainGui(mgui.Ui_MainWindow):
             "problemMatcher": []
         },"""
 
-        _output = _json.replace('%REPLACE_EXELOC%', gil.pathmaker('cwd', 'PhoneBook_vsc_helper.exe'))
-        with open(gil.pathmaker('cwd', 'task_json.txt'), 'w') as jfile:
+        _output = _json.replace('%REPLACE_EXELOC%', gis.pathmaker('cwd', 'PhoneBook_vsc_helper.exe'))
+        with open(gis.pathmaker('cwd', 'task_json.txt'), 'w') as jfile:
             jfile.write(_output)
         self.dialog_creator.information_dialog('the Json text was created as a .txt file\nplease open VS code -> F1 -> configure task, and paste the text', in_detail_message='', in_title='Json Blueprint created')
         logging.info('finished create_task_json')
@@ -315,14 +337,16 @@ class PhoneBookMainGui(mgui.Ui_MainWindow):
 
 
     def check_db(self):
-        _status = self.db_tv.inspect_db_status()
+        _status = self.db_tv.db_exist()
         return f'DB is {_status}'
 
 
     def get_fnc_number(self):
-        with self.db_tv.open_db() as conn:
+        phonelogger.info(f"starting to get fnc_number")
+        with self.db_tv.opendb() as conn:
             conn.execute("SELECT fnc_callname FROM fnc_tbl")
             _number = conn.fetchall()
+            phonelogger.debug(f"Number of functions is {len(_number)}")
         return len(_number)
 
 
@@ -367,9 +391,9 @@ class PhoneBookMainGui(mgui.Ui_MainWindow):
                 self.dialog_creator.error_dialog('you need to input an function name or the name of an .sqf file!', '')
             else:
                 self.output_treewidget.clear()
-                _name = gil.pathmaker(self.search_fileinput_lineedit.text())
+                _name = gis.pathmaker(self.search_fileinput_lineedit.text())
 
-                _cleaned_name = gil.pathmaker(_name, st_revsplit='split_getname')
+                _cleaned_name = gis.pathmaker(_name, st_revsplit='split_getname')
 
 
                 print(_cleaned_name)

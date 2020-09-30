@@ -1,16 +1,17 @@
-import self_module.gid_land as gil
+# modified to new Gid module on 01.07.2020
+
+import Gid_Generic_helpers.gid_ssentials as gis
 
 
 
 
 def query_from_fnc(search_term, full_path=False):
 
-    u_config = gil.GiConfigRex(cfg_folder=gil.pathmaker('cwd', 'config'), cfg_file='user_config.ini', cfg_sections='all')
-    s_config = gil.GiConfigRex(cfg_file='solid_config.ini', cfg_sections='all')
-    database = gil.GiDatabasebNoble()
+
+    database = gis.GiDataBase()
 
 
-    with database.open_db() as conn:
+    with database.opendb() as conn:
         if full_path is True:
             conn.execute(database.sql_query['sel_sqf_file_from_fnc_full'], (str(search_term), ))
         else:

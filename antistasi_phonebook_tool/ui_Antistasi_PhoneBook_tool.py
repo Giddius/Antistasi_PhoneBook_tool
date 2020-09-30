@@ -341,5 +341,5 @@ class Ui_MainWindow(object):
         self.menuDatabase.setTitle(_translate("MainWindow", "Database"))
         self.actionrebuild_DB.setText(_translate("MainWindow", "rebuild DB"))
         self.actionopen_Settings.setText(_translate("MainWindow", "open Settings"))
-from self_created.gid_qt import DragDropLineEdit
+from Gid_Qt_helpers.Gidgets import DragDropLineEdit
 import PhoneBook_tool_ressources_rc
