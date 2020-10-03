@@ -1,0 +1,6 @@
+graft giddis_project_creator
+prune src/dev_ui_ressources
+prune src/ressources
+prune src/init_userdata/data_pack
+prune src/logs
+prune src/archive
