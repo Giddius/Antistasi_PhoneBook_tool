@@ -5,5 +5,5 @@ for /f "eol=; tokens=*" %%I in ('powershell Get-Clipboard') do set CLIPBOARD_TEX
 
 call ..\.venv\Scripts\activate
 pip install %CLIPBOARD_TEXT%
-pip freeze > ..\requirements.txt
+pip freeze > ..\requirements_dev.txt
 

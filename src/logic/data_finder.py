@@ -13,6 +13,7 @@ from src.logic.function_classes import ASFunction, ASFile
 from multiprocessing import Pool, cpu_count, Process
 import json
 from src.utility.misc_helpers.misc_functions import pathmaker, writejson, writeit
+from graphviz import Digraph
 # endregion[Imports]
 
 
@@ -79,7 +80,24 @@ class DataFinderHolder:
         for _file in self.sqf_files:
             _file.find_calls(self.functions)
 
-    def write_dot
+    def write_dot(self):
+        _graph = Digraph('calls', engine='neato')
+        _graph.attr()
+        for _file in self.sqf_files:
+            if _file.as_function is not None:
+                if _file.calls != []:
+                    _graph.node(_file.as_function.full_function_name, label=_file.file_name)
+            else:
+                if _file.calls != []:
+                    _graph.node(_file.file_name, label=_file.file_name)
+        for _funct in self.functions:
+            if _funct.called_from != []:
+                for _caller in _funct.called_from:
+                    if _caller.as_function is not None:
+                        _graph.edge(_caller.as_function.full_function_name, _funct.full_function_name)
+                    elif _caller.as_function is None:
+                        _graph.edge(_caller.file_name, _funct.full_function_name)
+        _graph.save()
 
     def make_data(self):
         self.find_files()
@@ -91,7 +109,3 @@ class DataFinderHolder:
 if __name__ == '__main__':
     a = DataFinderHolder(r"D:\Dropbox\hobby\Modding\Programs\Github\Foreign_Repos\A3-Antistasi")
     a.make_data()
-    _out = {}
-    for _file in a.sqf_files:
-        _out[_file.file_name] = [f.full_function_name for f in _file.calls]
-    writejson(_out, 'results.json')

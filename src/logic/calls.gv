@@ -1,0 +1,1944 @@
+digraph calls {
+	"briefing.sqf" [label="briefing.sqf"]
+	JN_fnc_logistics_init [label="init.sqf"]
+	"initPlayerLocal.sqf" [label="initPlayerLocal.sqf"]
+	A3A_fnc_initServer [label="initServer.sqf"]
+	"onPlayerRespawn.sqf" [label="onPlayerRespawn.sqf"]
+	A3A_fnc_airbomb [label="fn_airbomb.sqf"]
+	A3A_fnc_airdrop [label="fn_airdrop.sqf"]
+	A3A_fnc_AIreactOnKill [label="fn_AIreactOnKill.sqf"]
+	A3A_fnc_airstrike [label="fn_airstrike.sqf"]
+	A3A_fnc_artillery [label="fn_artillery.sqf"]
+	A3A_fnc_artySupport [label="fn_artySupport.sqf"]
+	A3A_fnc_askHelp [label="fn_askHelp.sqf"]
+	A3A_fnc_assaultBuilding [label="fn_assaultBuilding.sqf"]
+	A3A_fnc_attackDrillAI [label="fn_attackDrillAI.sqf"]
+	A3A_fnc_autoHealFnc [label="fn_autoHealFnc.sqf"]
+	A3A_fnc_autoLoot [label="fn_autoLoot.sqf"]
+	A3A_fnc_autoRearm [label="fn_autoRearm.sqf"]
+	A3A_fnc_canConquer [label="fn_canConquer.sqf"]
+	A3A_fnc_captureX [label="fn_captureX.sqf"]
+	A3A_fnc_chargeWithSmoke [label="fn_chargeWithSmoke.sqf"]
+	A3A_fnc_destroyBuilding [label="fn_destroyBuilding.sqf"]
+	A3A_fnc_doFlank [label="fn_doFlank.sqf"]
+	A3A_fnc_enemyList [label="fn_enemyList.sqf"]
+	A3A_fnc_fastrope [label="fn_fastrope.sqf"]
+	A3A_fnc_guardDog [label="fn_guardDog.sqf"]
+	A3A_fnc_hasRadio [label="fn_hasRadio.sqf"]
+	A3A_fnc_help [label="fn_help.sqf"]
+	A3A_fnc_inmuneConvoy [label="fn_inmuneConvoy.sqf"]
+	A3A_fnc_interrogate [label="fn_interrogate.sqf"]
+	A3A_fnc_landThreatEval [label="fn_landThreatEval.sqf"]
+	A3A_fnc_liberatePOW [label="fn_liberatePOW.sqf"]
+	A3A_fnc_liberaterefugee [label="fn_liberaterefugee.sqf"]
+	A3A_fnc_mineSweep [label="fn_mineSweep.sqf"]
+	A3A_fnc_mortarDrill [label="fn_mortarDrill.sqf"]
+	A3A_fnc_mortyAI [label="fn_mortyAI.sqf"]
+	A3A_fnc_napalm [label="fn_napalm.sqf"]
+	A3A_fnc_napalmDamage [label="fn_napalmDamage.sqf"]
+	A3A_fnc_occupantInvaderUnitKilledEH [label="fn_occupantInvaderUnitKilledEH.sqf"]
+	A3A_fnc_rearmCall [label="fn_rearmCall.sqf"]
+	A3A_fnc_staticAutoT [label="fn_staticAutoT.sqf"]
+	A3A_fnc_staticMGDrill [label="fn_staticMGDrill.sqf"]
+	A3A_fnc_surrenderAction [label="fn_surrenderAction.sqf"]
+	A3A_fnc_typeOfSoldier [label="fn_typeOfSoldier.sqf"]
+	A3A_fnc_undercoverAI [label="fn_undercoverAI.sqf"]
+	A3A_fnc_unitGetToCover [label="fn_unitGetToCover.sqf"]
+	A3A_fnc_VANTinfo [label="fn_VANTinfo.sqf"]
+	A3A_fnc_ACEpvpReDress [label="fn_ACEpvpReDress.sqf"]
+	A3A_fnc_ammunitionTransfer [label="fn_ammunitionTransfer.sqf"]
+	A3A_fnc_arsenalManage [label="fn_arsenalManage.sqf"]
+	A3A_fnc_categoryOverrides [label="fn_categoryOverrides.sqf"]
+	A3A_fnc_configSort [label="fn_configSort.sqf"]
+	A3A_fnc_empty [label="fn_empty.sqf"]
+	A3A_fnc_equipmentClassToCategories [label="fn_equipmentClassToCategories.sqf"]
+	A3A_fnc_equipmentIsValidForCurrentModset [label="fn_equipmentIsValidForCurrentModset.sqf"]
+	A3A_fnc_fillLootCrate [label="fn_fillLootCrate.sqf"]
+	A3A_fnc_launcherInfo [label="fn_launcherInfo.sqf"]
+	A3A_fnc_transfer [label="fn_transfer.sqf"]
+	A3A_fnc_unlockEquipment [label="fn_unlockEquipment.sqf"]
+	A3A_fnc_addActionBreachVehicle [label="fn_addActionBreachVehicle.sqf"]
+	A3A_fnc_aggressionUpdateLoop [label="fn_aggressionUpdateLoop.sqf"]
+	A3A_fnc_AILoadInfo [label="fn_AILoadInfo.sqf"]
+	A3A_fnc_buildHQ [label="fn_buildHQ.sqf"]
+	A3A_fnc_calculateAggression [label="fn_calculateAggression.sqf"]
+	A3A_fnc_commsMP [label="fn_commsMP.sqf"]
+	A3A_fnc_createOutpostsFIA [label="fn_createOutpostsFIA.sqf"]
+	A3A_fnc_createPetros [label="fn_createPetros.sqf"]
+	A3A_fnc_destroyCity [label="fn_destroyCity.sqf"]
+	A3A_fnc_distance [label="fn_distance.sqf"]
+	A3A_fnc_distanceUnits [label="fn_distanceUnits.sqf"]
+	A3A_fnc_ejectPvPPlayerIfInvalidVehicle [label="fn_ejectPvPPlayerIfInvalidVehicle.sqf"]
+	A3A_fnc_FIAradio [label="fn_FIAradio.sqf"]
+	A3A_fnc_findBasesForConvoy [label="fn_findBasesForConvoy.sqf"]
+	A3A_fnc_flagaction [label="fn_flagaction.sqf"]
+	A3A_fnc_garbageCleaner [label="fn_garbageCleaner.sqf"]
+	A3A_fnc_garrisonInfo [label="fn_garrisonInfo.sqf"]
+	A3A_fnc_getAggroLevelString [label="fn_getAggroLevelString.sqf"]
+	A3A_fnc_getVehiclePoolForAttacks [label="fn_getVehiclePoolForAttacks.sqf"]
+	A3A_fnc_getVehiclePoolForQRFs [label="fn_getVehiclePoolForQRFs.sqf"]
+	A3A_fnc_healAndRepair [label="fn_healAndRepair.sqf"]
+	A3A_fnc_initPetros [label="fn_initPetros.sqf"]
+	A3A_fnc_keys [label="fn_keys.sqf"]
+	A3A_fnc_localizar [label="fn_localizar.sqf"]
+	A3A_fnc_logPerformance [label="fn_logPerformance.sqf"]
+	A3A_fnc_markerChange [label="fn_markerChange.sqf"]
+	A3A_fnc_moveHQ [label="fn_moveHQ.sqf"]
+	A3A_fnc_mrkWIN [label="fn_mrkWIN.sqf"]
+	A3A_fnc_NATOFT [label="fn_NATOFT.sqf"]
+	A3A_fnc_onHeadlessClientDisconnect [label="fn_onHeadlessClientDisconnect.sqf"]
+	A3A_fnc_onPlayerDisconnect [label="fn_onPlayerDisconnect.sqf"]
+	A3A_fnc_outpostDialog [label="fn_outpostDialog.sqf"]
+	"fn_placementselection.sqf" [label="fn_placementselection.sqf"]
+	A3A_fnc_powerReorg [label="fn_powerReorg.sqf"]
+	A3A_fnc_prestige [label="fn_prestige.sqf"]
+	A3A_fnc_rebelAttack [label="fn_rebelAttack.sqf"]
+	A3A_fnc_rebuildAssets [label="fn_rebuildAssets.sqf"]
+	A3A_fnc_rebuildRadioTower [label="fn_rebuildRadioTower.sqf"]
+	A3A_fnc_relocateHQObjects [label="fn_relocateHQObjects.sqf"]
+	A3A_fnc_repairRuinedBuilding [label="fn_repairRuinedBuilding.sqf"]
+	A3A_fnc_resourcesFIA [label="fn_resourcesFIA.sqf"]
+	A3A_fnc_revealToPlayer [label="fn_revealToPlayer.sqf"]
+	A3A_fnc_scheduler [label="fn_scheduler.sqf"]
+	A3A_fnc_sellVehicle [label="fn_sellVehicle.sqf"]
+	A3A_fnc_splitVehicleCrewIntoOwnGroups [label="fn_splitVehicleCrewIntoOwnGroups.sqf"]
+	A3A_fnc_startBreachVehicle [label="fn_startBreachVehicle.sqf"]
+	A3A_fnc_statistics [label="fn_statistics.sqf"]
+	A3A_fnc_unlockVehicle [label="fn_unlockVehicle.sqf"]
+	A3A_fnc_zoneCheck [label="fn_zoneCheck.sqf"]
+	A3A_fnc_convoyDebug [label="fn_convoyDebug.sqf"]
+	A3A_fnc_convoyMovement [label="fn_convoyMovement.sqf"]
+	A3A_fnc_createAIAction [label="fn_createAIAction.sqf"]
+	A3A_fnc_createConvoy [label="fn_createConvoy.sqf"]
+	A3A_fnc_despawnConvoy [label="fn_despawnConvoy.sqf"]
+	A3A_fnc_onConvoyArrival [label="fn_onConvoyArrival.sqf"]
+	A3A_fnc_roadblockFight [label="fn_roadblockFight.sqf"]
+	A3A_fnc_selectAndCreateVehicle [label="fn_selectAndCreateVehicle.sqf"]
+	A3A_fnc_spawnConvoy [label="fn_spawnConvoy.sqf"]
+	A3A_fnc_spawnConvoyLine [label="fn_spawnConvoyLine.sqf"]
+	A3A_fnc_AAFroadPatrol [label="fn_AAFroadPatrol.sqf"]
+	A3A_fnc_airportCanAttack [label="fn_airportCanAttack.sqf"]
+	A3A_fnc_AIVEHinit [label="fn_AIVEHinit.sqf"]
+	A3A_fnc_ambientCivs [label="fn_ambientCivs.sqf"]
+	A3A_fnc_CIVinit [label="fn_CIVinit.sqf"]
+	A3A_fnc_civVEHinit [label="fn_civVEHinit.sqf"]
+	A3A_fnc_cleanserVeh [label="fn_cleanserVeh.sqf"]
+	A3A_fnc_createAIAirplane [label="fn_createAIAirplane.sqf"]
+	A3A_fnc_createAICities [label="fn_createAICities.sqf"]
+	A3A_fnc_createAIcontrols [label="fn_createAIcontrols.sqf"]
+	A3A_fnc_createAIOutposts [label="fn_createAIOutposts.sqf"]
+	A3A_fnc_createAIResources [label="fn_createAIResources.sqf"]
+	A3A_fnc_createAISite [label="fn_createAISite.sqf"]
+	A3A_fnc_createCIV [label="fn_createCIV.sqf"]
+	A3A_fnc_createFIAOutposts2 [label="fn_createFIAOutposts2.sqf"]
+	A3A_fnc_createQRF [label="fn_createQRF.sqf"]
+	"fn_createSDKgarrisons.sqf" [label="fn_createSDKgarrisons.sqf"]
+	A3A_fnc_createSDKgarrisonsTemp [label="fn_createSDKgarrisonsTemp.sqf"]
+	A3A_fnc_cycleSpawn [label="fn_cycleSpawn.sqf"]
+	"fn_FIAinitBASES.sqf" [label="fn_FIAinitBASES.sqf"]
+	A3A_fnc_findSpawnPosition [label="fn_findSpawnPosition.sqf"]
+	A3A_fnc_freeSpawnPositions [label="fn_freeSpawnPositions.sqf"]
+	A3A_fnc_garrisonSize [label="fn_garrisonSize.sqf"]
+	A3A_fnc_garrisonUpdate [label="fn_garrisonUpdate.sqf"]
+	A3A_fnc_groupDespawner [label="fn_groupDespawner.sqf"]
+	A3A_fnc_invaderPunish [label="fn_invaderPunish.sqf"]
+	A3A_fnc_milBuildings [label="fn_milBuildings.sqf"]
+	A3A_fnc_minefieldAAF [label="fn_minefieldAAF.sqf"]
+	A3A_fnc_mortarPos [label="fn_mortarPos.sqf"]
+	A3A_fnc_NATOinit [label="fn_NATOinit.sqf"]
+	A3A_fnc_patrolCA [label="fn_patrolCA.sqf"]
+	A3A_fnc_patrolReinf [label="fn_patrolReinf.sqf"]
+	A3A_fnc_reinforcementsAI [label="fn_reinforcementsAI.sqf"]
+	A3A_fnc_remoteBattle [label="fn_remoteBattle.sqf"]
+	A3A_fnc_safeVehicleSpawn [label="fn_safeVehicleSpawn.sqf"]
+	A3A_fnc_spawnGroup [label="fn_spawnGroup.sqf"]
+	A3A_fnc_updateCAMark [label="fn_updateCAMark.sqf"]
+	A3A_fnc_VEHdespawner [label="fn_VEHdespawner.sqf"]
+	A3A_fnc_vehKilledOrCaptured [label="fn_vehKilledOrCaptured.sqf"]
+	A3A_fnc_wavedCA [label="fn_wavedCA.sqf"]
+	A3A_fnc_WPCreate [label="fn_WPCreate.sqf"]
+	A3A_fnc_spawnDebuggingLoop [label="fn_spawnDebuggingLoop.sqf"]
+	A3A_fnc_buyVehicle [label="fn_buyVehicle.sqf"]
+	A3A_fnc_buyVehicleCiv [label="fn_buyVehicleCiv.sqf"]
+	A3A_fnc_clearForest [label="fn_clearForest.sqf"]
+	A3A_fnc_createDialog_setParams [label="fn_createDialog_setParams.sqf"]
+	A3A_fnc_createDialog_shouldLoadPersonalSave [label="fn_createDialog_shouldLoadPersonalSave.sqf"]
+	A3A_fnc_fastTravelRadio [label="fn_fastTravelRadio.sqf"]
+	A3A_fnc_loadPreviousSession [label="fn_loadPreviousSession.sqf"]
+	A3A_fnc_mineDialog [label="fn_mineDialog.sqf"]
+	A3A_fnc_moveHQObject [label="fn_moveHQObject.sqf"]
+	A3A_fnc_persistentSave [label="fn_persistentSave.sqf"]
+	A3A_fnc_skiptime [label="fn_skiptime.sqf"]
+	A3A_fnc_squadOptions [label="fn_squadOptions.sqf"]
+	A3A_fnc_squadRecruit [label="fn_squadRecruit.sqf"]
+	A3A_fnc_addToPersonalGarageLocal [label="fn_addToPersonalGarageLocal.sqf"]
+	A3A_fnc_attemptPlaceVehicle [label="fn_attemptPlaceVehicle.sqf"]
+	JN_fnc_garage [label="fn_garage.sqf"]
+	JN_fnc_garage_garageVehicle [label="fn_garageVehicle.sqf"]
+	A3A_fnc_getPersonalGarageLocal [label="fn_getPersonalGarageLocal.sqf"]
+	A3A_fnc_handleVehPlacementCancelled [label="fn_handleVehPlacementCancelled.sqf"]
+	A3A_fnc_setPersonalGarageLocal [label="fn_setPersonalGarageLocal.sqf"]
+	A3A_fnc_vehPlacementBegin [label="fn_vehPlacementBegin.sqf"]
+	A3A_fnc_vehPlacementCallbacks [label="fn_vehPlacementCallbacks.sqf"]
+	A3A_fnc_vehPlacementCleanup [label="fn_vehPlacementCleanup.sqf"]
+	A3A_fnc_addGarrison [label="fn_addGarrison.sqf"]
+	A3A_fnc_addRequested [label="fn_addRequested.sqf"]
+	A3A_fnc_createGarrison [label="fn_createGarrison.sqf"]
+	A3A_fnc_createGarrisonLine [label="fn_createGarrisonLine.sqf"]
+	A3A_fnc_getGarrisonRatio [label="fn_getGarrisonRatio.sqf"]
+	A3A_fnc_getGarrisonStatus [label="fn_getGarrisonStatus.sqf"]
+	A3A_fnc_replenishGarrison [label="fn_replenishGarrison.sqf"]
+	A3A_fnc_selectReinfUnits [label="fn_selectReinfUnits.sqf"]
+	A3A_fnc_selectVehicleType [label="fn_selectVehicleType.sqf"]
+	A3A_fnc_shouldReinforce [label="fn_shouldReinforce.sqf"]
+	A3A_fnc_updateGarrison [label="fn_updateGarrison.sqf"]
+	A3A_fnc_updatePreference [label="fn_updatePreference.sqf"]
+	A3A_fnc_updateReinfState [label="fn_updateReinfState.sqf"]
+	A3A_fnc_cityinfo [label="fn_cityinfo.sqf"]
+	A3A_fnc_initACEUnconsciousHandler [label="fn_initACEUnconsciousHandler.sqf"]
+	A3A_fnc_initClient [label="fn_initClient.sqf"]
+	A3A_fnc_initFuncs [label="fn_initFuncs.sqf"]
+	A3A_fnc_initGarrisons [label="fn_initGarrisons.sqf"]
+	A3A_fnc_initGetMissionPath [label="fn_initGetMissionPath.sqf"]
+	A3A_fnc_initServer [label="fn_initServer.sqf"]
+	A3A_fnc_initVar [label="fn_initVar.sqf"]
+	A3A_fnc_initVarClient [label="fn_initVarClient.sqf"]
+	A3A_fnc_initVarCommon [label="fn_initVarCommon.sqf"]
+	A3A_fnc_initVarServer [label="fn_initVarServer.sqf"]
+	A3A_fnc_initZones [label="fn_initZones.sqf"]
+	A3A_fnc_playerMarkers [label="fn_playerMarkers.sqf"]
+	A3A_fnc_prepareMarkerArrays [label="fn_prepareMarkerArrays.sqf"]
+	A3A_fnc_reinitY [label="fn_reinitY.sqf"]
+	A3A_fnc_resourcecheck [label="fn_resourcecheck.sqf"]
+	A3A_fnc_getVehicleIntel [label="fn_getVehicleIntel.sqf"]
+	A3A_fnc_placeIntel [label="fn_placeIntel.sqf"]
+	A3A_fnc_searchIntelOnDocument [label="fn_searchIntelOnDocument.sqf"]
+	A3A_fnc_searchIntelOnLaptop [label="fn_searchIntelOnLaptop.sqf"]
+	A3A_fnc_searchIntelOnLeader [label="fn_searchIntelOnLeader.sqf"]
+	A3A_fnc_selectIntel [label="fn_selectIntel.sqf"]
+	A3A_fnc_AS_Official [label="fn_AS_Official.sqf"]
+	A3A_fnc_AS_specOP [label="fn_AS_specOP.sqf"]
+	A3A_fnc_AS_Traitor [label="fn_AS_Traitor.sqf"]
+	A3A_fnc_attackHQ [label="fn_attackHQ.sqf"]
+	A3A_fnc_convoy [label="fn_convoy.sqf"]
+	A3A_fnc_CON_Outpost [label="fn_CON_Outpost.sqf"]
+	A3A_fnc_DES_Antenna [label="fn_DES_Antenna.sqf"]
+	A3A_fnc_DES_Heli [label="fn_DES_Heli.sqf"]
+	A3A_fnc_DES_Vehicle [label="fn_DES_Vehicle.sqf"]
+	A3A_fnc_LOG_Ammo [label="fn_LOG_Ammo.sqf"]
+	A3A_fnc_LOG_Bank [label="fn_LOG_Bank.sqf"]
+	A3A_fnc_LOG_Salvage [label="fn_LOG_Salvage.sqf"]
+	A3A_fnc_LOG_Supplies [label="fn_LOG_Supplies.sqf"]
+	A3A_fnc_missionRequest [label="fn_missionRequest.sqf"]
+	A3A_fnc_missionRequestAUTO [label="fn_missionRequestAUTO.sqf"]
+	A3A_fnc_REP_Antenna [label="fn_REP_Antenna.sqf"]
+	A3A_fnc_RES_Prisoners [label="fn_RES_Prisoners.sqf"]
+	A3A_fnc_RES_Refugees [label="fn_RES_Refugees.sqf"]
+	A3A_fnc_underAttack [label="fn_underAttack.sqf"]
+	A3A_fnc_initDisabledMods [label="fn_initDisabledMods.sqf"]
+	A3A_fnc_assignBossIfNone [label="fn_assignBossIfNone.sqf"]
+	A3A_fnc_donateMoney [label="fn_donateMoney.sqf"]
+	A3A_fnc_makePlayerBossIfEligible [label="fn_makePlayerBossIfEligible.sqf"]
+	A3A_fnc_memberAdd [label="fn_memberAdd.sqf"]
+	A3A_fnc_membersList [label="fn_membersList.sqf"]
+	A3A_fnc_playerScoreAdd [label="fn_playerScoreAdd.sqf"]
+	A3A_fnc_promotePlayer [label="fn_promotePlayer.sqf"]
+	A3A_fnc_ranksMP [label="fn_ranksMP.sqf"]
+	A3A_fnc_resourcesPlayer [label="fn_resourcesPlayer.sqf"]
+	A3A_fnc_theBossSteal [label="fn_theBossSteal.sqf"]
+	A3A_fnc_theBossToggleEligibility [label="fn_theBossToggleEligibility.sqf"]
+	A3A_fnc_theBossTransfer [label="fn_theBossTransfer.sqf"]
+	A3A_fnc_tierCheck [label="fn_tierCheck.sqf"]
+	A3A_fnc_findNearestNavPoint [label="fn_findNearestNavPoint.sqf"]
+	A3A_fnc_findPath [label="fn_findPath.sqf"]
+	A3A_fnc_loadNavGrid [label="fn_loadNavGrid.sqf"]
+	A3A_fnc_punishment [label="fn_punishment.sqf"]
+	A3A_fnc_punishment_addActionForgive [label="fn_punishment_addActionForgive.sqf"]
+	A3A_fnc_punishment_checkStatus [label="fn_punishment_checkStatus.sqf"]
+	A3A_fnc_punishment_dataGet [label="fn_punishment_dataGet.sqf"]
+	A3A_fnc_punishment_dataRem [label="fn_punishment_dataRem.sqf"]
+	A3A_fnc_punishment_dataSet [label="fn_punishment_dataSet.sqf"]
+	A3A_fnc_punishment_FF [label="fn_punishment_FF.sqf"]
+	"fn_punishment_FF_AddEH.sqf" [label="fn_punishment_FF_AddEH.sqf"]
+	A3A_fnc_punishment_FF_checkNearHQ [label="fn_punishment_FF_checkNearHQ.sqf"]
+	A3A_fnc_punishment_notifyAdmin [label="fn_punishment_notifyAdmin.sqf"]
+	A3A_fnc_punishment_oceanGulag [label="fn_punishment_oceanGulag.sqf"]
+	A3A_fnc_punishment_release [label="fn_punishment_release.sqf"]
+	A3A_fnc_punishment_removeActionForgive [label="fn_punishment_removeActionForgive.sqf"]
+	A3A_fnc_punishment_sentence_client [label="fn_punishment_sentence_client.sqf"]
+	A3A_fnc_punishment_sentence_server [label="fn_punishment_sentence_server.sqf"]
+	A3A_fnc_pvpCheck [label="fn_pvpCheck.sqf"]
+	A3A_fnc_addBombRun [label="fn_addBombRun.sqf"]
+	A3A_fnc_addFIAsquadHC [label="fn_addFIAsquadHC.sqf"]
+	A3A_fnc_addFIAveh [label="fn_addFIAveh.sqf"]
+	A3A_fnc_addSquadVeh [label="fn_addSquadVeh.sqf"]
+	A3A_fnc_autoGarrison [label="fn_autoGarrison.sqf"]
+	A3A_fnc_build [label="fn_build.sqf"]
+	A3A_fnc_buildCreateVehicleCallback [label="fn_buildCreateVehicleCallback.sqf"]
+	A3A_fnc_buildMinefield [label="fn_buildMinefield.sqf"]
+	A3A_fnc_enemyNearCheck [label="fn_enemyNearCheck.sqf"]
+	A3A_fnc_equipRebel [label="fn_equipRebel.sqf"]
+	A3A_fnc_FIAinit [label="fn_FIAinit.sqf"]
+	A3A_fnc_FIAskillAdd [label="fn_FIAskillAdd.sqf"]
+	A3A_fnc_garrisonAdd [label="fn_garrisonAdd.sqf"]
+	A3A_fnc_garrisonDialog [label="fn_garrisonDialog.sqf"]
+	A3A_fnc_NATObomb [label="fn_NATObomb.sqf"]
+	A3A_fnc_NATOQuadbike [label="fn_NATOQuadbike.sqf"]
+	A3A_fnc_postmortem [label="fn_postmortem.sqf"]
+	A3A_fnc_reinfPlayer [label="fn_reinfPlayer.sqf"]
+	A3A_fnc_stealStatic [label="fn_stealStatic.sqf"]
+	A3A_fnc_vehStats [label="fn_vehStats.sqf"]
+	A3A_fnc_actionRevive [label="fn_actionRevive.sqf"]
+	A3A_fnc_carry [label="fn_carry.sqf"]
+	A3A_fnc_handleDamage [label="fn_handleDamage.sqf"]
+	A3A_fnc_handleDamageAAF [label="fn_handleDamageAAF.sqf"]
+	A3A_fnc_initRevive [label="fn_initRevive.sqf"]
+	A3A_fnc_respawn [label="fn_respawn.sqf"]
+	A3A_fnc_unconscious [label="fn_unconscious.sqf"]
+	A3A_fnc_unconsciousAAF [label="fn_unconsciousAAF.sqf"]
+	A3A_fnc_getRunwayTakeoffForAirportMarker [label="fn_getRunwayTakeoffForAirportMarker.sqf"]
+	"fn_salvageRope.sqf" [label="fn_salvageRope.sqf"]
+	A3A_fnc_getStatVariable [label="fn_getStatVariable.sqf"]
+	A3A_fnc_loadPlayer [label="fn_loadPlayer.sqf"]
+	A3A_fnc_loadServer [label="fn_loadServer.sqf"]
+	A3A_fnc_loadStat [label="fn_loadStat.sqf"]
+	A3A_fnc_playerHasSave [label="fn_playerHasSave.sqf"]
+	A3A_fnc_resetPlayer [label="fn_resetPlayer.sqf"]
+	A3A_fnc_retrievePlayerStat [label="fn_retrievePlayerStat.sqf"]
+	A3A_fnc_returnSavedStat [label="fn_returnSavedStat.sqf"]
+	A3A_fnc_saveLoop [label="fn_saveLoop.sqf"]
+	A3A_fnc_savePlayer [label="fn_savePlayer.sqf"]
+	A3A_fnc_savePlayerStat [label="fn_savePlayerStat.sqf"]
+	A3A_fnc_setStatVariable [label="fn_setStatVariable.sqf"]
+	A3A_fnc_goUndercover [label="fn_goUndercover.sqf"]
+	"Shit Jeroen.sqf" [label="Shit Jeroen.sqf"]
+	JN_fnc_arsenal [label="fn_arsenal.sqf"]
+	JN_fnc_arsenal_cargoToArray [label="fn_arsenal_cargoToArray.sqf"]
+	JN_fnc_arsenal_init [label="fn_arsenal_init.sqf"]
+	JN_fnc_arsenal_loadInventory [label="fn_arsenal_loadInventory.sqf"]
+	JN_fnc_vehicleArsenal [label="fn_vehicleArsenal.sqf"]
+	JN_fnc_garage_garageVehicle [label="fn_garage_garageVehicle.sqf"]
+	JN_fnc_logistics_load [label="fn_logistics_load.sqf"]
+	JN_fnc_logistics_addActionLoad [label="fn_logistics_addActionLoad.sqf"]
+	"createNavGrid.sqf" [label="createNavGrid.sqf"]
+	"extractRoadTypeData.sqf" [label="extractRoadTypeData.sqf"]
+	"findOffset.sqf" [label="findOffset.sqf"]
+	"nonMemberDistance.sqf" [label="nonMemberDistance.sqf"]
+	"unitTraits.sqf" [label="unitTraits.sqf"]
+	"addToGarrison.sqf" [label="addToGarrison.sqf"]
+	"controlHCsquad.sqf" [label="controlHCsquad.sqf"]
+	"controlunit.sqf" [label="controlunit.sqf"]
+	"dismissPlayerGroup.sqf" [label="dismissPlayerGroup.sqf"]
+	"dismissSquad.sqf" [label="dismissSquad.sqf"]
+	"fn_advancedTowingInit.sqf" [label="fn_advancedTowingInit.sqf"]
+	"UPSMON_Getnearestplayer.sqf" [label="UPSMON_Getnearestplayer.sqf"]
+	"UPSMON_IsRetreating.sqf" [label="UPSMON_IsRetreating.sqf"]
+	"3CB_Inv_Sov_Temp.sqf" [label="3CB_Inv_Sov_Temp.sqf"]
+	"3CB_Inv_TKM_Arid.sqf" [label="3CB_Inv_TKM_Arid.sqf"]
+	"3CB_Occ_BAF_Arid.sqf" [label="3CB_Occ_BAF_Arid.sqf"]
+	"3CB_Occ_BAF_Temp.sqf" [label="3CB_Occ_BAF_Temp.sqf"]
+	"3CB_Occ_BAF_Trop.sqf" [label="3CB_Occ_BAF_Trop.sqf"]
+	"3CB_Occ_TKA_Arid.sqf" [label="3CB_Occ_TKA_Arid.sqf"]
+	"RHS_Inv_AFRF_Arid.sqf" [label="RHS_Inv_AFRF_Arid.sqf"]
+	"RHS_Inv_AFRF_Temp.sqf" [label="RHS_Inv_AFRF_Temp.sqf"]
+	"RHS_Inv_AFRF_Trop.sqf" [label="RHS_Inv_AFRF_Trop.sqf"]
+	"RHS_Occ_CDF_Arid.sqf" [label="RHS_Occ_CDF_Arid.sqf"]
+	"RHS_Occ_CDF_Temp.sqf" [label="RHS_Occ_CDF_Temp.sqf"]
+	"RHS_Occ_USAF_Arid.sqf" [label="RHS_Occ_USAF_Arid.sqf"]
+	"RHS_Occ_USAF_Temp.sqf" [label="RHS_Occ_USAF_Temp.sqf"]
+	"Vanilla_Inv_CSAT_Altis.sqf" [label="Vanilla_Inv_CSAT_Altis.sqf"]
+	"Vanilla_Inv_CSAT_Enoch.sqf" [label="Vanilla_Inv_CSAT_Enoch.sqf"]
+	"Vanilla_Inv_CSAT_Tanoa.sqf" [label="Vanilla_Inv_CSAT_Tanoa.sqf"]
+	"Vanilla_Occ_AAF_Altis.sqf" [label="Vanilla_Occ_AAF_Altis.sqf"]
+	"Vanilla_Occ_NATO_Altis.sqf" [label="Vanilla_Occ_NATO_Altis.sqf"]
+	"Vanilla_Occ_NATO_Tanoa.sqf" [label="Vanilla_Occ_NATO_Tanoa.sqf"]
+	"Vanilla_Occ_NATO_Temp.sqf" [label="Vanilla_Occ_NATO_Temp.sqf"]
+	A3A_fnc_initServer -> A3A_fnc_initServer
+	"initPlayerLocal.sqf" -> A3A_fnc_initClient
+	A3A_fnc_initClient -> A3A_fnc_cityinfo
+	A3A_fnc_createDialog_shouldLoadPersonalSave -> A3A_fnc_credits
+	A3A_fnc_initServer -> A3A_fnc_initACEUnconsciousHandler
+	A3A_fnc_initClient -> A3A_fnc_initFuncs
+	A3A_fnc_initServer -> A3A_fnc_initFuncs
+	A3A_fnc_initServer -> A3A_fnc_initGarrisons
+	A3A_fnc_initVarCommon -> A3A_fnc_initGetMissionPath
+	A3A_fnc_prepareMarkerArrays -> A3A_fnc_initSpawnPlaces
+	A3A_fnc_initClient -> A3A_fnc_initVar
+	A3A_fnc_initServer -> A3A_fnc_initVar
+	A3A_fnc_initVar -> A3A_fnc_initVarClient
+	A3A_fnc_initVar -> A3A_fnc_initVarCommon
+	A3A_fnc_initVar -> A3A_fnc_initVarServer
+	A3A_fnc_initServer -> A3A_fnc_initZones
+	A3A_fnc_initClient -> A3A_fnc_modBlacklist
+	A3A_fnc_initServer -> A3A_fnc_modBlacklist
+	A3A_fnc_initClient -> A3A_fnc_playerMarkers
+	A3A_fnc_initZones -> A3A_fnc_prepareMarkerArrays
+	"onPlayerRespawn.sqf" -> A3A_fnc_reinitY
+	A3A_fnc_initServer -> A3A_fnc_resourcecheck
+	A3A_fnc_initClient -> A3A_fnc_tags
+	A3A_fnc_startBreachVehicle -> A3A_fnc_addActionBreachVehicle
+	A3A_fnc_AIVEHinit -> A3A_fnc_addActionBreachVehicle
+	A3A_fnc_initClient -> A3A_fnc_addHC
+	A3A_fnc_markerChange -> A3A_fnc_addTimeForIdle
+	A3A_fnc_createAIAction -> A3A_fnc_addTimeForIdle
+	A3A_fnc_createQRF -> A3A_fnc_addTimeForIdle
+	A3A_fnc_wavedCA -> A3A_fnc_addTimeForIdle
+	A3A_fnc_AS_Official -> A3A_fnc_addTimeForIdle
+	A3A_fnc_convoy -> A3A_fnc_addTimeForIdle
+	A3A_fnc_initServer -> A3A_fnc_aggressionUpdateLoop
+	A3A_fnc_initClient -> A3A_fnc_AILoadInfo
+	A3A_fnc_aggressionUpdateLoop -> A3A_fnc_rebelAttack
+	A3A_fnc_loadStat -> A3A_fnc_rebelAttack
+	A3A_fnc_destroyCity -> A3A_fnc_blackout
+	A3A_fnc_powerReorg -> A3A_fnc_blackout
+	A3A_fnc_rebuildRadioTower -> A3A_fnc_blackout
+	A3A_fnc_initZones -> A3A_fnc_blackout
+	A3A_fnc_loadStat -> A3A_fnc_blackout
+	A3A_fnc_flagaction -> A3A_fnc_buildHQ
+	A3A_fnc_moveHQ -> A3A_fnc_buildHQ
+	A3A_fnc_onPlayerDisconnect -> A3A_fnc_buildHQ
+	A3A_fnc_loadStat -> A3A_fnc_buildHQ
+	A3A_fnc_aggressionUpdateLoop -> A3A_fnc_calculateAggression
+	A3A_fnc_prestige -> A3A_fnc_calculateAggression
+	A3A_fnc_loadServer -> A3A_fnc_calculateAggression
+	A3A_fnc_loadStat -> A3A_fnc_calculateAggression
+	A3A_fnc_createCIV -> A3A_fnc_citiesToCivPatrol
+	"onPlayerRespawn.sqf" -> A3A_fnc_citySupportChange
+	A3A_fnc_occupantInvaderUnitKilledEH -> A3A_fnc_citySupportChange
+	A3A_fnc_surrenderAction -> A3A_fnc_citySupportChange
+	A3A_fnc_createOutpostsFIA -> A3A_fnc_citySupportChange
+	A3A_fnc_markerChange -> A3A_fnc_citySupportChange
+	A3A_fnc_powerReorg -> A3A_fnc_citySupportChange
+	A3A_fnc_rebuildAssets -> A3A_fnc_citySupportChange
+	A3A_fnc_roadblockFight -> A3A_fnc_citySupportChange
+	A3A_fnc_CIVinit -> A3A_fnc_citySupportChange
+	A3A_fnc_createAIcontrols -> A3A_fnc_citySupportChange
+	A3A_fnc_createFIAOutposts2 -> A3A_fnc_citySupportChange
+	"fn_FIAinitBASES.sqf" -> A3A_fnc_citySupportChange
+	A3A_fnc_invaderPunish -> A3A_fnc_citySupportChange
+	A3A_fnc_vehKilledOrCaptured -> A3A_fnc_citySupportChange
+	A3A_fnc_wavedCA -> A3A_fnc_citySupportChange
+	A3A_fnc_resourcecheck -> A3A_fnc_citySupportChange
+	A3A_fnc_AS_specOP -> A3A_fnc_citySupportChange
+	A3A_fnc_attackHQ -> A3A_fnc_citySupportChange
+	A3A_fnc_convoy -> A3A_fnc_citySupportChange
+	A3A_fnc_CON_Outpost -> A3A_fnc_citySupportChange
+	A3A_fnc_DES_Antenna -> A3A_fnc_citySupportChange
+	A3A_fnc_DES_Vehicle -> A3A_fnc_citySupportChange
+	A3A_fnc_LOG_Bank -> A3A_fnc_citySupportChange
+	A3A_fnc_LOG_Supplies -> A3A_fnc_citySupportChange
+	A3A_fnc_REP_Antenna -> A3A_fnc_citySupportChange
+	A3A_fnc_RES_Prisoners -> A3A_fnc_citySupportChange
+	A3A_fnc_FIAinit -> A3A_fnc_citySupportChange
+	A3A_fnc_respawn -> A3A_fnc_citySupportChange
+	A3A_fnc_unconsciousAAF -> A3A_fnc_citySupportChange
+	"addToGarrison.sqf" -> A3A_fnc_citySupportChange
+	A3A_fnc_artySupport -> A3A_fnc_commsMP
+	A3A_fnc_ammunitionTransfer -> A3A_fnc_commsMP
+	A3A_fnc_AILoadInfo -> A3A_fnc_commsMP
+	A3A_fnc_calculateAggression -> A3A_fnc_commsMP
+	A3A_fnc_garbageCleaner -> A3A_fnc_commsMP
+	A3A_fnc_onHeadlessClientDisconnect -> A3A_fnc_commsMP
+	A3A_fnc_resourcesFIA -> A3A_fnc_commsMP
+	A3A_fnc_initServer -> A3A_fnc_commsMP
+	A3A_fnc_initZones -> A3A_fnc_commsMP
+	A3A_fnc_resourcecheck -> A3A_fnc_commsMP
+	A3A_fnc_searchIntelOnLaptop -> A3A_fnc_commsMP
+	A3A_fnc_AS_Traitor -> A3A_fnc_commsMP
+	A3A_fnc_LOG_Bank -> A3A_fnc_commsMP
+	A3A_fnc_LOG_Supplies -> A3A_fnc_commsMP
+	A3A_fnc_missionRequest -> A3A_fnc_commsMP
+	A3A_fnc_playerScoreAdd -> A3A_fnc_commsMP
+	A3A_fnc_promotePlayer -> A3A_fnc_commsMP
+	A3A_fnc_theBossTransfer -> A3A_fnc_commsMP
+	A3A_fnc_tierCheck -> A3A_fnc_commsMP
+	A3A_fnc_buildMinefield -> A3A_fnc_commsMP
+	A3A_fnc_saveLoop -> A3A_fnc_commsMP
+	"briefing.sqf" -> A3A_fnc_createBreachChargeText
+	A3A_fnc_initGarrisons -> A3A_fnc_createControls
+	A3A_fnc_loadServer -> A3A_fnc_createControls
+	A3A_fnc_outpostDialog -> A3A_fnc_createOutpostsFIA
+	A3A_fnc_initPetros -> A3A_fnc_createPetros
+	"fn_placementselection.sqf" -> A3A_fnc_createPetros
+	A3A_fnc_spawnDebuggingLoop -> A3A_fnc_createPetros
+	A3A_fnc_initServer -> A3A_fnc_createPetros
+	A3A_fnc_markerChange -> A3A_fnc_deleteControls
+	A3A_fnc_resourcecheck -> A3A_fnc_deleteControls
+	A3A_fnc_invaderPunish -> A3A_fnc_destroyCity
+	A3A_fnc_loadServer -> A3A_fnc_destroyCity
+	A3A_fnc_initServer -> A3A_fnc_distance
+	A3A_fnc_guardDog -> A3A_fnc_distanceUnits
+	A3A_fnc_VANTinfo -> A3A_fnc_distanceUnits
+	A3A_fnc_distanceUnits -> A3A_fnc_distanceUnits
+	A3A_fnc_mrkWIN -> A3A_fnc_distanceUnits
+	A3A_fnc_convoyMovement -> A3A_fnc_distanceUnits
+	A3A_fnc_spawnConvoy -> A3A_fnc_distanceUnits
+	A3A_fnc_AAFroadPatrol -> A3A_fnc_distanceUnits
+	A3A_fnc_airportCanAttack -> A3A_fnc_distanceUnits
+	A3A_fnc_createCIV -> A3A_fnc_distanceUnits
+	A3A_fnc_createQRF -> A3A_fnc_distanceUnits
+	A3A_fnc_groupDespawner -> A3A_fnc_distanceUnits
+	A3A_fnc_invaderPunish -> A3A_fnc_distanceUnits
+	A3A_fnc_VEHdespawner -> A3A_fnc_distanceUnits
+	A3A_fnc_wavedCA -> A3A_fnc_distanceUnits
+	A3A_fnc_skiptime -> A3A_fnc_distanceUnits
+	A3A_fnc_searchIntelOnDocument -> A3A_fnc_distanceUnits
+	A3A_fnc_searchIntelOnLaptop -> A3A_fnc_distanceUnits
+	A3A_fnc_searchIntelOnLeader -> A3A_fnc_distanceUnits
+	A3A_fnc_AS_Official -> A3A_fnc_distanceUnits
+	A3A_fnc_AS_specOP -> A3A_fnc_distanceUnits
+	A3A_fnc_AS_Traitor -> A3A_fnc_distanceUnits
+	A3A_fnc_attackHQ -> A3A_fnc_distanceUnits
+	A3A_fnc_convoy -> A3A_fnc_distanceUnits
+	A3A_fnc_CON_Outpost -> A3A_fnc_distanceUnits
+	A3A_fnc_DES_Heli -> A3A_fnc_distanceUnits
+	A3A_fnc_DES_Vehicle -> A3A_fnc_distanceUnits
+	A3A_fnc_LOG_Bank -> A3A_fnc_distanceUnits
+	A3A_fnc_LOG_Supplies -> A3A_fnc_distanceUnits
+	A3A_fnc_buildCreateVehicleCallback -> A3A_fnc_distanceUnits
+	A3A_fnc_resourcecheck -> A3A_fnc_economicsAI
+	A3A_fnc_initClient -> A3A_fnc_ejectPvPPlayerIfInvalidVehicle
+	A3A_fnc_wavedCA -> A3A_fnc_FIAradio
+	A3A_fnc_resourcecheck -> A3A_fnc_FIAradio
+	A3A_fnc_createAIAction -> A3A_fnc_findBasesForConvoy
+	A3A_fnc_resourcecheck -> A3A_fnc_findBasesForConvoy
+	A3A_fnc_missionRequest -> A3A_fnc_findBasesForConvoy
+	A3A_fnc_mineSweep -> A3A_fnc_findNearestGoodRoad
+	A3A_fnc_createOutpostsFIA -> A3A_fnc_findNearestGoodRoad
+	A3A_fnc_AAFroadPatrol -> A3A_fnc_findNearestGoodRoad
+	A3A_fnc_createQRF -> A3A_fnc_findNearestGoodRoad
+	A3A_fnc_wavedCA -> A3A_fnc_findNearestGoodRoad
+	A3A_fnc_initZones -> A3A_fnc_findNearestGoodRoad
+	A3A_fnc_convoy -> A3A_fnc_findNearestGoodRoad
+	A3A_fnc_LOG_Ammo -> A3A_fnc_findNearestGoodRoad
+	A3A_fnc_REP_Antenna -> A3A_fnc_findNearestGoodRoad
+	A3A_fnc_addFIAsquadHC -> A3A_fnc_findNearestGoodRoad
+	A3A_fnc_buildMinefield -> A3A_fnc_findNearestGoodRoad
+	A3A_fnc_captureX -> A3A_fnc_flagaction
+	A3A_fnc_liberatePOW -> A3A_fnc_flagaction
+	A3A_fnc_liberaterefugee -> A3A_fnc_flagaction
+	A3A_fnc_surrenderAction -> A3A_fnc_flagaction
+	A3A_fnc_transfer -> A3A_fnc_flagaction
+	A3A_fnc_buildHQ -> A3A_fnc_flagaction
+	A3A_fnc_createPetros -> A3A_fnc_flagaction
+	A3A_fnc_markerChange -> A3A_fnc_flagaction
+	A3A_fnc_moveHQ -> A3A_fnc_flagaction
+	A3A_fnc_AIVEHinit -> A3A_fnc_flagaction
+	A3A_fnc_createAIAirplane -> A3A_fnc_flagaction
+	A3A_fnc_createAIOutposts -> A3A_fnc_flagaction
+	A3A_fnc_createAIResources -> A3A_fnc_flagaction
+	A3A_fnc_createAISite -> A3A_fnc_flagaction
+	"fn_createSDKgarrisons.sqf" -> A3A_fnc_flagaction
+	A3A_fnc_NATOinit -> A3A_fnc_flagaction
+	A3A_fnc_initClient -> A3A_fnc_flagaction
+	A3A_fnc_placeIntel -> A3A_fnc_flagaction
+	A3A_fnc_searchIntelOnLaptop -> A3A_fnc_flagaction
+	A3A_fnc_searchIntelOnLeader -> A3A_fnc_flagaction
+	A3A_fnc_AS_Traitor -> A3A_fnc_flagaction
+	A3A_fnc_convoy -> A3A_fnc_flagaction
+	A3A_fnc_RES_Prisoners -> A3A_fnc_flagaction
+	A3A_fnc_RES_Refugees -> A3A_fnc_flagaction
+	A3A_fnc_carry -> A3A_fnc_flagaction
+	A3A_fnc_unconscious -> A3A_fnc_flagaction
+	A3A_fnc_unconsciousAAF -> A3A_fnc_flagaction
+	A3A_fnc_createAIAction -> A3A_fnc_fogCheck
+	A3A_fnc_createAIAirplane -> A3A_fnc_fogCheck
+	A3A_fnc_createAIOutposts -> A3A_fnc_fogCheck
+	A3A_fnc_createAIResources -> A3A_fnc_fogCheck
+	A3A_fnc_createCIV -> A3A_fnc_fogCheck
+	A3A_fnc_patrolCA -> A3A_fnc_fogCheck
+	A3A_fnc_fastTravelRadio -> A3A_fnc_fogCheck
+	A3A_fnc_cityinfo -> A3A_fnc_garrisonInfo
+	A3A_fnc_garrisonAdd -> A3A_fnc_garrisonInfo
+	A3A_fnc_garrisonDialog -> A3A_fnc_garrisonInfo
+	A3A_fnc_calculateAggression -> A3A_fnc_getAggroLevelString
+	A3A_fnc_statistics -> A3A_fnc_getAggroLevelString
+	A3A_fnc_createQRF -> A3A_fnc_getVehiclePoolForQRFs
+	A3A_fnc_convoy -> A3A_fnc_getVehiclePoolForQRFs
+	A3A_fnc_initClient -> A3A_fnc_healAndRepair
+	A3A_fnc_createPetros -> A3A_fnc_initPetros
+	A3A_fnc_createAIAction -> A3A_fnc_isFrontline
+	A3A_fnc_createAIAirplane -> A3A_fnc_isFrontline
+	A3A_fnc_createAICities -> A3A_fnc_isFrontline
+	A3A_fnc_createAIcontrols -> A3A_fnc_isFrontline
+	A3A_fnc_createAIOutposts -> A3A_fnc_isFrontline
+	A3A_fnc_createAIResources -> A3A_fnc_isFrontline
+	A3A_fnc_createAISite -> A3A_fnc_isFrontline
+	A3A_fnc_garrisonSize -> A3A_fnc_isFrontline
+	A3A_fnc_findBasesForConvoy -> A3A_fnc_isTheSameIsland
+	A3A_fnc_rebelAttack -> A3A_fnc_isTheSameIsland
+	A3A_fnc_createAIAction -> A3A_fnc_isTheSameIsland
+	A3A_fnc_patrolCA -> A3A_fnc_isTheSameIsland
+	A3A_fnc_WPCreate -> A3A_fnc_isTheSameIsland
+	A3A_fnc_shouldReinforce -> A3A_fnc_isTheSameIsland
+	A3A_fnc_missionRequest -> A3A_fnc_isTheSameIsland
+	A3A_fnc_initClient -> A3A_fnc_keys
+	A3A_fnc_reinitY -> A3A_fnc_keys
+	A3A_fnc_rebuildAssets -> A3A_fnc_localizar
+	A3A_fnc_createAIAction -> A3A_fnc_localizar
+	A3A_fnc_createAIResources -> A3A_fnc_localizar
+	"fn_createSDKgarrisons.sqf" -> A3A_fnc_localizar
+	A3A_fnc_invaderPunish -> A3A_fnc_localizar
+	A3A_fnc_patrolCA -> A3A_fnc_localizar
+	A3A_fnc_wavedCA -> A3A_fnc_localizar
+	A3A_fnc_resourcecheck -> A3A_fnc_localizar
+	A3A_fnc_AS_Official -> A3A_fnc_localizar
+	A3A_fnc_AS_specOP -> A3A_fnc_localizar
+	A3A_fnc_AS_Traitor -> A3A_fnc_localizar
+	A3A_fnc_convoy -> A3A_fnc_localizar
+	A3A_fnc_CON_Outpost -> A3A_fnc_localizar
+	A3A_fnc_DES_Antenna -> A3A_fnc_localizar
+	A3A_fnc_DES_Heli -> A3A_fnc_localizar
+	A3A_fnc_DES_Vehicle -> A3A_fnc_localizar
+	A3A_fnc_LOG_Ammo -> A3A_fnc_localizar
+	A3A_fnc_LOG_Bank -> A3A_fnc_localizar
+	A3A_fnc_LOG_Salvage -> A3A_fnc_localizar
+	A3A_fnc_LOG_Supplies -> A3A_fnc_localizar
+	A3A_fnc_REP_Antenna -> A3A_fnc_localizar
+	A3A_fnc_RES_Prisoners -> A3A_fnc_localizar
+	A3A_fnc_RES_Refugees -> A3A_fnc_localizar
+	A3A_fnc_underAttack -> A3A_fnc_localizar
+	A3A_fnc_localizar -> A3A_fnc_location
+	A3A_fnc_wavedCA -> A3A_fnc_location
+	A3A_fnc_cityinfo -> A3A_fnc_location
+	A3A_fnc_resourcecheck -> A3A_fnc_location
+	A3A_fnc_AS_Official -> A3A_fnc_location
+	A3A_fnc_initServer -> A3A_fnc_logPerformance
+	A3A_fnc_markerChange -> A3A_fnc_markerChange
+	A3A_fnc_mrkWIN -> A3A_fnc_markerChange
+	A3A_fnc_rebelAttack -> A3A_fnc_markerChange
+	A3A_fnc_zoneCheck -> A3A_fnc_markerChange
+	A3A_fnc_createQRF -> A3A_fnc_markerChange
+	A3A_fnc_wavedCA -> A3A_fnc_markerChange
+	A3A_fnc_markerChange -> A3A_fnc_mrkUpdate
+	A3A_fnc_garrisonUpdate -> A3A_fnc_mrkUpdate
+	A3A_fnc_garrisonDialog -> A3A_fnc_mrkUpdate
+	A3A_fnc_loadServer -> A3A_fnc_mrkUpdate
+	A3A_fnc_flagaction -> A3A_fnc_mrkWIN
+	A3A_fnc_initPetros -> A3A_fnc_numericRank
+	A3A_fnc_assignBossIfNone -> A3A_fnc_numericRank
+	A3A_fnc_promotePlayer -> A3A_fnc_numericRank
+	A3A_fnc_initServer -> A3A_fnc_onHeadlessClientDisconnect
+	A3A_fnc_initServer -> A3A_fnc_onPlayerDisconnect
+	A3A_fnc_AAFroadPatrol -> A3A_fnc_patrolDestinations
+	A3A_fnc_initPetros -> A3A_fnc_placementSelection
+	A3A_fnc_initClient -> A3A_fnc_placementSelection
+	A3A_fnc_occupantInvaderUnitKilledEH -> A3A_fnc_playableUnits
+	A3A_fnc_ammunitionTransfer -> A3A_fnc_playableUnits
+	A3A_fnc_fillLootCrate -> A3A_fnc_playableUnits
+	A3A_fnc_initPetros -> A3A_fnc_playableUnits
+	"fn_placementselection.sqf" -> A3A_fnc_playableUnits
+	A3A_fnc_fastTravelRadio -> A3A_fnc_playableUnits
+	A3A_fnc_initClient -> A3A_fnc_playableUnits
+	A3A_fnc_initServer -> A3A_fnc_playableUnits
+	A3A_fnc_initVarServer -> A3A_fnc_playableUnits
+	A3A_fnc_playerMarkers -> A3A_fnc_playableUnits
+	A3A_fnc_resourcecheck -> A3A_fnc_playableUnits
+	A3A_fnc_assignBossIfNone -> A3A_fnc_playableUnits
+	A3A_fnc_membersList -> A3A_fnc_playableUnits
+	A3A_fnc_promotePlayer -> A3A_fnc_playableUnits
+	A3A_fnc_pvpCheck -> A3A_fnc_playableUnits
+	A3A_fnc_loadServer -> A3A_fnc_playableUnits
+	A3A_fnc_loadStat -> A3A_fnc_playableUnits
+	A3A_fnc_saveLoop -> A3A_fnc_playableUnits
+	"nonMemberDistance.sqf" -> A3A_fnc_playableUnits
+	"UPSMON_Getnearestplayer.sqf" -> A3A_fnc_playableUnits
+	A3A_fnc_cityinfo -> A3A_fnc_getSideRadioTowerInfluence
+	A3A_fnc_resourcecheck -> A3A_fnc_getSideRadioTowerInfluence
+	A3A_fnc_captureX -> A3A_fnc_prestige
+	A3A_fnc_occupantInvaderUnitKilledEH -> A3A_fnc_prestige
+	A3A_fnc_markerChange -> A3A_fnc_prestige
+	A3A_fnc_powerReorg -> A3A_fnc_prestige
+	A3A_fnc_rebuildAssets -> A3A_fnc_prestige
+	A3A_fnc_CIVinit -> A3A_fnc_prestige
+	"fn_FIAinitBASES.sqf" -> A3A_fnc_prestige
+	A3A_fnc_invaderPunish -> A3A_fnc_prestige
+	A3A_fnc_vehKilledOrCaptured -> A3A_fnc_prestige
+	A3A_fnc_wavedCA -> A3A_fnc_prestige
+	A3A_fnc_resourcecheck -> A3A_fnc_prestige
+	A3A_fnc_AS_specOP -> A3A_fnc_prestige
+	A3A_fnc_AS_Traitor -> A3A_fnc_prestige
+	A3A_fnc_attackHQ -> A3A_fnc_prestige
+	A3A_fnc_convoy -> A3A_fnc_prestige
+	A3A_fnc_DES_Antenna -> A3A_fnc_prestige
+	A3A_fnc_DES_Heli -> A3A_fnc_prestige
+	A3A_fnc_DES_Vehicle -> A3A_fnc_prestige
+	A3A_fnc_LOG_Bank -> A3A_fnc_prestige
+	A3A_fnc_LOG_Supplies -> A3A_fnc_prestige
+	A3A_fnc_REP_Antenna -> A3A_fnc_prestige
+	A3A_fnc_RES_Prisoners -> A3A_fnc_prestige
+	A3A_fnc_RES_Refugees -> A3A_fnc_prestige
+	A3A_fnc_FIAinit -> A3A_fnc_prestige
+	A3A_fnc_loadStat -> A3A_fnc_prestige
+	"addToGarrison.sqf" -> A3A_fnc_prestige
+	A3A_fnc_rebuildAssets -> A3A_fnc_rebuildRadioTower
+	A3A_fnc_REP_Antenna -> A3A_fnc_rebuildRadioTower
+	A3A_fnc_buildHQ -> A3A_fnc_relocateHQObjects
+	"fn_placementselection.sqf" -> A3A_fnc_relocateHQObjects
+	A3A_fnc_rebuildRadioTower -> A3A_fnc_repairRuinedBuilding
+	A3A_fnc_captureX -> A3A_fnc_resourcesFIA
+	A3A_fnc_mineSweep -> A3A_fnc_resourcesFIA
+	A3A_fnc_initPetros -> A3A_fnc_resourcesFIA
+	A3A_fnc_moveHQ -> A3A_fnc_resourcesFIA
+	A3A_fnc_outpostDialog -> A3A_fnc_resourcesFIA
+	A3A_fnc_rebuildAssets -> A3A_fnc_resourcesFIA
+	A3A_fnc_sellVehicle -> A3A_fnc_resourcesFIA
+	"fn_FIAinitBASES.sqf" -> A3A_fnc_resourcesFIA
+	A3A_fnc_vehPlacementCallbacks -> A3A_fnc_resourcesFIA
+	A3A_fnc_selectIntel -> A3A_fnc_resourcesFIA
+	A3A_fnc_AS_Official -> A3A_fnc_resourcesFIA
+	A3A_fnc_AS_specOP -> A3A_fnc_resourcesFIA
+	A3A_fnc_AS_Traitor -> A3A_fnc_resourcesFIA
+	A3A_fnc_attackHQ -> A3A_fnc_resourcesFIA
+	A3A_fnc_convoy -> A3A_fnc_resourcesFIA
+	A3A_fnc_CON_Outpost -> A3A_fnc_resourcesFIA
+	A3A_fnc_DES_Heli -> A3A_fnc_resourcesFIA
+	A3A_fnc_DES_Vehicle -> A3A_fnc_resourcesFIA
+	A3A_fnc_LOG_Ammo -> A3A_fnc_resourcesFIA
+	A3A_fnc_LOG_Bank -> A3A_fnc_resourcesFIA
+	A3A_fnc_LOG_Salvage -> A3A_fnc_resourcesFIA
+	A3A_fnc_RES_Prisoners -> A3A_fnc_resourcesFIA
+	A3A_fnc_RES_Refugees -> A3A_fnc_resourcesFIA
+	A3A_fnc_donateMoney -> A3A_fnc_resourcesFIA
+	A3A_fnc_playerScoreAdd -> A3A_fnc_resourcesFIA
+	A3A_fnc_addFIAsquadHC -> A3A_fnc_resourcesFIA
+	A3A_fnc_buildCreateVehicleCallback -> A3A_fnc_resourcesFIA
+	A3A_fnc_buildMinefield -> A3A_fnc_resourcesFIA
+	A3A_fnc_FIAinit -> A3A_fnc_resourcesFIA
+	A3A_fnc_garrisonAdd -> A3A_fnc_resourcesFIA
+	A3A_fnc_garrisonDialog -> A3A_fnc_resourcesFIA
+	A3A_fnc_reinfPlayer -> A3A_fnc_resourcesFIA
+	A3A_fnc_respawn -> A3A_fnc_resourcesFIA
+	"addToGarrison.sqf" -> A3A_fnc_resourcesFIA
+	"dismissPlayerGroup.sqf" -> A3A_fnc_resourcesFIA
+	"dismissSquad.sqf" -> A3A_fnc_resourcesFIA
+	A3A_fnc_chargeWithSmoke -> A3A_fnc_returnMuzzle
+	A3A_fnc_FIAradio -> A3A_fnc_revealToPlayer
+	A3A_fnc_distance -> A3A_fnc_scheduler
+	A3A_fnc_markerChange -> A3A_fnc_scheduler
+	A3A_fnc_rebelAttack -> A3A_fnc_scheduler
+	A3A_fnc_AIVEHinit -> A3A_fnc_scheduler
+	A3A_fnc_createAICities -> A3A_fnc_scheduler
+	A3A_fnc_createAIcontrols -> A3A_fnc_scheduler
+	A3A_fnc_invaderPunish -> A3A_fnc_scheduler
+	A3A_fnc_patrolCA -> A3A_fnc_scheduler
+	A3A_fnc_reinforcementsAI -> A3A_fnc_scheduler
+	A3A_fnc_mineDialog -> A3A_fnc_scheduler
+	A3A_fnc_resourcecheck -> A3A_fnc_scheduler
+	A3A_fnc_searchIntelOnLaptop -> A3A_fnc_scheduler
+	A3A_fnc_AS_Traitor -> A3A_fnc_scheduler
+	A3A_fnc_LOG_Bank -> A3A_fnc_scheduler
+	A3A_fnc_LOG_Supplies -> A3A_fnc_scheduler
+	A3A_fnc_missionRequest -> A3A_fnc_scheduler
+	A3A_fnc_RES_Refugees -> A3A_fnc_scheduler
+	"UPSMON_IsRetreating.sqf" -> A3A_fnc_scheduler
+	A3A_fnc_moveHQ -> A3A_fnc_setMarkerAlphaForSide
+	A3A_fnc_relocateHQObjects -> A3A_fnc_setMarkerAlphaForSide
+	A3A_fnc_initClient -> A3A_fnc_singlePlayerBlackScreenWarning
+	"onPlayerRespawn.sqf" -> A3A_fnc_sizeMarker
+	A3A_fnc_artillery -> A3A_fnc_sizeMarker
+	A3A_fnc_artySupport -> A3A_fnc_sizeMarker
+	A3A_fnc_canConquer -> A3A_fnc_sizeMarker
+	A3A_fnc_landThreatEval -> A3A_fnc_sizeMarker
+	A3A_fnc_undercoverAI -> A3A_fnc_sizeMarker
+	A3A_fnc_destroyCity -> A3A_fnc_sizeMarker
+	A3A_fnc_garrisonInfo -> A3A_fnc_sizeMarker
+	A3A_fnc_markerChange -> A3A_fnc_sizeMarker
+	A3A_fnc_moveHQ -> A3A_fnc_sizeMarker
+	A3A_fnc_mrkWIN -> A3A_fnc_sizeMarker
+	A3A_fnc_createAIAirplane -> A3A_fnc_sizeMarker
+	A3A_fnc_createAICities -> A3A_fnc_sizeMarker
+	A3A_fnc_createAIcontrols -> A3A_fnc_sizeMarker
+	A3A_fnc_createAIOutposts -> A3A_fnc_sizeMarker
+	A3A_fnc_createAIResources -> A3A_fnc_sizeMarker
+	A3A_fnc_createCIV -> A3A_fnc_sizeMarker
+	A3A_fnc_createQRF -> A3A_fnc_sizeMarker
+	"fn_createSDKgarrisons.sqf" -> A3A_fnc_sizeMarker
+	A3A_fnc_garrisonSize -> A3A_fnc_sizeMarker
+	A3A_fnc_invaderPunish -> A3A_fnc_sizeMarker
+	A3A_fnc_minefieldAAF -> A3A_fnc_sizeMarker
+	A3A_fnc_patrolReinf -> A3A_fnc_sizeMarker
+	A3A_fnc_wavedCA -> A3A_fnc_sizeMarker
+	A3A_fnc_moveHQObject -> A3A_fnc_sizeMarker
+	A3A_fnc_initClient -> A3A_fnc_sizeMarker
+	A3A_fnc_AS_Traitor -> A3A_fnc_sizeMarker
+	A3A_fnc_DES_Vehicle -> A3A_fnc_sizeMarker
+	A3A_fnc_LOG_Ammo -> A3A_fnc_sizeMarker
+	A3A_fnc_REP_Antenna -> A3A_fnc_sizeMarker
+	A3A_fnc_RES_Refugees -> A3A_fnc_sizeMarker
+	A3A_fnc_autoGarrison -> A3A_fnc_sizeMarker
+	A3A_fnc_goUndercover -> A3A_fnc_sizeMarker
+	A3A_fnc_addActionBreachVehicle -> A3A_fnc_startBreachVehicle
+	"onPlayerRespawn.sqf" -> A3A_fnc_statistics
+	A3A_fnc_calculateAggression -> A3A_fnc_statistics
+	A3A_fnc_commsMP -> A3A_fnc_statistics
+	A3A_fnc_resourcesFIA -> A3A_fnc_statistics
+	A3A_fnc_createDialog_setParams -> A3A_fnc_statistics
+	A3A_fnc_initClient -> A3A_fnc_statistics
+	A3A_fnc_playerScoreAdd -> A3A_fnc_statistics
+	A3A_fnc_ranksMP -> A3A_fnc_statistics
+	A3A_fnc_resourcesPlayer -> A3A_fnc_statistics
+	A3A_fnc_theBossTransfer -> A3A_fnc_statistics
+	A3A_fnc_tierCheck -> A3A_fnc_statistics
+	A3A_fnc_addBombRun -> A3A_fnc_statistics
+	A3A_fnc_FIAskillAdd -> A3A_fnc_statistics
+	A3A_fnc_NATObomb -> A3A_fnc_statistics
+	"fn_salvageRope.sqf" -> A3A_fnc_statistics
+	A3A_fnc_loadPlayer -> A3A_fnc_statistics
+	A3A_fnc_loadServer -> A3A_fnc_statistics
+	A3A_fnc_resetPlayer -> A3A_fnc_statistics
+	A3A_fnc_goUndercover -> A3A_fnc_statistics
+	A3A_fnc_savePlayer -> A3A_fnc_stripGearFromLoadout
+	"nonMemberDistance.sqf" -> A3A_fnc_teleportVehicleToBase
+	A3A_fnc_aggressionUpdateLoop -> A3A_fnc_timingCA
+	A3A_fnc_invaderPunish -> A3A_fnc_timingCA
+	A3A_fnc_wavedCA -> A3A_fnc_timingCA
+	A3A_fnc_AS_Official -> A3A_fnc_timingCA
+	A3A_fnc_AS_specOP -> A3A_fnc_timingCA
+	A3A_fnc_convoy -> A3A_fnc_timingCA
+	A3A_fnc_CON_Outpost -> A3A_fnc_timingCA
+	A3A_fnc_DES_Antenna -> A3A_fnc_timingCA
+	A3A_fnc_DES_Heli -> A3A_fnc_timingCA
+	A3A_fnc_DES_Vehicle -> A3A_fnc_timingCA
+	A3A_fnc_LOG_Ammo -> A3A_fnc_timingCA
+	A3A_fnc_LOG_Bank -> A3A_fnc_timingCA
+	A3A_fnc_REP_Antenna -> A3A_fnc_timingCA
+	A3A_fnc_returnSavedStat -> A3A_fnc_translateVariable
+	A3A_fnc_occupantInvaderUnitKilledEH -> A3A_fnc_zoneCheck
+	A3A_fnc_surrenderAction -> A3A_fnc_zoneCheck
+	A3A_fnc_markerChange -> A3A_fnc_zoneCheck
+	A3A_fnc_NATOinit -> A3A_fnc_occupantInvaderUnitKilledEH
+	A3A_fnc_airstrike -> A3A_fnc_airbomb
+	A3A_fnc_NATObomb -> A3A_fnc_airbomb
+	A3A_fnc_createQRF -> A3A_fnc_airdrop
+	A3A_fnc_invaderPunish -> A3A_fnc_airdrop
+	A3A_fnc_patrolReinf -> A3A_fnc_airdrop
+	A3A_fnc_wavedCA -> A3A_fnc_airdrop
+	A3A_fnc_attackHQ -> A3A_fnc_airdrop
+	A3A_fnc_occupantInvaderUnitKilledEH -> A3A_fnc_AIreactOnKill
+	A3A_fnc_unconsciousAAF -> A3A_fnc_AIreactOnKill
+	A3A_fnc_airstrike -> A3A_fnc_airstrike
+	A3A_fnc_invaderPunish -> A3A_fnc_airstrike
+	A3A_fnc_patrolCA -> A3A_fnc_airstrike
+	A3A_fnc_wavedCA -> A3A_fnc_airstrike
+	A3A_fnc_invaderPunish -> A3A_fnc_artillery
+	A3A_fnc_wavedCA -> A3A_fnc_artillery
+	A3A_fnc_keys -> A3A_fnc_artySupport
+	A3A_fnc_handleDamage -> A3A_fnc_askHelp
+	A3A_fnc_unconscious -> A3A_fnc_askHelp
+	A3A_fnc_unconsciousAAF -> A3A_fnc_askHelp
+	A3A_fnc_attackDrillAI -> A3A_fnc_assaultBuilding
+	A3A_fnc_airdrop -> A3A_fnc_attackDrillAI
+	A3A_fnc_fastrope -> A3A_fnc_attackDrillAI
+	A3A_fnc_createQRF -> A3A_fnc_attackDrillAI
+	A3A_fnc_patrolReinf -> A3A_fnc_attackDrillAI
+	A3A_fnc_wavedCA -> A3A_fnc_attackDrillAI
+	A3A_fnc_addFIAsquadHC -> A3A_fnc_attackDrillAI
+	A3A_fnc_rearmCall -> A3A_fnc_autoLoot
+	A3A_fnc_attackDrillAI -> A3A_fnc_autoRearm
+	A3A_fnc_rearmCall -> A3A_fnc_autoRearm
+	A3A_fnc_markerChange -> A3A_fnc_canConquer
+	A3A_fnc_mrkWIN -> A3A_fnc_canConquer
+	A3A_fnc_zoneCheck -> A3A_fnc_canConquer
+	A3A_fnc_createAICities -> A3A_fnc_canConquer
+	A3A_fnc_createAIcontrols -> A3A_fnc_canConquer
+	A3A_fnc_createQRF -> A3A_fnc_canConquer
+	A3A_fnc_wavedCA -> A3A_fnc_canConquer
+	A3A_fnc_AIreactOnKill -> A3A_fnc_canFight
+	A3A_fnc_askHelp -> A3A_fnc_canFight
+	A3A_fnc_assaultBuilding -> A3A_fnc_canFight
+	A3A_fnc_attackDrillAI -> A3A_fnc_canFight
+	A3A_fnc_autoLoot -> A3A_fnc_canFight
+	A3A_fnc_autoRearm -> A3A_fnc_canFight
+	A3A_fnc_canConquer -> A3A_fnc_canFight
+	A3A_fnc_chargeWithSmoke -> A3A_fnc_canFight
+	A3A_fnc_destroyBuilding -> A3A_fnc_canFight
+	A3A_fnc_doFlank -> A3A_fnc_canFight
+	A3A_fnc_enemyList -> A3A_fnc_canFight
+	A3A_fnc_help -> A3A_fnc_canFight
+	A3A_fnc_staticMGDrill -> A3A_fnc_canFight
+	A3A_fnc_surrenderAction -> A3A_fnc_canFight
+	A3A_fnc_unitGetToCover -> A3A_fnc_canFight
+	A3A_fnc_startBreachVehicle -> A3A_fnc_canFight
+	A3A_fnc_createAIAction -> A3A_fnc_canFight
+	A3A_fnc_AAFroadPatrol -> A3A_fnc_canFight
+	A3A_fnc_createQRF -> A3A_fnc_canFight
+	A3A_fnc_patrolCA -> A3A_fnc_canFight
+	A3A_fnc_remoteBattle -> A3A_fnc_canFight
+	A3A_fnc_wavedCA -> A3A_fnc_canFight
+	A3A_fnc_moveHQObject -> A3A_fnc_canFight
+	A3A_fnc_initACEUnconsciousHandler -> A3A_fnc_canFight
+	A3A_fnc_searchIntelOnLaptop -> A3A_fnc_canFight
+	A3A_fnc_searchIntelOnLeader -> A3A_fnc_canFight
+	A3A_fnc_attackHQ -> A3A_fnc_canFight
+	A3A_fnc_LOG_Supplies -> A3A_fnc_canFight
+	A3A_fnc_addFIAsquadHC -> A3A_fnc_canFight
+	A3A_fnc_build -> A3A_fnc_canFight
+	A3A_fnc_buildCreateVehicleCallback -> A3A_fnc_canFight
+	A3A_fnc_enemyNearCheck -> A3A_fnc_canFight
+	A3A_fnc_vehStats -> A3A_fnc_canFight
+	A3A_fnc_actionRevive -> A3A_fnc_canFight
+	A3A_fnc_carry -> A3A_fnc_canFight
+	A3A_fnc_handleDamageAAF -> A3A_fnc_canFight
+	A3A_fnc_respawn -> A3A_fnc_canFight
+	JN_fnc_logistics_addActionLoad -> A3A_fnc_canFight
+	"controlHCsquad.sqf" -> A3A_fnc_canFight
+	"dismissPlayerGroup.sqf" -> A3A_fnc_canFight
+	A3A_fnc_flagaction -> A3A_fnc_captureX
+	A3A_fnc_AIreactOnKill -> A3A_fnc_chargeWithSmoke
+	A3A_fnc_attackDrillAI -> A3A_fnc_chargeWithSmoke
+	A3A_fnc_help -> A3A_fnc_chargeWithSmoke
+	A3A_fnc_unitGetToCover -> A3A_fnc_chargeWithSmoke
+	A3A_fnc_handleDamage -> A3A_fnc_chargeWithSmoke
+	A3A_fnc_help -> A3A_fnc_coverage
+	A3A_fnc_unitGetToCover -> A3A_fnc_coverage
+	A3A_fnc_attackDrillAI -> A3A_fnc_destroyBuilding
+	A3A_fnc_attackDrillAI -> A3A_fnc_doFlank
+	A3A_fnc_attackDrillAI -> A3A_fnc_enemyList
+	A3A_fnc_airdrop -> A3A_fnc_entriesLand
+	A3A_fnc_createQRF -> A3A_fnc_fastrope
+	A3A_fnc_invaderPunish -> A3A_fnc_fastrope
+	A3A_fnc_patrolReinf -> A3A_fnc_fastrope
+	A3A_fnc_wavedCA -> A3A_fnc_fastrope
+	A3A_fnc_attackHQ -> A3A_fnc_fastrope
+	A3A_fnc_createQRF -> A3A_fnc_findSafeRoadToUnload
+	A3A_fnc_wavedCA -> A3A_fnc_findSafeRoadToUnload
+	A3A_fnc_createAIAirplane -> A3A_fnc_guardDog
+	A3A_fnc_createAICities -> A3A_fnc_guardDog
+	A3A_fnc_createAIcontrols -> A3A_fnc_guardDog
+	A3A_fnc_createAIOutposts -> A3A_fnc_guardDog
+	A3A_fnc_createAIResources -> A3A_fnc_guardDog
+	A3A_fnc_AS_Traitor -> A3A_fnc_guardDog
+	A3A_fnc_LOG_Ammo -> A3A_fnc_guardDog
+	A3A_fnc_RES_Refugees -> A3A_fnc_guardDog
+	A3A_fnc_outpostDialog -> A3A_fnc_hasRadio
+	A3A_fnc_revealToPlayer -> A3A_fnc_hasRadio
+	A3A_fnc_mineDialog -> A3A_fnc_hasRadio
+	A3A_fnc_squadOptions -> A3A_fnc_hasRadio
+	A3A_fnc_squadRecruit -> A3A_fnc_hasRadio
+	A3A_fnc_playerMarkers -> A3A_fnc_hasRadio
+	A3A_fnc_addFIAsquadHC -> A3A_fnc_hasRadio
+	A3A_fnc_FIAinit -> A3A_fnc_hasRadio
+	A3A_fnc_NATObomb -> A3A_fnc_hasRadio
+	A3A_fnc_askHelp -> A3A_fnc_help
+	A3A_fnc_attackDrillAI -> A3A_fnc_hideInBuilding
+	A3A_fnc_AAFroadPatrol -> A3A_fnc_inmuneConvoy
+	A3A_fnc_createQRF -> A3A_fnc_inmuneConvoy
+	A3A_fnc_invaderPunish -> A3A_fnc_inmuneConvoy
+	A3A_fnc_patrolReinf -> A3A_fnc_inmuneConvoy
+	A3A_fnc_wavedCA -> A3A_fnc_inmuneConvoy
+	A3A_fnc_attackHQ -> A3A_fnc_inmuneConvoy
+	A3A_fnc_convoy -> A3A_fnc_inmuneConvoy
+	A3A_fnc_DES_Heli -> A3A_fnc_inmuneConvoy
+	A3A_fnc_LOG_Bank -> A3A_fnc_inmuneConvoy
+	A3A_fnc_LOG_Supplies -> A3A_fnc_inmuneConvoy
+	A3A_fnc_flagaction -> A3A_fnc_interrogate
+	A3A_fnc_attackDrillAI -> A3A_fnc_isBuildingPosition
+	A3A_fnc_mortarPos -> A3A_fnc_isBuildingPosition
+	A3A_fnc_createAIAction -> A3A_fnc_landThreatEval
+	A3A_fnc_patrolCA -> A3A_fnc_landThreatEval
+	A3A_fnc_flagaction -> A3A_fnc_liberaterefugee
+	A3A_fnc_flagaction -> A3A_fnc_liberatePOW
+	A3A_fnc_mineDialog -> A3A_fnc_mineSweep
+	A3A_fnc_attackDrillAI -> A3A_fnc_mortarDrill
+	A3A_fnc_attackDrillAI -> A3A_fnc_mortarSupport
+	A3A_fnc_airbomb -> A3A_fnc_napalm
+	A3A_fnc_napalm -> A3A_fnc_napalmDamage
+	A3A_fnc_attackDrillAI -> A3A_fnc_nearEnemy
+	A3A_fnc_mortarDrill -> A3A_fnc_nearEnemy
+	A3A_fnc_assaultBuilding -> A3A_fnc_recallGroup
+	A3A_fnc_attackDrillAI -> A3A_fnc_recallGroup
+	A3A_fnc_destroyBuilding -> A3A_fnc_recallGroup
+	A3A_fnc_doFlank -> A3A_fnc_recallGroup
+	A3A_fnc_mortarDrill -> A3A_fnc_recallGroup
+	A3A_fnc_staticMGDrill -> A3A_fnc_recallGroup
+	A3A_fnc_fastrope -> A3A_fnc_smokeCoverAuto
+	A3A_fnc_AIVEHinit -> A3A_fnc_smokeCoverAuto
+	A3A_fnc_createQRF -> A3A_fnc_smokeCoverAuto
+	A3A_fnc_wavedCA -> A3A_fnc_smokeCoverAuto
+	A3A_fnc_attackDrillAI -> A3A_fnc_staticMGDrill
+	A3A_fnc_AIreactOnKill -> A3A_fnc_suppressingFire
+	A3A_fnc_attackDrillAI -> A3A_fnc_suppressingFire
+	A3A_fnc_chargeWithSmoke -> A3A_fnc_suppressingFire
+	A3A_fnc_help -> A3A_fnc_suppressingFire
+	A3A_fnc_AIreactOnKill -> A3A_fnc_surrenderAction
+	A3A_fnc_startBreachVehicle -> A3A_fnc_surrenderAction
+	A3A_fnc_initACEUnconsciousHandler -> A3A_fnc_surrenderAction
+	A3A_fnc_AS_Traitor -> A3A_fnc_surrenderAction
+	A3A_fnc_unconsciousAAF -> A3A_fnc_surrenderAction
+	A3A_fnc_attackDrillAI -> A3A_fnc_typeOfSoldier
+	A3A_fnc_vehStats -> A3A_fnc_typeOfSoldier
+	A3A_fnc_FIAinit -> A3A_fnc_undercoverAI
+	A3A_fnc_goUndercover -> A3A_fnc_undercoverAI
+	A3A_fnc_handleDamage -> A3A_fnc_unitGetToCover
+	A3A_fnc_handleDamageAAF -> A3A_fnc_unitGetToCover
+	A3A_fnc_AIreactOnKill -> A3A_fnc_useFlares
+	A3A_fnc_attackDrillAI -> A3A_fnc_useFlares
+	A3A_fnc_wavedCA -> A3A_fnc_VANTinfo
+	A3A_fnc_inmuneConvoy -> A3A_fnc_vehicleMarkers
+	A3A_fnc_resourcecheck -> A3A_fnc_cleanConvoyMarker
+	A3A_fnc_selectIntel -> A3A_fnc_cleanConvoyMarker
+	A3A_fnc_convoyDebug -> A3A_fnc_convoyDebug
+	A3A_fnc_createConvoy -> A3A_fnc_convoyMovement
+	A3A_fnc_reinforcementsAI -> A3A_fnc_createAIAction
+	A3A_fnc_createAIAction -> A3A_fnc_createConvoy
+	A3A_fnc_despawnConvoy -> A3A_fnc_createConvoy
+	A3A_fnc_onConvoyArrival -> A3A_fnc_createConvoy
+	A3A_fnc_spawnConvoy -> A3A_fnc_despawnConvoy
+	A3A_fnc_createAIAction -> A3A_fnc_findAirportForAirstrike
+	A3A_fnc_convoyMovement -> A3A_fnc_onConvoyArrival
+	A3A_fnc_convoyMovement -> A3A_fnc_roadblockFight
+	A3A_fnc_createAIAction -> A3A_fnc_selectAndCreateVehicle
+	A3A_fnc_convoyMovement -> A3A_fnc_spawnConvoy
+	A3A_fnc_spawnConvoy -> A3A_fnc_spawnConvoyLine
+	A3A_fnc_reinforcementsAI -> A3A_fnc_AAFroadPatrol
+	A3A_fnc_rebelAttack -> A3A_fnc_airportCanAttack
+	A3A_fnc_createAIAction -> A3A_fnc_airportCanAttack
+	A3A_fnc_AIVEHinit -> A3A_fnc_airportCanAttack
+	A3A_fnc_patrolCA -> A3A_fnc_airportCanAttack
+	A3A_fnc_wavedCA -> A3A_fnc_airportCanAttack
+	A3A_fnc_cityinfo -> A3A_fnc_airportCanAttack
+	A3A_fnc_RES_Refugees -> A3A_fnc_airportCanAttack
+	"onPlayerRespawn.sqf" -> A3A_fnc_AIVEHinit
+	A3A_fnc_airstrike -> A3A_fnc_AIVEHinit
+	A3A_fnc_artillery -> A3A_fnc_AIVEHinit
+	A3A_fnc_mineSweep -> A3A_fnc_AIVEHinit
+	A3A_fnc_mortarDrill -> A3A_fnc_AIVEHinit
+	A3A_fnc_mortyAI -> A3A_fnc_AIVEHinit
+	A3A_fnc_staticMGDrill -> A3A_fnc_AIVEHinit
+	A3A_fnc_spawnConvoyLine -> A3A_fnc_AIVEHinit
+	A3A_fnc_AAFroadPatrol -> A3A_fnc_AIVEHinit
+	A3A_fnc_createAIAirplane -> A3A_fnc_AIVEHinit
+	A3A_fnc_createAIcontrols -> A3A_fnc_AIVEHinit
+	A3A_fnc_createAIOutposts -> A3A_fnc_AIVEHinit
+	A3A_fnc_createAIResources -> A3A_fnc_AIVEHinit
+	A3A_fnc_createCIV -> A3A_fnc_AIVEHinit
+	A3A_fnc_createFIAOutposts2 -> A3A_fnc_AIVEHinit
+	A3A_fnc_createQRF -> A3A_fnc_AIVEHinit
+	"fn_createSDKgarrisons.sqf" -> A3A_fnc_AIVEHinit
+	A3A_fnc_createSDKgarrisonsTemp -> A3A_fnc_AIVEHinit
+	A3A_fnc_invaderPunish -> A3A_fnc_AIVEHinit
+	A3A_fnc_patrolReinf -> A3A_fnc_AIVEHinit
+	A3A_fnc_wavedCA -> A3A_fnc_AIVEHinit
+	A3A_fnc_vehPlacementCallbacks -> A3A_fnc_AIVEHinit
+	A3A_fnc_initClient -> A3A_fnc_AIVEHinit
+	A3A_fnc_AS_Traitor -> A3A_fnc_AIVEHinit
+	A3A_fnc_attackHQ -> A3A_fnc_AIVEHinit
+	A3A_fnc_convoy -> A3A_fnc_AIVEHinit
+	A3A_fnc_DES_Heli -> A3A_fnc_AIVEHinit
+	A3A_fnc_DES_Vehicle -> A3A_fnc_AIVEHinit
+	A3A_fnc_LOG_Ammo -> A3A_fnc_AIVEHinit
+	A3A_fnc_LOG_Bank -> A3A_fnc_AIVEHinit
+	A3A_fnc_LOG_Salvage -> A3A_fnc_AIVEHinit
+	A3A_fnc_LOG_Supplies -> A3A_fnc_AIVEHinit
+	A3A_fnc_REP_Antenna -> A3A_fnc_AIVEHinit
+	A3A_fnc_RES_Refugees -> A3A_fnc_AIVEHinit
+	A3A_fnc_addFIAsquadHC -> A3A_fnc_AIVEHinit
+	A3A_fnc_buildMinefield -> A3A_fnc_AIVEHinit
+	A3A_fnc_NATOQuadbike -> A3A_fnc_AIVEHinit
+	A3A_fnc_loadStat -> A3A_fnc_AIVEHinit
+	A3A_fnc_initClient -> A3A_fnc_ambientCivs
+	A3A_fnc_cycleSpawn -> A3A_fnc_calculateMarkerArea
+	A3A_fnc_createAIAction -> A3A_fnc_cargoSeats
+	A3A_fnc_selectAndCreateVehicle -> A3A_fnc_cargoSeats
+	A3A_fnc_createQRF -> A3A_fnc_cargoSeats
+	A3A_fnc_invaderPunish -> A3A_fnc_cargoSeats
+	A3A_fnc_wavedCA -> A3A_fnc_cargoSeats
+	A3A_fnc_convoy -> A3A_fnc_cargoSeats
+	A3A_fnc_ambientCivs -> A3A_fnc_CIVinit
+	A3A_fnc_createAIResources -> A3A_fnc_CIVinit
+	A3A_fnc_createCIV -> A3A_fnc_CIVinit
+	"fn_createSDKgarrisons.sqf" -> A3A_fnc_CIVinit
+	A3A_fnc_AIVEHinit -> A3A_fnc_cleanserVeh
+	A3A_fnc_civVEHinit -> A3A_fnc_cleanserVeh
+	A3A_fnc_distance -> A3A_fnc_createAIAirplane
+	A3A_fnc_distance -> A3A_fnc_createAICities
+	A3A_fnc_distance -> A3A_fnc_createAIcontrols
+	A3A_fnc_distance -> A3A_fnc_createAIOutposts
+	A3A_fnc_distance -> A3A_fnc_createAIResources
+	A3A_fnc_distance -> A3A_fnc_createCIV
+	A3A_fnc_distance -> A3A_fnc_createFIAOutposts2
+	A3A_fnc_patrolCA -> A3A_fnc_createQRF
+	A3A_fnc_distance -> A3A_fnc_createSDKGarrisons
+	A3A_fnc_help -> A3A_fnc_createUnit
+	A3A_fnc_mineSweep -> A3A_fnc_createUnit
+	A3A_fnc_createPetros -> A3A_fnc_createUnit
+	A3A_fnc_spawnConvoyLine -> A3A_fnc_createUnit
+	A3A_fnc_ambientCivs -> A3A_fnc_createUnit
+	A3A_fnc_createAIAirplane -> A3A_fnc_createUnit
+	A3A_fnc_createAICities -> A3A_fnc_createUnit
+	A3A_fnc_createAIcontrols -> A3A_fnc_createUnit
+	A3A_fnc_createAIOutposts -> A3A_fnc_createUnit
+	A3A_fnc_createAIResources -> A3A_fnc_createUnit
+	A3A_fnc_createCIV -> A3A_fnc_createUnit
+	A3A_fnc_createFIAOutposts2 -> A3A_fnc_createUnit
+	"fn_createSDKgarrisons.sqf" -> A3A_fnc_createUnit
+	A3A_fnc_createSDKgarrisonsTemp -> A3A_fnc_createUnit
+	A3A_fnc_cycleSpawn -> A3A_fnc_createUnit
+	A3A_fnc_invaderPunish -> A3A_fnc_createUnit
+	A3A_fnc_milBuildings -> A3A_fnc_createUnit
+	A3A_fnc_spawnGroup -> A3A_fnc_createUnit
+	A3A_fnc_AS_Official -> A3A_fnc_createUnit
+	A3A_fnc_AS_Traitor -> A3A_fnc_createUnit
+	A3A_fnc_convoy -> A3A_fnc_createUnit
+	A3A_fnc_DES_Vehicle -> A3A_fnc_createUnit
+	A3A_fnc_LOG_Ammo -> A3A_fnc_createUnit
+	A3A_fnc_REP_Antenna -> A3A_fnc_createUnit
+	A3A_fnc_RES_Prisoners -> A3A_fnc_createUnit
+	A3A_fnc_RES_Refugees -> A3A_fnc_createUnit
+	A3A_fnc_addFIAsquadHC -> A3A_fnc_createUnit
+	A3A_fnc_buildMinefield -> A3A_fnc_createUnit
+	A3A_fnc_reinfPlayer -> A3A_fnc_createUnit
+	A3A_fnc_createAISite -> A3A_fnc_cycleSpawn
+	A3A_fnc_createAICities -> A3A_fnc_FIAinitBases
+	A3A_fnc_createFIAOutposts2 -> A3A_fnc_FIAinitBases
+	"fn_createSDKgarrisons.sqf" -> A3A_fnc_FIAinitBases
+	A3A_fnc_createSDKgarrisonsTemp -> A3A_fnc_FIAinitBases
+	A3A_fnc_createAIAirplane -> A3A_fnc_findSpawnPosition
+	A3A_fnc_createAIOutposts -> A3A_fnc_findSpawnPosition
+	A3A_fnc_createAIResources -> A3A_fnc_findSpawnPosition
+	A3A_fnc_cycleSpawn -> A3A_fnc_findSpawnPosition
+	A3A_fnc_milBuildings -> A3A_fnc_findSpawnPosition
+	A3A_fnc_createAIAirplane -> A3A_fnc_freeSpawnPositions
+	A3A_fnc_createAIOutposts -> A3A_fnc_freeSpawnPositions
+	A3A_fnc_createAIResources -> A3A_fnc_freeSpawnPositions
+	A3A_fnc_createAIAirplane -> A3A_fnc_garrisonReorg
+	A3A_fnc_createAIOutposts -> A3A_fnc_garrisonReorg
+	A3A_fnc_createAIResources -> A3A_fnc_garrisonReorg
+	"fn_createSDKgarrisons.sqf" -> A3A_fnc_garrisonReorg
+	A3A_fnc_createAIAction -> A3A_fnc_garrisonSize
+	A3A_fnc_createAIAirplane -> A3A_fnc_garrisonSize
+	A3A_fnc_createAIOutposts -> A3A_fnc_garrisonSize
+	A3A_fnc_createAIResources -> A3A_fnc_garrisonSize
+	A3A_fnc_reinforcementsAI -> A3A_fnc_garrisonSize
+	A3A_fnc_initGarrisons -> A3A_fnc_garrisonSize
+	A3A_fnc_convoy -> A3A_fnc_garrisonSize
+	A3A_fnc_airdrop -> A3A_fnc_garrisonUpdate
+	A3A_fnc_fastrope -> A3A_fnc_garrisonUpdate
+	A3A_fnc_occupantInvaderUnitKilledEH -> A3A_fnc_garrisonUpdate
+	A3A_fnc_markerChange -> A3A_fnc_garrisonUpdate
+	"fn_FIAinitBASES.sqf" -> A3A_fnc_garrisonUpdate
+	A3A_fnc_patrolReinf -> A3A_fnc_garrisonUpdate
+	A3A_fnc_reinforcementsAI -> A3A_fnc_garrisonUpdate
+	A3A_fnc_convoy -> A3A_fnc_garrisonUpdate
+	A3A_fnc_garrisonAdd -> A3A_fnc_garrisonUpdate
+	"addToGarrison.sqf" -> A3A_fnc_garrisonUpdate
+	A3A_fnc_airdrop -> A3A_fnc_groupDespawner
+	A3A_fnc_airstrike -> A3A_fnc_groupDespawner
+	A3A_fnc_artillery -> A3A_fnc_groupDespawner
+	A3A_fnc_fastrope -> A3A_fnc_groupDespawner
+	A3A_fnc_AAFroadPatrol -> A3A_fnc_groupDespawner
+	A3A_fnc_createCIV -> A3A_fnc_groupDespawner
+	A3A_fnc_createQRF -> A3A_fnc_groupDespawner
+	A3A_fnc_invaderPunish -> A3A_fnc_groupDespawner
+	A3A_fnc_patrolReinf -> A3A_fnc_groupDespawner
+	A3A_fnc_wavedCA -> A3A_fnc_groupDespawner
+	A3A_fnc_AS_Traitor -> A3A_fnc_groupDespawner
+	A3A_fnc_attackHQ -> A3A_fnc_groupDespawner
+	A3A_fnc_convoy -> A3A_fnc_groupDespawner
+	A3A_fnc_DES_Vehicle -> A3A_fnc_groupDespawner
+	A3A_fnc_LOG_Ammo -> A3A_fnc_groupDespawner
+	A3A_fnc_LOG_Bank -> A3A_fnc_groupDespawner
+	A3A_fnc_LOG_Salvage -> A3A_fnc_groupDespawner
+	A3A_fnc_REP_Antenna -> A3A_fnc_groupDespawner
+	A3A_fnc_RES_Refugees -> A3A_fnc_groupDespawner
+	A3A_fnc_rebelAttack -> A3A_fnc_invaderPunish
+	A3A_fnc_createAIAirplane -> A3A_fnc_milBuildings
+	A3A_fnc_createAIOutposts -> A3A_fnc_milBuildings
+	A3A_fnc_wavedCA -> A3A_fnc_minefieldAAF
+	"fn_createSDKgarrisons.sqf" -> A3A_fnc_mortarPos
+	A3A_fnc_airstrike -> A3A_fnc_NATOinit
+	A3A_fnc_artillery -> A3A_fnc_NATOinit
+	A3A_fnc_spawnConvoyLine -> A3A_fnc_NATOinit
+	A3A_fnc_AAFroadPatrol -> A3A_fnc_NATOinit
+	A3A_fnc_createAIAirplane -> A3A_fnc_NATOinit
+	A3A_fnc_createAICities -> A3A_fnc_NATOinit
+	A3A_fnc_createAIcontrols -> A3A_fnc_NATOinit
+	A3A_fnc_createAIOutposts -> A3A_fnc_NATOinit
+	A3A_fnc_createAIResources -> A3A_fnc_NATOinit
+	A3A_fnc_createQRF -> A3A_fnc_NATOinit
+	A3A_fnc_invaderPunish -> A3A_fnc_NATOinit
+	A3A_fnc_milBuildings -> A3A_fnc_NATOinit
+	A3A_fnc_patrolReinf -> A3A_fnc_NATOinit
+	A3A_fnc_wavedCA -> A3A_fnc_NATOinit
+	A3A_fnc_AS_Official -> A3A_fnc_NATOinit
+	A3A_fnc_AS_Traitor -> A3A_fnc_NATOinit
+	A3A_fnc_attackHQ -> A3A_fnc_NATOinit
+	A3A_fnc_convoy -> A3A_fnc_NATOinit
+	A3A_fnc_DES_Heli -> A3A_fnc_NATOinit
+	A3A_fnc_DES_Vehicle -> A3A_fnc_NATOinit
+	A3A_fnc_LOG_Ammo -> A3A_fnc_NATOinit
+	A3A_fnc_LOG_Bank -> A3A_fnc_NATOinit
+	A3A_fnc_LOG_Salvage -> A3A_fnc_NATOinit
+	A3A_fnc_REP_Antenna -> A3A_fnc_NATOinit
+	A3A_fnc_RES_Refugees -> A3A_fnc_NATOinit
+	A3A_fnc_AIreactOnKill -> A3A_fnc_patrolCA
+	A3A_fnc_attackDrillAI -> A3A_fnc_patrolCA
+	A3A_fnc_markerChange -> A3A_fnc_patrolCA
+	A3A_fnc_rebelAttack -> A3A_fnc_patrolCA
+	A3A_fnc_AIVEHinit -> A3A_fnc_patrolCA
+	A3A_fnc_createAICities -> A3A_fnc_patrolCA
+	A3A_fnc_createAIcontrols -> A3A_fnc_patrolCA
+	A3A_fnc_invaderPunish -> A3A_fnc_patrolCA
+	A3A_fnc_patrolCA -> A3A_fnc_patrolCA
+	A3A_fnc_searchIntelOnLaptop -> A3A_fnc_patrolCA
+	A3A_fnc_convoy -> A3A_fnc_patrolCA
+	A3A_fnc_LOG_Ammo -> A3A_fnc_patrolCA
+	A3A_fnc_LOG_Bank -> A3A_fnc_patrolCA
+	A3A_fnc_LOG_Supplies -> A3A_fnc_patrolCA
+	A3A_fnc_RES_Refugees -> A3A_fnc_patrolCA
+	"UPSMON_IsRetreating.sqf" -> A3A_fnc_patrolCA
+	A3A_fnc_reinforcementsAI -> A3A_fnc_patrolReinf
+	A3A_fnc_resourcecheck -> A3A_fnc_reinforcementsAI
+	A3A_fnc_wavedCA -> A3A_fnc_remoteBattle
+	A3A_fnc_vehKilledOrCaptured -> A3A_fnc_removeVehFromPool
+	A3A_fnc_spawnConvoyLine -> A3A_fnc_safeVehicleSpawn
+	A3A_fnc_createOutpostsFIA -> A3A_fnc_spawnGroup
+	A3A_fnc_AAFroadPatrol -> A3A_fnc_spawnGroup
+	A3A_fnc_createAIAirplane -> A3A_fnc_spawnGroup
+	A3A_fnc_createAICities -> A3A_fnc_spawnGroup
+	A3A_fnc_createAIcontrols -> A3A_fnc_spawnGroup
+	A3A_fnc_createAIOutposts -> A3A_fnc_spawnGroup
+	A3A_fnc_createAIResources -> A3A_fnc_spawnGroup
+	A3A_fnc_createFIAOutposts2 -> A3A_fnc_spawnGroup
+	A3A_fnc_createQRF -> A3A_fnc_spawnGroup
+	A3A_fnc_invaderPunish -> A3A_fnc_spawnGroup
+	A3A_fnc_patrolReinf -> A3A_fnc_spawnGroup
+	A3A_fnc_wavedCA -> A3A_fnc_spawnGroup
+	A3A_fnc_AS_Traitor -> A3A_fnc_spawnGroup
+	A3A_fnc_attackHQ -> A3A_fnc_spawnGroup
+	A3A_fnc_convoy -> A3A_fnc_spawnGroup
+	A3A_fnc_DES_Heli -> A3A_fnc_spawnGroup
+	A3A_fnc_LOG_Ammo -> A3A_fnc_spawnGroup
+	A3A_fnc_LOG_Bank -> A3A_fnc_spawnGroup
+	A3A_fnc_LOG_Salvage -> A3A_fnc_spawnGroup
+	A3A_fnc_RES_Refugees -> A3A_fnc_spawnGroup
+	A3A_fnc_addFIAsquadHC -> A3A_fnc_spawnGroup
+	A3A_fnc_autoGarrison -> A3A_fnc_spawnGroup
+	A3A_fnc_createQRF -> A3A_fnc_updateCAMark
+	A3A_fnc_patrolCA -> A3A_fnc_updateCAMark
+	A3A_fnc_artillery -> A3A_fnc_vehAvailable
+	A3A_fnc_getVehiclePoolForAttacks -> A3A_fnc_vehAvailable
+	A3A_fnc_getVehiclePoolForQRFs -> A3A_fnc_vehAvailable
+	A3A_fnc_createAIAction -> A3A_fnc_vehAvailable
+	A3A_fnc_selectAndCreateVehicle -> A3A_fnc_vehAvailable
+	A3A_fnc_AAFroadPatrol -> A3A_fnc_vehAvailable
+	A3A_fnc_createAIAirplane -> A3A_fnc_vehAvailable
+	A3A_fnc_createAIOutposts -> A3A_fnc_vehAvailable
+	A3A_fnc_createQRF -> A3A_fnc_vehAvailable
+	A3A_fnc_invaderPunish -> A3A_fnc_vehAvailable
+	A3A_fnc_patrolCA -> A3A_fnc_vehAvailable
+	A3A_fnc_wavedCA -> A3A_fnc_vehAvailable
+	A3A_fnc_getVehicleIntel -> A3A_fnc_vehAvailable
+	A3A_fnc_attackHQ -> A3A_fnc_vehAvailable
+	A3A_fnc_civVEHinit -> A3A_fnc_VEHdespawner
+	A3A_fnc_createAIAirplane -> A3A_fnc_VEHdespawner
+	A3A_fnc_createAIcontrols -> A3A_fnc_VEHdespawner
+	A3A_fnc_createAIOutposts -> A3A_fnc_VEHdespawner
+	A3A_fnc_createAIResources -> A3A_fnc_VEHdespawner
+	A3A_fnc_createCIV -> A3A_fnc_VEHdespawner
+	A3A_fnc_createQRF -> A3A_fnc_VEHdespawner
+	A3A_fnc_invaderPunish -> A3A_fnc_VEHdespawner
+	A3A_fnc_vehKilledOrCaptured -> A3A_fnc_VEHdespawner
+	A3A_fnc_wavedCA -> A3A_fnc_VEHdespawner
+	A3A_fnc_attackHQ -> A3A_fnc_VEHdespawner
+	A3A_fnc_convoy -> A3A_fnc_VEHdespawner
+	JN_fnc_logistics_load -> A3A_fnc_VEHdespawner
+	A3A_fnc_markerChange -> A3A_fnc_vehKilledOrCaptured
+	A3A_fnc_startBreachVehicle -> A3A_fnc_vehKilledOrCaptured
+	A3A_fnc_AIVEHinit -> A3A_fnc_vehKilledOrCaptured
+	"fn_advancedTowingInit.sqf" -> A3A_fnc_vehKilledOrCaptured
+	A3A_fnc_rebelAttack -> A3A_fnc_wavedCA
+	A3A_fnc_createQRF -> A3A_fnc_WPCreate
+	A3A_fnc_patrolReinf -> A3A_fnc_WPCreate
+	A3A_fnc_wavedCA -> A3A_fnc_WPCreate
+	A3A_fnc_spawnDebuggingLoop -> A3A_fnc_deleteEmptyGroupsOnSide
+	A3A_fnc_initClient -> A3A_fnc_installSchrodingersBuildingFix
+	A3A_fnc_initServer -> A3A_fnc_spawnDebuggingLoop
+	A3A_fnc_flagaction -> A3A_fnc_clearForest
+	A3A_fnc_initServer -> A3A_fnc_createDialog_setParams
+	A3A_fnc_initClient -> A3A_fnc_createDialog_shouldLoadPersonalSave
+	A3A_fnc_flagaction -> A3A_fnc_dialogHQ
+	A3A_fnc_createDialog_shouldLoadPersonalSave -> A3A_fnc_loadPreviousSession
+	A3A_fnc_flagaction -> A3A_fnc_moveHQObject
+	A3A_fnc_moveHQObject -> A3A_fnc_moveHQObject
+	A3A_fnc_initClient -> A3A_fnc_moveHQObject
+	A3A_fnc_flagaction -> A3A_fnc_skiptime
+	A3A_fnc_flagaction -> A3A_fnc_unit_recruit
+	A3A_fnc_initClient -> A3A_fnc_unit_recruit
+	A3A_fnc_addToPersonalGarageLocal -> A3A_fnc_addToPersonalGarage
+	JN_fnc_garage_garageVehicle -> A3A_fnc_addToPersonalGarageLocal
+	A3A_fnc_vehPlacementBegin -> A3A_fnc_attemptPlaceVehicle
+	A3A_fnc_vehPlacementBegin -> A3A_fnc_displayVehiclePlacementMessage
+	A3A_fnc_flagaction -> A3A_fnc_garage
+	A3A_fnc_initClient -> A3A_fnc_garage
+	A3A_fnc_getPersonalGarageLocal -> A3A_fnc_getPersonalGarage
+	A3A_fnc_savePlayer -> A3A_fnc_getPersonalGarage
+	JN_fnc_garage -> A3A_fnc_getPersonalGarageLocal
+	A3A_fnc_vehPlacementCallbacks -> A3A_fnc_getPersonalGarageLocal
+	A3A_fnc_attemptPlaceVehicle -> A3A_fnc_handleVehPlacementCancelled
+	A3A_fnc_vehPlacementBegin -> A3A_fnc_handleVehPlacementCancelled
+	A3A_fnc_vehPlacementCallbacks -> A3A_fnc_placeEmptyVehicle
+	A3A_fnc_setPersonalGarageLocal -> A3A_fnc_setPersonalGarage
+	A3A_fnc_loadPlayer -> A3A_fnc_setPersonalGarage
+	A3A_fnc_resetPlayer -> A3A_fnc_setPersonalGarage
+	A3A_fnc_vehPlacementCallbacks -> A3A_fnc_setPersonalGarageLocal
+	JN_fnc_garage -> A3A_fnc_vehPlacementBegin
+	A3A_fnc_addFIAveh -> A3A_fnc_vehPlacementBegin
+	A3A_fnc_build -> A3A_fnc_vehPlacementBegin
+	A3A_fnc_attemptPlaceVehicle -> A3A_fnc_vehPlacementCallbacks
+	A3A_fnc_handleVehPlacementCancelled -> A3A_fnc_vehPlacementCallbacks
+	A3A_fnc_vehPlacementBegin -> A3A_fnc_vehPlacementCallbacks
+	A3A_fnc_vehPlacementCleanup -> A3A_fnc_vehPlacementCallbacks
+	A3A_fnc_build -> A3A_fnc_vehPlacementCancel
+	JN_fnc_garage -> A3A_fnc_vehPlacementChangeVehicle
+	A3A_fnc_attemptPlaceVehicle -> A3A_fnc_vehPlacementCleanup
+	A3A_fnc_handleVehPlacementCancelled -> A3A_fnc_vehPlacementCleanup
+	A3A_fnc_createAIAction -> A3A_fnc_addGarrison
+	A3A_fnc_onConvoyArrival -> A3A_fnc_addGarrison
+	A3A_fnc_replenishGarrison -> A3A_fnc_addGarrison
+	A3A_fnc_cycleSpawn -> A3A_fnc_addRequested
+	A3A_fnc_updateGarrison -> A3A_fnc_addRequested
+	A3A_fnc_updateGarrison -> A3A_fnc_checkVehicleType
+	A3A_fnc_createAIAction -> A3A_fnc_countGarrison
+	A3A_fnc_cycleSpawn -> A3A_fnc_countGarrison
+	A3A_fnc_getGarrisonRatio -> A3A_fnc_countGarrison
+	A3A_fnc_selectReinfUnits -> A3A_fnc_countGarrison
+	A3A_fnc_shouldReinforce -> A3A_fnc_countGarrison
+	A3A_fnc_initGarrisons -> A3A_fnc_createGarrison
+	A3A_fnc_loadServer -> A3A_fnc_createGarrison
+	A3A_fnc_markerChange -> A3A_fnc_createGarrisonLine
+	A3A_fnc_createGarrison -> A3A_fnc_createGarrisonLine
+	A3A_fnc_updateGarrison -> A3A_fnc_createGarrisonLine
+	A3A_fnc_cycleSpawn -> A3A_fnc_getGarrison
+	A3A_fnc_addGarrison -> A3A_fnc_getGarrison
+	A3A_fnc_addRequested -> A3A_fnc_getGarrison
+	A3A_fnc_getGarrisonRatio -> A3A_fnc_getGarrison
+	A3A_fnc_getGarrisonStatus -> A3A_fnc_getGarrisonRatio
+	A3A_fnc_updateReinfState -> A3A_fnc_getGarrisonRatio
+	A3A_fnc_addGarrison -> A3A_fnc_getRequested
+	A3A_fnc_addRequested -> A3A_fnc_getRequested
+	A3A_fnc_getGarrisonRatio -> A3A_fnc_getRequested
+	A3A_fnc_selectReinfUnits -> A3A_fnc_getRequested
+	A3A_fnc_shouldReinforce -> A3A_fnc_getRequested
+	A3A_fnc_createAIAction -> A3A_fnc_getVehicleCrew
+	A3A_fnc_selectAndCreateVehicle -> A3A_fnc_getVehicleCrew
+	A3A_fnc_createGarrisonLine -> A3A_fnc_getVehicleCrew
+	A3A_fnc_selectReinfUnits -> A3A_fnc_getVehicleCrew
+	A3A_fnc_updateGarrison -> A3A_fnc_getVehicleCrew
+	A3A_fnc_initVarServer -> A3A_fnc_initPreference
+	A3A_fnc_rebelAttack -> A3A_fnc_logArray
+	A3A_fnc_createAIAction -> A3A_fnc_logArray
+	A3A_fnc_spawnConvoy -> A3A_fnc_logArray
+	A3A_fnc_cycleSpawn -> A3A_fnc_logArray
+	A3A_fnc_findSpawnPosition -> A3A_fnc_logArray
+	A3A_fnc_freeSpawnPositions -> A3A_fnc_logArray
+	A3A_fnc_addRequested -> A3A_fnc_logArray
+	A3A_fnc_createGarrison -> A3A_fnc_logArray
+	A3A_fnc_updatePreference -> A3A_fnc_logArray
+	A3A_fnc_prepareMarkerArrays -> A3A_fnc_logArray
+	A3A_fnc_reinforcementsAI -> A3A_fnc_replenishGarrison
+	A3A_fnc_createGarrisonLine -> A3A_fnc_selectGroupType
+	A3A_fnc_updateGarrison -> A3A_fnc_selectGroupType
+	A3A_fnc_createAIAction -> A3A_fnc_selectReinfUnits
+	A3A_fnc_replenishGarrison -> A3A_fnc_selectReinfUnits
+	A3A_fnc_createGarrisonLine -> A3A_fnc_selectVehicleType
+	A3A_fnc_updateGarrison -> A3A_fnc_selectVehicleType
+	A3A_fnc_createAIAction -> A3A_fnc_shouldReinforce
+	A3A_fnc_tierCheck -> A3A_fnc_updatePreference
+	A3A_fnc_loadServer -> A3A_fnc_updatePreference
+	A3A_fnc_markerChange -> A3A_fnc_updateReinfState
+	A3A_fnc_addGarrison -> A3A_fnc_updateReinfState
+	A3A_fnc_addRequested -> A3A_fnc_updateReinfState
+	A3A_fnc_createGarrison -> A3A_fnc_updateReinfState
+	A3A_fnc_loadStat -> A3A_fnc_updateReinfState
+	A3A_fnc_updatePreference -> A3A_fnc_updateVehicles
+	A3A_fnc_selectIntel -> A3A_fnc_getVehicleIntel
+	A3A_fnc_createAIAirplane -> A3A_fnc_placeIntel
+	A3A_fnc_createAIOutposts -> A3A_fnc_placeIntel
+	A3A_fnc_flagaction -> A3A_fnc_searchIntelOnDocument
+	A3A_fnc_flagaction -> A3A_fnc_searchIntelOnLaptop
+	A3A_fnc_flagaction -> A3A_fnc_searchIntelOnLeader
+	A3A_fnc_interrogate -> A3A_fnc_selectIntel
+	A3A_fnc_searchIntelOnDocument -> A3A_fnc_selectIntel
+	A3A_fnc_searchIntelOnLaptop -> A3A_fnc_selectIntel
+	A3A_fnc_searchIntelOnLeader -> A3A_fnc_selectIntel
+	A3A_fnc_searchIntelOnDocument -> A3A_fnc_showIntel
+	A3A_fnc_searchIntelOnLaptop -> A3A_fnc_showIntel
+	A3A_fnc_searchIntelOnLeader -> A3A_fnc_showIntel
+	A3A_fnc_missionRequest -> A3A_fnc_AS_Official
+	A3A_fnc_missionRequest -> A3A_fnc_AS_Traitor
+	A3A_fnc_markerChange -> A3A_fnc_attackHQ
+	A3A_fnc_AIVEHinit -> A3A_fnc_attackHQ
+	A3A_fnc_AS_Traitor -> A3A_fnc_attackHQ
+	A3A_fnc_loadStat -> A3A_fnc_attackHQ
+	A3A_fnc_missionRequest -> A3A_fnc_CON_Outpost
+	A3A_fnc_resourcecheck -> A3A_fnc_convoy
+	A3A_fnc_missionRequest -> A3A_fnc_convoy
+	A3A_fnc_createOutpostsFIA -> A3A_fnc_deleteTask
+	A3A_fnc_invaderPunish -> A3A_fnc_deleteTask
+	A3A_fnc_wavedCA -> A3A_fnc_deleteTask
+	A3A_fnc_AS_Official -> A3A_fnc_deleteTask
+	A3A_fnc_AS_specOP -> A3A_fnc_deleteTask
+	A3A_fnc_AS_Traitor -> A3A_fnc_deleteTask
+	A3A_fnc_attackHQ -> A3A_fnc_deleteTask
+	A3A_fnc_convoy -> A3A_fnc_deleteTask
+	A3A_fnc_CON_Outpost -> A3A_fnc_deleteTask
+	A3A_fnc_DES_Antenna -> A3A_fnc_deleteTask
+	A3A_fnc_DES_Heli -> A3A_fnc_deleteTask
+	A3A_fnc_DES_Vehicle -> A3A_fnc_deleteTask
+	A3A_fnc_LOG_Ammo -> A3A_fnc_deleteTask
+	A3A_fnc_LOG_Bank -> A3A_fnc_deleteTask
+	A3A_fnc_LOG_Salvage -> A3A_fnc_deleteTask
+	A3A_fnc_LOG_Supplies -> A3A_fnc_deleteTask
+	A3A_fnc_REP_Antenna -> A3A_fnc_deleteTask
+	A3A_fnc_RES_Prisoners -> A3A_fnc_deleteTask
+	A3A_fnc_RES_Refugees -> A3A_fnc_deleteTask
+	A3A_fnc_buildMinefield -> A3A_fnc_deleteTask
+	A3A_fnc_missionRequest -> A3A_fnc_DES_Heli
+	A3A_fnc_missionRequest -> A3A_fnc_DES_Vehicle
+	A3A_fnc_missionRequest -> A3A_fnc_LOG_Ammo
+	A3A_fnc_missionRequest -> A3A_fnc_LOG_Bank
+	A3A_fnc_missionRequest -> A3A_fnc_LOG_Supplies
+	A3A_fnc_missionRequest -> A3A_fnc_LOG_Salvage
+	A3A_fnc_missionRequestAUTO -> A3A_fnc_missionRequest
+	A3A_fnc_loadStat -> A3A_fnc_missionRequest
+	A3A_fnc_resourcecheck -> A3A_fnc_missionRequestAUTO
+	A3A_fnc_resourcecheck -> A3A_fnc_REP_Antenna
+	A3A_fnc_missionRequest -> A3A_fnc_RES_Prisoners
+	A3A_fnc_missionRequest -> A3A_fnc_RES_Refugees
+	A3A_fnc_createOutpostsFIA -> A3A_fnc_taskUpdate
+	A3A_fnc_invaderPunish -> A3A_fnc_taskUpdate
+	A3A_fnc_wavedCA -> A3A_fnc_taskUpdate
+	A3A_fnc_AS_Official -> A3A_fnc_taskUpdate
+	A3A_fnc_AS_specOP -> A3A_fnc_taskUpdate
+	A3A_fnc_AS_Traitor -> A3A_fnc_taskUpdate
+	A3A_fnc_attackHQ -> A3A_fnc_taskUpdate
+	A3A_fnc_convoy -> A3A_fnc_taskUpdate
+	A3A_fnc_CON_Outpost -> A3A_fnc_taskUpdate
+	A3A_fnc_DES_Antenna -> A3A_fnc_taskUpdate
+	A3A_fnc_DES_Heli -> A3A_fnc_taskUpdate
+	A3A_fnc_DES_Vehicle -> A3A_fnc_taskUpdate
+	A3A_fnc_LOG_Ammo -> A3A_fnc_taskUpdate
+	A3A_fnc_LOG_Bank -> A3A_fnc_taskUpdate
+	A3A_fnc_LOG_Salvage -> A3A_fnc_taskUpdate
+	A3A_fnc_LOG_Supplies -> A3A_fnc_taskUpdate
+	A3A_fnc_REP_Antenna -> A3A_fnc_taskUpdate
+	A3A_fnc_RES_Prisoners -> A3A_fnc_taskUpdate
+	A3A_fnc_RES_Refugees -> A3A_fnc_taskUpdate
+	A3A_fnc_buildMinefield -> A3A_fnc_taskUpdate
+	A3A_fnc_convoyMovement -> A3A_fnc_underAttack
+	A3A_fnc_handleDamage -> A3A_fnc_underAttack
+	A3A_fnc_handleDamageAAF -> A3A_fnc_underAttack
+	A3A_fnc_configSort -> A3A_fnc_getModOfConfigClass
+	A3A_fnc_equipmentIsValidForCurrentModset -> A3A_fnc_getModOfConfigClass
+	A3A_fnc_initVarServer -> A3A_fnc_getModOfConfigClass
+	A3A_fnc_initVarServer -> A3A_fnc_initDisabledMods
+	A3A_fnc_equipmentIsValidForCurrentModset -> A3A_fnc_isModNameVanilla
+	"onPlayerRespawn.sqf" -> A3A_fnc_ACEpvpReDress
+	A3A_fnc_initClient -> A3A_fnc_ACEpvpReDress
+	A3A_fnc_mineSweep -> A3A_fnc_ammunitionTransfer
+	A3A_fnc_empty -> A3A_fnc_ammunitionTransfer
+	A3A_fnc_transfer -> A3A_fnc_ammunitionTransfer
+	A3A_fnc_ammunitionTransfer -> A3A_fnc_arsenalManage
+	A3A_fnc_resourcecheck -> A3A_fnc_arsenalManage
+	A3A_fnc_saveLoop -> A3A_fnc_arsenalManage
+	A3A_fnc_initVarServer -> A3A_fnc_categoryOverrides
+	A3A_fnc_arsenalManage -> A3A_fnc_checkRadiosUnlocked
+	A3A_fnc_loadServer -> A3A_fnc_checkRadiosUnlocked
+	A3A_fnc_initVarServer -> A3A_fnc_configSort
+	A3A_fnc_initServer -> A3A_fnc_crateLootParams
+	"onPlayerRespawn.sqf" -> A3A_fnc_dress
+	A3A_fnc_initClient -> A3A_fnc_dress
+	A3A_fnc_sellVehicle -> A3A_fnc_empty
+	JN_fnc_garage_garageVehicle -> A3A_fnc_empty
+	A3A_fnc_initClient -> A3A_fnc_empty
+	A3A_fnc_LOG_Bank -> A3A_fnc_empty
+	A3A_fnc_arsenalManage -> A3A_fnc_equipmentClassToCategories
+	A3A_fnc_configSort -> A3A_fnc_equipmentClassToCategories
+	A3A_fnc_unlockEquipment -> A3A_fnc_equipmentClassToCategories
+	A3A_fnc_initVarServer -> A3A_fnc_equipmentIsValidForCurrentModset
+	A3A_fnc_initVarServer -> A3A_fnc_equipmentSort
+	A3A_fnc_createAIAirplane -> A3A_fnc_fillLootCrate
+	A3A_fnc_createAIOutposts -> A3A_fnc_fillLootCrate
+	A3A_fnc_createAISite -> A3A_fnc_fillLootCrate
+	A3A_fnc_LOG_Ammo -> A3A_fnc_fillLootCrate
+	A3A_fnc_LOG_Salvage -> A3A_fnc_fillLootCrate
+	A3A_fnc_autoRearm -> A3A_fnc_getRadio
+	A3A_fnc_hasRadio -> A3A_fnc_getRadio
+	A3A_fnc_NATOinit -> A3A_fnc_getRadio
+	A3A_fnc_FIAinit -> A3A_fnc_getRadio
+	JN_fnc_arsenal -> A3A_fnc_getRadio
+	A3A_fnc_initVarServer -> A3A_fnc_itemSort
+	A3A_fnc_configSort -> A3A_fnc_itemType
+	A3A_fnc_equipmentClassToCategories -> A3A_fnc_itemType
+	A3A_fnc_equipmentClassToCategories -> A3A_fnc_launcherInfo
+	A3A_fnc_launcherInfo -> A3A_fnc_launcherInfo
+	A3A_fnc_initVarServer -> A3A_fnc_loot
+	A3A_fnc_initPetros -> A3A_fnc_randomRifle
+	A3A_fnc_equipRebel -> A3A_fnc_randomRifle
+	A3A_fnc_flagaction -> A3A_fnc_transfer
+	A3A_fnc_arsenalManage -> A3A_fnc_unlockEquipment
+	A3A_fnc_createDialog_setParams -> A3A_fnc_unlockEquipment
+	A3A_fnc_initServer -> A3A_fnc_unlockEquipment
+	A3A_fnc_selectIntel -> A3A_fnc_unlockEquipment
+	A3A_fnc_loadServer -> A3A_fnc_unlockEquipment
+	A3A_fnc_initVarServer -> A3A_fnc_vehicleSort
+	A3A_fnc_flagaction -> A3A_fnc_isMember
+	A3A_fnc_statistics -> A3A_fnc_isMember
+	A3A_fnc_AIVEHinit -> A3A_fnc_isMember
+	JN_fnc_garage -> A3A_fnc_isMember
+	JN_fnc_garage_garageVehicle -> A3A_fnc_isMember
+	A3A_fnc_initClient -> A3A_fnc_isMember
+	A3A_fnc_initServer -> A3A_fnc_isMember
+	A3A_fnc_assignBossIfNone -> A3A_fnc_isMember
+	A3A_fnc_makePlayerBossIfEligible -> A3A_fnc_isMember
+	A3A_fnc_memberAdd -> A3A_fnc_isMember
+	A3A_fnc_membersList -> A3A_fnc_isMember
+	A3A_fnc_pvpCheck -> A3A_fnc_isMember
+	A3A_fnc_reinfPlayer -> A3A_fnc_isMember
+	A3A_fnc_loadPlayer -> A3A_fnc_isMember
+	JN_fnc_arsenal -> A3A_fnc_isMember
+	JN_fnc_arsenal_loadInventory -> A3A_fnc_isMember
+	JN_fnc_vehicleArsenal -> A3A_fnc_isMember
+	"nonMemberDistance.sqf" -> A3A_fnc_isMember
+	A3A_fnc_theBossToggleEligibility -> A3A_fnc_makePlayerBossIfEligible
+	A3A_fnc_occupantInvaderUnitKilledEH -> A3A_fnc_playerScoreAdd
+	A3A_fnc_mrkWIN -> A3A_fnc_playerScoreAdd
+	A3A_fnc_CIVinit -> A3A_fnc_playerScoreAdd
+	A3A_fnc_invaderPunish -> A3A_fnc_playerScoreAdd
+	A3A_fnc_wavedCA -> A3A_fnc_playerScoreAdd
+	A3A_fnc_searchIntelOnDocument -> A3A_fnc_playerScoreAdd
+	A3A_fnc_searchIntelOnLaptop -> A3A_fnc_playerScoreAdd
+	A3A_fnc_searchIntelOnLeader -> A3A_fnc_playerScoreAdd
+	A3A_fnc_AS_Official -> A3A_fnc_playerScoreAdd
+	A3A_fnc_AS_specOP -> A3A_fnc_playerScoreAdd
+	A3A_fnc_AS_Traitor -> A3A_fnc_playerScoreAdd
+	A3A_fnc_attackHQ -> A3A_fnc_playerScoreAdd
+	A3A_fnc_convoy -> A3A_fnc_playerScoreAdd
+	A3A_fnc_CON_Outpost -> A3A_fnc_playerScoreAdd
+	A3A_fnc_DES_Antenna -> A3A_fnc_playerScoreAdd
+	A3A_fnc_DES_Heli -> A3A_fnc_playerScoreAdd
+	A3A_fnc_DES_Vehicle -> A3A_fnc_playerScoreAdd
+	A3A_fnc_LOG_Ammo -> A3A_fnc_playerScoreAdd
+	A3A_fnc_LOG_Bank -> A3A_fnc_playerScoreAdd
+	A3A_fnc_LOG_Salvage -> A3A_fnc_playerScoreAdd
+	A3A_fnc_LOG_Supplies -> A3A_fnc_playerScoreAdd
+	A3A_fnc_REP_Antenna -> A3A_fnc_playerScoreAdd
+	A3A_fnc_RES_Prisoners -> A3A_fnc_playerScoreAdd
+	A3A_fnc_RES_Refugees -> A3A_fnc_playerScoreAdd
+	A3A_fnc_promotePlayer -> A3A_fnc_playerScoreAdd
+	A3A_fnc_theBossSteal -> A3A_fnc_playerScoreAdd
+	A3A_fnc_unconsciousAAF -> A3A_fnc_playerScoreAdd
+	A3A_fnc_resourcecheck -> A3A_fnc_promotePlayer
+	A3A_fnc_initServer -> A3A_fnc_ranksMP
+	A3A_fnc_promotePlayer -> A3A_fnc_ranksMP
+	A3A_fnc_vehPlacementCallbacks -> A3A_fnc_resourcesPlayer
+	A3A_fnc_donateMoney -> A3A_fnc_resourcesPlayer
+	A3A_fnc_theBossSteal -> A3A_fnc_resourcesPlayer
+	A3A_fnc_buildCreateVehicleCallback -> A3A_fnc_resourcesPlayer
+	A3A_fnc_reinfPlayer -> A3A_fnc_resourcesPlayer
+	"dismissPlayerGroup.sqf" -> A3A_fnc_resourcesPlayer
+	"onPlayerRespawn.sqf" -> A3A_fnc_theBossTransfer
+	A3A_fnc_assignBossIfNone -> A3A_fnc_theBossTransfer
+	A3A_fnc_makePlayerBossIfEligible -> A3A_fnc_theBossTransfer
+	A3A_fnc_onPlayerDisconnect -> A3A_fnc_assignBossIfNone
+	A3A_fnc_initClient -> A3A_fnc_assignBossIfNone
+	A3A_fnc_resourcecheck -> A3A_fnc_assignBossIfNone
+	A3A_fnc_theBossToggleEligibility -> A3A_fnc_assignBossIfNone
+	A3A_fnc_markerChange -> A3A_fnc_tierCheck
+	A3A_fnc_resourcecheck -> A3A_fnc_tierCheck
+	A3A_fnc_loadServer -> A3A_fnc_tierCheck
+	A3A_fnc_createConvoy -> A3A_fnc_findPath
+	A3A_fnc_convoy -> A3A_fnc_findPath
+	A3A_fnc_initClient -> A3A_fnc_loadNavGrid
+	A3A_fnc_initServer -> A3A_fnc_loadNavGrid
+	A3A_fnc_findPath -> A3A_fnc_calculateH
+	A3A_fnc_convoy -> A3A_fnc_findNearestNavPoint
+	A3A_fnc_findPath -> A3A_fnc_findNearestNavPoint
+	A3A_fnc_findNearestNavPoint -> A3A_fnc_getClosestMainMarker
+	A3A_fnc_loadNavGrid -> A3A_fnc_getMainMarkers
+	A3A_fnc_findPath -> A3A_fnc_getNavConnections
+	A3A_fnc_convoy -> A3A_fnc_getNavPos
+	A3A_fnc_findPath -> A3A_fnc_getNavPos
+	A3A_fnc_loadNavGrid -> A3A_fnc_setNavOnMarker
+	A3A_fnc_punishment_checkStatus -> A3A_fnc_punishment
+	A3A_fnc_punishment_FF -> A3A_fnc_punishment
+	A3A_fnc_punishment_removeActionForgive -> A3A_fnc_punishment_addActionForgive
+	A3A_fnc_punishment_sentence_server -> A3A_fnc_punishment_addActionForgive
+	"fn_punishment_FF_AddEH.sqf" -> A3A_fnc_punishment_checkStatus
+	A3A_fnc_fastTravelRadio -> A3A_fnc_punishment_dataGet
+	A3A_fnc_punishment -> A3A_fnc_punishment_dataGet
+	A3A_fnc_punishment_addActionForgive -> A3A_fnc_punishment_dataGet
+	A3A_fnc_punishment_checkStatus -> A3A_fnc_punishment_dataGet
+	A3A_fnc_punishment_notifyAdmin -> A3A_fnc_punishment_dataGet
+	A3A_fnc_punishment_oceanGulag -> A3A_fnc_punishment_dataGet
+	A3A_fnc_punishment_release -> A3A_fnc_punishment_dataGet
+	A3A_fnc_punishment_removeActionForgive -> A3A_fnc_punishment_dataGet
+	A3A_fnc_punishment_sentence_server -> A3A_fnc_punishment_dataGet
+	"controlHCsquad.sqf" -> A3A_fnc_punishment_dataGet
+	"controlunit.sqf" -> A3A_fnc_punishment_dataGet
+	A3A_fnc_punishment_checkStatus -> A3A_fnc_punishment_dataRem
+	A3A_fnc_punishment_oceanGulag -> A3A_fnc_punishment_dataRem
+	A3A_fnc_punishment_release -> A3A_fnc_punishment_dataRem
+	A3A_fnc_punishment -> A3A_fnc_punishment_dataSet
+	A3A_fnc_punishment_oceanGulag -> A3A_fnc_punishment_dataSet
+	A3A_fnc_punishment_release -> A3A_fnc_punishment_dataSet
+	A3A_fnc_punishment_sentence_server -> A3A_fnc_punishment_dataSet
+	A3A_fnc_punishment_dataGet -> A3A_fnc_punishment_dataNamespace
+	A3A_fnc_punishment_dataRem -> A3A_fnc_punishment_dataNamespace
+	A3A_fnc_punishment_dataSet -> A3A_fnc_punishment_dataNamespace
+	"fn_punishment_FF_AddEH.sqf" -> A3A_fnc_punishment_FF
+	A3A_fnc_punishment_FF_checkNearHQ -> A3A_fnc_punishment_FF
+	"fn_punishment_FF_AddEH.sqf" -> A3A_fnc_punishment_FF_checkNearHQ
+	"onPlayerRespawn.sqf" -> A3A_fnc_punishment_FF_addEH
+	A3A_fnc_initPetros -> A3A_fnc_punishment_FF_addEH
+	A3A_fnc_initRevive -> A3A_fnc_punishment_FF_addEH
+	A3A_fnc_punishment_sentence_server -> A3A_fnc_punishment_notifyAdmin
+	A3A_fnc_punishment_release -> A3A_fnc_punishment_oceanGulag
+	A3A_fnc_punishment_sentence_server -> A3A_fnc_punishment_oceanGulag
+	A3A_fnc_punishment_addActionForgive -> A3A_fnc_punishment_release
+	A3A_fnc_punishment_sentence_server -> A3A_fnc_punishment_release
+	A3A_fnc_punishment_addActionForgive -> A3A_fnc_punishment_removeActionForgive
+	A3A_fnc_punishment_release -> A3A_fnc_punishment_removeActionForgive
+	A3A_fnc_punishment_sentence_server -> A3A_fnc_punishment_sentence_client
+	A3A_fnc_punishment -> A3A_fnc_punishment_sentence_server
+	"fn_punishment_FF_AddEH.sqf" -> A3A_fnc_punishment_notPlayer
+	A3A_fnc_initClient -> A3A_fnc_pvpCheck
+	A3A_fnc_pvpCheck -> A3A_fnc_playerHasBeenPvPCheck
+	A3A_fnc_markerChange -> A3A_fnc_autoGarrison
+	A3A_fnc_vehPlacementCallbacks -> A3A_fnc_buildCreateVehicleCallback
+	A3A_fnc_mineDialog -> A3A_fnc_buildMinefield
+	A3A_fnc_flagaction -> A3A_fnc_enemyNearCheck
+	A3A_fnc_fastTravelRadio -> A3A_fnc_enemyNearCheck
+	JN_fnc_garage -> A3A_fnc_enemyNearCheck
+	A3A_fnc_vehPlacementCallbacks -> A3A_fnc_enemyNearCheck
+	A3A_fnc_initClient -> A3A_fnc_enemyNearCheck
+	A3A_fnc_addFIAveh -> A3A_fnc_enemyNearCheck
+	A3A_fnc_garrisonAdd -> A3A_fnc_enemyNearCheck
+	A3A_fnc_garrisonDialog -> A3A_fnc_enemyNearCheck
+	A3A_fnc_reinfPlayer -> A3A_fnc_enemyNearCheck
+	"fn_FIAinitBASES.sqf" -> A3A_fnc_equipRebel
+	A3A_fnc_FIAinit -> A3A_fnc_equipRebel
+	A3A_fnc_mineSweep -> A3A_fnc_FIAinit
+	A3A_fnc_createOutpostsFIA -> A3A_fnc_FIAinit
+	A3A_fnc_addFIAsquadHC -> A3A_fnc_FIAinit
+	A3A_fnc_autoGarrison -> A3A_fnc_FIAinit
+	A3A_fnc_buildMinefield -> A3A_fnc_FIAinit
+	A3A_fnc_reinfPlayer -> A3A_fnc_FIAinit
+	"onPlayerRespawn.sqf" -> A3A_fnc_postmortem
+	A3A_fnc_occupantInvaderUnitKilledEH -> A3A_fnc_postmortem
+	A3A_fnc_surrenderAction -> A3A_fnc_postmortem
+	A3A_fnc_AIVEHinit -> A3A_fnc_postmortem
+	A3A_fnc_civVEHinit -> A3A_fnc_postmortem
+	"fn_FIAinitBASES.sqf" -> A3A_fnc_postmortem
+	A3A_fnc_initClient -> A3A_fnc_postmortem
+	A3A_fnc_LOG_Supplies -> A3A_fnc_postmortem
+	A3A_fnc_FIAinit -> A3A_fnc_postmortem
+	A3A_fnc_stealStatic -> A3A_fnc_postmortem
+	"addToGarrison.sqf" -> A3A_fnc_postmortem
+	A3A_fnc_convoy -> A3A_fnc_reDress
+	A3A_fnc_RES_Prisoners -> A3A_fnc_reDress
+	A3A_fnc_RES_Refugees -> A3A_fnc_reDress
+	A3A_fnc_flagaction -> A3A_fnc_stealStatic
+	A3A_fnc_mineSweep -> A3A_fnc_vehiclePrice
+	A3A_fnc_moveHQ -> A3A_fnc_vehiclePrice
+	A3A_fnc_outpostDialog -> A3A_fnc_vehiclePrice
+	A3A_fnc_sellVehicle -> A3A_fnc_vehiclePrice
+	A3A_fnc_buyVehicle -> A3A_fnc_vehiclePrice
+	A3A_fnc_buyVehicleCiv -> A3A_fnc_vehiclePrice
+	A3A_fnc_mineDialog -> A3A_fnc_vehiclePrice
+	A3A_fnc_squadOptions -> A3A_fnc_vehiclePrice
+	A3A_fnc_squadRecruit -> A3A_fnc_vehiclePrice
+	A3A_fnc_addFIAsquadHC -> A3A_fnc_vehiclePrice
+	A3A_fnc_addFIAveh -> A3A_fnc_vehiclePrice
+	A3A_fnc_buildMinefield -> A3A_fnc_vehiclePrice
+	A3A_fnc_garrisonAdd -> A3A_fnc_vehiclePrice
+	A3A_fnc_garrisonDialog -> A3A_fnc_vehiclePrice
+	A3A_fnc_saveLoop -> A3A_fnc_vehiclePrice
+	A3A_fnc_savePlayer -> A3A_fnc_vehiclePrice
+	"dismissSquad.sqf" -> A3A_fnc_vehiclePrice
+	A3A_fnc_help -> A3A_fnc_actionRevive
+	A3A_fnc_flagaction -> A3A_fnc_actionRevive
+	A3A_fnc_flagaction -> A3A_fnc_carry
+	A3A_fnc_askHelp -> A3A_fnc_fatalWound
+	A3A_fnc_flagaction -> A3A_fnc_fatalWound
+	A3A_fnc_actionRevive -> A3A_fnc_fatalWound
+	A3A_fnc_initRevive -> A3A_fnc_handleDamage
+	A3A_fnc_NATOinit -> A3A_fnc_handleDamageAAF
+	"onPlayerRespawn.sqf" -> A3A_fnc_initRevive
+	"fn_FIAinitBASES.sqf" -> A3A_fnc_initRevive
+	A3A_fnc_initClient -> A3A_fnc_initRevive
+	A3A_fnc_FIAinit -> A3A_fnc_initRevive
+	A3A_fnc_askHelp -> A3A_fnc_isMedic
+	A3A_fnc_autoRearm -> A3A_fnc_isMedic
+	A3A_fnc_typeOfSoldier -> A3A_fnc_isMedic
+	A3A_fnc_ACEpvpReDress -> A3A_fnc_isMedic
+	A3A_fnc_vehStats -> A3A_fnc_isMedic
+	A3A_fnc_actionRevive -> A3A_fnc_isMedic
+	JN_fnc_arsenal -> A3A_fnc_isMedic
+	A3A_fnc_napalmDamage -> A3A_fnc_respawn
+	A3A_fnc_handleDamage -> A3A_fnc_respawn
+	A3A_fnc_unconscious -> A3A_fnc_respawn
+	A3A_fnc_initPetros -> A3A_fnc_unconscious
+	A3A_fnc_handleDamage -> A3A_fnc_unconscious
+	A3A_fnc_handleDamageAAF -> A3A_fnc_unconsciousAAF
+	A3A_fnc_airstrike -> A3A_fnc_getRunwayTakeoffForAirportMarker
+	A3A_fnc_createAIAirplane -> A3A_fnc_getRunwayTakeoffForAirportMarker
+	A3A_fnc_wavedCA -> A3A_fnc_getRunwayTakeoffForAirportMarker
+	A3A_fnc_getRunwayTakeoffForAirportMarker -> A3A_fnc_runwayInfo
+	A3A_fnc_LOG_Salvage -> A3A_fnc_SalvageRope
+	A3A_fnc_loadPreviousSession -> A3A_fnc_loadPlayer
+	A3A_fnc_initServer -> A3A_fnc_loadServer
+	A3A_fnc_loadPlayer -> A3A_fnc_playerHasSave
+	A3A_fnc_playerHasSave -> A3A_fnc_playerHasSave
+	A3A_fnc_resetPlayer -> A3A_fnc_playerHasSave
+	A3A_fnc_onPlayerDisconnect -> A3A_fnc_savePlayer
+	A3A_fnc_persistentSave -> A3A_fnc_savePlayer
+	A3A_fnc_saveLoop -> A3A_fnc_savePlayer
+	A3A_fnc_loadServer -> A3A_fnc_getStatVariable
+	A3A_fnc_getStatVariable -> A3A_fnc_loadStat
+	A3A_fnc_loadPreviousSession -> A3A_fnc_resetPlayer
+	A3A_fnc_loadPlayer -> A3A_fnc_resetPlayer
+	A3A_fnc_initClient -> A3A_fnc_retrievePlayerStat
+	A3A_fnc_loadPlayer -> A3A_fnc_retrievePlayerStat
+	A3A_fnc_playerHasSave -> A3A_fnc_retrievePlayerStat
+	A3A_fnc_resetPlayer -> A3A_fnc_retrievePlayerStat
+	A3A_fnc_initServer -> A3A_fnc_returnSavedStat
+	A3A_fnc_getStatVariable -> A3A_fnc_returnSavedStat
+	A3A_fnc_retrievePlayerStat -> A3A_fnc_returnSavedStat
+	A3A_fnc_returnSavedStat -> A3A_fnc_returnSavedStat
+	A3A_fnc_savePlayer -> A3A_fnc_savePlayerStat
+	A3A_fnc_saveLoop -> A3A_fnc_setStatVariable
+	A3A_fnc_savePlayer -> A3A_fnc_setStatVariable
+	A3A_fnc_savePlayerStat -> A3A_fnc_setStatVariable
+	A3A_fnc_returnSavedStat -> A3A_fnc_varNameToSaveName
+	A3A_fnc_setStatVariable -> A3A_fnc_varNameToSaveName
+	A3A_fnc_persistentSave -> A3A_fnc_saveLoop
+	A3A_fnc_initServer -> A3A_fnc_saveLoop
+	A3A_fnc_initVarServer -> A3A_fnc_aceModCompat
+	"3CB_Inv_Sov_Temp.sqf" -> A3A_fnc_getLoadout
+	"3CB_Inv_TKM_Arid.sqf" -> A3A_fnc_getLoadout
+	"3CB_Occ_BAF_Arid.sqf" -> A3A_fnc_getLoadout
+	"3CB_Occ_BAF_Temp.sqf" -> A3A_fnc_getLoadout
+	"3CB_Occ_BAF_Trop.sqf" -> A3A_fnc_getLoadout
+	"3CB_Occ_TKA_Arid.sqf" -> A3A_fnc_getLoadout
+	"RHS_Inv_AFRF_Arid.sqf" -> A3A_fnc_getLoadout
+	"RHS_Inv_AFRF_Temp.sqf" -> A3A_fnc_getLoadout
+	"RHS_Inv_AFRF_Trop.sqf" -> A3A_fnc_getLoadout
+	"RHS_Occ_CDF_Arid.sqf" -> A3A_fnc_getLoadout
+	"RHS_Occ_CDF_Temp.sqf" -> A3A_fnc_getLoadout
+	"RHS_Occ_USAF_Arid.sqf" -> A3A_fnc_getLoadout
+	"RHS_Occ_USAF_Temp.sqf" -> A3A_fnc_getLoadout
+	"Vanilla_Inv_CSAT_Altis.sqf" -> A3A_fnc_getLoadout
+	"Vanilla_Inv_CSAT_Enoch.sqf" -> A3A_fnc_getLoadout
+	"Vanilla_Inv_CSAT_Tanoa.sqf" -> A3A_fnc_getLoadout
+	"Vanilla_Occ_AAF_Altis.sqf" -> A3A_fnc_getLoadout
+	"Vanilla_Occ_NATO_Altis.sqf" -> A3A_fnc_getLoadout
+	"Vanilla_Occ_NATO_Tanoa.sqf" -> A3A_fnc_getLoadout
+	"Vanilla_Occ_NATO_Temp.sqf" -> A3A_fnc_getLoadout
+	A3A_fnc_initVarServer -> A3A_fnc_ifaModCompat
+	A3A_fnc_initVarServer -> A3A_fnc_rhsModCompat
+	"onPlayerRespawn.sqf" -> A3A_fnc_customHint
+	A3A_fnc_artySupport -> A3A_fnc_customHint
+	A3A_fnc_autoHealFnc -> A3A_fnc_customHint
+	A3A_fnc_help -> A3A_fnc_customHint
+	A3A_fnc_staticAutoT -> A3A_fnc_customHint
+	A3A_fnc_empty -> A3A_fnc_customHint
+	A3A_fnc_transfer -> A3A_fnc_customHint
+	A3A_fnc_commsMP -> A3A_fnc_customHint
+	A3A_fnc_createOutpostsFIA -> A3A_fnc_customHint
+	A3A_fnc_ejectPvPPlayerIfInvalidVehicle -> A3A_fnc_customHint
+	A3A_fnc_flagaction -> A3A_fnc_customHint
+	A3A_fnc_healAndRepair -> A3A_fnc_customHint
+	A3A_fnc_keys -> A3A_fnc_customHint
+	A3A_fnc_moveHQ -> A3A_fnc_customHint
+	A3A_fnc_mrkWIN -> A3A_fnc_customHint
+	A3A_fnc_NATOFT -> A3A_fnc_customHint
+	A3A_fnc_outpostDialog -> A3A_fnc_customHint
+	"fn_placementselection.sqf" -> A3A_fnc_customHint
+	A3A_fnc_rebuildAssets -> A3A_fnc_customHint
+	A3A_fnc_sellVehicle -> A3A_fnc_customHint
+	A3A_fnc_startBreachVehicle -> A3A_fnc_customHint
+	A3A_fnc_unlockVehicle -> A3A_fnc_customHint
+	A3A_fnc_convoyDebug -> A3A_fnc_customHint
+	A3A_fnc_AIVEHinit -> A3A_fnc_customHint
+	A3A_fnc_clearForest -> A3A_fnc_customHint
+	A3A_fnc_createDialog_setParams -> A3A_fnc_customHint
+	A3A_fnc_createDialog_shouldLoadPersonalSave -> A3A_fnc_customHint
+	A3A_fnc_fastTravelRadio -> A3A_fnc_customHint
+	A3A_fnc_mineDialog -> A3A_fnc_customHint
+	A3A_fnc_moveHQObject -> A3A_fnc_customHint
+	A3A_fnc_skiptime -> A3A_fnc_customHint
+	A3A_fnc_squadOptions -> A3A_fnc_customHint
+	A3A_fnc_squadRecruit -> A3A_fnc_customHint
+	JN_fnc_garage -> A3A_fnc_customHint
+	JN_fnc_garage_garageVehicle -> A3A_fnc_customHint
+	A3A_fnc_vehPlacementBegin -> A3A_fnc_customHint
+	A3A_fnc_vehPlacementCallbacks -> A3A_fnc_customHint
+	A3A_fnc_cityinfo -> A3A_fnc_customHint
+	A3A_fnc_initClient -> A3A_fnc_customHint
+	A3A_fnc_initVar -> A3A_fnc_customHint
+	A3A_fnc_initVarCommon -> A3A_fnc_customHint
+	A3A_fnc_reinitY -> A3A_fnc_customHint
+	A3A_fnc_searchIntelOnDocument -> A3A_fnc_customHint
+	A3A_fnc_searchIntelOnLeader -> A3A_fnc_customHint
+	A3A_fnc_LOG_Bank -> A3A_fnc_customHint
+	A3A_fnc_LOG_Supplies -> A3A_fnc_customHint
+	A3A_fnc_donateMoney -> A3A_fnc_customHint
+	A3A_fnc_memberAdd -> A3A_fnc_customHint
+	A3A_fnc_membersList -> A3A_fnc_customHint
+	A3A_fnc_theBossSteal -> A3A_fnc_customHint
+	A3A_fnc_theBossToggleEligibility -> A3A_fnc_customHint
+	A3A_fnc_punishment -> A3A_fnc_customHint
+	A3A_fnc_punishment_FF -> A3A_fnc_customHint
+	A3A_fnc_punishment_notifyAdmin -> A3A_fnc_customHint
+	A3A_fnc_punishment_release -> A3A_fnc_customHint
+	A3A_fnc_punishment_sentence_client -> A3A_fnc_customHint
+	A3A_fnc_addBombRun -> A3A_fnc_customHint
+	A3A_fnc_addFIAsquadHC -> A3A_fnc_customHint
+	A3A_fnc_addFIAveh -> A3A_fnc_customHint
+	A3A_fnc_addSquadVeh -> A3A_fnc_customHint
+	A3A_fnc_build -> A3A_fnc_customHint
+	A3A_fnc_buildCreateVehicleCallback -> A3A_fnc_customHint
+	A3A_fnc_FIAinit -> A3A_fnc_customHint
+	A3A_fnc_FIAskillAdd -> A3A_fnc_customHint
+	A3A_fnc_garrisonAdd -> A3A_fnc_customHint
+	A3A_fnc_garrisonDialog -> A3A_fnc_customHint
+	A3A_fnc_NATObomb -> A3A_fnc_customHint
+	A3A_fnc_NATOQuadbike -> A3A_fnc_customHint
+	A3A_fnc_reinfPlayer -> A3A_fnc_customHint
+	A3A_fnc_stealStatic -> A3A_fnc_customHint
+	A3A_fnc_vehStats -> A3A_fnc_customHint
+	A3A_fnc_actionRevive -> A3A_fnc_customHint
+	A3A_fnc_carry -> A3A_fnc_customHint
+	A3A_fnc_saveLoop -> A3A_fnc_customHint
+	A3A_fnc_goUndercover -> A3A_fnc_customHint
+	"Shit Jeroen.sqf" -> A3A_fnc_customHint
+	JN_fnc_garage_garageVehicle -> A3A_fnc_customHint
+	JN_fnc_logistics_addActionLoad -> A3A_fnc_customHint
+	"createNavGrid.sqf" -> A3A_fnc_customHint
+	"extractRoadTypeData.sqf" -> A3A_fnc_customHint
+	"findOffset.sqf" -> A3A_fnc_customHint
+	"nonMemberDistance.sqf" -> A3A_fnc_customHint
+	"unitTraits.sqf" -> A3A_fnc_customHint
+	"addToGarrison.sqf" -> A3A_fnc_customHint
+	"controlHCsquad.sqf" -> A3A_fnc_customHint
+	"controlunit.sqf" -> A3A_fnc_customHint
+	"dismissPlayerGroup.sqf" -> A3A_fnc_customHint
+	"dismissSquad.sqf" -> A3A_fnc_customHint
+	"fn_advancedTowingInit.sqf" -> A3A_fnc_customHint
+	A3A_fnc_initClient -> A3A_fnc_initUndercover
+	A3A_fnc_initClient -> A3A_fnc_goUndercover
+	A3A_fnc_autoLoot -> A3A_fnc_basicBackpack
+	A3A_fnc_autoRearm -> A3A_fnc_basicBackpack
+	A3A_fnc_surrenderAction -> A3A_fnc_basicBackpack
+	A3A_fnc_ammunitionTransfer -> A3A_fnc_basicBackpack
+	JN_fnc_arsenal -> A3A_fnc_basicBackpack
+	JN_fnc_arsenal_cargoToArray -> A3A_fnc_basicBackpack
+	A3A_fnc_categoryOverrides -> A3A_fnc_createNamespace
+	A3A_fnc_createAIAction -> A3A_fnc_dateToTimeString
+	A3A_fnc_AS_specOP -> A3A_fnc_dateToTimeString
+	A3A_fnc_AS_Traitor -> A3A_fnc_dateToTimeString
+	A3A_fnc_convoy -> A3A_fnc_dateToTimeString
+	A3A_fnc_CON_Outpost -> A3A_fnc_dateToTimeString
+	A3A_fnc_DES_Antenna -> A3A_fnc_dateToTimeString
+	A3A_fnc_DES_Vehicle -> A3A_fnc_dateToTimeString
+	A3A_fnc_LOG_Ammo -> A3A_fnc_dateToTimeString
+	A3A_fnc_LOG_Bank -> A3A_fnc_dateToTimeString
+	A3A_fnc_LOG_Salvage -> A3A_fnc_dateToTimeString
+	A3A_fnc_LOG_Supplies -> A3A_fnc_dateToTimeString
+	A3A_fnc_REP_Antenna -> A3A_fnc_dateToTimeString
+	A3A_fnc_RES_Prisoners -> A3A_fnc_dateToTimeString
+	A3A_fnc_RES_Refugees -> A3A_fnc_dateToTimeString
+	JN_fnc_logistics_init -> A3A_fnc_log
+	A3A_fnc_initServer -> A3A_fnc_log
+	A3A_fnc_airbomb -> A3A_fnc_log
+	A3A_fnc_occupantInvaderUnitKilledEH -> A3A_fnc_log
+	A3A_fnc_surrenderAction -> A3A_fnc_log
+	A3A_fnc_fillLootCrate -> A3A_fnc_log
+	A3A_fnc_aggressionUpdateLoop -> A3A_fnc_log
+	A3A_fnc_garbageCleaner -> A3A_fnc_log
+	A3A_fnc_getAggroLevelString -> A3A_fnc_log
+	A3A_fnc_getVehiclePoolForAttacks -> A3A_fnc_log
+	A3A_fnc_getVehiclePoolForQRFs -> A3A_fnc_log
+	A3A_fnc_initPetros -> A3A_fnc_log
+	A3A_fnc_logPerformance -> A3A_fnc_log
+	A3A_fnc_markerChange -> A3A_fnc_log
+	A3A_fnc_mrkWIN -> A3A_fnc_log
+	A3A_fnc_onPlayerDisconnect -> A3A_fnc_log
+	"fn_placementselection.sqf" -> A3A_fnc_log
+	A3A_fnc_prestige -> A3A_fnc_log
+	A3A_fnc_rebelAttack -> A3A_fnc_log
+	A3A_fnc_rebuildRadioTower -> A3A_fnc_log
+	A3A_fnc_repairRuinedBuilding -> A3A_fnc_log
+	A3A_fnc_scheduler -> A3A_fnc_log
+	A3A_fnc_splitVehicleCrewIntoOwnGroups -> A3A_fnc_log
+	A3A_fnc_despawnConvoy -> A3A_fnc_log
+	A3A_fnc_spawnConvoy -> A3A_fnc_log
+	A3A_fnc_AIVEHinit -> A3A_fnc_log
+	A3A_fnc_CIVinit -> A3A_fnc_log
+	A3A_fnc_cleanserVeh -> A3A_fnc_log
+	A3A_fnc_createCIV -> A3A_fnc_log
+	A3A_fnc_createQRF -> A3A_fnc_log
+	A3A_fnc_invaderPunish -> A3A_fnc_log
+	A3A_fnc_NATOinit -> A3A_fnc_log
+	A3A_fnc_patrolCA -> A3A_fnc_log
+	A3A_fnc_patrolReinf -> A3A_fnc_log
+	A3A_fnc_updateCAMark -> A3A_fnc_log
+	A3A_fnc_vehKilledOrCaptured -> A3A_fnc_log
+	A3A_fnc_wavedCA -> A3A_fnc_log
+	A3A_fnc_selectReinfUnits -> A3A_fnc_log
+	A3A_fnc_selectVehicleType -> A3A_fnc_log
+	A3A_fnc_shouldReinforce -> A3A_fnc_log
+	A3A_fnc_initACEUnconsciousHandler -> A3A_fnc_log
+	A3A_fnc_initClient -> A3A_fnc_log
+	A3A_fnc_initFuncs -> A3A_fnc_log
+	A3A_fnc_initGarrisons -> A3A_fnc_log
+	A3A_fnc_initGetMissionPath -> A3A_fnc_log
+	A3A_fnc_initServer -> A3A_fnc_log
+	A3A_fnc_initVar -> A3A_fnc_log
+	A3A_fnc_initVarClient -> A3A_fnc_log
+	A3A_fnc_initVarCommon -> A3A_fnc_log
+	A3A_fnc_initVarServer -> A3A_fnc_log
+	A3A_fnc_initZones -> A3A_fnc_log
+	A3A_fnc_placeIntel -> A3A_fnc_log
+	A3A_fnc_selectIntel -> A3A_fnc_log
+	A3A_fnc_AS_Traitor -> A3A_fnc_log
+	A3A_fnc_convoy -> A3A_fnc_log
+	A3A_fnc_LOG_Bank -> A3A_fnc_log
+	A3A_fnc_LOG_Salvage -> A3A_fnc_log
+	A3A_fnc_LOG_Supplies -> A3A_fnc_log
+	A3A_fnc_initDisabledMods -> A3A_fnc_log
+	A3A_fnc_assignBossIfNone -> A3A_fnc_log
+	A3A_fnc_makePlayerBossIfEligible -> A3A_fnc_log
+	A3A_fnc_promotePlayer -> A3A_fnc_log
+	A3A_fnc_theBossTransfer -> A3A_fnc_log
+	A3A_fnc_loadNavGrid -> A3A_fnc_log
+	A3A_fnc_punishment -> A3A_fnc_log
+	A3A_fnc_punishment_checkStatus -> A3A_fnc_log
+	A3A_fnc_punishment_dataGet -> A3A_fnc_log
+	A3A_fnc_punishment_dataRem -> A3A_fnc_log
+	A3A_fnc_punishment_dataSet -> A3A_fnc_log
+	A3A_fnc_punishment_FF -> A3A_fnc_log
+	"fn_punishment_FF_AddEH.sqf" -> A3A_fnc_log
+	A3A_fnc_punishment_FF_checkNearHQ -> A3A_fnc_log
+	A3A_fnc_punishment_oceanGulag -> A3A_fnc_log
+	A3A_fnc_punishment_release -> A3A_fnc_log
+	A3A_fnc_punishment_sentence_server -> A3A_fnc_log
+	A3A_fnc_pvpCheck -> A3A_fnc_log
+	A3A_fnc_equipRebel -> A3A_fnc_log
+	A3A_fnc_postmortem -> A3A_fnc_log
+	"fn_salvageRope.sqf" -> A3A_fnc_log
+	A3A_fnc_loadPlayer -> A3A_fnc_log
+	A3A_fnc_resetPlayer -> A3A_fnc_log
+	A3A_fnc_saveLoop -> A3A_fnc_log
+	A3A_fnc_savePlayer -> A3A_fnc_log
+	JN_fnc_arsenal_init -> A3A_fnc_log
+	"fn_advancedTowingInit.sqf" -> A3A_fnc_log
+	A3A_fnc_safeVehicleSpawn -> A3A_fnc_vehicleWillCollideAtPosition
+	A3A_fnc_addFIAsquadHC -> A3A_fnc_getRoadDirection
+	A3A_fnc_initClient -> JN_fnc_arsenal_handleAction
+	JN_fnc_arsenal_init -> JN_fnc_arsenal_handleAction
+	JN_fnc_logistics_addActionLoad -> JN_fnc_logistics_init
+}
