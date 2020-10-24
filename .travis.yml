@@ -4,3 +4,4 @@ install:
   - pip3 install antistasindex
 script:
   - antistasidex src/as_index.ini
+  - cat src/file_index.json
