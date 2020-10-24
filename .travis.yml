@@ -5,3 +5,5 @@ install:
 script:
   - antistasidex src/as_index.ini
   - cat src/file_index.json
+deploy:
+  skip_cleanup: true
