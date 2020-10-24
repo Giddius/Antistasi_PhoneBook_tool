@@ -3,4 +3,4 @@ python: "3.8"
 install:
   - pip3 install antistasindex
 script:
-  - antistasidex ./as_config.ini
+  - antistasidex as_config.ini
