@@ -3,7 +3,6 @@ python: "3.8"
 install:
   - pip3 install antistasindex
 script:
-  - antistasidex src/as_index.ini
-  - cat src/file_index.json
-deploy:
-  skip_cleanup: true
+  - antistasidex src/as_index.ini > test.txt
+
+
